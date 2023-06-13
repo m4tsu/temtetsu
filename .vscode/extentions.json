@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-labs",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "dbaeumer.vscode-eslint",
+    "shardulm94.trailing-spaces",
+    "formulahendry.auto-rename-tag",
+    "bradlc.vscode-tailwindcss",
+    "prisma.prisma",
+    "graphql.vscode-graphql"
+  ]
+}
