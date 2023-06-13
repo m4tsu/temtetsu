@@ -1,0 +1,310 @@
+Key,Name,Type,Synagy,Class,DMG,STA,Hold,Priority,Target,Name-Jp,Description-Jp
+5PPEH,5PPEH,melee,,Status,-,18,2,0_VeryLow,Single Other Target,ごてんしょうばくしん,対象にはめつ5とむこう5を付与
+Acid_Reflux,Acid Reflux,toxic,,Special,80,23,2,2_Normal,Other Team or Ally,アシッド・フラッド,対象にどく2を付与
+Allergic_Spread,Allergic Spread,nature,,Special,80,20,1,2_Normal,Other Team or Ally,アレルギー拡散,通常攻撃
+Ampere_Outburst,Ampere Outburst,electric,,Status,-,14,2,2_Normal,All Other Temtem,アンペールバースト,対象に次ターン行動不能、自分にげんき2をそれぞれ付与
+Antitoxins,Antitoxins,toxic,,Status,-,14,0,1_Low,Single Team,アンチドート,対象のどくを取り除きげんき2を付与
+Aqua_Bullet_Hell,Aqua Bullet Hell,water,,Special,89,20,0,2_Normal,Single Other Target,アクアマシンガン,通常攻撃
+Aquatic_Whirlwind,Aquatic Whirlwind,water,,Special,130,34,1,3_High,Single Target,水乱流,通常攻撃
+Autodestruction,Autodestruction,digital,,Physical,125,-,3,3_High,All Other Temtem,じばく,使用者のDEFもダメージ計算に使用。使用者は倒れる。
+Bamboozle,Bamboozle,mental,,Status,-,21,0,2_Normal,Single Target,トリック,対象にかいひ1を付与
+Bark,Bark,neutral,,Status,-,21,1,3_High,Single Other Target,ほえる,"対象のDEF-2, SPDEF-2"
+Bark_Shield,Bark Shield,nature,,Status,-,36,2,1_Low,Single Team,バークシールド,対象のDEF+3
+Base_Jump,Base Jump,neutral,,Physical,100,22,0,2_Normal,Single Other Target,ベースジャンプ,通常攻撃
+Bestial_Charge,Bestial Charge,neutral,,Physical,75,18,1,2_Normal,Other Team or Ally,ビーストチャージ,通常攻撃
+Beta_Burst,Beta Burst,mental,,Special,100,27,0,2_Normal,Single Other Target,ベータバースト,通常攻撃
+Binary_Flood,Binary Flood,digital,,Special,75,21,1,2_Normal,Other Team or Ally,バイナリフラッド,対象にさしおさえ2を付与
+Blizzard,Blizzard,wind,,Special,123,17,1,1_Low,Single Other Target,ふぶき,通常攻撃
+Block,Block,melee,,Status,-,23,1,2_Normal,Self,仁王立ち,対象のDEF+3
+Blue_Screen,Blue Screen,digital,,Status,-,16,3,0_VeryLow,Single Other Target,ブルースクリーン,対象にこおりつき2を付与
+Boomerang,Boomerang,wind,,Physical,85,22,0,3_High,Single Other Target,ブーメラン,通常攻撃
+Brace,Brace,neutral,,Status,-,13,0,3_High,Self,構える,対象にかいひ2を付与しHPを10%回復する。この技はけいかい状態でないと使用不可。使用後けいかい状態は解除される
+Bubbles,Bubbles,water,,Special,27,5,0,2_Normal,Single Other Target,あわあわ,通常攻撃
+Burrow,Burrow,earth,,Status,-,14,1,1_Low,Self,巣穴,対象にかいひ4を付与
+Cage,Cage,neutral,,Status,-,21,1,5_Ultra,All,鳥カゴ,対象にとらわれ2を付与
+Chain_Heal,Chain Heal,neutral,,Status,-,23,2,2_Normal,Single Target,チェーンヒール,対象と、対象から時計回り右隣、さらにその右隣りのHPをそれぞれ15%回復する
+Chain_Lightning,Chain Lightning,electric,,Special,60,15,0,2_Normal,Single Target,チェーンライトニング,対象と、対象から時計回り右隣、さらにその右隣りにそれぞれダメージ。ダメージは100%->70%->60%と減衰する
+Chains_Hit,Chains Hit,fire,,Physical,110,18,0,2_Normal,Single Other Target,チェーンヒット,対処にとらわれ2を付与
+Charcoal_Wall,Charcoal Wall,fire,,Status,-,23,1,3_High,Self,チャコールウォール,対象のSPDEF+4
+Charge,Charge,neutral,,Physical,50,4,1,3_High,Single Other Target,とつげき,通常攻撃
+Charged_Iron_Filings,Charged Iron Filings,electric,,Physical,85,31,1,2_Normal,Other Team or Ally,帯電鉄粉,対象にちゅうわ2を付与
+Cheer_Up,Cheer Up,neutral,,Status,-,10,0,2_Normal,Single Target,おうえん,対象が持つ技のHoldを1進める
+Clay_Ball,Clay Ball,earth,,Physical,60,14,0,2_Normal,Single Other Target,どろ団子,対象のSPD-1
+Clinch,Clinch,neutral,,Physical,90,15,0,1_Low,Single Other Target,クリンチ,通常攻撃
+Cold_Breeze,Cold Breeze,wind,,Special,51,14,0,2_Normal,Single Other Target,つめたい風,対象にこごえ1を付与
+Cold_Geyser,Cold Geyser,water,,Physical,105,29,0,2_Normal,Single Target,コールドガイザー,対象にこごえ2を付与
+Confiscate,Confiscate,neutral,,Status,-,7,0,3_High,Single Other Target,めしあげ,対象にさしおさえ3を付与
+Cooperation,Cooperation,neutral,,Status,-,-,1,4_VeryHigh,Single Team,協力,対象のSTAを平均化し、HPを10%回復
+Crystal_Bite,Crystal Bite,crystal,,Physical,130,26,1,2_Normal,Single Other Target,クリスタルバイト,通常攻撃
+Crystal_Plume_Gatling,Crystal Plume Gatling,crystal,,Physical,110,28,0,2_Normal,Single Other Target,クリスタルガトリング,通常攻撃
+Crystal_Spikes,Crystal Spikes,crystal,,Special,100,32,0,3_High,Single Target,クリスタルスパイク,通常攻撃
+Crystal_Stream,Crystal Stream,crystal,,Physical,85,23,0,2_Normal,Single Target,クリスタルストリーム,通常攻撃
+Crystal_Torrent,Crystal Torrent,crystal,,Special,65,21,0,2_Normal,Single Other Target,クリスタルフロー,通常攻撃
+Crystallize,Crystallize,crystal,,Status,-,18,1,2_Normal,Self,クリスタライズ,"対象のSPDEF+4, SPD-1, むこう2を付与"
+Cyberclaw,Cyberclaw,digital,,Physical,90,22,1,3_High,Single Target,サイバークロー,通常攻撃
+Darkness,Darkness,neutral,,Status,-,13,0,5_Ultra,All,ダークネス,対象にこりつ2を付与
+Data_Burst,Data Burst,digital,,Physical,48,6,0,2_Normal,Single Other Target,データバースト,通常攻撃
+Data_Corruption,Data Corruption,digital,,Status,-,22,2,2_Normal,Single Other Target,データ破損,対象のSPDEF-4
+DC_Beam,DC Beam,electric,,Special,42,5,0,3_High,Single Other Target,DCビーム,通常攻撃
+Defibrillate,Defibrillate,electric,,Physical,80,14,1,2_Normal,Single Target,でんきショック,対象にこりつ2を付与
+Denigrate,Denigrate,mental,,Special,80,25,1,1_Low,Other Team or Ally,悪口,対象のSPATK-1
+Depress,Depress,mental,,Special,-,23,1,1_Low,Single Other Target,メランコリア,対象のHPを120へらす。ねむり状態でも回復しない
+Diamond_Fort,Diamond Fort,crystal,,Status,-,17,2,1_Low,Self,ダイヤモンドフォート,"対象のDEF+4, SPDEF+4"
+Digital_Stream,Digital Stream,digital,,Physical,85,23,0,2_Normal,Single Target,デジタルストリーム,通常攻撃
+Digital_Torrent,Digital Torrent,digital,,Special,65,21,0,2_Normal,Single Other Target,デジタルフロー,通常攻撃
+Digital_Whip,Digital Whip,digital,,Physical,50,6,0,2_Normal,Single Other Target,デジタルウィップ,通常攻撃
+Dim_Mak,Dim Mak,melee,,Special,-,23,2,3_High,Single Other Target,点穴,対象のHPを100減らす
+Divine_Inspiration,Divine Inspiration,earth,,Status,-,21,2,2_Normal,Single Team,カミのお告げ,対象のSPDEF+1、HPを15%回復
+DNA_Extraction,DNA Extraction,digital,,Physical,25,3,0,5_Ultra,Single Other Target,DNAサンプリング,使用者のSPD+2
+Double_Gash,Double Gash,melee,,Physical,60,9,0,2_Normal,Single Other Target,ダブルカット,通常攻撃
+Double_Kick,Double Kick,neutral,,Physical,80,23,0,3_High,Single Other Target,2段キック,通常攻撃
+Drill_Impact,Drill Impact,neutral,,Physical,100,23,0,2_Normal,Single Other Target,ドリルインパクト,通常攻撃
+Drool,Drool,nature,,Status,-,28,1,2_Normal,Single Target,よだれ,"対象にさいせい2, むこう3を付与"
+Drought,Drought,earth,,Status,-,14,1,4_VeryHigh,All Other Temtem,干ばつ,対象にさしおさえ2とひへい2を付与
+Dust_Vortex,Dust Vortex,earth,,Special,131,28,1,2_Normal,Single Other Target,砂たつまき,通常攻撃
+Earth_Stream,Earth Stream,earth,,Physical,95,23,0,2_Normal,Single Target,アースストリーム,通常攻撃
+Earth_Torrent,Earth Torrent,earth,,Special,65,21,0,2_Normal,Single Other Target,アースフロー,通常攻撃
+Earth_Wave,Earth Wave,earth,,Physical,120,28,2,1_Low,Other Team or Ally,大地のうねり,通常攻撃
+Electric_Storm,Electric Storm,electric,,Special,85,29,1,2_Normal,Other Team or Ally,サンダーストーム,通常攻撃
+Electric_Stream,Electric Stream,electric,,Physical,85,23,0,2_Normal,Single Target,エレクトリックストリーム,通常攻撃
+Electric_Torrent,Electric Torrent,electric,,Special,65,21,0,2_Normal,Single Other Target,エレクトリックフロー,通常攻撃
+Electromagnetism,Electromagnetism,electric,,Status,-,18,1,4_VeryHigh,Single Other Target,でんきしばり,使用者にとらわれ3を付与。対象にとらわれ3とSPD-1を付与
+Embers,Embers,fire,,Physical,63,17,0,2_Normal,Single Target,残り火,対象にやけど1を付与
+Execution,Execution,neutral,,Physical,50,23,3,1_Low,Single Other Target,トドメのいちげき,対象のHPが35%以下だったらダメージを与える代わりに倒す
+Extinction,Extinction,fire,,Status,-,34,2,2_Normal,All,終末の空,対象にはめつ4を付与
+Extra_Energy_Slam,Extra Energy Slam,neutral,,Physical,90,31,0,2_Normal,Single Other Target,エナジーバッシュ,使用者のSTAによって威力が変化
+Feather_Gatling,Feather Gatling,wind,,Physical,100,21,0,2_Normal,Single Other Target,フェザーガトリング,通常攻撃
+Fierce_Claw,Fierce Claw,neutral,,Physical,71,15,0,2_Normal,Single Other Target,ワイルドクロー,通常攻撃
+Fiery_Soul,Fiery Soul,fire,,Special,70,27,0,3_High,Single Other Target,ファイヤソウル,対象にやけど1を付与
+Finbeat,Finbeat,neutral,,Physical,32,4,0,3_High,Single Other Target,フィンビート,通常攻撃
+Fire_Flame,Fire Flame,fire,,Special,45,7,0,2_Normal,Single Other Target,ファイヤフレイム,通常攻撃
+Fire_Stream,Fire Stream,fire,,Physical,85,23,0,2_Normal,Single Target,ファイヤストリーム,通常攻撃
+Fire_Tornado,Fire Tornado,fire,,Special,145,26,2,2_Normal,Single Target,かえんたつまき,通常攻撃
+Fire_Torrent,Fire Torrent,fire,,Special,65,21,0,2_Normal,Single Other Target,ファイヤフロー,通常攻撃
+Firewall,Firewall,digital,,Status,-,18,1,3_High,Self,ファイアウォール,"対象にむこう4, DEF+1, SPDEF+1を付与"
+Flaming_Meteorite,Flaming Meteorite,fire,,Physical,145,29,2,2_Normal,Single Target,フレイムメテオ,通常攻撃
+Fluid_Barrier,Fluid Barrier,water,,Status,-,20,0,2_Normal,Single Target,液体バリア,"対象にむこう2, SPDEF+2を付与"
+Footwork,Footwork,melee,,Status,-,16,1,3_High,Self,フットワーク,対象のSPD+2
+Frond_Whip,Frond Whip,nature,,Physical,153,33,1,1_Low,Single Other Target,森のムチ,通常攻撃
+Gaia,Gaia,nature,,Status,-,17,3,0_VeryLow,Self,ガイアのめぐみ,対象にさいせい2を付与しSTAを100%回復
+Gamma_Burst,Gamma Burst,mental,,Special,150,36,1,2_Normal,Single Other Target,ガンマバースト,対象にひろう2を付与
+Glass_Blade,Glass Blade,crystal,,Physical,45,6,0,3_High,Single Other Target,グラスブレード,通常攻撃
+Goring,Goring,neutral,,Physical,95,20,1,3_High,Single Other Target,ツノとつげき,通常攻撃
+Haito_Uchi,Haito Uchi,melee,,Physical,85,24,1,2_Normal,Single Other Target,背刀打ち,対象にねむり1を付与
+Harmful_Lick,Harmful Lick,neutral,,Physical,150,34,0,1_Low,Single Other Target,なめしばき,通常攻撃
+Head_Charge,Head Charge,melee,,Physical,80,10,1,1_Low,Single Other Target,ブレイクショット,通常攻撃
+Head_Ram,Head Ram,neutral,,Physical,90,12,0,1_Low,Single Other Target,ずつき,通常攻撃
+Heat_Up,Heat Up,fire,,Status,-,27,0,2_Normal,Self,ヒートアップ,対象のATK+3
+Heavy_Blow,Heavy Blow,neutral,,Physical,58,9,0,2_Normal,Single Other Target,強打,通常攻撃
+Held_Anger,Held Anger,neutral,,Physical,160,16,3,2_Normal,Single Other Target,いかりため,通常攻撃
+Helicopter_Kick,Helicopter Kick,melee,,Physical,63,18,0,2_Normal,Other Team or Ally,ヘリコプターキック,通常攻撃
+Hibernate,Hibernate,water,,Status,-,29,2,2_Normal,Self,冬ごもり,対象にこおりつき3を付与。対象のHPとSTAを35%回復
+Hologram,Hologram,digital,,Status,-,10,1,4_VeryHigh,Self,ホログラム,対象にかいひ1を付与
+Hook,Hook,melee,,Special,40,26,0,3_High,Single Target,フック,使用者のATK+2
+Hook_Kick,Hook Kick,melee,,Physical,110,23,1,2_Normal,Single Target,フックキック,通常攻撃
+Horror,Horror,mental,,Special,175,20,1,1_Low,Single Other Target,ホラー,対象がねむり状態でなければ失敗
+Humiliating_Slap,Humiliating Slap,neutral,,Physical,97,23,0,2_Normal,Single Other Target,ひっぱたき,対象のDEF-1
+Hyperkinetic_Strike,Hyperkinetic Strike,wind,,Special,65,28,1,3_High,Single Target,ダッシュアタック,使用者のSPDもダメージ計算に使用
+Hypnosis,Hypnosis,mental,,Status,-,20,1,2_Normal,Single Other Target,さいみん,対象にねむり2を付与
+Hypoxia,Hypoxia,wind,,Special,110,32,0,2_Normal,Single Target,真空責め,通常攻撃
+Ice_Shuriken,Ice Shuriken,water,,Physical,60,16,0,2_Normal,Single Other Target,アイスシュリケン,対象にこごえ2を付与
+Iced_Stalactite,Iced Stalactite,water,,Physical,82,26,1,2_Normal,Single Other Target,つらら落とし,対象にこごえ2を付与
+Inner_Spirit,Inner Spirit,melee,,Special,165,32,2,2_Normal,Single Target,ねむれるたましい,通常攻撃
+Intimidation,Intimidation,mental,,Status,-,18,2,2_Normal,Other Team or Ally,いあつ,対象にひろう2を付与、使用者にかいひ1を付与
+Jaw_Strike,Jaw Strike,neutral,,Physical,60,9,0,2_Normal,Single Other Target,かみつき,通常攻撃
+Jinxed_Whisper,Jinxed Whisper,neutral,,Status,-,18,0,2_Normal,Single Other Target,フキツなささやき,対象にねむり2を付与。使用者は次ターン動けない
+Kesa_Gatame,Kesa Gatame,melee,,Status,-,15,2,4_VeryHigh,Single Other Target,けさ固め,対象のSPD-3
+Kick,Kick,neutral,,Physical,32,5,0,3_High,Single Other Target,キック,通常攻撃
+King%27s_Roar,King's Roar,neutral,,Status,-,10,3,2_Normal,Other Team or Ally,王者のおたけび,"対象のSPD-2, ATK-2, SPATK-2"
+Knockback,Knockback,neutral,,Special,150,28,1,2_Normal,Single Other Target,ノックバック,反動で与ダメージの30%を使用者も受ける
+Late_Torment,Late Torment,neutral,,Physical,180,23,0,1_Low,Single Other Target,ラストトーメント,対象がとらわれ状態でなければ失敗
+Lifeful_Sap,Lifeful Sap,nature,,Status,-,26,0,2_Normal,Self,いのちのしずく,対象にさいせい5を付与
+Look_out,Look out,neutral,,Status,-,12,1,3_High,Single Target,見張り,対象にけいかい5を付与しねむりを回復する
+Lullaby,Lullaby,mental,,Status,-,18,2,1_Low,Other Team or Ally,ララバイ,対象にねむり2を付与
+Madness_Buff,Madness Buff,melee,,Status,-,15,0,2_Normal,Self,どはつてん,"対象のSPATK+3, SPDEF+3, HP30%を消費"
+Magma_Cannon,Magma Cannon,fire,,Special,92,25,2,2_Normal,Single Other Target,マグマカノン,対象にやけど3を付与
+Major_Slash,Major Slash,neutral,,Physical,150,33,1,2_Normal,Single Other Target,メジャースラッシュ,通常攻撃
+Martial_Strike,Martial Strike,melee,,Physical,50,11,0,2_Normal,Single Other Target,てっついうち,使用者のSPATK+1
+Matter_Teleport,Matter Teleport,mental,,Physical,115,33,0,2_Normal,Single Target,マテリアテレポート,通常攻撃
+Mechanical_Heat,Mechanical Heat,fire,,Physical,55,7,0,2_Normal,Single Other Target,メカニカルヒート,通常攻撃
+Meditation,Meditation,mental,,Status,-,6,0,2_Normal,Self,ヨガ,対象にげんき3を付与
+Melee_Stream,Melee Stream,melee,,Physical,85,23,0,2_Normal,Single Target,メレーストリーム,通常攻撃
+Melee_Torrent,Melee Torrent,melee,,Special,65,21,0,2_Normal,Single Other Target,メレーフロー,通常攻撃
+Mental_Stream,Mental Stream,mental,,Physical,85,23,0,2_Normal,Single Target,メンタルストリーム,通常攻撃
+Mental_Torrent,Mental Torrent,mental,,Special,65,21,0,2_Normal,Single Other Target,メンタルフロー,通常攻撃
+Mineral_Hail,Mineral Hail,crystal,,Physical,110,34,2,2_Normal,Other Team or Ally,クリスタルヘイル,通常攻撃
+Mirror_Shell,Mirror Shell,crystal,,Status,-,17,1,1_Low,Self,ミラーシェル,対象のSPDEF+4
+Mud_Shower,Mud Shower,earth,,Special,80,16,0,2_Normal,Single Target,どろ浴びせ,通常攻撃
+Multiple_Pecks,Multiple Pecks,neutral,,Physical,110,26,0,2_Normal,Single Other Target,連続ついばみ,通常攻撃
+Narcoleptic_Hit,Narcoleptic Hit,mental,,Physical,145,20,1,1_Low,Single Other Target,おやすみアタック,使用者にねむり2を付与
+Nature_Stream,Nature Stream,nature,,Physical,85,23,0,2_Normal,Single Target,ネイチャーストリーム,通常攻撃
+Nature_Torrent,Nature Torrent,nature,,Special,65,21,0,2_Normal,Single Other Target,ネイチャーフロー,通常攻撃
+Neutral_Stream,Neutral Stream,neutral,,Physical,105,23,0,2_Normal,Single Target,ニュートラルストリーム,通常攻撃
+Neutral_Torrent,Neutral Torrent,neutral,,Special,85,21,0,2_Normal,Single Other Target,ニュートラルフロー,通常攻撃
+Nibble,Nibble,neutral,,Physical,37,7,0,2_Normal,Single Other Target,あまがみ,通常攻撃
+Nicho_Sai,Nicho Sai,melee,,Physical,135,34,1,3_High,Single Other Target,二丁サイ,通常攻撃
+Nightmare_Feed,Nightmare Feed,mental,,Status,-,11,2,1_Low,Single Other Target,悪夢食らい,ねむり状態の対象のHPを30%減らし使用者のHPが30%回復する
+Nimble,Nimble,wind,,Status,-,9,0,3_High,Single Other Target,いだてん,対象のSPD+1
+Ninja_Jutsu,Ninja Jutsu,neutral,,Physical,130,32,2,4_VeryHigh,Single Other Target,縮地の術,通常攻撃
+Nito_Seiho,Nito Seiho,melee,,Physical,105,22,1,2_Normal,Single Other Target,二刀勢法,対象のDEF-1
+Noxious_Bomb,Noxious Bomb,toxic,,Physical,100,20,0,2_Normal,Single Target,どくどくボム,通常攻撃
+Oshi-Dashi,Oshi-Dashi,melee,,Physical,142,33,1,2_Normal,Single Other Target,おしだし,通常攻撃
+Outgrowth,Outgrowth,nature,,Physical,80,24,2,2_Normal,Other Team or Ally,オーバーグロウ,対象のSTAを20%減らしとらわれ2を付与
+Overclock,Overclock,digital,,Status,-,11,0,2_Normal,Self,オーバークロック,対象のSPD+2
+Peck,Peck,neutral,,Physical,24,5,0,4_VeryHigh,Single Other Target,ついばみ,通常攻撃
+Penance,Penance,mental,,Status,-,5,2,3_High,Single Other Target,捨身の行,"使用者のHPが20%減り対象のATK+4, SPATK+4"
+Perfect_Jab,Perfect Jab,melee,,Physical,30,19,0,2_Normal,Single Target,追いづき,"対象のDEF-2, SPDEF-2"
+Petrify,Petrify,earth,,Special,60,12,1,1_Low,Single Target,石になれ,対象にとらわれ3を付与
+Photosynthesis,Photosynthesis,nature,,Status,-,-,0,2_Normal,Self,光合成,対象のSTAを50%回復
+Pickpocket,Pickpocket,neutral,,Physical,35,13,1,4_VeryHigh,Single Other Target,ピックポケット,対象にさしおさえ2を付与
+Piercing_Wheel,Piercing Wheel,earth,,Physical,100,33,1,3_High,Single Other Target,大車輪,"対象のDEF-2, 使用者にげんき2を付与"
+Plague,Plague,nature,,Special,85,31,0,3_High,Single Other Target,病原体,対象にひろう1を付与
+Plasma_Beam,Plasma Beam,digital,,Special,64,15,0,2_Normal,Single Other Target,プラズマビーム,対象にやけど1を付与
+Pollution,Pollution,toxic,,Status,-,22,2,2_Normal,Other Team or Ally,おせんガス,対象のSTAを25%減らしどく2を付与
+Psy_Surge,Psy Surge,mental,,Special,100,17,1,1_Low,Single Other Target,サイコサージ,通常攻撃
+Psy_Wave,Psy Wave,mental,,Special,65,11,1,2_Normal,Single Other Target,サイコウェーブ,対象のSPDEF-2
+Psychosis,Psychosis,mental,,Status,-,18,2,1_Low,Single Target,さくらん念波,対象にはめつ4を付与
+Purgation,Purgation,mental,,Status,-,18,1,2_Normal,Single Target,お清め,対象のはめつを取り除きATK+2
+Quartz_Shield,Quartz Shield,crystal,,Status,-,15,1,2_Normal,Single Target,クォーツシールド,"対象のDEF+2, SPDEF+2"
+Rage,Rage,melee,,Status,-,15,0,2_Normal,Self,きょうぼう化,"対象のATK+4, DEF-3"
+Rainbow_Guard,Rainbow Guard,neutral,,Status,-,15,1,2_Normal,Self,レインボーガード,対象にかいひ1とむこう3を付与
+Refresh,Refresh,neutral,,Status,-,14,1,1_Low,Self,リフレッシュ,対象のHPを6%回復しSPATK+2
+Relax,Relax,neutral,,Status,-,12,1,1_Low,All,リラックス,対象にねむり2を付与
+Rend,Rend,neutral,,Special,50,26,2,2_Normal,Single Other Target,つんざく,対象にちゅうわ4を付与
+Reset,Reset,digital,,Status,-,26,1,4_VeryHigh,Single Target,リセット,対象の能力変化及び状態変化をすべて取り除く
+Resin_Trap,Resin Trap,nature,,Special,110,28,1,2_Normal,Single Target,じゅし固め,対象にとらわれ2を付与
+Roar,Roar,neutral,,Status,-,11,2,2_Normal,Other Team or Ally,ほうこう,"対象のATK-1, SPATK-1"
+Roots,Roots,nature,,Status,-,10,0,3_High,Single Other Target,ツタしばり,対象のSPD-1
+Rush,Rush,neutral,,Physical,-,18,0,5_Ultra,Single Other Target,しっぷうじんらい,対象のHPを40減らす。使用者は次ターン行動不能
+Sacrifice,Sacrifice,neutral,,Status,-,-,1,3_High,Single Other Target,サクリファイス,"使用者は倒れる。対象のDEF+3, SPDEF+3"
+Sand_Splatter,Sand Splatter,earth,,Physical,35,7,0,2_Normal,Single Other Target,砂かけ,通常攻撃
+Sand_Storm,Sand Storm,earth,,Special,80,23,1,2_Normal,Other Team or Ally,砂あらし,通常攻撃
+Savage_Suplex,Savage Suplex,neutral,,Physical,130,29,1,2_Normal,Single Other Target,ワイルドスープレックス,対象にひろう2を付与
+Scratch,Scratch,neutral,,Physical,20,4,0,2_Normal,Single Other Target,ひっかき,通常攻撃
+Serbatiyo%27s_Wrath,Serbatiyo's Wrath,water,,Special,100,35,2,2_Normal,Other Team or Ally,セルバティオのいかり,使用者のSPATK+2
+Sharp_Leaf,Sharp Leaf,nature,,Physical,50,7,0,2_Normal,Single Other Target,シャープリーフ,通常攻撃
+Sharp_Rain,Sharp Rain,water,,Special,130,23,2,2_Normal,Single Target,アイシクルレイン,通常攻撃
+Sharp_Stabs,Sharp Stabs,crystal,,Physical,76,17,1,3_High,Single Other Target,シャープスピア,通常攻撃
+Sharpening,Sharpening,crystal,,Status,-,16,1,2_Normal,Self,みがき上げる,"対象のATK+2, SPD+1"
+Shelter,Shelter,neutral,,Status,-,10,2,1_Low,Self,シェルター,"対象のDEF+4, SPDEF+4, 使用者は次ターン行動不能"
+Shrill_Voice,Shrill Voice,neutral,,Special,55,14,1,2_Normal,Other Team or Ally,金切り声,通常攻撃
+Shy_Shield,Shy Shield,neutral,,Status,-,11,0,3_High,Self,シャイシールド,対象のDEF+1
+Slime,Slime,neutral,,Status,-,10,0,1_Low,Single Other Target,ねばねば,"対象のSPD-1, とらわれ2を付与"
+Sludge_Gift,Sludge Gift,earth,,Special,60,9,0,3_High,Single Other Target,どろおくり,通常攻撃
+Smoldering_Kiss,Smoldering Kiss,fire,,Physical,40,5,0,2_Normal,Single Other Target,情熱のキス,使用者にげんき2を付与
+Soil_Steam,Soil Steam,earth,,Special,115,25,0,2_Normal,Single Other Target,ソイルスチーム,通常攻撃
+Soul_Shout,Soul Shout,melee,,Special,100,27,0,2_Normal,Single Other Target,たましいのさけび,通常攻撃
+Sparks,Sparks,electric,,Status,-,13,0,3_High,Single Target,スパーク,"対象にSPATK+1, げんき1を付与"
+Spores,Spores,nature,,Special,37,5,0,2_Normal,Single Other Target,ほうし,通常攻撃
+Stare,Stare,mental,,Status,-,12,0,2_Normal,Single Other Target,にらみつけ,"対象のDEF-2, 使用者にけいかい2を付与"
+Sting,Sting,toxic,,Physical,48,23,0,3_High,Single Other Target,毒針,対象にどく2を付与
+Stone_Trench,Stone Trench,earth,,Physical,75,29,1,2_Normal,Other Team or Ally,ざんごう戦,使用者にかいひ1を付与
+Stone_Wall,Stone Wall,earth,,Status,-,18,1,1_Low,Single Target,ストーンウォール,"対象のDEF+3, SPDEF+1"
+Strangle,Strangle,neutral,,Physical,44,15,0,0_VeryLow,Single Other Target,しめつけ,使用者と対象は次のターン行動不能
+Tail_Strike,Tail Strike,neutral,,Physical,50,5,1,2_Normal,Single Other Target,しっぽ打ち,通常攻撃
+Telekinetic_Shrapnel,Telekinetic Shrapnel,mental,,Physical,80,14,0,2_Normal,Single Other Target,テレキネシス,通常攻撃
+Tenderness,Tenderness,neutral,,Status,-,13,1,2_Normal,Single Other Target,あいきょう,対象のATK-2
+Tentacle_Whip,Tentacle Whip,neutral,,Physical,60,17,0,2_Normal,Single Other Target,テンタクルウィップ,通常攻撃
+Tesla_Prison,Tesla Prison,electric,,Special,70,14,0,2_Normal,Single Other Target,テスラプリズン,対象のSPD-1
+Thunder_Strike,Thunder Strike,electric,,Special,107,26,0,2_Normal,Single Target,らいげき,通常攻撃
+Time_Split,Time Split,mental,,Special,55,18,1,2_Normal,Single Other Target,タイムスプリット,"対象のSPD-2, 使用者のSPD+2"
+Token,Token,digital,,Special,40,12,0,3_High,Single Other Target,トークン,通常攻撃
+Tornado,Tornado,wind,,Special,125,36,1,3_High,Single Target,トルネード,通常攻撃
+Toughen,Toughen,earth,,Status,-,22,1,2_Normal,Self,タフネス,対象のDEF+4
+Toxic_Fang,Toxic Fang,toxic,,Physical,80,16,1,2_Normal,Single Other Target,毒のキバ,対象にどく1を付与
+Toxic_Gas,Toxic Gas,toxic,,Special,65,29,1,2_Normal,Other Team or Ally,毒ガス,通常攻撃
+Toxic_Ink,Toxic Ink,toxic,,Physical,65,18,0,2_Normal,Single Other Target,毒スミ飛ばし,対象にどく2を付与
+Toxic_Slime,Toxic Slime,toxic,,Physical,80,14,0,2_Normal,Single Target,どくどくヘドロ,通常攻撃
+Toxic_Spores,Toxic Spores,toxic,,Status,-,9,0,1_Low,Single Other Target,毒ほうし,対象にどく3を付与
+Toxic_Stream,Toxic Stream,toxic,,Physical,85,23,0,2_Normal,Single Target,トキシックストリーム,通常攻撃
+Toxic_Torrent,Toxic Torrent,toxic,,Special,65,21,0,2_Normal,Single Other Target,トキシックフロー,通常攻撃
+Toxin_Shower,Toxin Shower,toxic,,Special,60,17,1,2_Normal,All Other Temtem,ポイズンシャワー,使用者にかいひ2を付与
+Transient_Echo,Transient Echo,mental,,Physical,80,20,1,3_High,Single Other Target,トランジエントエコー,使用者の技のholdを1減らす
+Turbine,Turbine,wind,,Physical,100,23,1,3_High,Single Other Target,せんぷうげき,通常攻撃
+Turbo_Attack,Turbo Attack,digital,,Physical,130,30,1,2_Normal,Single Target,ターボアタック,通常攻撃
+Turbo_Charge,Turbo Charge,electric,,Status,-,24,1,1_Low,Single Team,ターボチャージ,対象の技のHoldを1減らす
+Ultrasound,Ultrasound,mental,,Status,-,18,1,4_VeryHigh,Other Team or Ally,ちょうおんぱ,対象にひろう2を付与
+Undermine,Undermine,neutral,,Special,125,28,1,2_Normal,Single Other Target,じらい,対象のSPATK-1
+Unseen_Blow,Unseen Blow,neutral,,Special,110,26,0,2_Normal,Single Other Target,インビジストライク,通常攻撃
+Untangle,Untangle,neutral,,Status,-,13,1,5_Ultra,Single Target,ときほぐす,"対象のとらわれを回復。その後対象のDEF+1, SPDEF+1"
+Uppercut,Uppercut,melee,,Physical,80,14,0,2_Normal,Single Other Target,アッパー,通常攻撃
+Venom_Spread,Venom Spread,toxic,,Special,150,23,0,3_High,Single Target,ベノムスプレッド,対象がどく状態でなければ失敗
+Venomous_Claws,Venomous Claws,toxic,,Physical,50,7,0,2_Normal,Single Other Target,毒ヅメ,通常攻撃
+Voltopuncture,Voltopuncture,electric,,Physical,28,5,0,3_High,Single Other Target,ボルトパンク,対象にさしおさえ1を付与
+Wake_Up,Wake Up,neutral,,Physical,1,-,0,4_VeryHigh,Single Target,たたき起こす,通常攻撃
+Warm_Cuddle,Warm Cuddle,fire,,Physical,70,14,0,2_Normal,Single Other Target,あったかハグ,通常攻撃
+Wastewater,Wastewater,toxic,,Physical,90,29,0,2_Normal,Single Target,くさり水,対象にどく1を付与
+Water_Blade,Water Blade,water,,Special,75,17,0,3_High,Single Other Target,ウォーターブレード,通常攻撃
+Water_Stream,Water Stream,water,,Physical,85,23,0,2_Normal,Single Target,ウォーターストリーム,通常攻撃
+Water_Torrent,Water Torrent,water,,Special,65,21,0,2_Normal,Single Other Target,ウォーターフロー,通常攻撃
+Waterjet,Waterjet,water,,Physical,110,18,2,2_Normal,Single Other Target,ウォータージェット,対象にこごえ2を付与
+Willpower_Drain,Willpower Drain,neutral,,Status,-,17,1,3_High,Single Other Target,戦意吸収,対象のSTAを25減らす
+Wind_Blade,Wind Blade,wind,,Special,67,9,0,2_Normal,Single Other Target,ウィンドブレード,通常攻撃
+Wind_Burst,Wind Burst,wind,,Special,80,14,0,2_Normal,Single Target,ウィンドバースト,通常攻撃
+Wind_Stream,Wind Stream,wind,,Physical,85,23,0,2_Normal,Single Target,ウィンドストリーム,通常攻撃
+Wind_Torrent,Wind Torrent,wind,,Special,65,21,0,2_Normal,Single Other Target,ウィンドフロー,通常攻撃
+Winter_Call,Winter Call,neutral,,Status,-,23,3,2_Normal,All,冬の呼び声,対象にこおりつき2を付与
+Zen_Meditation,Zen Meditation,melee,,Status,-,-,2,1_Low,Self,ざぜん,"対象のATK+2, SPATK+2"
+Aqua_Stone,Aqua Stone,water,earth,Physical,80,20,1,2_Normal,Single Other Target,アクアストーン,通常攻撃
+Awful_Song,Awful Song,neutral,neutral,Special,96,20,1,2_Normal,Single Target,ヒドい歌,対象にこりつ3を付与。シナジー時対象範囲が変化
+Blackhole,Blackhole,mental,earth,Physical,100,26,1,1_Low,Single Other Target,ブラックホール,通常攻撃。シナジー時Priorityが変化し対象のステータス変化をリセットする
+Bright_Beam,Bright Beam,electric,crystal,Special,10,21,1,2_Normal,Other Team or Ally,まばゆい光,使用者にけいかい2とかいひ2を付与。シナジー時ダメージ増加
+Bush,Bush,nature,earth,Status,-,24,2,3_High,Self,カバー,対象にさいせい1とかいひ1を付与。シナジー時対象のSPDEF+3
+Cozy_Net,Cozy Net,neutral,nature,Status,-,25,1,2_Normal,Single Other Target,快適ネット,対象にねむり2ととらわれ3を付与。シナジー時使用者にさいせい3を付与
+Crystal_Deluge,Crystal Deluge,crystal,mental,Special,100,29,1,2_Normal,Single Target,クリスタルドロップ,対象にこりつ3を付与。シナジー時Priorityが変化し対象に追加でねむり2を付与
+Crystal_Dust,Crystal Dust,crystal,wind,Special,60,12,0,3_High,Single Target,クリスタルダスト,通常攻撃。シナジー時Priorityが変化
+Debris_Typhoon,Debris Typhoon,wind,wind,Physical,73,11,0,2_Normal,Single Target,デブリタイフーン,通常攻撃。シナジー時ダメージが変化
+Digithreat,Digithreat,digital,mental,Special,100,23,1,1_Low,Single Target,デジスリート,通常攻撃。シナジー時対象にはめつ3を付与
+Double_Edge,Double Edge,neutral,neutral,Special,84,12,0,1_Low,Single Other Target,もろはのやいば,"対象のDEF+1, SPDEF+1。シナジー時ダメージが変化"
+Earthbreaker,Earthbreaker,earth,electric,Physical,130,33,2,2_Normal,Single Other Target,地割り,通常攻撃。シナジー時攻撃がでんきタイプに変化し対象にさしおさえ2を付与
+Electropunch,Electropunch,electric,digital,Physical,110,22,0,1_Low,Single Target,でんげきパンチ,通常攻撃。シナジー時Priorityが変化
+Energy_Manipulation,Energy Manipulation,mental,nature,Special,45,15,0,3_High,Single Other Target,エナジー操作,対象にひろう1を付与。シナジー時ダメージが変化しひろう1の代わりにひろう2を付与
+Faraday_Cage,Faraday Cage,digital,toxic,Physical,95,34,0,2_Normal,Single Target,ファラデーケージ,対象にこりつ3を付与。シナジー時ダメージが変化し対象に追加でどく2を付与
+Fiery_Heist,Fiery Heist,fire,earth,Status,-,21,1,2_Normal,Single Other Target,ファイアジャック,対象にさしおさえ2とやけど2を付与。シナジー時その代わりにさしおさえ4とやけど4を付与
+Flood,Flood,water,earth,Status,-,26,1,2_Normal,Other Team or Ally,水びたし,対象のSPD-2。シナジー時その代わりに対象のSPD-3
+Generify,Generify,digital,neutral,Status,-,17,0,2_Normal,Self,ジェネリクス,対象にちゅうわ2を付与。シナジー時追加で対象にかいひ2を付与
+Gust,Gust,wind,electric,Special,55,19,1,3_High,Single Other Target,風巻き,通常攻撃。シナジー時ダメージとPriorityが変化し対象にとらわれ2を付与
+Hallucination,Hallucination,toxic,mental,Status,-,26,0,2_Normal,Single Other Target,げんかく,対象にひろう2ととらわれ2を付与。シナジー時通常効果に追加でダメージ100の技になる
+Harmful_Microwaves,Harmful Microwaves,digital,electric,Special,86,25,0,2_Normal,Single Target,マイクロウェーブ,通常攻撃。シナジー時ダメージとPriorityが変化し対象にとらわれ2を付与
+Hasty_Lunge,Hasty Lunge,electric,nature,Physical,80,25,0,3_High,Single Other Target,ちょとつもうしん,使用者は次ターン行動不能。シナジー時通常効果が消える
+Hellfire,Hellfire,fire,fire,Special,84,33,1,2_Normal,Other Team or Ally,ヘルファイア,通常攻撃。シナジー時Priorityが変化し対象にやけど2を付与
+High-pressure_Water,High-pressure Water,water,fire,Special,75,17,1,2_Normal,Single Other Target,高圧放水,通常攻撃。シナジー時対象にやけど3を付与
+Hurricane,Hurricane,wind,digital,Special,67,29,1,2_Normal,Other Team or Ally,ハリケーン,通常攻撃。シナジー時ダメージが変化し使用者のSPD+1
+Ice_Cubes,Ice Cubes,water,water,Physical,54,15,0,2_Normal,Single Other Target,アイスキューブ,通常攻撃。シナジー時ダメージが変化
+Laundry,Laundry,water,electric,Physical,100,17,2,2_Normal,Single Other Target,せんたく,対象の状態変化をすべて取り除く。シナジー時Priorityが変化し使用者のHPが10%回復する
+Lava_Wave,Lava Wave,fire,water,Physical,95,27,0,2_Normal,Single Other Target,マグマウェーブ,通常攻撃。シナジー時Priorityが変化し対象にさしおさえ3を付与
+Leech,Leech,nature,water,Status,-,33,1,2_Normal,Single Other Target,吸血,対象のHPを25%減らし使用者のHPを25%回復する。相手のねむりを解除しない。シナジー時PriorityとSTAコストが変化する
+Metabolize,Metabolize,toxic,nature,Status,-,20,1,1_Low,Single Other Target,デトックス,対象のどくを回復しHPを20%回復しさいせい1を付与する。シナジー時使用者にさいせい2を付与する
+Meteor_Swarm,Meteor Swarm,fire,fire,Physical,85,29,1,1_Low,Other Team or Ally,メテオスウォーム,通常攻撃。シナジー時ダメージが変化し対象にやけど2を付与
+Misogi,Misogi,water,water,Status,-,25,2,2_Normal,Single Target,みそぎ,対象のステータス変化と状態変化をすべて取り除く。シナジー時対象にむこう3とさいせい2を付与する
+Nagaise%27s_Fury,Nagaise's Fury,water,mental,Special,100,33,1,2_Normal,Other Team or Ally,ナーガイズのいかり,通常攻撃。シナジー時ダメージが変化する
+Novice_Punch,Novice Punch,neutral,melee,Physical,30,3,0,2_Normal,Single Other Target,ひよっこパンチ,通常攻撃。シナジー時ダメージと技のタイプが変化する
+Paralyzing_Poison,Paralyzing Poison,toxic,toxic,Status,-,23,2,2_Normal,Single Other Target,マヒ毒,対象にどく4ととらわれ2を付与する。シナジー時どく4の代わりにどく6を付与する
+Piezoelectric_Blow,Piezoelectric Blow,electric,earth,Physical,120,39,2,3_High,Single Target,ピエゾブロー,通常攻撃。シナジー時ダメージが変化し対象にさしおさえ2を付与する
+Psychic_Collaborator,Psychic Collaborator,mental,mental,Special,20,20,1,2_Normal,Single Other Target,サイキックコラボ,対象にSPATK+2を付与する。シナジー時ダメージが変化し通常効果が消滅する
+Quartz_Dirt,Quartz Dirt,crystal,earth,Special,70,20,1,2_Normal,Other Team or Ally,クウォーツダート,通常攻撃。シナジー時ダメージが変化し対象にとらわれ2を付与する
+Quetza-le%C3%B1o,Quetza-leno,fire,neutral,Physical,105,27,0,2_Normal,Single Other Target,クエツァレーニョ,通常攻撃。シナジー時ダメージとPriorityが変化する
+Quicksand,Quicksand,earth,wind,Status,-,16,1,3_High,All,流砂,対象のSPD-2。シナジー時対象が相手チームのみに変化
+Rampage,Rampage,neutral,melee,Physical,65,27,1,1_Low,Other Team or Ally,ランページ,通常攻撃。シナジー時ダメージとSTA消費量とPriorityが変化
+Refreshing_Breeze,Refreshing Breeze,wind,nature,Status,-,22,2,3_High,Single Other Target,心地よい風,対象の状態変化を取り除きSPDEF-1。シナジー時SPDEF-1の代わりにSPDEF+2
+Restore,Restore,earth,water,Status,-,23,1,3_High,Single Other Target,リストア,対象のSTAを40%回復する。シナジー時使用者のSTAを20%回復する
+Revitalize,Revitalize,nature,nature,Status,-,20,1,2_Normal,Single Target,手当て,対象のHPを20%回復する。シナジー時STAコストが変化し使用者のHPも10%回復する
+Rockfall,Rockfall,earth,fire,Physical,75,28,1,2_Normal,Other Team or Ally,岩落とし,通常攻撃。シナジー時対象にやけど2を付与
+Rotten_Goo,Rotten Goo,toxic,electric,Special,82,23,0,1_Low,Single Other Target,くさったスライム,対象にとらわれ2を付与。シナジー時Priorityが変化
+Sanative_Rain,Sanative Rain,water,wind,Status,-,18,2,1_Low,All,回復の雨,対象のHPを15%回復。シナジー時、自分のテムの回復量が20%に、相手のテムの回復量が10%に変化
+Seismunch%27s_Wreck,Seismunch's Wreck,earth,melee,Physical,105,39,1,2_Normal,Other Team or Ally,シーズマンチの本気,通常攻撃。シナジー時ダメージとPriorityが変化
+Show_Off,Show Off,melee,melee,Status,-,12,0,2_Normal,Self,見せつけ,対象のATK+2。シナジー時対象にげんき3を付与
+Slow_Down,Slow Down,mental,mental,Status,-,15,0,2_Normal,Single Target,スローダウン,対象のSPD-1。シナジー時対象にねむり2を付与
+Sparkling_Bullet,Sparkling Bullet,electric,neutral,Physical,60,14,0,2_Normal,Single Other Target,スパークバレット,通常攻撃。シナジー時ダメージが変化
+Stampede,Stampede,neutral,earth,Physical,110,33,2,1_Low,Other Team or Ally,スタンピード,通常攻撃。シナジー時ダメージが変化し対象にとらわれ3を付与
+Stone_Ball,Stone Ball,earth,fire,Physical,120,34,0,1_Low,Single Target,がれき落とし,通常攻撃。シナジー時対象にやけど2を付与
+Swarm_Aid,Swarm Aid,nature,earth,Status,-,23,2,2_Normal,Other Team or Ally,ミリオンドレイン,対象のHPを10%減らしひろう1を付与。使用者のHPを10%回復。シナジー時Priorityが変化し、HPの減少量および回復量が15%に変化
+Tortenite%27s_Garden,Tortenite's Garden,toxic,crystal,Status,-,28,2,1_Low,Single Other Target,トルテナイトの庭,対象にはめつ4を付与し使用者のHPを10%回復する。シナジー時、代わりに対象にはめつ3を付与し使用者のHPを20%回復する
+Toxic_Plume,Toxic Plume,toxic,crystal,Special,60,23,2,2_Normal,Other Team or Ally,毒まき,対象にどく1を付与する。シナジー時STAコストが変化し対象のATK-2
+Tsunami,Tsunami,water,wind,Special,70,24,1,2_Normal,Other Team or Ally,大波,通常攻撃。シナジー時ダメージが変化し対象にこごえ1を付与
+Turbo_Choreography,Turbo Choreography,wind,wind,Status,-,29,1,2_Normal,Single Team,アクセルダンス,対象のSPD+2。シナジー時、代わりにSPD+3
+Urushiol,Urushiol,toxic,toxic,Physical,41,8,0,2_Normal,Single Other Target,ウルシオール,通常攻撃。シナジー時対象にどく4を付与
+Virulent_Gust,Virulent Gust,toxic,water,Special,80,17,0,2_Normal,Single Target,病み風,通常攻撃。シナジー時対象が変化
+Water_Cannon,Water Cannon,water,toxic,Special,95,24,0,2_Normal,Single Other Target,ウォーターカノン,通常攻撃。シナジー時対象にどく2を付与
+Water_Cutting_Lily,Water Cutting Lily,nature,water,Physical,115,34,0,2_Normal,Single Target,水切りスイレン,通常攻撃。シナジー時Priorityとダメージが変化
+Wrenching_Massage,Wrenching Massage,melee,electric,Physical,92,27,0,1_Low,Single Other Target,激痛マッサージ,通常攻撃。シナジー時ダメージが変化し対象にひろう2を付与。
