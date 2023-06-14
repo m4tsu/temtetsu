@@ -1,6 +1,8 @@
-## Next.js(v13) Template
-Next.js アプリケーションを作成する時のためのテンプレート
+# Temtem 日本語情報サイト
 
-
-## 現時点で設定済みの基本ライブラリ等
-- linter 系
+## tech stacks
+- TypeScript
+- React
+- Next.js (app directory)
+- tailwindCss
+- daisyUI
