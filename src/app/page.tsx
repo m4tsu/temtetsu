@@ -1,9 +1,17 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl text-blue-700">Home</h1>
+    <div className="flex flex-col">
+      <h2 className="text-xl font-bold text-neutral">テムテム日本語情報一覧</h2>
       <div>
-        <p className="text-2xl">Welcome to the home page</p>
+        <ul>
+          <li>
+            <Link href="/tem-pedia" className="link-primary link ">
+              テムテム図鑑
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   )
