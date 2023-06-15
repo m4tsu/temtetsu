@@ -1,6 +1,14 @@
 export type Gear = {
-  key: string
+  /** identifier */
   name: string
-  nameJp: string
-  descriptionJp: string
+  wikiUrl: string
+  wikiIconUrl: string
+  icon: string
+  category: string
+  consumable: boolean
+  limitedQuantity: boolean
+  purchasable: boolean
+  buyPrice: number
+  description: string
+  gameDescription: string
 }

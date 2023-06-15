@@ -1,14 +1,29 @@
+export type TechniquePriority =
+  | 'verylow'
+  | 'low'
+  | 'normal'
+  | 'high'
+  | 'veryhigh'
+  | 'ultra'
+
+export type SynergyEffect = {
+  effect: string
+  type: string // damage, priority
+  damage: number
+}
+
 export type Technique = {
-  key: string
+  /** identifier */
   name: string
+  wikiUrl: string
   type: string
-  synagy: string
   class: string
-  dmg: string
-  sta: string
-  hold: string
-  priority: string
-  target: string
-  nameJp: string
-  descriptionJp: string
+  damage: number
+  staminaCost: number
+  hold: number
+  priority: TechniquePriority
+  synergy: string
+  synergyEffects: SynergyEffect[]
+  targets: string
+  description: string
 }

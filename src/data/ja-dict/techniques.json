@@ -1,0 +1,1539 @@
+{
+  "5PPEH": {
+    "name": "5PPEH",
+    "nameJa": "ごてんしょうばくしん",
+    "descriptionJa": "対象にはめつ5とむこう5を付与"
+  },
+  "Acid Reflux": {
+    "name": "Acid Reflux",
+    "nameJa": "アシッド・フラッド",
+    "descriptionJa": "対象にどく2を付与"
+  },
+  "Allergic Spread": {
+    "name": "Allergic Spread",
+    "nameJa": "アレルギー拡散",
+    "descriptionJa": "通常攻撃"
+  },
+  "Ampere Outburst": {
+    "name": "Ampere Outburst",
+    "nameJa": "アンペールバースト",
+    "descriptionJa": "対象に次ターン行動不能、自分にげんき2をそれぞれ付与"
+  },
+  "Antitoxins": {
+    "name": "Antitoxins",
+    "nameJa": "アンチドート",
+    "descriptionJa": "対象のどくを取り除きげんき2を付与"
+  },
+  "Aqua Bullet Hell": {
+    "name": "Aqua Bullet Hell",
+    "nameJa": "アクアマシンガン",
+    "descriptionJa": "通常攻撃"
+  },
+  "Aquatic Whirlwind": {
+    "name": "Aquatic Whirlwind",
+    "nameJa": "水乱流",
+    "descriptionJa": "通常攻撃"
+  },
+  "Autodestruction": {
+    "name": "Autodestruction",
+    "nameJa": "じばく",
+    "descriptionJa": "使用者のDEFもダメージ計算に使用。使用者は倒れる。"
+  },
+  "Bamboozle": {
+    "name": "Bamboozle",
+    "nameJa": "トリック",
+    "descriptionJa": "対象にかいひ1を付与"
+  },
+  "Bark": {
+    "name": "Bark",
+    "nameJa": "ほえる",
+    "descriptionJa": "対象のDEF-2, SPDEF-2"
+  },
+  "Bark Shield": {
+    "name": "Bark Shield",
+    "nameJa": "バークシールド",
+    "descriptionJa": "対象のDEF+3"
+  },
+  "Base Jump": {
+    "name": "Base Jump",
+    "nameJa": "ベースジャンプ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Bestial Charge": {
+    "name": "Bestial Charge",
+    "nameJa": "ビーストチャージ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Beta Burst": {
+    "name": "Beta Burst",
+    "nameJa": "ベータバースト",
+    "descriptionJa": "通常攻撃"
+  },
+  "Binary Flood": {
+    "name": "Binary Flood",
+    "nameJa": "バイナリフラッド",
+    "descriptionJa": "対象にさしおさえ2を付与"
+  },
+  "Blizzard": {
+    "name": "Blizzard",
+    "nameJa": "ふぶき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Block": {
+    "name": "Block",
+    "nameJa": "仁王立ち",
+    "descriptionJa": "対象のDEF+3"
+  },
+  "Blue Screen": {
+    "name": "Blue Screen",
+    "nameJa": "ブルースクリーン",
+    "descriptionJa": "対象にこおりつき2を付与"
+  },
+  "Boomerang": {
+    "name": "Boomerang",
+    "nameJa": "ブーメラン",
+    "descriptionJa": "通常攻撃"
+  },
+  "Brace": {
+    "name": "Brace",
+    "nameJa": "構える",
+    "descriptionJa": "対象にかいひ2を付与しHPを10%回復する。この技はけいかい状態でないと使用不可。使用後けいかい状態は解除される"
+  },
+  "Bubbles": {
+    "name": "Bubbles",
+    "nameJa": "あわあわ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Burrow": {
+    "name": "Burrow",
+    "nameJa": "巣穴",
+    "descriptionJa": "対象にかいひ4を付与"
+  },
+  "Cage": {
+    "name": "Cage",
+    "nameJa": "鳥カゴ",
+    "descriptionJa": "対象にとらわれ2を付与"
+  },
+  "Chain Heal": {
+    "name": "Chain Heal",
+    "nameJa": "チェーンヒール",
+    "descriptionJa": "対象と、対象から時計回り右隣、さらにその右隣りのHPをそれぞれ15%回復する"
+  },
+  "Chain Lightning": {
+    "name": "Chain Lightning",
+    "nameJa": "チェーンライトニング",
+    "descriptionJa": "対象と、対象から時計回り右隣、さらにその右隣りにそれぞれダメージ。ダメージは100%->70%->60%と減衰する"
+  },
+  "Chains Hit": {
+    "name": "Chains Hit",
+    "nameJa": "チェーンヒット",
+    "descriptionJa": "対処にとらわれ2を付与"
+  },
+  "Charcoal Wall": {
+    "name": "Charcoal Wall",
+    "nameJa": "チャコールウォール",
+    "descriptionJa": "対象のSPDEF+4"
+  },
+  "Charge": {
+    "name": "Charge",
+    "nameJa": "とつげき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Charged Iron Filings": {
+    "name": "Charged Iron Filings",
+    "nameJa": "帯電鉄粉",
+    "descriptionJa": "対象にちゅうわ2を付与"
+  },
+  "Cheer Up": {
+    "name": "Cheer Up",
+    "nameJa": "おうえん",
+    "descriptionJa": "対象が持つ技のHoldを1進める"
+  },
+  "Clay Ball": {
+    "name": "Clay Ball",
+    "nameJa": "どろ団子",
+    "descriptionJa": "対象のSPD-1"
+  },
+  "Clinch": {
+    "name": "Clinch",
+    "nameJa": "クリンチ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Cold Breeze": {
+    "name": "Cold Breeze",
+    "nameJa": "つめたい風",
+    "descriptionJa": "対象にこごえ1を付与"
+  },
+  "Cold Geyser": {
+    "name": "Cold Geyser",
+    "nameJa": "コールドガイザー",
+    "descriptionJa": "対象にこごえ2を付与"
+  },
+  "Confiscate": {
+    "name": "Confiscate",
+    "nameJa": "めしあげ",
+    "descriptionJa": "対象にさしおさえ3を付与"
+  },
+  "Cooperation": {
+    "name": "Cooperation",
+    "nameJa": "協力",
+    "descriptionJa": "対象のSTAを平均化し、HPを10%回復"
+  },
+  "Crystal Bite": {
+    "name": "Crystal Bite",
+    "nameJa": "クリスタルバイト",
+    "descriptionJa": "通常攻撃"
+  },
+  "Crystal Plume Gatling": {
+    "name": "Crystal Plume Gatling",
+    "nameJa": "クリスタルガトリング",
+    "descriptionJa": "通常攻撃"
+  },
+  "Crystal Spikes": {
+    "name": "Crystal Spikes",
+    "nameJa": "クリスタルスパイク",
+    "descriptionJa": "通常攻撃"
+  },
+  "Crystal Stream": {
+    "name": "Crystal Stream",
+    "nameJa": "クリスタルストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Crystal Torrent": {
+    "name": "Crystal Torrent",
+    "nameJa": "クリスタルフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Crystallize": {
+    "name": "Crystallize",
+    "nameJa": "クリスタライズ",
+    "descriptionJa": "対象のSPDEF+4, SPD-1, むこう2を付与"
+  },
+  "Cyberclaw": {
+    "name": "Cyberclaw",
+    "nameJa": "サイバークロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Darkness": {
+    "name": "Darkness",
+    "nameJa": "ダークネス",
+    "descriptionJa": "対象にこりつ2を付与"
+  },
+  "Data Burst": {
+    "name": "Data Burst",
+    "nameJa": "データバースト",
+    "descriptionJa": "通常攻撃"
+  },
+  "Data Corruption": {
+    "name": "Data Corruption",
+    "nameJa": "データ破損",
+    "descriptionJa": "対象のSPDEF-4"
+  },
+  "DC Beam": {
+    "name": "DC Beam",
+    "nameJa": "DCビーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Defibrillate": {
+    "name": "Defibrillate",
+    "nameJa": "でんきショック",
+    "descriptionJa": "対象にこりつ2を付与"
+  },
+  "Denigrate": {
+    "name": "Denigrate",
+    "nameJa": "悪口",
+    "descriptionJa": "対象のSPATK-1"
+  },
+  "Depress": {
+    "name": "Depress",
+    "nameJa": "メランコリア",
+    "descriptionJa": "対象のHPを120へらす。ねむり状態でも回復しない"
+  },
+  "Diamond Fort": {
+    "name": "Diamond Fort",
+    "nameJa": "ダイヤモンドフォート",
+    "descriptionJa": "対象のDEF+4, SPDEF+4"
+  },
+  "Digital Stream": {
+    "name": "Digital Stream",
+    "nameJa": "デジタルストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Digital Torrent": {
+    "name": "Digital Torrent",
+    "nameJa": "デジタルフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Digital Whip": {
+    "name": "Digital Whip",
+    "nameJa": "デジタルウィップ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Dim Mak": {
+    "name": "Dim Mak",
+    "nameJa": "点穴",
+    "descriptionJa": "対象のHPを100減らす"
+  },
+  "Divine Inspiration": {
+    "name": "Divine Inspiration",
+    "nameJa": "カミのお告げ",
+    "descriptionJa": "対象のSPDEF+1、HPを15%回復"
+  },
+  "DNA Extraction": {
+    "name": "DNA Extraction",
+    "nameJa": "DNAサンプリング",
+    "descriptionJa": "使用者のSPD+2"
+  },
+  "Double Gash": {
+    "name": "Double Gash",
+    "nameJa": "ダブルカット",
+    "descriptionJa": "通常攻撃"
+  },
+  "Double Kick": {
+    "name": "Double Kick",
+    "nameJa": "2段キック",
+    "descriptionJa": "通常攻撃"
+  },
+  "Drill Impact": {
+    "name": "Drill Impact",
+    "nameJa": "ドリルインパクト",
+    "descriptionJa": "通常攻撃"
+  },
+  "Drool": {
+    "name": "Drool",
+    "nameJa": "よだれ",
+    "descriptionJa": "対象にさいせい2, むこう3を付与"
+  },
+  "Drought": {
+    "name": "Drought",
+    "nameJa": "干ばつ",
+    "descriptionJa": "対象にさしおさえ2とひへい2を付与"
+  },
+  "Dust Vortex": {
+    "name": "Dust Vortex",
+    "nameJa": "砂たつまき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Earth Stream": {
+    "name": "Earth Stream",
+    "nameJa": "アースストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Earth Torrent": {
+    "name": "Earth Torrent",
+    "nameJa": "アースフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Earth Wave": {
+    "name": "Earth Wave",
+    "nameJa": "大地のうねり",
+    "descriptionJa": "通常攻撃"
+  },
+  "Electric Storm": {
+    "name": "Electric Storm",
+    "nameJa": "サンダーストーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Electric Stream": {
+    "name": "Electric Stream",
+    "nameJa": "エレクトリックストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Electric Torrent": {
+    "name": "Electric Torrent",
+    "nameJa": "エレクトリックフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Electromagnetism": {
+    "name": "Electromagnetism",
+    "nameJa": "でんきしばり",
+    "descriptionJa": "使用者にとらわれ3を付与。対象にとらわれ3とSPD-1を付与"
+  },
+  "Embers": {
+    "name": "Embers",
+    "nameJa": "残り火",
+    "descriptionJa": "対象にやけど1を付与"
+  },
+  "Execution": {
+    "name": "Execution",
+    "nameJa": "トドメのいちげき",
+    "descriptionJa": "対象のHPが35%以下だったらダメージを与える代わりに倒す"
+  },
+  "Extinction": {
+    "name": "Extinction",
+    "nameJa": "終末の空",
+    "descriptionJa": "対象にはめつ4を付与"
+  },
+  "Extra Energy Slam": {
+    "name": "Extra Energy Slam",
+    "nameJa": "エナジーバッシュ",
+    "descriptionJa": "使用者のSTAによって威力が変化"
+  },
+  "Feather Gatling": {
+    "name": "Feather Gatling",
+    "nameJa": "フェザーガトリング",
+    "descriptionJa": "通常攻撃"
+  },
+  "Fierce Claw": {
+    "name": "Fierce Claw",
+    "nameJa": "ワイルドクロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Fiery Soul": {
+    "name": "Fiery Soul",
+    "nameJa": "ファイヤソウル",
+    "descriptionJa": "対象にやけど1を付与"
+  },
+  "Finbeat": {
+    "name": "Finbeat",
+    "nameJa": "フィンビート",
+    "descriptionJa": "通常攻撃"
+  },
+  "Fire Flame": {
+    "name": "Fire Flame",
+    "nameJa": "ファイヤフレイム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Fire Stream": {
+    "name": "Fire Stream",
+    "nameJa": "ファイヤストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Fire Tornado": {
+    "name": "Fire Tornado",
+    "nameJa": "かえんたつまき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Fire Torrent": {
+    "name": "Fire Torrent",
+    "nameJa": "ファイヤフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Firewall": {
+    "name": "Firewall",
+    "nameJa": "ファイアウォール",
+    "descriptionJa": "対象にむこう4, DEF+1, SPDEF+1を付与"
+  },
+  "Flaming Meteorite": {
+    "name": "Flaming Meteorite",
+    "nameJa": "フレイムメテオ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Fluid Barrier": {
+    "name": "Fluid Barrier",
+    "nameJa": "液体バリア",
+    "descriptionJa": "対象にむこう2, SPDEF+2を付与"
+  },
+  "Footwork": {
+    "name": "Footwork",
+    "nameJa": "フットワーク",
+    "descriptionJa": "対象のSPD+2"
+  },
+  "Frond Whip": {
+    "name": "Frond Whip",
+    "nameJa": "森のムチ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Gaia": {
+    "name": "Gaia",
+    "nameJa": "ガイアのめぐみ",
+    "descriptionJa": "対象にさいせい2を付与しSTAを100%回復"
+  },
+  "Gamma Burst": {
+    "name": "Gamma Burst",
+    "nameJa": "ガンマバースト",
+    "descriptionJa": "対象にひろう2を付与"
+  },
+  "Glass Blade": {
+    "name": "Glass Blade",
+    "nameJa": "グラスブレード",
+    "descriptionJa": "通常攻撃"
+  },
+  "Goring": {
+    "name": "Goring",
+    "nameJa": "ツノとつげき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Haito Uchi": {
+    "name": "Haito Uchi",
+    "nameJa": "背刀打ち",
+    "descriptionJa": "対象にねむり1を付与"
+  },
+  "Harmful Lick": {
+    "name": "Harmful Lick",
+    "nameJa": "なめしばき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Head Charge": {
+    "name": "Head Charge",
+    "nameJa": "ブレイクショット",
+    "descriptionJa": "通常攻撃"
+  },
+  "Head Ram": {
+    "name": "Head Ram",
+    "nameJa": "ずつき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Heat Up": {
+    "name": "Heat Up",
+    "nameJa": "ヒートアップ",
+    "descriptionJa": "対象のATK+3"
+  },
+  "Heavy Blow": {
+    "name": "Heavy Blow",
+    "nameJa": "強打",
+    "descriptionJa": "通常攻撃"
+  },
+  "Held Anger": {
+    "name": "Held Anger",
+    "nameJa": "いかりため",
+    "descriptionJa": "通常攻撃"
+  },
+  "Helicopter Kick": {
+    "name": "Helicopter Kick",
+    "nameJa": "ヘリコプターキック",
+    "descriptionJa": "通常攻撃"
+  },
+  "Hibernate": {
+    "name": "Hibernate",
+    "nameJa": "冬ごもり",
+    "descriptionJa": "対象にこおりつき3を付与。対象のHPとSTAを35%回復"
+  },
+  "Hologram": {
+    "name": "Hologram",
+    "nameJa": "ホログラム",
+    "descriptionJa": "対象にかいひ1を付与"
+  },
+  "Hook": {
+    "name": "Hook",
+    "nameJa": "フック",
+    "descriptionJa": "使用者のATK+2"
+  },
+  "Hook Kick": {
+    "name": "Hook Kick",
+    "nameJa": "フックキック",
+    "descriptionJa": "通常攻撃"
+  },
+  "Horror": {
+    "name": "Horror",
+    "nameJa": "ホラー",
+    "descriptionJa": "対象がねむり状態でなければ失敗"
+  },
+  "Humiliating Slap": {
+    "name": "Humiliating Slap",
+    "nameJa": "ひっぱたき",
+    "descriptionJa": "対象のDEF-1"
+  },
+  "Hyperkinetic Strike": {
+    "name": "Hyperkinetic Strike",
+    "nameJa": "ダッシュアタック",
+    "descriptionJa": "使用者のSPDもダメージ計算に使用"
+  },
+  "Hypnosis": {
+    "name": "Hypnosis",
+    "nameJa": "さいみん",
+    "descriptionJa": "対象にねむり2を付与"
+  },
+  "Hypoxia": {
+    "name": "Hypoxia",
+    "nameJa": "真空責め",
+    "descriptionJa": "通常攻撃"
+  },
+  "Ice Shuriken": {
+    "name": "Ice Shuriken",
+    "nameJa": "アイスシュリケン",
+    "descriptionJa": "対象にこごえ2を付与"
+  },
+  "Iced Stalactite": {
+    "name": "Iced Stalactite",
+    "nameJa": "つらら落とし",
+    "descriptionJa": "対象にこごえ2を付与"
+  },
+  "Inner Spirit": {
+    "name": "Inner Spirit",
+    "nameJa": "ねむれるたましい",
+    "descriptionJa": "通常攻撃"
+  },
+  "Intimidation": {
+    "name": "Intimidation",
+    "nameJa": "いあつ",
+    "descriptionJa": "対象にひろう2を付与、使用者にかいひ1を付与"
+  },
+  "Jaw Strike": {
+    "name": "Jaw Strike",
+    "nameJa": "かみつき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Jinxed Whisper": {
+    "name": "Jinxed Whisper",
+    "nameJa": "フキツなささやき",
+    "descriptionJa": "対象にねむり2を付与。使用者は次ターン動けない"
+  },
+  "Kesa Gatame": {
+    "name": "Kesa Gatame",
+    "nameJa": "けさ固め",
+    "descriptionJa": "対象のSPD-3"
+  },
+  "Kick": { "name": "Kick", "nameJa": "キック", "descriptionJa": "通常攻撃" },
+  "King's Roar": {
+    "name": "King's Roar",
+    "nameJa": "王者のおたけび",
+    "descriptionJa": "対象のSPD-2, ATK-2, SPATK-2"
+  },
+  "Knockback": {
+    "name": "Knockback",
+    "nameJa": "ノックバック",
+    "descriptionJa": "反動で与ダメージの30%を使用者も受ける"
+  },
+  "Late Torment": {
+    "name": "Late Torment",
+    "nameJa": "ラストトーメント",
+    "descriptionJa": "対象がとらわれ状態でなければ失敗"
+  },
+  "Lifeful Sap": {
+    "name": "Lifeful Sap",
+    "nameJa": "いのちのしずく",
+    "descriptionJa": "対象にさいせい5を付与"
+  },
+  "Look out": {
+    "name": "Look out",
+    "nameJa": "見張り",
+    "descriptionJa": "対象にけいかい5を付与しねむりを回復する"
+  },
+  "Lullaby": {
+    "name": "Lullaby",
+    "nameJa": "ララバイ",
+    "descriptionJa": "対象にねむり2を付与"
+  },
+  "Madness Buff": {
+    "name": "Madness Buff",
+    "nameJa": "どはつてん",
+    "descriptionJa": "対象のSPATK+3, SPDEF+3, HP30%を消費"
+  },
+  "Magma Cannon": {
+    "name": "Magma Cannon",
+    "nameJa": "マグマカノン",
+    "descriptionJa": "対象にやけど3を付与"
+  },
+  "Major Slash": {
+    "name": "Major Slash",
+    "nameJa": "メジャースラッシュ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Martial Strike": {
+    "name": "Martial Strike",
+    "nameJa": "てっついうち",
+    "descriptionJa": "使用者のSPATK+1"
+  },
+  "Matter Teleport": {
+    "name": "Matter Teleport",
+    "nameJa": "マテリアテレポート",
+    "descriptionJa": "通常攻撃"
+  },
+  "Mechanical Heat": {
+    "name": "Mechanical Heat",
+    "nameJa": "メカニカルヒート",
+    "descriptionJa": "通常攻撃"
+  },
+  "Meditation": {
+    "name": "Meditation",
+    "nameJa": "ヨガ",
+    "descriptionJa": "対象にげんき3を付与"
+  },
+  "Melee Stream": {
+    "name": "Melee Stream",
+    "nameJa": "メレーストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Melee Torrent": {
+    "name": "Melee Torrent",
+    "nameJa": "メレーフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Mental Stream": {
+    "name": "Mental Stream",
+    "nameJa": "メンタルストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Mental Torrent": {
+    "name": "Mental Torrent",
+    "nameJa": "メンタルフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Mineral Hail": {
+    "name": "Mineral Hail",
+    "nameJa": "クリスタルヘイル",
+    "descriptionJa": "通常攻撃"
+  },
+  "Mirror Shell": {
+    "name": "Mirror Shell",
+    "nameJa": "ミラーシェル",
+    "descriptionJa": "対象のSPDEF+4"
+  },
+  "Mud Shower": {
+    "name": "Mud Shower",
+    "nameJa": "どろ浴びせ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Multiple Pecks": {
+    "name": "Multiple Pecks",
+    "nameJa": "連続ついばみ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Narcoleptic Hit": {
+    "name": "Narcoleptic Hit",
+    "nameJa": "おやすみアタック",
+    "descriptionJa": "使用者にねむり2を付与"
+  },
+  "Nature Stream": {
+    "name": "Nature Stream",
+    "nameJa": "ネイチャーストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Nature Torrent": {
+    "name": "Nature Torrent",
+    "nameJa": "ネイチャーフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Neutral Stream": {
+    "name": "Neutral Stream",
+    "nameJa": "ニュートラルストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Neutral Torrent": {
+    "name": "Neutral Torrent",
+    "nameJa": "ニュートラルフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Nibble": {
+    "name": "Nibble",
+    "nameJa": "あまがみ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Nicho Sai": {
+    "name": "Nicho Sai",
+    "nameJa": "二丁サイ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Nightmare Feed": {
+    "name": "Nightmare Feed",
+    "nameJa": "悪夢食らい",
+    "descriptionJa": "ねむり状態の対象のHPを30%減らし使用者のHPが30%回復する"
+  },
+  "Nimble": {
+    "name": "Nimble",
+    "nameJa": "いだてん",
+    "descriptionJa": "対象のSPD+1"
+  },
+  "Ninja Jutsu": {
+    "name": "Ninja Jutsu",
+    "nameJa": "縮地の術",
+    "descriptionJa": "通常攻撃"
+  },
+  "Nito Seiho": {
+    "name": "Nito Seiho",
+    "nameJa": "二刀勢法",
+    "descriptionJa": "対象のDEF-1"
+  },
+  "Noxious Bomb": {
+    "name": "Noxious Bomb",
+    "nameJa": "どくどくボム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Oshi-Dashi": {
+    "name": "Oshi-Dashi",
+    "nameJa": "おしだし",
+    "descriptionJa": "通常攻撃"
+  },
+  "Outgrowth": {
+    "name": "Outgrowth",
+    "nameJa": "オーバーグロウ",
+    "descriptionJa": "対象のSTAを20%減らしとらわれ2を付与"
+  },
+  "Overclock": {
+    "name": "Overclock",
+    "nameJa": "オーバークロック",
+    "descriptionJa": "対象のSPD+2"
+  },
+  "Peck": { "name": "Peck", "nameJa": "ついばみ", "descriptionJa": "通常攻撃" },
+  "Penance": {
+    "name": "Penance",
+    "nameJa": "捨身の行",
+    "descriptionJa": "使用者のHPが20%減り対象のATK+4, SPATK+4"
+  },
+  "Perfect Jab": {
+    "name": "Perfect Jab",
+    "nameJa": "追いづき",
+    "descriptionJa": "対象のDEF-2, SPDEF-2"
+  },
+  "Petrify": {
+    "name": "Petrify",
+    "nameJa": "石になれ",
+    "descriptionJa": "対象にとらわれ3を付与"
+  },
+  "Photosynthesis": {
+    "name": "Photosynthesis",
+    "nameJa": "光合成",
+    "descriptionJa": "対象のSTAを50%回復"
+  },
+  "Pickpocket": {
+    "name": "Pickpocket",
+    "nameJa": "ピックポケット",
+    "descriptionJa": "対象にさしおさえ2を付与"
+  },
+  "Piercing Wheel": {
+    "name": "Piercing Wheel",
+    "nameJa": "大車輪",
+    "descriptionJa": "対象のDEF-2, 使用者にげんき2を付与"
+  },
+  "Plague": {
+    "name": "Plague",
+    "nameJa": "病原体",
+    "descriptionJa": "対象にひろう1を付与"
+  },
+  "Plasma Beam": {
+    "name": "Plasma Beam",
+    "nameJa": "プラズマビーム",
+    "descriptionJa": "対象にやけど1を付与"
+  },
+  "Pollution": {
+    "name": "Pollution",
+    "nameJa": "おせんガス",
+    "descriptionJa": "対象のSTAを25%減らしどく2を付与"
+  },
+  "Psy Surge": {
+    "name": "Psy Surge",
+    "nameJa": "サイコサージ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Psy Wave": {
+    "name": "Psy Wave",
+    "nameJa": "サイコウェーブ",
+    "descriptionJa": "対象のSPDEF-2"
+  },
+  "Psychosis": {
+    "name": "Psychosis",
+    "nameJa": "さくらん念波",
+    "descriptionJa": "対象にはめつ4を付与"
+  },
+  "Purgation": {
+    "name": "Purgation",
+    "nameJa": "お清め",
+    "descriptionJa": "対象のはめつを取り除きATK+2"
+  },
+  "Quartz Shield": {
+    "name": "Quartz Shield",
+    "nameJa": "クォーツシールド",
+    "descriptionJa": "対象のDEF+2, SPDEF+2"
+  },
+  "Rage": {
+    "name": "Rage",
+    "nameJa": "きょうぼう化",
+    "descriptionJa": "対象のATK+4, DEF-3"
+  },
+  "Rainbow Guard": {
+    "name": "Rainbow Guard",
+    "nameJa": "レインボーガード",
+    "descriptionJa": "対象にかいひ1とむこう3を付与"
+  },
+  "Refresh": {
+    "name": "Refresh",
+    "nameJa": "リフレッシュ",
+    "descriptionJa": "対象のHPを6%回復しSPATK+2"
+  },
+  "Relax": {
+    "name": "Relax",
+    "nameJa": "リラックス",
+    "descriptionJa": "対象にねむり2を付与"
+  },
+  "Rend": {
+    "name": "Rend",
+    "nameJa": "つんざく",
+    "descriptionJa": "対象にちゅうわ4を付与"
+  },
+  "Reset": {
+    "name": "Reset",
+    "nameJa": "リセット",
+    "descriptionJa": "対象の能力変化及び状態変化をすべて取り除く"
+  },
+  "Resin Trap": {
+    "name": "Resin Trap",
+    "nameJa": "じゅし固め",
+    "descriptionJa": "対象にとらわれ2を付与"
+  },
+  "Roar": {
+    "name": "Roar",
+    "nameJa": "ほうこう",
+    "descriptionJa": "対象のATK-1, SPATK-1"
+  },
+  "Roots": {
+    "name": "Roots",
+    "nameJa": "ツタしばり",
+    "descriptionJa": "対象のSPD-1"
+  },
+  "Rush": {
+    "name": "Rush",
+    "nameJa": "しっぷうじんらい",
+    "descriptionJa": "対象のHPを40減らす。使用者は次ターン行動不能"
+  },
+  "Sacrifice": {
+    "name": "Sacrifice",
+    "nameJa": "サクリファイス",
+    "descriptionJa": "使用者は倒れる。対象のDEF+3, SPDEF+3"
+  },
+  "Sand Splatter": {
+    "name": "Sand Splatter",
+    "nameJa": "砂かけ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Sand Storm": {
+    "name": "Sand Storm",
+    "nameJa": "砂あらし",
+    "descriptionJa": "通常攻撃"
+  },
+  "Savage Suplex": {
+    "name": "Savage Suplex",
+    "nameJa": "ワイルドスープレックス",
+    "descriptionJa": "対象にひろう2を付与"
+  },
+  "Scratch": {
+    "name": "Scratch",
+    "nameJa": "ひっかき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Serbatiyo's Wrath": {
+    "name": "Serbatiyo's Wrath",
+    "nameJa": "セルバティオのいかり",
+    "descriptionJa": "使用者のSPATK+2"
+  },
+  "Sharp Leaf": {
+    "name": "Sharp Leaf",
+    "nameJa": "シャープリーフ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Sharp Rain": {
+    "name": "Sharp Rain",
+    "nameJa": "アイシクルレイン",
+    "descriptionJa": "通常攻撃"
+  },
+  "Sharp Stabs": {
+    "name": "Sharp Stabs",
+    "nameJa": "シャープスピア",
+    "descriptionJa": "通常攻撃"
+  },
+  "Sharpening": {
+    "name": "Sharpening",
+    "nameJa": "みがき上げる",
+    "descriptionJa": "対象のATK+2, SPD+1"
+  },
+  "Shelter": {
+    "name": "Shelter",
+    "nameJa": "シェルター",
+    "descriptionJa": "対象のDEF+4, SPDEF+4, 使用者は次ターン行動不能"
+  },
+  "Shrill Voice": {
+    "name": "Shrill Voice",
+    "nameJa": "金切り声",
+    "descriptionJa": "通常攻撃"
+  },
+  "Shy Shield": {
+    "name": "Shy Shield",
+    "nameJa": "シャイシールド",
+    "descriptionJa": "対象のDEF+1"
+  },
+  "Slime": {
+    "name": "Slime",
+    "nameJa": "ねばねば",
+    "descriptionJa": "対象のSPD-1, とらわれ2を付与"
+  },
+  "Sludge Gift": {
+    "name": "Sludge Gift",
+    "nameJa": "どろおくり",
+    "descriptionJa": "通常攻撃"
+  },
+  "Smoldering Kiss": {
+    "name": "Smoldering Kiss",
+    "nameJa": "情熱のキス",
+    "descriptionJa": "使用者にげんき2を付与"
+  },
+  "Soil Steam": {
+    "name": "Soil Steam",
+    "nameJa": "ソイルスチーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Soul Shout": {
+    "name": "Soul Shout",
+    "nameJa": "たましいのさけび",
+    "descriptionJa": "通常攻撃"
+  },
+  "Sparks": {
+    "name": "Sparks",
+    "nameJa": "スパーク",
+    "descriptionJa": "対象にSPATK+1, げんき1を付与"
+  },
+  "Spores": {
+    "name": "Spores",
+    "nameJa": "ほうし",
+    "descriptionJa": "通常攻撃"
+  },
+  "Stare": {
+    "name": "Stare",
+    "nameJa": "にらみつけ",
+    "descriptionJa": "対象のDEF-2, 使用者にけいかい2を付与"
+  },
+  "Sting": {
+    "name": "Sting",
+    "nameJa": "毒針",
+    "descriptionJa": "対象にどく2を付与"
+  },
+  "Stone Trench": {
+    "name": "Stone Trench",
+    "nameJa": "ざんごう戦",
+    "descriptionJa": "使用者にかいひ1を付与"
+  },
+  "Stone Wall": {
+    "name": "Stone Wall",
+    "nameJa": "ストーンウォール",
+    "descriptionJa": "対象のDEF+3, SPDEF+1"
+  },
+  "Strangle": {
+    "name": "Strangle",
+    "nameJa": "しめつけ",
+    "descriptionJa": "使用者と対象は次のターン行動不能"
+  },
+  "Tail Strike": {
+    "name": "Tail Strike",
+    "nameJa": "しっぽ打ち",
+    "descriptionJa": "通常攻撃"
+  },
+  "Telekinetic Shrapnel": {
+    "name": "Telekinetic Shrapnel",
+    "nameJa": "テレキネシス",
+    "descriptionJa": "通常攻撃"
+  },
+  "Tenderness": {
+    "name": "Tenderness",
+    "nameJa": "あいきょう",
+    "descriptionJa": "対象のATK-2"
+  },
+  "Tentacle Whip": {
+    "name": "Tentacle Whip",
+    "nameJa": "テンタクルウィップ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Tesla Prison": {
+    "name": "Tesla Prison",
+    "nameJa": "テスラプリズン",
+    "descriptionJa": "対象のSPD-1"
+  },
+  "Thunder Strike": {
+    "name": "Thunder Strike",
+    "nameJa": "らいげき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Time Split": {
+    "name": "Time Split",
+    "nameJa": "タイムスプリット",
+    "descriptionJa": "対象のSPD-2, 使用者のSPD+2"
+  },
+  "Token": {
+    "name": "Token",
+    "nameJa": "トークン",
+    "descriptionJa": "通常攻撃"
+  },
+  "Tornado": {
+    "name": "Tornado",
+    "nameJa": "トルネード",
+    "descriptionJa": "通常攻撃"
+  },
+  "Toughen": {
+    "name": "Toughen",
+    "nameJa": "タフネス",
+    "descriptionJa": "対象のDEF+4"
+  },
+  "Toxic Fang": {
+    "name": "Toxic Fang",
+    "nameJa": "毒のキバ",
+    "descriptionJa": "対象にどく1を付与"
+  },
+  "Toxic Gas": {
+    "name": "Toxic Gas",
+    "nameJa": "毒ガス",
+    "descriptionJa": "通常攻撃"
+  },
+  "Toxic Ink": {
+    "name": "Toxic Ink",
+    "nameJa": "毒スミ飛ばし",
+    "descriptionJa": "対象にどく2を付与"
+  },
+  "Toxic Slime": {
+    "name": "Toxic Slime",
+    "nameJa": "どくどくヘドロ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Toxic Spores": {
+    "name": "Toxic Spores",
+    "nameJa": "毒ほうし",
+    "descriptionJa": "対象にどく3を付与"
+  },
+  "Toxic Stream": {
+    "name": "Toxic Stream",
+    "nameJa": "トキシックストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Toxic Torrent": {
+    "name": "Toxic Torrent",
+    "nameJa": "トキシックフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Toxin Shower": {
+    "name": "Toxin Shower",
+    "nameJa": "ポイズンシャワー",
+    "descriptionJa": "使用者にかいひ2を付与"
+  },
+  "Transient Echo": {
+    "name": "Transient Echo",
+    "nameJa": "トランジエントエコー",
+    "descriptionJa": "使用者の技のholdを1減らす"
+  },
+  "Turbine": {
+    "name": "Turbine",
+    "nameJa": "せんぷうげき",
+    "descriptionJa": "通常攻撃"
+  },
+  "Turbo Attack": {
+    "name": "Turbo Attack",
+    "nameJa": "ターボアタック",
+    "descriptionJa": "通常攻撃"
+  },
+  "Turbo Charge": {
+    "name": "Turbo Charge",
+    "nameJa": "ターボチャージ",
+    "descriptionJa": "対象の技のHoldを1減らす"
+  },
+  "Ultrasound": {
+    "name": "Ultrasound",
+    "nameJa": "ちょうおんぱ",
+    "descriptionJa": "対象にひろう2を付与"
+  },
+  "Undermine": {
+    "name": "Undermine",
+    "nameJa": "じらい",
+    "descriptionJa": "対象のSPATK-1"
+  },
+  "Unseen Blow": {
+    "name": "Unseen Blow",
+    "nameJa": "インビジストライク",
+    "descriptionJa": "通常攻撃"
+  },
+  "Untangle": {
+    "name": "Untangle",
+    "nameJa": "ときほぐす",
+    "descriptionJa": "対象のとらわれを回復。その後対象のDEF+1, SPDEF+1"
+  },
+  "Uppercut": {
+    "name": "Uppercut",
+    "nameJa": "アッパー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Venom Spread": {
+    "name": "Venom Spread",
+    "nameJa": "ベノムスプレッド",
+    "descriptionJa": "対象がどく状態でなければ失敗"
+  },
+  "Venomous Claws": {
+    "name": "Venomous Claws",
+    "nameJa": "毒ヅメ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Voltopuncture": {
+    "name": "Voltopuncture",
+    "nameJa": "ボルトパンク",
+    "descriptionJa": "対象にさしおさえ1を付与"
+  },
+  "Wake Up": {
+    "name": "Wake Up",
+    "nameJa": "たたき起こす",
+    "descriptionJa": "通常攻撃"
+  },
+  "Warm Cuddle": {
+    "name": "Warm Cuddle",
+    "nameJa": "あったかハグ",
+    "descriptionJa": "通常攻撃"
+  },
+  "Wastewater": {
+    "name": "Wastewater",
+    "nameJa": "くさり水",
+    "descriptionJa": "対象にどく1を付与"
+  },
+  "Water Blade": {
+    "name": "Water Blade",
+    "nameJa": "ウォーターブレード",
+    "descriptionJa": "通常攻撃"
+  },
+  "Water Stream": {
+    "name": "Water Stream",
+    "nameJa": "ウォーターストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Water Torrent": {
+    "name": "Water Torrent",
+    "nameJa": "ウォーターフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Waterjet": {
+    "name": "Waterjet",
+    "nameJa": "ウォータージェット",
+    "descriptionJa": "対象にこごえ2を付与"
+  },
+  "Willpower Drain": {
+    "name": "Willpower Drain",
+    "nameJa": "戦意吸収",
+    "descriptionJa": "対象のSTAを25減らす"
+  },
+  "Wind Blade": {
+    "name": "Wind Blade",
+    "nameJa": "ウィンドブレード",
+    "descriptionJa": "通常攻撃"
+  },
+  "Wind Burst": {
+    "name": "Wind Burst",
+    "nameJa": "ウィンドバースト",
+    "descriptionJa": "通常攻撃"
+  },
+  "Wind Stream": {
+    "name": "Wind Stream",
+    "nameJa": "ウィンドストリーム",
+    "descriptionJa": "通常攻撃"
+  },
+  "Wind Torrent": {
+    "name": "Wind Torrent",
+    "nameJa": "ウィンドフロー",
+    "descriptionJa": "通常攻撃"
+  },
+  "Winter Call": {
+    "name": "Winter Call",
+    "nameJa": "冬の呼び声",
+    "descriptionJa": "対象にこおりつき2を付与"
+  },
+  "Zen Meditation": {
+    "name": "Zen Meditation",
+    "nameJa": "ざぜん",
+    "descriptionJa": "対象のATK+2, SPATK+2"
+  },
+  "Aqua Stone": {
+    "name": "Aqua Stone",
+    "nameJa": "アクアストーン",
+    "descriptionJa": "通常攻撃"
+  },
+  "Awful Song": {
+    "name": "Awful Song",
+    "nameJa": "ヒドい歌",
+    "descriptionJa": "対象にこりつ3を付与。シナジー時対象範囲が変化"
+  },
+  "Blackhole": {
+    "name": "Blackhole",
+    "nameJa": "ブラックホール",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象のステータス変化をリセットする"
+  },
+  "Bright Beam": {
+    "name": "Bright Beam",
+    "nameJa": "まばゆい光",
+    "descriptionJa": "使用者にけいかい2とかいひ2を付与。シナジー時ダメージ増加"
+  },
+  "Bush": {
+    "name": "Bush",
+    "nameJa": "カバー",
+    "descriptionJa": "対象にさいせい1とかいひ1を付与。シナジー時対象のSPDEF+3"
+  },
+  "Cozy Net": {
+    "name": "Cozy Net",
+    "nameJa": "快適ネット",
+    "descriptionJa": "対象にねむり2ととらわれ3を付与。シナジー時使用者にさいせい3を付与"
+  },
+  "Crystal Deluge": {
+    "name": "Crystal Deluge",
+    "nameJa": "クリスタルドロップ",
+    "descriptionJa": "対象にこりつ3を付与。シナジー時Priorityが変化し対象に追加でねむり2を付与"
+  },
+  "Crystal Dust": {
+    "name": "Crystal Dust",
+    "nameJa": "クリスタルダスト",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化"
+  },
+  "Debris Typhoon": {
+    "name": "Debris Typhoon",
+    "nameJa": "デブリタイフーン",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
+  },
+  "Digithreat": {
+    "name": "Digithreat",
+    "nameJa": "デジスリート",
+    "descriptionJa": "通常攻撃。シナジー時対象にはめつ3を付与"
+  },
+  "Double Edge": {
+    "name": "Double Edge",
+    "nameJa": "もろはのやいば",
+    "descriptionJa": "対象のDEF+1, SPDEF+1。シナジー時ダメージが変化"
+  },
+  "Earthbreaker": {
+    "name": "Earthbreaker",
+    "nameJa": "地割り",
+    "descriptionJa": "通常攻撃。シナジー時攻撃がでんきタイプに変化し対象にさしおさえ2を付与"
+  },
+  "Electropunch": {
+    "name": "Electropunch",
+    "nameJa": "でんげきパンチ",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化"
+  },
+  "Energy Manipulation": {
+    "name": "Energy Manipulation",
+    "nameJa": "エナジー操作",
+    "descriptionJa": "対象にひろう1を付与。シナジー時ダメージが変化しひろう1の代わりにひろう2を付与"
+  },
+  "Faraday Cage": {
+    "name": "Faraday Cage",
+    "nameJa": "ファラデーケージ",
+    "descriptionJa": "対象にこりつ3を付与。シナジー時ダメージが変化し対象に追加でどく2を付与"
+  },
+  "Fiery Heist": {
+    "name": "Fiery Heist",
+    "nameJa": "ファイアジャック",
+    "descriptionJa": "対象にさしおさえ2とやけど2を付与。シナジー時その代わりにさしおさえ4とやけど4を付与"
+  },
+  "Flood": {
+    "name": "Flood",
+    "nameJa": "水びたし",
+    "descriptionJa": "対象のSPD-2。シナジー時その代わりに対象のSPD-3"
+  },
+  "Generify": {
+    "name": "Generify",
+    "nameJa": "ジェネリクス",
+    "descriptionJa": "対象にちゅうわ2を付与。シナジー時追加で対象にかいひ2を付与"
+  },
+  "Gust": {
+    "name": "Gust",
+    "nameJa": "風巻き",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化し対象にとらわれ2を付与"
+  },
+  "Hallucination": {
+    "name": "Hallucination",
+    "nameJa": "げんかく",
+    "descriptionJa": "対象にひろう2ととらわれ2を付与。シナジー時通常効果に追加でダメージ100の技になる"
+  },
+  "Harmful Microwaves": {
+    "name": "Harmful Microwaves",
+    "nameJa": "マイクロウェーブ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化し対象にとらわれ2を付与"
+  },
+  "Hasty Lunge": {
+    "name": "Hasty Lunge",
+    "nameJa": "ちょとつもうしん",
+    "descriptionJa": "使用者は次ターン行動不能。シナジー時通常効果が消える"
+  },
+  "Hellfire": {
+    "name": "Hellfire",
+    "nameJa": "ヘルファイア",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象にやけど2を付与"
+  },
+  "High-pressure Water": {
+    "name": "High-pressure Water",
+    "nameJa": "高圧放水",
+    "descriptionJa": "通常攻撃。シナジー時対象にやけど3を付与"
+  },
+  "Hurricane": {
+    "name": "Hurricane",
+    "nameJa": "ハリケーン",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し使用者のSPD+1"
+  },
+  "Ice Cubes": {
+    "name": "Ice Cubes",
+    "nameJa": "アイスキューブ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
+  },
+  "Laundry": {
+    "name": "Laundry",
+    "nameJa": "せんたく",
+    "descriptionJa": "対象の状態変化をすべて取り除く。シナジー時Priorityが変化し使用者のHPが10%回復する"
+  },
+  "Lava Wave": {
+    "name": "Lava Wave",
+    "nameJa": "マグマウェーブ",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象にさしおさえ3を付与"
+  },
+  "Leech": {
+    "name": "Leech",
+    "nameJa": "吸血",
+    "descriptionJa": "対象のHPを25%減らし使用者のHPを25%回復する。相手のねむりを解除しない。シナジー時PriorityとSTAコストが変化する"
+  },
+  "Metabolize": {
+    "name": "Metabolize",
+    "nameJa": "デトックス",
+    "descriptionJa": "対象のどくを回復しHPを20%回復しさいせい1を付与する。シナジー時使用者にさいせい2を付与する"
+  },
+  "Meteor Swarm": {
+    "name": "Meteor Swarm",
+    "nameJa": "メテオスウォーム",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にやけど2を付与"
+  },
+  "Misogi": {
+    "name": "Misogi",
+    "nameJa": "みそぎ",
+    "descriptionJa": "対象のステータス変化と状態変化をすべて取り除く。シナジー時対象にむこう3とさいせい2を付与する"
+  },
+  "Nagaise's Fury": {
+    "name": "Nagaise's Fury",
+    "nameJa": "ナーガイズのいかり",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化する"
+  },
+  "Novice Punch": {
+    "name": "Novice Punch",
+    "nameJa": "ひよっこパンチ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージと技のタイプが変化する"
+  },
+  "Paralyzing Poison": {
+    "name": "Paralyzing Poison",
+    "nameJa": "マヒ毒",
+    "descriptionJa": "対象にどく4ととらわれ2を付与する。シナジー時どく4の代わりにどく6を付与する"
+  },
+  "Piezoelectric Blow": {
+    "name": "Piezoelectric Blow",
+    "nameJa": "ピエゾブロー",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にさしおさえ2を付与する"
+  },
+  "Psychic Collaborator": {
+    "name": "Psychic Collaborator",
+    "nameJa": "サイキックコラボ",
+    "descriptionJa": "対象にSPATK+2を付与する。シナジー時ダメージが変化し通常効果が消滅する"
+  },
+  "Quartz Dirt": {
+    "name": "Quartz Dirt",
+    "nameJa": "クウォーツダート",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にとらわれ2を付与する"
+  },
+  "Quetza-leno": {
+    "name": "Quetza-leno",
+    "nameJa": "クエツァレーニョ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化する"
+  },
+  "Quicksand": {
+    "name": "Quicksand",
+    "nameJa": "流砂",
+    "descriptionJa": "対象のSPD-2。シナジー時対象が相手チームのみに変化"
+  },
+  "Rampage": {
+    "name": "Rampage",
+    "nameJa": "ランページ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとSTA消費量とPriorityが変化"
+  },
+  "Refreshing Breeze": {
+    "name": "Refreshing Breeze",
+    "nameJa": "心地よい風",
+    "descriptionJa": "対象の状態変化を取り除きSPDEF-1。シナジー時SPDEF-1の代わりにSPDEF+2"
+  },
+  "Restore": {
+    "name": "Restore",
+    "nameJa": "リストア",
+    "descriptionJa": "対象のSTAを40%回復する。シナジー時使用者のSTAを20%回復する"
+  },
+  "Revitalize": {
+    "name": "Revitalize",
+    "nameJa": "手当て",
+    "descriptionJa": "対象のHPを20%回復する。シナジー時STAコストが変化し使用者のHPも10%回復する"
+  },
+  "Rockfall": {
+    "name": "Rockfall",
+    "nameJa": "岩落とし",
+    "descriptionJa": "通常攻撃。シナジー時対象にやけど2を付与"
+  },
+  "Rotten Goo": {
+    "name": "Rotten Goo",
+    "nameJa": "くさったスライム",
+    "descriptionJa": "対象にとらわれ2を付与。シナジー時Priorityが変化"
+  },
+  "Sanative Rain": {
+    "name": "Sanative Rain",
+    "nameJa": "回復の雨",
+    "descriptionJa": "対象のHPを15%回復。シナジー時、自分のテムの回復量が20%に、相手のテムの回復量が10%に変化"
+  },
+  "Seismunch's Wreck": {
+    "name": "Seismunch's Wreck",
+    "nameJa": "シーズマンチの本気",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化"
+  },
+  "Show Off": {
+    "name": "Show Off",
+    "nameJa": "見せつけ",
+    "descriptionJa": "対象のATK+2。シナジー時対象にげんき3を付与"
+  },
+  "Slow Down": {
+    "name": "Slow Down",
+    "nameJa": "スローダウン",
+    "descriptionJa": "対象のSPD-1。シナジー時対象にねむり2を付与"
+  },
+  "Sparkling Bullet": {
+    "name": "Sparkling Bullet",
+    "nameJa": "スパークバレット",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
+  },
+  "Stampede": {
+    "name": "Stampede",
+    "nameJa": "スタンピード",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にとらわれ3を付与"
+  },
+  "Stone Ball": {
+    "name": "Stone Ball",
+    "nameJa": "がれき落とし",
+    "descriptionJa": "通常攻撃。シナジー時対象にやけど2を付与"
+  },
+  "Swarm Aid": {
+    "name": "Swarm Aid",
+    "nameJa": "ミリオンドレイン",
+    "descriptionJa": "対象のHPを10%減らしひろう1を付与。使用者のHPを10%回復。シナジー時Priorityが変化し、HPの減少量および回復量が15%に変化"
+  },
+  "Tortenite's Garden": {
+    "name": "Tortenite's Garden",
+    "nameJa": "トルテナイトの庭",
+    "descriptionJa": "対象にはめつ4を付与し使用者のHPを10%回復する。シナジー時、代わりに対象にはめつ3を付与し使用者のHPを20%回復する"
+  },
+  "Toxic Plume": {
+    "name": "Toxic Plume",
+    "nameJa": "毒まき",
+    "descriptionJa": "対象にどく1を付与する。シナジー時STAコストが変化し対象のATK-2"
+  },
+  "Tsunami": {
+    "name": "Tsunami",
+    "nameJa": "大波",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にこごえ1を付与"
+  },
+  "Turbo Choreography": {
+    "name": "Turbo Choreography",
+    "nameJa": "アクセルダンス",
+    "descriptionJa": "対象のSPD+2。シナジー時、代わりにSPD+3"
+  },
+  "Urushiol": {
+    "name": "Urushiol",
+    "nameJa": "ウルシオール",
+    "descriptionJa": "通常攻撃。シナジー時対象にどく4を付与"
+  },
+  "Virulent Gust": {
+    "name": "Virulent Gust",
+    "nameJa": "病み風",
+    "descriptionJa": "通常攻撃。シナジー時対象が変化"
+  },
+  "Water Cannon": {
+    "name": "Water Cannon",
+    "nameJa": "ウォーターカノン",
+    "descriptionJa": "通常攻撃。シナジー時対象にどく2を付与"
+  },
+  "Water Cutting Lily": {
+    "name": "Water Cutting Lily",
+    "nameJa": "水切りスイレン",
+    "descriptionJa": "通常攻撃。シナジー時Priorityとダメージが変化"
+  },
+  "Wrenching Massage": {
+    "name": "Wrenching Massage",
+    "nameJa": "激痛マッサージ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にひろう2を付与。"
+  }
+}

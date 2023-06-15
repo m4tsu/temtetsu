@@ -1,6 +1,9 @@
 export type Trait = {
-  key: string
+  /** identifier */
   name: string
-  nameJp: string
-  descriptionJp: string
+  wikiUrl: string
+  description: string
+  effect: string
 }
+
+import {} from '@maael/temtem-types'
