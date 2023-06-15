@@ -14,7 +14,8 @@
     "lint-fix:eslint": "next lint --fix",
     "lint-fix:prettier": "prettier --write src/**/*.{ts,tsx,js,jsx,json,md}",
     "prepare": "husky install",
-    "synchronize-tem-data": "ts-node --project tsconfig.scripts.json ./scripts/synchronize-tem-data.ts"
+    "synchronize-tem-data": "ts-node --project tsconfig.scripts.json ./scripts/synchronize-tem-data.ts",
+    "insert-ja-to-api-data": "ts-node --project tsconfig.scripts.json ./scripts/insert-ja-to-api-data.ts"
   },
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.1",

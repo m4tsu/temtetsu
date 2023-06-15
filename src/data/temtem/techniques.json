@@ -16,7 +16,9 @@
     "description": "By striking the five vital points, the Miyako priests teach advanced tamers how to doom and immunize a target for 5 turns.",
     "effectText": "5PPEH inflicts a single other target with a 5 turn countdown of the Doomed Condition but also gifts them with the Immune Condition for 5 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ごてんしょうばくしん",
+    "descriptionJa": "対象にはめつ5とむこう5を付与"
   },
   {
     "name": "Acid Reflux",
@@ -35,7 +37,9 @@
     "description": "Toxolotl draws from the Toxic essence of Xolot, moderately damaging and Poisoning the whole team for 2 turns.",
     "effectText": "Acid Reflux deals damage to the rival team or the user's ally and inflicts them with the Poisoned Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アシッド・フラッド",
+    "descriptionJa": "対象にどく2を付与"
   },
   {
     "name": "Allergic Spread",
@@ -54,7 +58,9 @@
     "description": "A burst of allergen spores that inflicts damage on the whole team.",
     "effectText": "Allergic Spread deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アレルギー拡散",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Ampere Outburst",
@@ -73,7 +79,9 @@
     "description": "Volgon's Heavenly Might unleashes a wave of power that sweeps the battleground, affecting everyone except the user, overextending them and vigorizing you for 2 turns.",
     "effectText": "Ampere Outburst causes all other combatants on the battlefield to be overexerted the next turn and gifts the user with the Invigorated Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アンペールバースト",
+    "descriptionJa": "対象に次ターン行動不能、自分にげんき2をそれぞれ付与"
   },
   {
     "name": "Antitoxins",
@@ -92,7 +100,9 @@
     "description": "Advanced antitoxins that cure poison on the inoculated target and invigorate them for 2 turns.",
     "effectText": "Antitoxins cures a single team of the Poisoned Condition and gifts them with the Invigorated Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アンチドート",
+    "descriptionJa": "対象のどくを取り除きげんき2を付与"
   },
   {
     "name": "Aqua Bullet Hell",
@@ -111,7 +121,9 @@
     "description": "A devastating Water technique developed by legendary tamer Dan Maku.",
     "effectText": "Aqua Bullet Hell deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アクアマシンガン",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Aqua Stone",
@@ -126,17 +138,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Earth",
     "synergyEffects": [
-      {
-        "damage": 104,
-        "type": "damage",
-        "effect": "+104 Damage"
-      }
+      { "damage": 104, "type": "damage", "effect": "+104 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "\"An ingenious application of hydraulic pressure for ballistic purposes\" - Sophia d'Arissola.",
     "effectText": "Aqua Stone deals damage to a single other target.",
     "synergyText": "If used with an Earth ally, its damage increases to 104.",
-    "effects": []
+    "effects": [],
+    "nameJa": "アクアストーン",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Aquatic Whirlwind",
@@ -155,7 +165,9 @@
     "description": "This Water technique is faster than an angry Kalabyss.",
     "effectText": "Aquatic Whirlwind deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "水乱流",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Autodestruction",
@@ -174,7 +186,9 @@
     "description": "Let's press the big red button with the danger signs! The Digital attacker inflicts massive damage and self-destructs in the process.",
     "effectText": "Autodestruction's damage formula is close, but not exactly equal to, the combination of the damage it would deal based on ATK and the damage it would deal based on DEF. The exact formula is intended to be:",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "じばく",
+    "descriptionJa": "使用者のDEFもダメージ計算に使用。使用者は倒れる。"
   },
   {
     "name": "Awful Song",
@@ -189,17 +203,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Neutral",
     "synergyEffects": [
-      {
-        "damage": 0,
-        "type": "targeting",
-        "effect": "Other Team or Ally"
-      }
+      { "damage": 0, "type": "targeting", "effect": "Other Team or Ally" }
     ],
     "targets": "Single Target",
     "description": "Ninety-nine Temesseeeence viaaaals! This horrible Tucmani drinking song does considerable damage... especially to reputations, inflicting isolation for 3 turns.Used in combination with a Neutral ally, the Awful Song inflicts damage on the whole team.",
     "effectText": "Awful Song deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "synergyText": "If used with a Neutral ally, its targeting changes Other Team or Ally. As such, if the user targets themselves and the synergy activates, only the user's ally will be damaged.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ヒドい歌",
+    "descriptionJa": "対象にこりつ3を付与。シナジー時対象範囲が変化"
   },
   {
     "name": "Bamboozle",
@@ -218,7 +230,9 @@
     "description": "Give'em the old razzle dazzle! The target evades for 2 turns.",
     "effectText": "Bamboozle gifts a single target with the Evading Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "トリック",
+    "descriptionJa": "対象にかいひ1を付与"
   },
   {
     "name": "Bark",
@@ -237,7 +251,9 @@
     "description": "This Tem's bark is much worse than its bite - it gives the enemy DEF and SPDEF .",
     "effectText": "Bark inflicts a single other target with DEF and SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ほえる",
+    "descriptionJa": "対象のDEF-2, SPDEF-2"
   },
   {
     "name": "Bark Shield",
@@ -256,7 +272,9 @@
     "description": "Omninenesian Temtem use pieces of Banyan bark as shields, giving the whole team DEF .",
     "effectText": "Bark Shield gifts a single team with DEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "バークシールド",
+    "descriptionJa": "対象のDEF+3"
   },
   {
     "name": "Base Jump",
@@ -275,7 +293,9 @@
     "description": "It's not the jump that hurts, it's the landing - and it hurts the target A LOT.",
     "effectText": "Base Jump deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ベースジャンプ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Bestial Charge",
@@ -294,7 +314,9 @@
     "description": "A primal charge, like the stampede on the Kisiwa plains! It inflicts damage on the whole team.",
     "effectText": "Bestial Charge deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ビーストチャージ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Beta Burst",
@@ -313,7 +335,9 @@
     "description": "A mighty beta-wave surge that bombards the target with a subatomic barrage.",
     "effectText": "Beta Burst deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ベータバースト",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Binary Flood",
@@ -332,7 +356,9 @@
     "description": "It's either 1 or 0. And it's not 0... This technique inflicts moderate damage on the whole team and seizes for 2 turns.",
     "effectText": "Binary Flood deals damage to the rival team or the user's ally and also inflicts the Seized Condition for 2 turns..",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "バイナリフラッド",
+    "descriptionJa": "対象にさしおさえ2を付与"
   },
   {
     "name": "Blackhole",
@@ -357,7 +383,9 @@
     "description": "Gravity in the Middle Sphere is capricious and mild - but this technique still causes a great deal of damage and wipes all statuses from the target.Used in combination with an Earth ally, Blackhole also wipes all stage changes.",
     "effectText": "Blackhole deals damage to a single target and cures/removes their Status Conditions.",
     "synergyText": "If used with an Earth ally, is priority increases to Normal and it also removes the target's Stat Stage Changes.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ブラックホール",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象のステータス変化をリセットする"
   },
   {
     "name": "Blizzard",
@@ -376,7 +404,9 @@
     "description": "Cold and furious like the mistral winds in the Thalassian Cliffs.",
     "effectText": "Blizzard deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ふぶき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Block",
@@ -395,7 +425,9 @@
     "description": "Thou shall not pass! A Melee technique that confers DEF .",
     "effectText": "Block gifts the user with DEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "仁王立ち",
+    "descriptionJa": "対象のDEF+3"
   },
   {
     "name": "Blue Screen",
@@ -414,7 +446,9 @@
     "description": "Feel that shiver down your spine when you see that screen? It inflicts 2 turns of frozen... and considerable frustration.",
     "effectText": "Blue Screen inflicts a single other target with the Frozen Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ブルースクリーン",
+    "descriptionJa": "対象にこおりつき2を付与"
   },
   {
     "name": "Boomerang",
@@ -433,7 +467,9 @@
     "description": "Originated as an Omninesian technique to reach hanging fruit in the jungle canopy.",
     "effectText": "Boomerang deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ブーメラン",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Brace",
@@ -452,7 +488,9 @@
     "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted; removes it, gives evading for 2 turns and heals 10%.",
     "effectText": "Brace gifts the user with the Evading Condition for 2 turns and restores 10% of their maximum HP if they already have the Alerted Condition. The Alerted Condition is removed after.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "構える",
+    "descriptionJa": "対象にかいひ2を付与しHPを10%回復する。この技はけいかい状態でないと使用不可。使用後けいかい状態は解除される"
   },
   {
     "name": "Bright Beam",
@@ -467,17 +505,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Crystal",
     "synergyEffects": [
-      {
-        "damage": 45,
-        "type": "damage",
-        "effect": "+45 Damage"
-      }
+      { "damage": 45, "type": "damage", "effect": "+45 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.",
     "effectText": "Bright Beam deals damage to the rival team or the user's ally and gifts the user with the Alerted Condition and Evading Condition for 2 turns.",
     "synergyText": "If used with a Crystal ally, its damage increases to 45.",
-    "effects": []
+    "effects": [],
+    "nameJa": "まばゆい光",
+    "descriptionJa": "使用者にけいかい2とかいひ2を付与。シナジー時ダメージ増加"
   },
   {
     "name": "Bubbles",
@@ -496,7 +532,9 @@
     "description": "Bubbles! <3 This weakens the target by means of extreme cuteness.",
     "effectText": "Bubbles deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "あわあわ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Burrow",
@@ -515,7 +553,9 @@
     "description": "\"In a hole in the ground there lived a Temtem...\" which allowed it to evade for 4 turns.",
     "effectText": "Burrow gifts the user with the Evading Condition for 4 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "巣穴",
+    "descriptionJa": "対象にかいひ4を付与"
   },
   {
     "name": "Bush",
@@ -529,18 +569,14 @@
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Earth",
-    "synergyEffects": [
-      {
-        "effect": "SPDEF",
-        "type": "unknown",
-        "damage": 0
-      }
-    ],
+    "synergyEffects": [{ "effect": "SPDEF", "type": "unknown", "damage": 0 }],
     "targets": "Self",
     "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate and evade for 1 turn.No more beating around the bush! Used in combination with a Earth ally, this technique gives SPDEF .",
     "effectText": "Bush gifts the user with the Regenerated Condition and Evading Condition for 1 turn.",
     "synergyText": "If used with an Earth ally, it also gifts the user with SPDEF .",
-    "effects": []
+    "effects": [],
+    "nameJa": "カバー",
+    "descriptionJa": "対象にさいせい1とかいひ1を付与。シナジー時対象のSPDEF+3"
   },
   {
     "name": "Cage",
@@ -559,7 +595,9 @@
     "description": "In you go, Nick! Everyone on the battlefield gets Trapped for 2 turns.",
     "effectText": "Cage inflicts all combatants on the battlefield with the Trapped Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "鳥カゴ",
+    "descriptionJa": "対象にとらわれ2を付与"
   },
   {
     "name": "Chain Heal",
@@ -578,7 +616,9 @@
     "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 15% health.",
     "effectText": "Chain Heal restores 15% of a single target's and two other combatant's maximum HP in clockwise order from the initial target. When only two combatants are on the battlefield, the initial target will restore 40% while the remaining target will restore 15%.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "チェーンヒール",
+    "descriptionJa": "対象と、対象から時計回り右隣、さらにその右隣りのHPをそれぞれ15%回復する"
   },
   {
     "name": "Chain Lightning",
@@ -597,7 +637,9 @@
     "description": "This miracle of Electric manipulation bounces 3 times clockwise for as long as it deals damage, dealing decreasing damage with each hit.",
     "effectText": "Chain Lightning deals damage to a single target then two other combatants in clockwise order from the initial target. The initial target takes 100% of the damage, the second takes 70%, and the third takes 60%. The chain of damage will fail to continue to the next target if the damage was blocked by the current target. Damage can be blocked if the target who would have taken damage has the Evading Condition, has the Electric Synthesize Trait, or, if the target is an ally, has the Friendship Trait.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "チェーンライトニング",
+    "descriptionJa": "対象と、対象から時計回り右隣、さらにその右隣りにそれぞれダメージ。ダメージは100%->70%->60%と減衰する"
   },
   {
     "name": "Chains Hit",
@@ -616,7 +658,9 @@
     "description": "A fire technique that whips the opponent with heavy chains and them for 2 turns.",
     "effectText": "Chains Hit deals damage to a single other target and inflicts them with the Trapped Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "チェーンヒット",
+    "descriptionJa": "対処にとらわれ2を付与"
   },
   {
     "name": "Charcoal Wall",
@@ -635,7 +679,9 @@
     "description": "The blackest of barriers, blunts even the fiercest of attacks. It increases the user's SPDEF .",
     "effectText": "Charcoal Wall gifts the user with SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "チャコールウォール",
+    "descriptionJa": "対象のSPDEF+4"
   },
   {
     "name": "Charge",
@@ -654,7 +700,9 @@
     "description": "There's a time for cunning strategy, and there's a time for charging head-on. This one is for the latter case.",
     "effectText": "Charge deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "とつげき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Charged Iron Filings",
@@ -673,7 +721,9 @@
     "description": "Do NOT let your 'Tem eat these. This technique inflicts moderate damage on the whole team and nullifies it for 2 turns.",
     "effectText": "Charged Iron Filings deals damage to the rival team or the user's ally and gives them the Nullified Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "帯電鉄粉",
+    "descriptionJa": "対象にちゅうわ2を付与"
   },
   {
     "name": "Cheer Up",
@@ -692,7 +742,9 @@
     "description": "Lifts the spirits of the target and gives -1 Hold.",
     "effectText": "Cheer Up decreases the Hold of all the techniques of a single target by 1.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "おうえん",
+    "descriptionJa": "対象が持つ技のHoldを1進める"
   },
   {
     "name": "Clay Ball",
@@ -711,7 +763,9 @@
     "description": "Mudslinging to see what sticks? It won't do much damage, but it slows them down... Inflicts moderate damage and SPD",
     "effectText": "Clay Ball deals damage to a single other target and inflicts them with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "どろ団子",
+    "descriptionJa": "対象のSPD-1"
   },
   {
     "name": "Clinch",
@@ -730,7 +784,9 @@
     "description": "Give me a hug, bro! Ouch... but... not... like... thaaat...",
     "effectText": "Clinch deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリンチ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Cold Breeze",
@@ -749,7 +805,9 @@
     "description": "A shivery draft that deals light damage and chills the target with Cold for 1 turn.",
     "effectText": "Cold Breeze deals damage to a single other target and inflicts them with the Cold Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "つめたい風",
+    "descriptionJa": "対象にこごえ1を付与"
   },
   {
     "name": "Cold Geyser",
@@ -768,7 +826,9 @@
     "description": "A icy stream from the depths, this soaker inflicts moderate Water damage and leaves you cold for 2 turns.",
     "effectText": "Cold Geyser deals damage to a single target and inflicts them with the Cold Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "コールドガイザー",
+    "descriptionJa": "対象にこごえ2を付与"
   },
   {
     "name": "Confiscate",
@@ -787,7 +847,9 @@
     "description": "Gimme all your stuff! The target is Seized for 3 turns.",
     "effectText": "Confiscate inflicts a single other target with the Seized Condition for 3 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "めしあげ",
+    "descriptionJa": "対象にさしおさえ3を付与"
   },
   {
     "name": "Cooperation",
@@ -806,7 +868,9 @@
     "description": "Team equality! This equalizes all team members' STA with the team average and the whole team recovers 10% HP.",
     "effectText": "Cooperation takes a single team's current total STA, then evenly splits it between the team's combatants and heals 10% of their maximum HP.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "協力",
+    "descriptionJa": "対象のSTAを平均化し、HPを10%回復"
   },
   {
     "name": "Cozy Net",
@@ -831,7 +895,9 @@
     "description": "Arachnyte are adept weavers, and their webs look so temptingly soft... This technique traps a target for 3 turns and makes it fall asleep for 2 turns.Used in combination with a Nature ally, Cozy Net also regenerates the user for 3 turns.",
     "effectText": "Cozy Net inflicts a single other target with the Asleep Condition for 2 turns and the Trapped Condition for 3 turns.",
     "synergyText": "If used with a Nature ally, it also gifts the user with the Regenerated Condition for 3 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "快適ネット",
+    "descriptionJa": "対象にねむり2ととらわれ3を付与。シナジー時使用者にさいせい3を付与"
   },
   {
     "name": "Crystal Bite",
@@ -850,7 +916,9 @@
     "description": "What do Crystal Temtem eat? Surely not other Temtem... but they can still take a vicious bite.",
     "effectText": "Crystal Bite deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタルバイト",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Crystal Deluge",
@@ -865,17 +933,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Mental",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Asleep",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "2 Turns  Asleep", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Target",
     "description": "It's raining 'Tems, hallelujah! This special Crystal technique inflicts moderate damage and isolates it for 3 turns.Used in combination with a Mental ally, Crystal Deluge makes you asleep for 2 turns and increases priority.",
     "effectText": "Crystal Deluge deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "synergyText": "If used with a Mental ally, its priority increases to High and also inflicts the Asleep Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタルドロップ",
+    "descriptionJa": "対象にこりつ3を付与。シナジー時Priorityが変化し対象に追加でねむり2を付与"
   },
   {
     "name": "Crystal Dust",
@@ -890,17 +956,15 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Wind",
     "synergyEffects": [
-      {
-        "damage": 80,
-        "type": "damage",
-        "effect": "+80 Damage"
-      }
+      { "damage": 80, "type": "damage", "effect": "+80 Damage" }
     ],
     "targets": "Single Target",
     "description": "A miniature version of the \"star-rain\" that is said to have spawned the Archipelago.",
     "effectText": "Crystal Dust deals damage to a single target.",
     "synergyText": "If used with a Wind ally, its damage increases to 80 and priority increases to Very High.",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタルダスト",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化"
   },
   {
     "name": "Crystal Plume Gatling",
@@ -919,7 +983,9 @@
     "description": "What's more damaging than a feather gatling? Well, a * Crystal shard* gatling! Worse than a broken mirror!",
     "effectText": "Crystal Plume Gatling deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタルガトリング",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Crystal Spikes",
@@ -938,7 +1004,9 @@
     "description": "This nano-Anak analogue tectonic effect causes crystal shards to extrude from the ground and do damage.",
     "effectText": "Crystal Spikes deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタルスパイク",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Crystal Stream",
@@ -957,7 +1025,9 @@
     "description": "Thought to have originated in unexplored submarine caves, these Koish are capable of inflicting moderate Crystal damage.",
     "effectText": "Crystal Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタルストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Crystal Torrent",
@@ -976,7 +1046,9 @@
     "description": "\"Chromeon, make our victory Crystal clear!\" This technique inflicts moderate damage.",
     "effectText": "Crystal Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタルフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Crystallize",
@@ -995,7 +1067,9 @@
     "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides protection at the expense of speed: DEF but SPD .",
     "effectText": "Crystallize gifts the user with DEF and the Immune Condition for 2 turns but also inflicts them with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタライズ",
+    "descriptionJa": "対象のSPDEF+4, SPD-1, むこう2を付与"
   },
   {
     "name": "Cyberclaw",
@@ -1014,7 +1088,9 @@
     "description": "You think the cyber world can't reach you here. Think again. This technique is fast and inflicts moderate damage.",
     "effectText": "Cyberclaw deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "サイバークロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Darkness",
@@ -1033,7 +1109,9 @@
     "description": "Where is everybody!? All Temtem in the battlefield are Isolated for 2 turns, negating any synergies.",
     "effectText": "Darkness inflicts all combatants on the battlefield with the Isolated Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ダークネス",
+    "descriptionJa": "対象にこりつ2を付与"
   },
   {
     "name": "Data Burst",
@@ -1052,7 +1130,9 @@
     "description": "Data input overflow! This sensory overload causes moderate damage.",
     "effectText": "Data Burst deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "データバースト",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Data Corruption",
@@ -1071,7 +1151,9 @@
     "description": "Hacking your opponent's database takes some time, but it's worth it. This technique weakens SPDEF .",
     "effectText": "Data Corruption inflicts a single other target with SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "データ破損",
+    "descriptionJa": "対象のSPDEF-4"
   },
   {
     "name": "DC Beam",
@@ -1090,7 +1172,9 @@
     "description": "Lightning, an elemental force; not extremely powerful, but always reliable.",
     "effectText": "DC Beam deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "DCビーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Debris Typhoon",
@@ -1105,17 +1189,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Wind",
     "synergyEffects": [
-      {
-        "damage": 95,
-        "type": "damage",
-        "effect": "+95 Damage"
-      }
+      { "damage": 95, "type": "damage", "effect": "+95 Damage" }
     ],
     "targets": "Single Target",
     "description": "A good brute-force technique if you don't mind tidying up later.",
     "effectText": "Debris Typhoon deals damage to a single target.",
     "synergyText": "If used with a Wind ally, its damage increases to 95.",
-    "effects": []
+    "effects": [],
+    "nameJa": "デブリタイフーン",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
   },
   {
     "name": "Defibrillate",
@@ -1134,7 +1216,9 @@
     "description": "Quick, give me another shock! This technique inflicts moderate damage and isolates it for 3 turns.",
     "effectText": "Defibrillate deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "でんきショック",
+    "descriptionJa": "対象にこりつ2を付与"
   },
   {
     "name": "Denigrate",
@@ -1153,7 +1237,9 @@
     "description": "Sticks and stones... but this mental humiliation hurts too. It inflicts damage and SPATK on the whole team.",
     "effectText": "Denigrate deals damage and inflicts SPATK to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "悪口",
+    "descriptionJa": "対象のSPATK-1"
   },
   {
     "name": "Depress",
@@ -1172,7 +1258,9 @@
     "description": "Aren't we all? Just take another nap. This technique inflicts exactly 120 damage without waking up the target.",
     "effectText": "Depress deals an exact 120 damage to a single other target, regardless of DEF, SPDEF, Type Effectivness, or Traits. It will also not cause a target afflicted with the Asleep Condition to wake up.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "メランコリア",
+    "descriptionJa": "対象のHPを120へらす。ねむり状態でも回復しない"
   },
   {
     "name": "Diamond Fort",
@@ -1191,7 +1279,9 @@
     "description": "Harder than the hardest Crystal Temtem! It confers DEF and SPDEF .",
     "effectText": "Diamond Fort gifts the user with DEF and SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ダイヤモンドフォート",
+    "descriptionJa": "対象のDEF+4, SPDEF+4"
   },
   {
     "name": "Digital Stream",
@@ -1210,7 +1300,9 @@
     "description": "It is a complete mystery how some Koish have developed Digital attacks, but this one is capable of moderate damage.",
     "effectText": "Digital Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "デジタルストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Digital Torrent",
@@ -1229,7 +1321,9 @@
     "description": "\"Chromeon, cancel all their downloads and log 'em out!\" This technique inflicts moderate damage.",
     "effectText": "Digital Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "デジタルフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Digital Whip",
@@ -1248,7 +1342,9 @@
     "description": "Like being slapped with a snippet of code - its bark is much worse than its byte! This technique does little damage.",
     "effectText": "Digital Whip deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "デジタルウィップ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Digithreat",
@@ -1263,17 +1359,15 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Mental",
     "synergyEffects": [
-      {
-        "effect": "3 turns  Doomed",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "3 turns  Doomed", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Target",
     "description": "Just like trash-posting, this technique is a slow way of inflicting damage to the mind...All those trash-posts are messing with your head... Used in combination with a Mental ally. Digithreat dooms the target for 3 turns.",
     "effectText": "Digithreat deals damage to a single target.",
     "synergyText": "If used with a Mental ally, it also inflicts a 3 turn countdown of the Doomed Condition.",
-    "effects": []
+    "effects": [],
+    "nameJa": "デジスリート",
+    "descriptionJa": "通常攻撃。シナジー時対象にはめつ3を付与"
   },
   {
     "name": "Dim Mak",
@@ -1292,7 +1386,9 @@
     "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 100 damage without waking it up.",
     "effectText": "Dim Mak deals an exact 100 damage to a single other target, regardless of DEF, SPDEF, Type Effectiveness, or Traits. It will also not cause a target afflicted with the Asleep Condition to wake up.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "点穴",
+    "descriptionJa": "対象のHPを100減らす"
   },
   {
     "name": "Divine Inspiration",
@@ -1311,7 +1407,9 @@
     "description": "All hail our lord and savior, Pigepic! This technique increases the team's SPDEF and heals the whole team by 15%",
     "effectText": "Divine Inspiration gifts a single team with SPDEF and restores 15% of their maximum HP.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "カミのお告げ",
+    "descriptionJa": "対象のSPDEF+1、HPを15%回復"
   },
   {
     "name": "DNA Extraction",
@@ -1330,7 +1428,9 @@
     "description": "The needle-prick doesn't inflict much damage, but Mimit uses the DNA sample to adapt its defense, bestowing SPD .",
     "effectText": "DNA Extraction deals damage to a single other target and gifts the user with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "DNAサンプリング",
+    "descriptionJa": "使用者のSPD+2"
   },
   {
     "name": "Double Edge",
@@ -1345,17 +1445,15 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Neutral",
     "synergyEffects": [
-      {
-        "damage": 1,
-        "type": "damage",
-        "effect": "+1 Damage"
-      }
+      { "damage": 1, "type": "damage", "effect": "+1 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it DEF and SPDEF .",
     "effectText": "Double Edge deals damage to a single other target and gifts them with DEF and SPDEF .",
     "synergyText": "If used with a Neutral ally, its damage decreases to 1.",
-    "effects": []
+    "effects": [],
+    "nameJa": "もろはのやいば",
+    "descriptionJa": "対象のDEF+1, SPDEF+1。シナジー時ダメージが変化"
   },
   {
     "name": "Double Gash",
@@ -1374,7 +1472,9 @@
     "description": "\"'Tis but a scratch! Or two!\". This Melee Technique is nothing to write home about.",
     "effectText": "Double Gash deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ダブルカット",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Double Kick",
@@ -1393,7 +1493,9 @@
     "description": "An effective and cool-looking double kick inspired by Cipanki action movies.",
     "effectText": "Double Kick deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "2段キック",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Drill Impact",
@@ -1412,7 +1514,9 @@
     "description": "Nothing does armor piercing damage like a drill to the head.",
     "effectText": "Drill Impact deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ドリルインパクト",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Drool",
@@ -1431,7 +1535,9 @@
     "description": "Babawa leaves this sticky mucus everywhere, which reputedly has healing properties... it regenerates the target for 2 turns and grants it immunity for 3 turns.",
     "effectText": "Drool gifts a single target with the Regenerated Condition for 2 turns and the Immune Condition for 3 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "よだれ",
+    "descriptionJa": "対象にさいせい2, むこう3を付与"
   },
   {
     "name": "Drought",
@@ -1450,7 +1556,9 @@
     "description": "A bone-dry technique that leaves every Temtem on the battlefield except the user Exhausted and Seized for 2 turns, and the attacker overextended next turn.",
     "effectText": "Drought inflicts all other combatants on the battlefield with the Seized Condition and the Exhausted Condition for 2 turns but causes the user to be overexerted the next turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "干ばつ",
+    "descriptionJa": "対象にさしおさえ2とひへい2を付与"
   },
   {
     "name": "Dust Vortex",
@@ -1469,7 +1577,9 @@
     "description": "This technique buffets the enemy with the fury of the fiercest Kisiwan sandstorm.",
     "effectText": "Dust Vortex deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "砂たつまき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Earth Stream",
@@ -1488,7 +1598,9 @@
     "description": "This brown-water Koish subspecies has developed the skill to inflict moderate Earth damage.",
     "effectText": "Earth Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アースストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Earth Torrent",
@@ -1507,7 +1619,9 @@
     "description": "\"Chromeon, run them into the ground!\" This technique inflicts moderate damage.",
     "effectText": "Earth Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アースフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Earth Wave",
@@ -1526,7 +1640,9 @@
     "description": "Feel the Earth shake under your feet, rising with Anak-like force: slow, but devastating for the whole team.",
     "effectText": "Earth Wave deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "大地のうねり",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Earthbreaker",
@@ -1546,17 +1662,15 @@
         "type": "condition",
         "damage": 0
       },
-      {
-        "damage": 175,
-        "type": "damage",
-        "effect": "+175 Damage"
-      }
+      { "damage": 175, "type": "damage", "effect": "+175 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the target.Used in combination with a Electric ally, it changes the technique type to Electric and the target is Seized for 2 turns.",
     "effectText": "Earthbreaker deals damage to a single other target.",
     "synergyText": "If used with an Electric ally, it becomes Electric Type, damage increases to 175 and also inflicts the Seized Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "地割り",
+    "descriptionJa": "通常攻撃。シナジー時攻撃がでんきタイプに変化し対象にさしおさえ2を付与"
   },
   {
     "name": "Electric Storm",
@@ -1575,7 +1689,9 @@
     "description": "True Electric storm like the monsoon over Cipanku. Damages whole team.",
     "effectText": "Electric Storm deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "サンダーストーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Electric Stream",
@@ -1594,7 +1710,9 @@
     "description": "This Koish subspecies can deliver a short Electric discharge to inflict moderate damage.",
     "effectText": "Electric Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "エレクトリックストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Electric Torrent",
@@ -1613,7 +1731,9 @@
     "description": "\"Chromeon, give them a shocking experience!\" This technique inflicts moderate damage.",
     "effectText": "Electric Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "エレクトリックフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Electromagnetism",
@@ -1632,7 +1752,9 @@
     "description": "Electromagnetically bound, attacker and target are trapped for 3 turns, while target gets SPD .",
     "effectText": "Electromagnetism inflicts a single other target and the user with the Trapped Condition for 3 turns and inflicts the target with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "でんきしばり",
+    "descriptionJa": "使用者にとらわれ3を付与。対象にとらわれ3とSPD-1を付与"
   },
   {
     "name": "Electropunch",
@@ -1651,7 +1773,9 @@
     "description": "Disco might be dead, but electro still packs A LOT of punch...",
     "effectText": "Electropunch deals damage to a single target.",
     "synergyText": "If used with a Digital ally, its priority increases to High.",
-    "effects": []
+    "effects": [],
+    "nameJa": "でんげきパンチ",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化"
   },
   {
     "name": "Embers",
@@ -1670,7 +1794,9 @@
     "description": "Shower your opponent in burning embers. Fire technique that burns for 1 turn.",
     "effectText": "Embers deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "残り火",
+    "descriptionJa": "対象にやけど1を付与"
   },
   {
     "name": "Energy Manipulation",
@@ -1685,22 +1811,16 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Nature",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Exhausted",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 60,
-        "type": "damage",
-        "effect": "+60 Damage"
-      }
+      { "effect": "2 Turns  Exhausted", "type": "condition", "damage": 0 },
+      { "damage": 60, "type": "damage", "effect": "+60 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "A simple yet quick Mental attack that exhausts the target for 1 turn.Used in combination with a Nature ally, Energy Manipulation does additional damage and exhausts for 2 turns.",
     "effectText": "Energy Manipulation deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
     "synergyText": "If used with a Nature ally, its damage increases to 60 and the Exhausted Condition lasts for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "エナジー操作",
+    "descriptionJa": "対象にひろう1を付与。シナジー時ダメージが変化しひろう1の代わりにひろう2を付与"
   },
   {
     "name": "Execution",
@@ -1719,7 +1839,9 @@
     "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 35% of their total HP... it's over for them.",
     "effectText": "Execution deals damage to a single other target and if this damage would put them below 35% of their maximum HP, they're instead instantly knocked-out.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "トドメのいちげき",
+    "descriptionJa": "対象のHPが35%以下だったらダメージを与える代わりに倒す"
   },
   {
     "name": "Extinction",
@@ -1738,7 +1860,9 @@
     "description": "\"Look up! See that cool meteorite... Extinction gives 4 turns of Doomed to everyone on the battlefield.\"",
     "effectText": "Extinction inflicts all combatants on the battlefield with a 4 turn countdown of the Doomed Condition.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "終末の空",
+    "descriptionJa": "対象にはめつ4を付与"
   },
   {
     "name": "Extra Energy Slam",
@@ -1757,7 +1881,9 @@
     "description": "A simple truth about Temtem fighting - the stronger you are, the harder you hit. This Neutral technique inflicts variable damage depending on the launcher's STA.",
     "effectText": "Extra Energy Slam deals damage to a single other target with its damage varying based on the user's current STA.",
     "synergyText": "The following formula applies:",
-    "effects": []
+    "effects": [],
+    "nameJa": "エナジーバッシュ",
+    "descriptionJa": "使用者のSTAによって威力が変化"
   },
   {
     "name": "Faraday Cage",
@@ -1772,22 +1898,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Toxic",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Poisoned",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 100,
-        "type": "damage",
-        "effect": "+100 Damage"
-      }
+      { "effect": "2 Turns  Poisoned", "type": "condition", "damage": 0 },
+      { "damage": 100, "type": "damage", "effect": "+100 Damage" }
     ],
     "targets": "Single Target",
     "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and then he drank the battery liquid!\" Used in combination with a Toxic ally, Faraday Cage poisons the target for 2 turns.",
     "effectText": "Faraday Cage deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "synergyText": "If used with a Toxic ally, it also inflicts the Poisoned Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ファラデーケージ",
+    "descriptionJa": "対象にこりつ3を付与。シナジー時ダメージが変化し対象に追加でどく2を付与"
   },
   {
     "name": "Feather Gatling",
@@ -1806,7 +1926,9 @@
     "description": "\"Even the softest feather becomes a sword if the hand is true.\" - Miyako proverb.",
     "effectText": "Feather Gatling deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "フェザーガトリング",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Fierce Claw",
@@ -1825,7 +1947,9 @@
     "description": "Raw as untamed Temtem and unstoppable as a Kisiwan stampede.",
     "effectText": "Fierce Claw deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ワイルドクロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Fiery Heist",
@@ -1850,7 +1974,9 @@
     "description": "Put your hands up, this 'Tem's too hot to handle! This technique seizes and burns for 2 turns.Used in combination with an ally, Fiery Heist seizes and burns for 4 turns.",
     "effectText": "Fiery Heist inflicts a single other target with the Seized Condition and the Burned Condition for 2 turns.",
     "synergyText": "If used with an Earth ally, the Seized Condition and the Burned Condition last for 4 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ファイアジャック",
+    "descriptionJa": "対象にさしおさえ2とやけど2を付与。シナジー時その代わりにさしおさえ4とやけど4を付与"
   },
   {
     "name": "Fiery Soul",
@@ -1869,7 +1995,9 @@
     "description": "An alter ego of flames, channeled directly from the Anak spirit, which inflicts moderate damage and burns the enemy for 1 turn.",
     "effectText": "Fiery Soul deals damage to a single other target and inflicts them with the Burned Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ファイヤソウル",
+    "descriptionJa": "対象にやけど1を付与"
   },
   {
     "name": "Finbeat",
@@ -1888,7 +2016,9 @@
     "description": "Also known as \"siren slap\". Hurts your pride more than anything else.",
     "effectText": "Finbeat deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "フィンビート",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Fire Flame",
@@ -1907,7 +2037,9 @@
     "description": "Blazing like the depths of Anak, this flame geyser scorches your enemies.",
     "effectText": "Fire Flame deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ファイヤフレイム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Fire Stream",
@@ -1926,7 +2058,9 @@
     "description": "Smoke on the water! Many novice tamers are surprised to see Koish use a Fire attack, with moderate effects.",
     "effectText": "Fire Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ファイヤストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Fire Tornado",
@@ -1945,7 +2079,9 @@
     "description": "Unleash a mighty Fire storm against your opponents. Try not to wear anything flammable...",
     "effectText": "Fire Tornado deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "かえんたつまき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Fire Torrent",
@@ -1964,7 +2100,9 @@
     "description": "\"Chromeon, burn 'em to a crispy crisp!\" This technique inflicts moderate damage.",
     "effectText": "Fire Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ファイヤフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Firewall",
@@ -1983,7 +2121,9 @@
     "description": "Effective protection against hackers and hostile Temtem... it bestows 4 immunity for 4 turns, and increases the user's DEF and SPDEF .",
     "effectText": "Firewall gifts the user with the Immune Condition for 4 turns and gifts DEF and SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ファイアウォール",
+    "descriptionJa": "対象にむこう4, DEF+1, SPDEF+1を付与"
   },
   {
     "name": "Flaming Meteorite",
@@ -2002,7 +2142,9 @@
     "description": "Some Temtem can call on Highabove forces to bring down a fiery Fire inferno on one enemy.",
     "effectText": "Flaming Meteorite deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "フレイムメテオ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Flood",
@@ -2017,22 +2159,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Earth",
     "synergyEffects": [
-      {
-        "effect": "SPD",
-        "type": "unknown",
-        "damage": 0
-      },
-      {
-        "damage": 0,
-        "type": "buff",
-        "effect": "22 STA Cost"
-      }
+      { "effect": "SPD", "type": "unknown", "damage": 0 },
+      { "damage": 0, "type": "buff", "effect": "22 STA Cost" }
     ],
     "targets": "Other Team or Ally",
     "description": "Watch the opponent get all bogged down. The whole team gets SPD .A mess of Mudshire proportions. Used in combination with an Earth ally, gives the enemy team SPD .",
     "effectText": "Flood inflicts the rival team or the user's ally with SPD .",
     "synergyText": "If used with an Earth ally, its STA Cost decreases to 22 and it instead inflicts SPD .",
-    "effects": []
+    "effects": [],
+    "nameJa": "水びたし",
+    "descriptionJa": "対象のSPD-2。シナジー時その代わりに対象のSPD-3"
   },
   {
     "name": "Fluid Barrier",
@@ -2051,7 +2187,9 @@
     "description": "Real protection is not about unmovable strength, but dynamic defense. This technique gives the target immunity for 2 turns and SPDEF .",
     "effectText": "Fluid Barrier gifts a single target with SPDEF and the Immune Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "液体バリア",
+    "descriptionJa": "対象にむこう2, SPDEF+2を付与"
   },
   {
     "name": "Footwork",
@@ -2070,7 +2208,9 @@
     "description": "Advanced balance training developed by Tucmani rockhoppers: it confers SPD .",
     "effectText": "Footwork gifts the user with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "フットワーク",
+    "descriptionJa": "対象のSPD+2"
   },
   {
     "name": "Frond Whip",
@@ -2089,7 +2229,9 @@
     "description": "Feel the true force of Nature, unleashed as a savage lash of the whip!",
     "effectText": "Frond Whip deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "森のムチ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Gaia",
@@ -2108,7 +2250,9 @@
     "description": "Invoke the ancient spirit of the Omninesian jungle to recover 100% STA and regenerates the user for 2 turns.",
     "effectText": "Gaia gifts the user with the Regenerated Condition for 2 turns and restores 100% of their maximum STA. The user will still overexert if they lack the required STA before use.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ガイアのめぐみ",
+    "descriptionJa": "対象にさいせい2を付与しSTAを100%回復"
   },
   {
     "name": "Gamma Burst",
@@ -2127,7 +2271,9 @@
     "description": "The shorter the wavelength, the higher the damage. This mighty technique costs a lot of stamina but leaves the target even more exhausted.",
     "effectText": "Gamma Burst deals damage to a single other target and inflicts them with the Exhausted Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ガンマバースト",
+    "descriptionJa": "対象にひろう2を付与"
   },
   {
     "name": "Generify",
@@ -2142,17 +2288,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Neutral",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Evading",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "2 Turns  Evading", "type": "condition", "damage": 0 }
     ],
     "targets": "Self",
     "description": "Anything is better than generic. This technique nullifies you for 2 turns.Even more generic? Used in combination with a Neutral ally, Generify nullifies and lets you evade for 2 turns.",
     "effectText": "Generify gives the user the Nullified Condition for 2 turns.",
     "synergyText": "If used with a Neutral ally, it also gifts the user with the Evading Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ジェネリクス",
+    "descriptionJa": "対象にちゅうわ2を付与。シナジー時追加で対象にかいひ2を付与"
   },
   {
     "name": "Glass Blade",
@@ -2171,7 +2315,9 @@
     "description": "Like death by a thousand cuts... but this is just one of them.",
     "effectText": "Glass Blade deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "グラスブレード",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Goring",
@@ -2190,7 +2336,9 @@
     "description": "You mess with the horns, you get the... No, wait! This fast, Neutral technique does serious damage.",
     "effectText": "Goring deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ツノとつげき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Gust",
@@ -2205,22 +2353,16 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Electric",
     "synergyEffects": [
-      {
-        "effect": "2 Turn  Trapped",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 75,
-        "type": "damage",
-        "effect": "+75 Damage"
-      }
+      { "effect": "2 Turn  Trapped", "type": "condition", "damage": 0 },
+      { "damage": 75, "type": "damage", "effect": "+75 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "Sometimes, a single sigh is enough to topple a weakened enemy - and they'd better be, for this fast technique inflicts very minor damage.Every sigh contributes, until it's a gale storm... Used in combination with an ally, damage increases and traps the enemy for 1 turn.",
     "effectText": "Gust deals damage to a single target.",
     "synergyText": "If used with an Electric ally, its damage increases to 75, priority increases to Very High and also inflicts the Trapped Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "風巻き",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化し対象にとらわれ2を付与"
   },
   {
     "name": "Haito Uchi",
@@ -2239,7 +2381,9 @@
     "description": "A slashing open-hand strike in the Cipanki martial arts tradition. Inflicts Physical damage and leaves them Asleep the same turn.",
     "effectText": "Haito Uchi deals damage to a single other target and inflicts them with the Asleep Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "背刀打ち",
+    "descriptionJa": "対象にねむり1を付与"
   },
   {
     "name": "Hallucination",
@@ -2254,17 +2398,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Mental",
     "synergyEffects": [
-      {
-        "damage": 100,
-        "type": "damage",
-        "effect": "+100 Damage"
-      }
+      { "damage": 100, "type": "damage", "effect": "+100 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "Suggestive and Toxic visions that exhaust the mind and tire and trap the target for 2 turns.Used in combination with a Mental ally, the Hallucination does Special damage.",
     "effectText": "Hallucination inflicts a single other target with the Exhausted Condition and the Trapped Condition for 2 turns.",
     "synergyText": "If used with a Mental ally, its class becomes Special with 100 damage.",
-    "effects": []
+    "effects": [],
+    "nameJa": "げんかく",
+    "descriptionJa": "対象にひろう2ととらわれ2を付与。シナジー時通常効果に追加でダメージ100の技になる"
   },
   {
     "name": "Harmful Lick",
@@ -2283,7 +2425,9 @@
     "description": "Some Temtem lick you to signify affection... and some use it as a powerful attack! Eww!",
     "effectText": "Harmful Lick deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "なめしばき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Harmful Microwaves",
@@ -2298,22 +2442,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Electric",
     "synergyEffects": [
-      {
-        "damage": 95,
-        "type": "damage",
-        "effect": "+95 Damage"
-      },
-      {
-        "damage": 95,
-        "type": "buff",
-        "effect": "18 STA Cost"
-      }
+      { "damage": 95, "type": "damage", "effect": "+95 Damage" },
+      { "damage": 95, "type": "buff", "effect": "18 STA Cost" }
     ],
     "targets": "Single Target",
     "description": "Make your enemies feel like reheated coffee does! This technique inflicts moderate damage.",
     "effectText": "Harmful Microwaves deals damage to a single target.",
     "synergyText": "If used with an Electric ally, its STA Cost decreases to 18 and priority increases to High.",
-    "effects": []
+    "effects": [],
+    "nameJa": "マイクロウェーブ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化し対象にとらわれ2を付与"
   },
   {
     "name": "Hasty Lunge",
@@ -2328,17 +2466,15 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Nature",
     "synergyEffects": [
-      {
-        "effect": "User won't be overexerted",
-        "type": "unknown",
-        "damage": 0
-      }
+      { "effect": "User won't be overexerted", "type": "unknown", "damage": 0 }
     ],
     "targets": "Single Other Target",
     "description": "An all-out attack, no time or thought for defense! It's fast, inflicts moderate damage but also overextends the user during their next turn.Used in combination with a ally, Hasty Lunge doesn't overextend the user.",
     "effectText": "Hasty Lunge deals damage to a single other target but causes the user to be overexerted the next turn.",
     "synergyText": "If used with a Nature ally, it won't overexert the user.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ちょとつもうしん",
+    "descriptionJa": "使用者は次ターン行動不能。シナジー時通常効果が消える"
   },
   {
     "name": "Head Charge",
@@ -2357,7 +2493,9 @@
     "description": "There are many clever uses for a large skull. This is not one of them, but it's effective.",
     "effectText": "Head Charge deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ブレイクショット",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Head Ram",
@@ -2376,7 +2514,9 @@
     "description": "Use your head, non-metaphorically.",
     "effectText": "Head Ram deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ずつき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Heat Up",
@@ -2395,7 +2535,9 @@
     "description": "Hey, I'm still warming up! ATK .",
     "effectText": "Heat Up gifts the user with ATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ヒートアップ",
+    "descriptionJa": "対象のATK+3"
   },
   {
     "name": "Heavy Blow",
@@ -2414,7 +2556,9 @@
     "description": "Effective and unsubtle, like a Tucmani mine drill.",
     "effectText": "Heavy Blow deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "強打",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Held Anger",
@@ -2433,7 +2577,9 @@
     "description": "All that suppressed rage keeps building up... until it bursts in a nova of wrath.",
     "effectText": "Held Anger deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "いかりため",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Helicopter Kick",
@@ -2452,7 +2598,9 @@
     "description": "Created by the legendary sensei Shunlee Bandamme, this spectacular technique inflicts damage upon the whole enemy squad.",
     "effectText": "Helicopter Kick deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ヘリコプターキック",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Hellfire",
@@ -2467,22 +2615,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Fire",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Burned",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 100,
-        "type": "damage",
-        "effect": "+100 Damage"
-      }
+      { "effect": "2 Turns  Burned", "type": "condition", "damage": 0 },
+      { "damage": 100, "type": "damage", "effect": "+100 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "Hell hath no fury like a tamer scorned - and this one does serious Fire damage to a whole team.Used in combination with a Fire ally, this technique inflicts extra damage and burns the rival team for 2 turns.",
     "effectText": "Hellfire deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Fire ally, its damage increases to 100, priority increases to High and also inflicts the Burned Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ヘルファイア",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象にやけど2を付与"
   },
   {
     "name": "Hibernate",
@@ -2501,7 +2643,9 @@
     "description": "Just a little nap while it's cold outside... The target is Frozen for 3 turns but recovers 35% of health and stamina.",
     "effectText": "Hibernate restores 35% of the user's maximum HP and STA but also inflicts the user with the Frozen Condition for 3 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "冬ごもり",
+    "descriptionJa": "対象にこおりつき3を付与。対象のHPとSTAを35%回復"
   },
   {
     "name": "High-pressure Water",
@@ -2516,17 +2660,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Fire",
     "synergyEffects": [
-      {
-        "effect": "3 Turns  Burned",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "3 Turns  Burned", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Other Target",
     "description": "An industrial-grade water jet that packs real punch.Used in combination with a Fire ally, it produced boiling water that inflicts Burn for 3 turns.",
     "effectText": "High-pressure Water deals damage to a single other target.",
     "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 3 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "高圧放水",
+    "descriptionJa": "通常攻撃。シナジー時対象にやけど3を付与"
   },
   {
     "name": "Hologram",
@@ -2545,7 +2687,9 @@
     "description": "Let them attack your digital ghost while you evade them for 1 turn.",
     "effectText": "Hologram gifts the user with the Evading Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ホログラム",
+    "descriptionJa": "対象にかいひ1を付与"
   },
   {
     "name": "Hook",
@@ -2564,7 +2708,9 @@
     "description": "A quick lunge for that unprotected jaw. This technique doesn't do much damage, but gives the attacker ATK .",
     "effectText": "Hook deals damage to a single target and gifts the user with ATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "フック",
+    "descriptionJa": "使用者のATK+2"
   },
   {
     "name": "Hook Kick",
@@ -2583,7 +2729,9 @@
     "description": "Very few Temtem are still kicking after receiving this kick!",
     "effectText": "Hook Kick deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "フックキック",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Horror",
@@ -2602,7 +2750,9 @@
     "description": "Unspeakable nightmares! Obviously, they can only hurt an asleep target, but they do massive damage to the sleeper.",
     "effectText": "Horror deals damage to a single target if they're afflicted with the Asleep Condition.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ホラー",
+    "descriptionJa": "対象がねむり状態でなければ失敗"
   },
   {
     "name": "Humiliating Slap",
@@ -2621,7 +2771,9 @@
     "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF .",
     "effectText": "Humiliating Slap deals damage to a single other target and inflicts them with DEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ひっぱたき",
+    "descriptionJa": "対象のDEF-1"
   },
   {
     "name": "Hurricane",
@@ -2636,22 +2788,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Digital",
     "synergyEffects": [
-      {
-        "effect": "SPD",
-        "type": "unknown",
-        "damage": 0
-      },
-      {
-        "damage": 77,
-        "type": "damage",
-        "effect": "+77 Damage"
-      }
+      { "effect": "SPD", "type": "unknown", "damage": 0 },
+      { "damage": 77, "type": "damage", "effect": "+77 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "This technique is named after a former Dojo Master who was once a contender for the title of Champion of the Archipelago... It damages the whole enemy team.Used in combination with a Digital ally, Hurricane also increases the user's SPD",
     "effectText": "Hurricane deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Digital ally, it also gifts the user with SPD and deals 77 damage.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ハリケーン",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し使用者のSPD+1"
   },
   {
     "name": "Hyperkinetic Strike",
@@ -2670,7 +2816,9 @@
     "description": "When you gotta hit hard and fast - the faster, the harder. Inflicts extra damage depending on the Temtem's SPD.",
     "effectText": "Hyperkinetic Strike deals damage to a single target.",
     "synergyText": "Hyperkinetic Strike's damage formula is close, but not exactly equal to, the combination of the damage it would deal based on SPATK and the damage it would deal based on SPD. The exact formula is intended to be:",
-    "effects": []
+    "effects": [],
+    "nameJa": "ダッシュアタック",
+    "descriptionJa": "使用者のSPDもダメージ計算に使用"
   },
   {
     "name": "Hypnosis",
@@ -2689,7 +2837,9 @@
     "description": "A brain hack developed by Arburian Mind specialists that makes the target Asleep for 2 turns.",
     "effectText": "Hypnosis inflicts a single other target with the Asleep Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "さいみん",
+    "descriptionJa": "対象にねむり2を付与"
   },
   {
     "name": "Hypoxia",
@@ -2708,7 +2858,9 @@
     "description": "Watch your enemies choke as you turn around and... take their breath away.",
     "effectText": "Hypoxia deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "真空責め",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Ice Cubes",
@@ -2722,18 +2874,14 @@
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Water",
-    "synergyEffects": [
-      {
-        "damage": 0,
-        "type": "buff",
-        "effect": "9 STA Cost"
-      }
-    ],
+    "synergyEffects": [{ "damage": 0, "type": "buff", "effect": "9 STA Cost" }],
     "targets": "Single Other Target",
     "description": "An extreme version of the ice water bucket challenge that does real damage.",
     "effectText": "Ice Cubes deals damage to a single other target.",
     "synergyText": "If used with a Water ally, its STA Cost decreases to 9.",
-    "effects": []
+    "effects": [],
+    "nameJa": "アイスキューブ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
   },
   {
     "name": "Ice Shuriken",
@@ -2752,7 +2900,9 @@
     "description": "An obscure technique created by the secretive Iwaba clan, deep in the Cipanki hills, which inflicts Cold for 2 turns.",
     "effectText": "Ice Shuriken deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アイスシュリケン",
+    "descriptionJa": "対象にこごえ2を付与"
   },
   {
     "name": "Iced Stalactite",
@@ -2771,7 +2921,9 @@
     "description": "Cold *does* bother you anyway... This giant icicle inflicts damage and also Cold for 2 turns.",
     "effectText": "Iced Stalactite deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "つらら落とし",
+    "descriptionJa": "対象にこごえ2を付与"
   },
   {
     "name": "Inner Spirit",
@@ -2790,7 +2942,9 @@
     "description": "It is said this technique channels the spirit of a long-lost, draconic variety of Temtem, for massive damage.",
     "effectText": "Inner Spirit deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ねむれるたましい",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Intimidation",
@@ -2809,7 +2963,9 @@
     "description": "That \"don't mess with me\" look makes the target team exhausted for 2 turns. Also grants the user evading for 1 turn.",
     "effectText": "Intimidation inflicts the rival team or the user's ally with the Exhausted Condition for 2 turns and gifts the user with the Evading Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "いあつ",
+    "descriptionJa": "対象にひろう2を付与、使用者にかいひ1を付与"
   },
   {
     "name": "Jaw Strike",
@@ -2828,7 +2984,9 @@
     "description": "Temtem with powerful jaws always know how to use them...",
     "effectText": "Jaw Strike deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "かみつき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Jinxed Whisper",
@@ -2847,7 +3005,9 @@
     "description": "Shh! Shut up, you're jinxing your chances! The target falls asleep for 2 turns, but the user gets overextended on the next turn.",
     "effectText": "Jinxed Whisper inflicts a single other target with the Asleep Condition for 2 turns but causes the user to be overexerted the next turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "フキツなささやき",
+    "descriptionJa": "対象にねむり2を付与。使用者は次ターン動けない"
   },
   {
     "name": "Kesa Gatame",
@@ -2866,7 +3026,9 @@
     "description": "One of the best-known and most useful Miyako floor techniques, it pins down a target for SPD .",
     "effectText": "Kesa Gatame inflicts a single other target with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "けさ固め",
+    "descriptionJa": "対象のSPD-3"
   },
   {
     "name": "Kick",
@@ -2885,7 +3047,9 @@
     "description": "Primal and instinctive, sometimes a good kick is all you need.",
     "effectText": "Kick deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "キック",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "King's Roar",
@@ -2904,7 +3068,9 @@
     "description": "When the king roars, the rest run away. Decreases SPD , ATK and SPATK of the other team.",
     "effectText": "King's Roar inflicts the rival team or the user's ally with SPD , ATK and SPATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "王者のおたけび",
+    "descriptionJa": "対象のSPD-2, ATK-2, SPATK-2"
   },
   {
     "name": "Knockback",
@@ -2923,7 +3089,9 @@
     "description": "What goes around comes around! This mighty attack inflicts massive damage, but the user gets 30% knockback damage.",
     "effectText": "Knockback deals damage to a single other target but causes the user to take 30% of the damage dealt as recoil.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ノックバック",
+    "descriptionJa": "反動で与ダメージの30%を使用者も受ける"
   },
   {
     "name": "Late Torment",
@@ -2942,7 +3110,9 @@
     "description": "The first cut is the deepest, but the last one hurts like Downbelow. This Neutral Technique only works on trapped enemies and inflicts 180 damage.",
     "effectText": "Late Torment deals damage to a single other target if they're afflicted with the Trapped Condition.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ラストトーメント",
+    "descriptionJa": "対象がとらわれ状態でなければ失敗"
   },
   {
     "name": "Laundry",
@@ -2967,7 +3137,9 @@
     "description": "Look, nobody likes doing laundry, but it has to be done, OK? It cleans all statuses, naturally! (And does some damage to boot.).",
     "effectText": "Laundry deals damage to a single target and cures/removes all of their Status Conditions.",
     "synergyText": "If used with an Electric ally, its priority increases to High and also heals 10% of user's maximum HP.",
-    "effects": []
+    "effects": [],
+    "nameJa": "せんたく",
+    "descriptionJa": "対象の状態変化をすべて取り除く。シナジー時Priorityが変化し使用者のHPが10%回復する"
   },
   {
     "name": "Lava Wave",
@@ -2982,17 +3154,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Water",
     "synergyEffects": [
-      {
-        "effect": "3 Turns  Seized",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "3 Turns  Seized", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Other Target",
     "description": "Some Temtem like a hot batch, and some like it PIPING hot. This technique inflicts moderate damage.Love me a streamin' bath! Used in combination with a Water ally, Lava Wave seizes for 3 turns and increases priority.",
     "effectText": "Lava Wave deals damage to a single other target.",
     "synergyText": "If used with a Water ally, its priority increases to High and inflicts the Seized Condition for 3 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "マグマウェーブ",
+    "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象にさしおさえ3を付与"
   },
   {
     "name": "Leech",
@@ -3007,17 +3177,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Water",
     "synergyEffects": [
-      {
-        "damage": 0,
-        "type": "buff",
-        "effect": "20 STA Cost"
-      }
+      { "damage": 0, "type": "buff", "effect": "20 STA Cost" }
     ],
     "targets": "Single Other Target",
     "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll inflict 25% damage and heal themselves 25%, without even waking up the target.",
     "effectText": "Leech causes a single other target to lose 25% of their maximum HP and restores 25% of the user's maximum HP. It will not remove the Asleep Condition from afflicted targets.",
     "synergyText": "If used with a Water ally, its STA Cost decreases to 20 and priority increases to High.",
-    "effects": []
+    "effects": [],
+    "nameJa": "吸血",
+    "descriptionJa": "対象のHPを25%減らし使用者のHPを25%回復する。相手のねむりを解除しない。シナジー時PriorityとSTAコストが変化する"
   },
   {
     "name": "Lifeful Sap",
@@ -3036,7 +3204,9 @@
     "description": "The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 5 turns.",
     "effectText": "Lifeful Sap gifts the user with the Regenerated Condition for 5 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "いのちのしずく",
+    "descriptionJa": "対象にさいせい5を付与"
   },
   {
     "name": "Look out",
@@ -3055,7 +3225,9 @@
     "description": "This Temtem has (metaphorical) eyes on the back of its head. This hyperalert state makes it alerted for 5 turns and removes the Asleep status condition.",
     "effectText": "Look out gifts a single target with the Alerted Condition for 5 turns and cures them of the Asleep Condition. Unlike other techniques, it will set the duration of any previously gifted Alerted Conditions to 5 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "見張り",
+    "descriptionJa": "対象にけいかい5を付与しねむりを回復する"
   },
   {
     "name": "Lullaby",
@@ -3074,7 +3246,9 @@
     "description": "Twinkle twinkle little Tem / Whole opponent team falls Asleep for 2 turns.",
     "effectText": "Lullaby inflicts the rival team or the user's ally with the Asleep Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ララバイ",
+    "descriptionJa": "対象にねむり2を付与"
   },
   {
     "name": "Madness Buff",
@@ -3093,7 +3267,9 @@
     "description": "There is an edge to this madness - those willing to take 30% Damage will get SPDEF and SPATK .",
     "effectText": "Madness Buff causes the user to lose 30% of their maximum HP and then is gifted SPATK and SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "どはつてん",
+    "descriptionJa": "対象のSPATK+3, SPDEF+3, HP30%を消費"
   },
   {
     "name": "Magma Cannon",
@@ -3112,7 +3288,9 @@
     "description": "Like a surge of Anak lava to the face! Fire technique that burns for 3 turns.",
     "effectText": "Magma Cannon deals damage to a single other target and inflicts them with the Burned Condition for 3 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "マグマカノン",
+    "descriptionJa": "対象にやけど3を付与"
   },
   {
     "name": "Major Slash",
@@ -3131,7 +3309,9 @@
     "description": "This blow targets the enemy's weak spot for massive damage.",
     "effectText": "Major Slash deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "メジャースラッシュ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Martial Strike",
@@ -3150,7 +3330,9 @@
     "description": "Many Melee Temtem are trained to perform this basic but effective technique.",
     "effectText": "Martial Strike deals damage to a single other target and grants the user SPATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "てっついうち",
+    "descriptionJa": "使用者のSPATK+1"
   },
   {
     "name": "Matter Teleport",
@@ -3169,7 +3351,9 @@
     "description": "Feels like being disintegrated into molecules - not nice. This Mental technique inflicts heavy damage.",
     "effectText": "Matter Teleport deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "マテリアテレポート",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Mechanical Heat",
@@ -3188,7 +3372,9 @@
     "description": "Every moving part generates residual heat - and this is a way to weaponize it and inflict moderate damage.",
     "effectText": "Mechanical Heat deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "メカニカルヒート",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Meditation",
@@ -3207,7 +3393,9 @@
     "description": "Sync your breathing, become more aware of the space around you, feel your body and mind get Vigorized for 3 turns...",
     "effectText": "Meditation gifts the user with the Invigorated Condition for 3 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ヨガ",
+    "descriptionJa": "対象にげんき3を付与"
   },
   {
     "name": "Melee Stream",
@@ -3226,7 +3414,9 @@
     "description": "With strong muscles developed by swimming against the current, some Koish can do moderate Melee damage.",
     "effectText": "Melee Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "メレーストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Melee Torrent",
@@ -3245,7 +3435,9 @@
     "description": "\"Chromeon, show them your wrestling moves!\" This technique inflicts moderate damage.",
     "effectText": "Melee Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "メレーフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Mental Stream",
@@ -3264,7 +3456,9 @@
     "description": "Related to ancient Cipanku river kami, this Koish has Mental powers that deliver moderate damage.",
     "effectText": "Mental Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "メンタルストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Mental Torrent",
@@ -3283,7 +3477,9 @@
     "description": "\"Chromeon, mess with their heads!\" This technique inflicts moderate damage.",
     "effectText": "Mental Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "メンタルフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Metabolize",
@@ -3298,17 +3494,15 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Nature",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Regenerated",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "2 Turns  Regenerated", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and recovers 20% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
     "effectText": "Metabolize cures a single other target of the Poisoned Condition, restores 20% of the user's maximum HP and grants for 1 turn if the target was cured from the Poisoned Condition.",
     "synergyText": "If used with a Nature ally, it also gifts the user with the Regenerated Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "デトックス",
+    "descriptionJa": "対象のどくを回復しHPを20%回復しさいせい1を付与する。シナジー時使用者にさいせい2を付与する"
   },
   {
     "name": "Meteor Swarm",
@@ -3323,22 +3517,16 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Fire",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Burned",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 90,
-        "type": "damage",
-        "effect": "+90 Damage"
-      }
+      { "effect": "2 Turns  Burned", "type": "condition", "damage": 0 },
+      { "damage": 90, "type": "damage", "effect": "+90 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "Death from above... A barrage of flaming meteorites that inflicts Fire damage on the whole team.It's raining fire! Inflicts burns on the whole team.",
     "effectText": "Meteor Swarm deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Fire ally, its damage increases to 90 and also inflicts the Burned Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "メテオスウォーム",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にやけど2を付与"
   },
   {
     "name": "Mineral Hail",
@@ -3357,7 +3545,9 @@
     "description": "Imagine a Crystal storm in the darkest depths of Mictlan... Now just watch the enemy team.",
     "effectText": "Mineral Hail deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クリスタルヘイル",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Mirror Shell",
@@ -3376,7 +3566,9 @@
     "description": "\"Mirror, mirror in my hand, who's the best tamer in the Archipelago?\" \"No idea, but you get SPDEF \".",
     "effectText": "Mirror Shell gifts the user with SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ミラーシェル",
+    "descriptionJa": "対象のSPDEF+4"
   },
   {
     "name": "Misogi",
@@ -3401,7 +3593,9 @@
     "description": "The priests of Miyako developed this technique to eliminate all altered states and stages on the Temtem.Using this Waterfall meditation with a Water ally, you become Immune for 3 turns and Regenerated for 2 turns.",
     "effectText": "Misogi cures/removes all Status Conditions gifted/given/inflicted on the target and also removes the target's Stat Stage Changes.",
     "synergyText": "If used with a Water ally, it also gifts the target with the Immune Condition for 3 turns and the Regenerated Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "みそぎ",
+    "descriptionJa": "対象のステータス変化と状態変化をすべて取り除く。シナジー時対象にむこう3とさいせい2を付与する"
   },
   {
     "name": "Mud Shower",
@@ -3420,7 +3614,9 @@
     "description": "Some of the larger Temtem of the savannah love this Earth technique, as messy as it is fun!",
     "effectText": "Mud Shower deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "どろ浴びせ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Multiple Pecks",
@@ -3439,7 +3635,9 @@
     "description": "A rapid-fire flurry of furious beaks.",
     "effectText": "Multiple Pecks deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "連続ついばみ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Nagaise's Fury",
@@ -3454,17 +3652,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Mental",
     "synergyEffects": [
-      {
-        "damage": 130,
-        "type": "damage",
-        "effect": "+130 Damage"
-      }
+      { "damage": 130, "type": "damage", "effect": "+130 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "lä, lä! Nagaise is calling some Water friends from the deeps... The whole enemy team will regret this.Used in combination with a Mental ally, Nagaise's Fury inflicts extra damage.",
     "effectText": "Nagaise's Fury deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Mental ally, its damage increases to 130.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ナーガイズのいかり",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化する"
   },
   {
     "name": "Narcoleptic Hit",
@@ -3483,7 +3679,9 @@
     "description": "A potent attack that exhausts the attacker's psyche, making it fall Asleep for 2 turns.",
     "effectText": "Narcoleptic Hit deals damage to a single other target but inflicts the user with the Asleep Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "おやすみアタック",
+    "descriptionJa": "使用者にねむり2を付与"
   },
   {
     "name": "Nature Stream",
@@ -3502,7 +3700,9 @@
     "description": "Koish that live in dense brackish waters can channel the power of Nature to inflict moderate damage.",
     "effectText": "Nature Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ネイチャーストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Nature Torrent",
@@ -3521,7 +3721,9 @@
     "description": "\"Chromeon, hit them with the power of Nature!\" This technique inflicts moderate damage.",
     "effectText": "Nature Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ネイチャーフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Neutral Stream",
@@ -3540,7 +3742,9 @@
     "description": "Cute but still fight-savvy, Koish know how to inflict moderate Neutral damage.",
     "effectText": "Neutral Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ニュートラルストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Neutral Torrent",
@@ -3559,7 +3763,9 @@
     "description": "\"Chromeon, shower them with torrential power!\" This technique inflicts moderate damage.",
     "effectText": "Neutral Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ニュートラルフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Nibble",
@@ -3578,7 +3784,9 @@
     "description": "Many Temtem have this habit of gently chewing plants and furniture. This is a little less gentle.",
     "effectText": "Nibble deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "あまがみ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Nicho Sai",
@@ -3597,7 +3805,9 @@
     "description": "This basic strike for sai delivers a powerful Melee technique.",
     "effectText": "Nicho Sai deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "二丁サイ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Nightmare Feed",
@@ -3616,7 +3826,9 @@
     "description": "Nothing creepier than feeding on a sleeping victim... Inflicts 30% damage to a sleeping enemy and heals the user by 30%.",
     "effectText": "Nightmare Feed causes a single target to lose 30% of their maximum HP and the user to restore 30% of their maximum HP if the target is afflicted with the Asleep Condition. It will not cause the target to wake up.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "悪夢食らい",
+    "descriptionJa": "ねむり状態の対象のHPを30%減らし使用者のHPが30%回復する"
   },
   {
     "name": "Nimble",
@@ -3635,7 +3847,9 @@
     "description": "Through rigorous training, Temtem can become extra fast and gain SPD .",
     "effectText": "Nimble gifts a single other target with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "いだてん",
+    "descriptionJa": "対象のSPD+1"
   },
   {
     "name": "Ninja Jutsu",
@@ -3654,7 +3868,9 @@
     "description": "The secret arts of the Cipanku shinobi! This technique lets you backstab enemies in the blink of an eye.",
     "effectText": "Ninja Jutsu deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "縮地の術",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Nito Seiho",
@@ -3673,7 +3889,9 @@
     "description": "Derived from Cipanki martial traditions, this technique deals a powerful Melee strike and gives them DEF .",
     "effectText": "Nito Seiho deals damage to a single other target and inflicts them with DEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "二刀勢法",
+    "descriptionJa": "対象のDEF-1"
   },
   {
     "name": "Novice Punch",
@@ -3688,22 +3906,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Melee",
     "synergyEffects": [
-      {
-        "effect": "Becomes Melee",
-        "type": "unknown",
-        "damage": 0
-      },
-      {
-        "damage": 51,
-        "type": "damage",
-        "effect": "+51 Damage"
-      }
+      { "effect": "Becomes Melee", "type": "unknown", "damage": 0 },
+      { "damage": 51, "type": "damage", "effect": "+51 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "Just one step above a slap, but everybody's got to start somewhere.Used in combination with a Melee ally, it changes the technique type to Melee and becomes a more powerful punch.",
     "effectText": "Novice Punch deals damage to a single other target.",
     "synergyText": "If used with a Melee ally, it becomes Melee Type and its damage increases to 51.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ひよっこパンチ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージと技のタイプが変化する"
   },
   {
     "name": "Noxious Bomb",
@@ -3722,7 +3934,9 @@
     "description": "This nasty stinker inflicts Toxic damage... Just don't use it in an elevator...",
     "effectText": "Noxious Bomb deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "どくどくボム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Oshi-Dashi",
@@ -3741,7 +3955,9 @@
     "description": "Going for the ring out can be a dangerous Melee move in the smallest islands...",
     "effectText": "Oshi-Dashi deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "おしだし",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Outgrowth",
@@ -3760,7 +3976,9 @@
     "description": "Behold Tyranak's complete mastery over everything that grows and thrives in their realm! Damages the whole enemy team, decreases their Stamina by 20%, and traps them for 2 turns.",
     "effectText": "Outgrowth deals damage to the rival team or the user's ally, causes them to lose 20% of their maximum STA, and inflicts them with the Trapped Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "オーバーグロウ",
+    "descriptionJa": "対象のSTAを20%減らしとらわれ2を付与"
   },
   {
     "name": "Overclock",
@@ -3779,7 +3997,9 @@
     "description": "Unrecommended for longer periods, this technique makes your 'Tems go way faster, bestowing SPD .",
     "effectText": "Overclock gifts the user with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "オーバークロック",
+    "descriptionJa": "対象のSPD+2"
   },
   {
     "name": "Paralyzing Poison",
@@ -3794,17 +4014,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Toxic",
     "synergyEffects": [
-      {
-        "effect": "6 Turns  Poisoned",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "6 Turns  Poisoned", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Other Target",
     "description": "This strong venom traps and poisons the target for 4 turns.Used in combination with a Toxic ally, the poisoning lasts for 6 turns.",
     "effectText": "Paralyzing Poison inflicts a single other target with the Poisoned Condition for 4 turns and the Trapped Condition for 2 turns.",
     "synergyText": "If used with a Toxic ally, the Poisoned Condition lasts 6 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "マヒ毒",
+    "descriptionJa": "対象にどく4ととらわれ2を付与する。シナジー時どく4の代わりにどく6を付与する"
   },
   {
     "name": "Peck",
@@ -3823,7 +4041,9 @@
     "description": "All beaked Temtems like to playfully peck their tamers. This is the less friendly version.",
     "effectText": "Peck deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ついばみ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Penance",
@@ -3842,7 +4062,9 @@
     "description": "Blood magic requires blood sacrifice - will you pay the price? Loatle can inflict 20% of damage on itself to boost the ATK and SPATK of the target.",
     "effectText": "Penance gifts a single other target with ATK and SPATK but causes the user to lose 20% of their maximum HP.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "捨身の行",
+    "descriptionJa": "使用者のHPが20%減り対象のATK+4, SPATK+4"
   },
   {
     "name": "Perfect Jab",
@@ -3861,7 +4083,9 @@
     "description": "Strike smarter, not harder. Weak, but enemy get DEF .",
     "effectText": "Perfect Jab deals damage to a single target and inflicts them with DEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "追いづき",
+    "descriptionJa": "対象のDEF-2, SPDEF-2"
   },
   {
     "name": "Petrify",
@@ -3880,7 +4104,9 @@
     "description": "Have a heart... of stone. It doesn't hurt much, but it leaves enemies trapped for 3 turns.",
     "effectText": "Petrify deals damage to a single target and inflicts them with the Trapped Condition for 3 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "石になれ",
+    "descriptionJa": "対象にとらわれ3を付与"
   },
   {
     "name": "Photosynthesis",
@@ -3899,7 +4125,9 @@
     "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves and recover 50% STA.",
     "effectText": "Photosynthesis restores 50% of the user's maximum STA.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "光合成",
+    "descriptionJa": "対象のSTAを50%回復"
   },
   {
     "name": "Pickpocket",
@@ -3918,7 +4146,9 @@
     "description": "A dirty trick from the seedier alleys of Lochburg, uses nimble fingers (or claws) to Seize the target for 2 turns.",
     "effectText": "Pickpocket deals damage to a single other target and inflicts them with the Seized Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ピックポケット",
+    "descriptionJa": "対象にさしおさえ2を付与"
   },
   {
     "name": "Piercing Wheel",
@@ -3937,7 +4167,9 @@
     "description": "Zizare's signature technique - a fast attack that terrifies enemies DEF and lifts your spirits, giving you Vigor for 2 turns.",
     "effectText": "Piercing Wheel deals damage to a single other target and inflicts them with DEF while also gifting the user with the Invigorated Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "大車輪",
+    "descriptionJa": "対象のDEF-2, 使用者にげんき2を付与"
   },
   {
     "name": "Piezoelectric Blow",
@@ -3952,22 +4184,16 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Earth",
     "synergyEffects": [
-      {
-        "effect": "2 turns  Seized",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 155,
-        "type": "damage",
-        "effect": "+155 Damage"
-      }
+      { "effect": "2 turns  Seized", "type": "condition", "damage": 0 },
+      { "damage": 155, "type": "damage", "effect": "+155 Damage" }
     ],
     "targets": "Single Target",
     "description": "This Temtem can compress a part of its body to unleash an electric shock - fast and damaging.Oh, and you have an earthing electrode? Used in combination with an Earth ally, Piezoelectric Blow inflicts additional damage and seizes for 2 turns.",
     "effectText": "Piezoelectric Blow deals damage to a single target.",
     "synergyText": "If used with an Earth ally, its damage increases to 155 and also inflicts the Seized Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ピエゾブロー",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にさしおさえ2を付与する"
   },
   {
     "name": "Plague",
@@ -3986,7 +4212,9 @@
     "description": "A nasty lurgy that damages the target and leaves it Exhausted for 1 turn.",
     "effectText": "Plague deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "病原体",
+    "descriptionJa": "対象にひろう1を付与"
   },
   {
     "name": "Plasma Beam",
@@ -4005,7 +4233,9 @@
     "description": "A jet of superheated matter, right where it hurts. This technique does slight damage and burns a target for 1 turn.",
     "effectText": "Plasma Beam deals damage to a single other target and inflicts them with the Burned Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "プラズマビーム",
+    "descriptionJa": "対象にやけど1を付与"
   },
   {
     "name": "Pollution",
@@ -4024,7 +4254,9 @@
     "description": "Noxious fumes, almost unheard-of in the unspoilt Archipelago. They Poison the whole team for 2 turns and also reduces 25% of stamina from the targets.",
     "effectText": "Pollution inflicts the rival team or the user's ally with the Poisoned Condition for 2 turns and causes them to lose 25% of their maximum STA.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "おせんガス",
+    "descriptionJa": "対象のSTAを25%減らしどく2を付与"
   },
   {
     "name": "Psy Surge",
@@ -4043,7 +4275,9 @@
     "description": "An enhanced version of Psy that inflicts so much psychological damage that it bleeds into the somatic.",
     "effectText": "Psy Surge deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "サイコサージ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Psy Wave",
@@ -4062,7 +4296,9 @@
     "description": "\"Mens sana in corpore sano\"... but the other way around.",
     "effectText": "Psy Wave deals damage to a single other target and inflicts SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "サイコウェーブ",
+    "descriptionJa": "対象のSPDEF-2"
   },
   {
     "name": "Psychic Collaborator",
@@ -4077,22 +4313,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Mental",
     "synergyEffects": [
-      {
-        "damage": 165,
-        "type": "damage",
-        "effect": "+165 Damage"
-      },
-      {
-        "damage": 165,
-        "type": "buff",
-        "effect": "26 STA Cost"
-      }
+      { "damage": 165, "type": "damage", "effect": "+165 Damage" },
+      { "damage": 165, "type": "buff", "effect": "26 STA Cost" }
     ],
     "targets": "Single Other Target",
     "description": "This Mental technique does a meagre 20 damage and confers the target SPATK . Mind tricks galore!",
     "effectText": "Psychic Collaborator deals damage to a single other target and grants SPATK .",
     "synergyText": "If used with a Mental ally, its damage increases to 170 and it no longer grants SPATK .",
-    "effects": []
+    "effects": [],
+    "nameJa": "サイキックコラボ",
+    "descriptionJa": "対象にSPATK+2を付与する。シナジー時ダメージが変化し通常効果が消滅する"
   },
   {
     "name": "Psychosis",
@@ -4111,7 +4341,9 @@
     "description": "Never take a shower before checking you're really alone... It dooms the target for 4 turns.",
     "effectText": "Psychosis inflicts a single target with a 4 turn countdown of the Doomed Condition.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "さくらん念波",
+    "descriptionJa": "対象にはめつ4を付与"
   },
   {
     "name": "Purgation",
@@ -4130,7 +4362,9 @@
     "description": "Out with the bad, in with the good! This technique increases ATK and eliminates doomed.",
     "effectText": "Purgation gifts a single target with ATK and cures them of the Doomed Condition.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "お清め",
+    "descriptionJa": "対象のはめつを取り除きATK+2"
   },
   {
     "name": "Quartz Dirt",
@@ -4145,22 +4379,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Earth",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Trapped",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 80,
-        "type": "damage",
-        "effect": "+80 Damage"
-      }
+      { "effect": "2 Turns  Trapped", "type": "condition", "damage": 0 },
+      { "damage": 80, "type": "damage", "effect": "+80 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "Micro-fine particles designed to inflict macro-damage to a whole team. Make sure you don't inhale them!A denser cloud. Used in combination with an Earth ally, Quartz Dirt traps the targets for 2 turns.",
     "effectText": "Quartz Dirt deals damage to the rival team or the user's ally.",
     "synergyText": "If used with an Earth ally, its damage increases to 80 and also inflicts the Trapped Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "クウォーツダート",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にとらわれ2を付与する"
   },
   {
     "name": "Quartz Shield",
@@ -4179,7 +4407,9 @@
     "description": "Temtem found defensive uses for rock crystal centuries before humans did: DEF and SPDEF .",
     "effectText": "Quartz Shield gifts a single target with DEF and SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "クォーツシールド",
+    "descriptionJa": "対象のDEF+2, SPDEF+2"
   },
   {
     "name": "Quetza-leño",
@@ -4194,11 +4424,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Neutral",
     "synergyEffects": [
-      {
-        "damage": 115,
-        "type": "damage",
-        "effect": "+115 Damage"
-      }
+      { "damage": 115, "type": "damage", "effect": "+115 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log, and a bottle of Quetzaleño Reposado...",
@@ -4219,17 +4445,15 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Wind",
     "synergyEffects": [
-      {
-        "effect": "Only affects rival team",
-        "type": "unknown",
-        "damage": 0
-      }
+      { "effect": "Only affects rival team", "type": "unknown", "damage": 0 }
     ],
     "targets": "All",
     "description": "Can we all sink any lower? Every Temtem on the battlefield gets SPD .Used in combination with a Wind ally, only the enemy team gets SPD .",
     "effectText": "Quicksand inflicts all combatants on the battlefield with SPD .",
     "synergyText": "If used with a Wind ally, it only affects the rival team.",
-    "effects": []
+    "effects": [],
+    "nameJa": "流砂",
+    "descriptionJa": "対象のSPD-2。シナジー時対象が相手チームのみに変化"
   },
   {
     "name": "Rage",
@@ -4248,7 +4472,9 @@
     "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF .",
     "effectText": "Rage gifts the user with ATK but also inflicts them with DEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "きょうぼう化",
+    "descriptionJa": "対象のATK+4, DEF-3"
   },
   {
     "name": "Rainbow Guard",
@@ -4267,7 +4493,9 @@
     "description": "En garde! This technique makes you immune for 3 turns and makes you evade attacks for 1 turn.",
     "effectText": "Rainbow Guard gifts the user with the Immune Condition for 3 turns and the Evading Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "レインボーガード",
+    "descriptionJa": "対象にかいひ1とむこう3を付与"
   },
   {
     "name": "Rampage",
@@ -4282,22 +4510,16 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Melee",
     "synergyEffects": [
-      {
-        "damage": 85,
-        "type": "damage",
-        "effect": "+85 Damage"
-      },
-      {
-        "damage": 85,
-        "type": "buff",
-        "effect": "25 STA Cost"
-      }
+      { "damage": 85, "type": "damage", "effect": "+85 Damage" },
+      { "damage": 85, "type": "buff", "effect": "25 STA Cost" }
     ],
     "targets": "Other Team or Ally",
     "description": "Temtem might be cute... but when they go on a Rampage, they inflict damage on the whole team.",
     "effectText": "Rampage deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Melee ally, its damage increases to 85 and STA Cost decreases to 25 and Priority increases to Normal.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ランページ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとSTA消費量とPriorityが変化"
   },
   {
     "name": "Refresh",
@@ -4316,7 +4538,9 @@
     "description": "About time you took a little breather! This technique increases SPATK and heals 6% Health.",
     "effectText": "Refresh gifts the user with SPATK and heals 6% of their maximum HP.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "リフレッシュ",
+    "descriptionJa": "対象のHPを6%回復しSPATK+2"
   },
   {
     "name": "Refreshing Breeze",
@@ -4331,22 +4555,16 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Nature",
     "synergyEffects": [
-      {
-        "effect": "SPDEF",
-        "type": "unknown",
-        "damage": 0
-      },
-      {
-        "damage": 0,
-        "type": "targeting",
-        "effect": "Single Target"
-      }
+      { "effect": "SPDEF", "type": "unknown", "damage": 0 },
+      { "damage": 0, "type": "targeting", "effect": "Single Target" }
     ],
     "targets": "Single Other Target",
     "description": "A breath of fresh air to relax and heal you. This quick technique cures all statuses and decreases SPDEF .Used in combination with a Nature ally, Refreshing Breeze increases SPDEF instead of decreasing it.",
     "effectText": "Refreshing Breeze cures/removes all of the user's Status Conditions but inflicts them with SPDEF .",
     "synergyText": "If used with a Nature ally, it gifts the user with SPDEF instead of inflicting the SPDEF .",
-    "effects": []
+    "effects": [],
+    "nameJa": "心地よい風",
+    "descriptionJa": "対象の状態変化を取り除きSPDEF-1。シナジー時SPDEF-1の代わりにSPDEF+2"
   },
   {
     "name": "Relax",
@@ -4365,7 +4583,9 @@
     "description": "Time for a little siesta! Everyone on the battlefield gets Asleep for 2 turns.",
     "effectText": "Relax inflicts all combatants on the battlefield with the Asleep Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "リラックス",
+    "descriptionJa": "対象にねむり2を付与"
   },
   {
     "name": "Rend",
@@ -4384,7 +4604,9 @@
     "description": "While this technique does only moderate damage, it nullifies the target for 4 turns, buying you some precious time...",
     "effectText": "Rend deals damage to a single other target and gives them the Nullified Condition for 4 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "つんざく",
+    "descriptionJa": "対象にちゅうわ4を付与"
   },
   {
     "name": "Reset",
@@ -4403,7 +4625,9 @@
     "description": "Sometimes, you just need a reset and a fresh start - it wipes all stages and statuses from the target in the blink of an eye.",
     "effectText": "Reset cures/removes all Status Conditions and Stat Stage Changes gifted/given/inflicted on a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "リセット",
+    "descriptionJa": "対象の能力変化及び状態変化をすべて取り除く"
   },
   {
     "name": "Resin Trap",
@@ -4422,7 +4646,9 @@
     "description": "Like a mosquito in amber, this technique damages an enemy and leaves it trapped for 2 turns.",
     "effectText": "Resin Trap deals damage to a single target and inflicts them with the Trapped Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "じゅし固め",
+    "descriptionJa": "対象にとらわれ2を付与"
   },
   {
     "name": "Restore",
@@ -4447,7 +4673,9 @@
     "description": "It's always good to have a backup... This quick technique restores 40% of the target's STA.Used in combination with a Water ally, Resotre also restores 20% STA to the user.",
     "effectText": "Restore restores 40% of a single other target's maximum STA.",
     "synergyText": "If used with a Water ally, it also restores 20% of the user's maximum STA.",
-    "effects": []
+    "effects": [],
+    "nameJa": "リストア",
+    "descriptionJa": "対象のSTAを40%回復する。シナジー時使用者のSTAを20%回復する"
   },
   {
     "name": "Revitalize",
@@ -4467,17 +4695,15 @@
         "type": "unknown",
         "damage": 0
       },
-      {
-        "damage": 0,
-        "type": "buff",
-        "effect": "15 STA Cost"
-      }
+      { "damage": 0, "type": "buff", "effect": "15 STA Cost" }
     ],
     "targets": "Single Target",
     "description": "Antiseptic and a couple of bandages. Target recovers 20% HP.Antibiotics and a proper bandage. Target recovers 20% HP and Temtem 10%.",
     "effectText": "Revitalize restores 20% of a single target's maximum HP.",
     "synergyText": "If used with a Nature ally, its STA Cost decreases to 15 and also restores 10% of the user's maximum HP.",
-    "effects": []
+    "effects": [],
+    "nameJa": "手当て",
+    "descriptionJa": "対象のHPを20%回復する。シナジー時STAコストが変化し使用者のHPも10%回復する"
   },
   {
     "name": "Roar",
@@ -4496,7 +4722,9 @@
     "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK and SPATK .",
     "effectText": "Roar inflicts the rival team or the user's ally with ATK and SPATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ほうこう",
+    "descriptionJa": "対象のATK-1, SPATK-1"
   },
   {
     "name": "Rockfall",
@@ -4511,17 +4739,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Fire",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Burned",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "2 Turns  Burned", "type": "condition", "damage": 0 }
     ],
     "targets": "Other Team or Ally",
     "description": "Avalanche! The whole enemy team is bombarded with rocky debris for massive damage.Feel the burn! Used in combination with a Fire ally, the enemy team gets burns for 2 turns.",
     "effectText": "Rockfall deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "岩落とし",
+    "descriptionJa": "通常攻撃。シナジー時対象にやけど2を付与"
   },
   {
     "name": "Roots",
@@ -4540,7 +4766,9 @@
     "description": "Legends tell of the Omninesian tamers who would root rivals in place, inflicting SPD .",
     "effectText": "Roots inflicts a single other target with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ツタしばり",
+    "descriptionJa": "対象のSPD-1"
   },
   {
     "name": "Rotten Goo",
@@ -4559,7 +4787,9 @@
     "description": "Eww, what's that stink? This gross, sticky mess damages the target and seizes it for 2 turns.",
     "effectText": "Rotten Goo deals damage to a single other target and inflicts them with the Seized Condition for 2 turns.",
     "synergyText": "If used with an Electric ally, its priority increases to High.",
-    "effects": []
+    "effects": [],
+    "nameJa": "くさったスライム",
+    "descriptionJa": "対象にとらわれ2を付与。シナジー時Priorityが変化"
   },
   {
     "name": "Rush",
@@ -4578,7 +4808,9 @@
     "description": "Hard or weak, what really matters is striking first. This superfast technique does exactly 40 damage but overextends the user for the next turn.",
     "effectText": "Rush deals an exact 40 damage to a single other target regardless of DEF, SPDEF, Type Effectivness, or Traits, but causes the user to be overexerted the next turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "しっぷうじんらい",
+    "descriptionJa": "対象のHPを40減らす。使用者は次ターン行動不能"
   },
   {
     "name": "Sacrifice",
@@ -4597,7 +4829,9 @@
     "description": "A Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF and SPDEF .",
     "effectText": "Sacrifice removes/cures a single other target of all Status Conditions and gifts them with DEF and SPDEF , then the user is knocked-out.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "サクリファイス",
+    "descriptionJa": "使用者は倒れる。対象のDEF+3, SPDEF+3"
   },
   {
     "name": "Sanative Rain",
@@ -4622,7 +4856,9 @@
     "description": "Known as \"the blessing rains of Kisiwa\", this shamanic technique heals 15% of every Temtem on the battlefield..Used in combination with a Wind ally, Sanative Rain heals allied Temtem by 20% but enemies by only 10%.",
     "effectText": "Sanative Rain restores 15% of all combatants on the battlefield's maximum HP.",
     "synergyText": "If used with a Wind ally, its priority increases to Normal and instead restores 20% of allies' maximum HP and restores 10% of rivals' maximum HP.",
-    "effects": []
+    "effects": [],
+    "nameJa": "回復の雨",
+    "descriptionJa": "対象のHPを15%回復。シナジー時、自分のテムの回復量が20%に、相手のテムの回復量が10%に変化"
   },
   {
     "name": "Sand Splatter",
@@ -4641,7 +4877,9 @@
     "description": "A fistful of humble sand becomes a face full of dirty fighting.",
     "effectText": "Sand Splatter deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "砂かけ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Sand Storm",
@@ -4660,7 +4898,9 @@
     "description": "Developed by the legendary tamer Da-Rud in ancient times, this Earth technique inflicts decent damage on the whole team.",
     "effectText": "Sand Storm deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "砂あらし",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Savage Suplex",
@@ -4679,7 +4919,9 @@
     "description": "In classic Temtem wresting showbiz style, this Neutral technique damages and exhausts the target for 2 turns.",
     "effectText": "Savage Suplex deals damage to a single other target and inflicts them with the Exhausted Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ワイルドスープレックス",
+    "descriptionJa": "対象にひろう2を付与"
   },
   {
     "name": "Scratch",
@@ -4698,7 +4940,9 @@
     "description": "Almost any claw or nail can scratch the surface. Sometimes that's enough.",
     "effectText": "Scratch deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ひっかき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Seismunch's Wreck",
@@ -4713,17 +4957,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Melee",
     "synergyEffects": [
-      {
-        "damage": 120,
-        "type": "damage",
-        "effect": "+120 Damage"
-      }
+      { "damage": 120, "type": "damage", "effect": "+120 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "Seismunch has exactly the balls to deal with the whole enemy team... Earth balls, that is.",
     "effectText": "Seismunch's Wreck deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Melee ally, its damage increases to 120 and priority increases to High.",
-    "effects": []
+    "effects": [],
+    "nameJa": "シーズマンチの本気",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化"
   },
   {
     "name": "Serbatiyo's Wrath",
@@ -4742,7 +4984,9 @@
     "description": "Only Oceara can tap into the mythical power of the serbatiyo to give itself SPATK and unleash a devastating Water attack on the whole enemy team.",
     "effectText": "Serbatiyo's Wrath deals damage to the rival team or the user's ally and gifts the user with SPATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "セルバティオのいかり",
+    "descriptionJa": "使用者のSPATK+2"
   },
   {
     "name": "Sharp Leaf",
@@ -4761,7 +5005,9 @@
     "description": "Evolution has armed Nature Temtem with advanced defenses against herbivores.",
     "effectText": "Sharp Leaf deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "シャープリーフ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Sharp Rain",
@@ -4780,7 +5026,9 @@
     "description": "Rather like snow, if snow was razor-sharp ice needles instead of gentle flakes.",
     "effectText": "Sharp Rain deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アイシクルレイン",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Sharp Stabs",
@@ -4799,7 +5047,9 @@
     "description": "Like winter in the Kilima peaks, this blizzard of sharp shards is as fast as piercing.",
     "effectText": "Sharp Stabs deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "シャープスピア",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Sharpening",
@@ -4818,7 +5068,9 @@
     "description": "Sharpen those claws, it's time to tear through the opposition! This technique bestows increased ATK and SPD .",
     "effectText": "Sharpening gifts the user with SPD and ATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "みがき上げる",
+    "descriptionJa": "対象のATK+2, SPD+1"
   },
   {
     "name": "Shelter",
@@ -4837,7 +5089,9 @@
     "description": "Take cover! This slow technique gives DEF and SPDEF at the expense of leaving you Overexerted on the next turn.",
     "effectText": "Shelter gifts the user with DEF and SPDEF but causes the user to be overexerted the next turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "シェルター",
+    "descriptionJa": "対象のDEF+4, SPDEF+4, 使用者は次ターン行動不能"
   },
   {
     "name": "Show Off",
@@ -4852,17 +5106,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Melee",
     "synergyEffects": [
-      {
-        "effect": "3 Turns  Invigorated",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "3 Turns  Invigorated", "type": "condition", "damage": 0 }
     ],
     "targets": "Self",
     "description": "A good Melee fighter is a always a good showman: ATK .Used in combination with a Melee ally, it also bestows Vigor for 3 turns.",
     "effectText": "Show Off gifts the user with ATK .",
     "synergyText": "If used with a Melee ally, it also gifts the Invigorated Condition for 3 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "見せつけ",
+    "descriptionJa": "対象のATK+2。シナジー時対象にげんき3を付与"
   },
   {
     "name": "Shrill Voice",
@@ -4881,7 +5133,9 @@
     "description": "Widely used by Accademia teachers, this Neutral attack deafens the whole class... eh, team.",
     "effectText": "Shrill Voice deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "金切り声",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Shy Shield",
@@ -4900,7 +5154,9 @@
     "description": "Some Temtem are naturally introverted and keep to themselves, obtaining DEF .",
     "effectText": "Shy Shield gifts the user with DEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "シャイシールド",
+    "descriptionJa": "対象のDEF+1"
   },
   {
     "name": "Slime",
@@ -4919,7 +5175,9 @@
     "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD .",
     "effectText": "Slime inflicts a single other target with SPD and the Trapped Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ねばねば",
+    "descriptionJa": "対象のSPD-1, とらわれ2を付与"
   },
   {
     "name": "Slow Down",
@@ -4934,17 +5192,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Mental",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Asleep",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "2 Turns  Asleep", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Target",
     "description": "Time to chill and take it slow... The target gets SPD Used in combination with a Mental ally, Slow Down also causes the target to fall asleep for 2 turns.",
     "effectText": "Slow Down inflicts a single target with SPD .",
     "synergyText": "If used with a Mental ally, it also inflicts the Asleep Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "スローダウン",
+    "descriptionJa": "対象のSPD-1。シナジー時対象にねむり2を付与"
   },
   {
     "name": "Sludge Gift",
@@ -4963,7 +5219,9 @@
     "description": "An extremely weak Earth technique... but you don't look a sludge gift in the rock, right?",
     "effectText": "Sludge Gift deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "どろおくり",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Smoldering Kiss",
@@ -4982,7 +5240,9 @@
     "description": "Ah, the crazy Fire of passion! The target gets just a little scorched, but the kisser is invigorated for 2 turns.",
     "effectText": "Smoldering Kiss deals damage to a single other target and gifts the user with the Invigorated Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "情熱のキス",
+    "descriptionJa": "使用者にげんき2を付与"
   },
   {
     "name": "Soil Steam",
@@ -5001,7 +5261,9 @@
     "description": "Feels just like walking barefoot through the Tasa Desert at noon! It inflicts massive damage on the enemy!",
     "effectText": "Soil Steam inflicts damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ソイルスチーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Soul Shout",
@@ -5020,7 +5282,9 @@
     "description": "A mighty scream, powered by the Temtem's very soul, inflicting considerable damage on an enemy.",
     "effectText": "Soul Shout deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "たましいのさけび",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Sparkling Bullet",
@@ -5035,17 +5299,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Neutral",
     "synergyEffects": [
-      {
-        "damage": 98,
-        "type": "damage",
-        "effect": "+98 Damage"
-      }
+      { "damage": 98, "type": "damage", "effect": "+98 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "All flash and no bang - this sparkly Electric technique does little damage.",
     "effectText": "Sparkling Bullet deals damage to a single other target.",
     "synergyText": "If used with a Neutral ally, its damage increases to 98.",
-    "effects": []
+    "effects": [],
+    "nameJa": "スパークバレット",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
   },
   {
     "name": "Sparks",
@@ -5064,7 +5326,9 @@
     "description": "Nothing perks you up like a spark-up! SPATK .",
     "effectText": "Sparks gifts a single target with SPATK and Invigorated Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "スパーク",
+    "descriptionJa": "対象にSPATK+1, げんき1を付与"
   },
   {
     "name": "Spores",
@@ -5083,7 +5347,9 @@
     "description": "One of the most basic Nature attacks, based on allergenic spores.",
     "effectText": "Spores deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ほうし",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Stampede",
@@ -5098,22 +5364,16 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Earth",
     "synergyEffects": [
-      {
-        "effect": "3 Turns  Seized",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 130,
-        "type": "damage",
-        "effect": "+130 Damage"
-      }
+      { "effect": "3 Turns  Seized", "type": "condition", "damage": 0 },
+      { "damage": 130, "type": "damage", "effect": "+130 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "A stampede worth of the Kisiwan savanna. Damages the whole team.Used in combination with an Earth ally, inflicts extra damage and seizes for 3 turns.",
     "effectText": "Stampede deals damage to the rival team or the user's ally.",
     "synergyText": "If used with an Earth ally, its damage increases to 125 and also inflicts the Seized Condition for 3 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "スタンピード",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にとらわれ3を付与"
   },
   {
     "name": "Stare",
@@ -5132,7 +5392,9 @@
     "description": "This intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
     "effectText": "Stare inflicts a single other target with DEF and gifts the user with the Alerted Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "にらみつけ",
+    "descriptionJa": "対象のDEF-2, 使用者にけいかい2を付与"
   },
   {
     "name": "Sting",
@@ -5151,7 +5413,9 @@
     "description": "A tiny prick only hurts a little... until they notice they're Poisoned for 2 turns.",
     "effectText": "Sting deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "毒針",
+    "descriptionJa": "対象にどく2を付与"
   },
   {
     "name": "Stone Ball",
@@ -5166,17 +5430,15 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Fire",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Burned",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "2 Turns  Burned", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Target",
     "description": "The bane of exploring archaeologists, this is a mighty Earth technique.Used in combination with a Fire ally, that flaming ball Burns for 2 turns.",
     "effectText": "Stone Ball deals damage to a single target.",
     "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "がれき落とし",
+    "descriptionJa": "通常攻撃。シナジー時対象にやけど2を付与"
   },
   {
     "name": "Stone Trench",
@@ -5195,7 +5457,9 @@
     "description": "Get to cover! This technique inflicts medium damage on the target team and you get evading for 1 turn.",
     "effectText": "Stone Trench deals damage to the rival team or the user's ally and gifts the user with the Evading Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ざんごう戦",
+    "descriptionJa": "使用者にかいひ1を付与"
   },
   {
     "name": "Stone Wall",
@@ -5214,7 +5478,9 @@
     "description": "The best way to stonewall a Temtem, giving DEF and SPDEF .",
     "effectText": "Stone Wall gifts a single target with DEF and SPDEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ストーンウォール",
+    "descriptionJa": "対象のDEF+3, SPDEF+1"
   },
   {
     "name": "Strangle",
@@ -5233,7 +5499,9 @@
     "description": "Strangler and strangled, united in a deadly embrace. Both attacker and target get overextended next turn.",
     "effectText": "Strangle deals damage to a single other target but causes both the user and the target to be overexerted the next turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "しめつけ",
+    "descriptionJa": "使用者と対象は次のターン行動不能"
   },
   {
     "name": "Swarm Aid",
@@ -5258,7 +5526,9 @@
     "description": "Every little sting stings and each of them sucks a little blood... It steals 10% health from the enemy team and leaves them exhausted for 1 turn.Used in combination with an Earth ally, Swarm Aid is faster and steals 15% of health.",
     "effectText": "Swarm Aid causes the rival team or the user's ally to lose 10% of their maximum HP, inflicts them with the Exhausted Condition for 1 turn and restores 10% of the user's maximum HP.",
     "synergyText": "If used with an Earth ally, its priority increases to Very High and instead causes the rival team or the user's ally to lose 15% of their maximum HP and restores 15% of the user's maximum HP.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ミリオンドレイン",
+    "descriptionJa": "対象のHPを10%減らしひろう1を付与。使用者のHPを10%回復。シナジー時Priorityが変化し、HPの減少量および回復量が15%に変化"
   },
   {
     "name": "Tail Strike",
@@ -5277,7 +5547,9 @@
     "description": "Sweep the board at one fell swoop.",
     "effectText": "Tail Strike deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "しっぽ打ち",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Telekinetic Shrapnel",
@@ -5296,7 +5568,9 @@
     "description": "Reportedly feels \"like combing your brain with concertina wire.\"",
     "effectText": "Telekinetic Shrapnel deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "テレキネシス",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Tenderness",
@@ -5315,7 +5589,9 @@
     "description": "Really? Are you going to attack something *this* cute? Inflicts ATK .",
     "effectText": "Tenderness inflicts a single other target with ATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "あいきょう",
+    "descriptionJa": "対象のATK-2"
   },
   {
     "name": "Tentacle Whip",
@@ -5334,7 +5610,9 @@
     "description": "Tentacles. Why did it have to be tentacles?",
     "effectText": "Tentacle Whip deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "テンタクルウィップ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Tesla Prison",
@@ -5353,7 +5631,9 @@
     "description": "An electromagnetic trap that does light damage and slows down the target: SPD .",
     "effectText": "Tesla Prison deals damage to a single other target and inflicts them with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "テスラプリズン",
+    "descriptionJa": "対象のSPD-1"
   },
   {
     "name": "Thunder Strike",
@@ -5372,7 +5652,9 @@
     "description": "Hear it roar! The sound and fury of this technique inflict heavy damage.",
     "effectText": "Thunder Strike deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "らいげき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Time Split",
@@ -5391,7 +5673,9 @@
     "description": "Twist the fabric of time-space to your advantage, gaining SPD and giving the enemy SPD .",
     "effectText": "Time Split deals damage to a single other target then gifts the user with SPD and inflicts the target with SPD .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "タイムスプリット",
+    "descriptionJa": "対象のSPD-2, 使用者のSPD+2"
   },
   {
     "name": "Token",
@@ -5410,7 +5694,9 @@
     "description": "Launch token attacks, get token results. This technique does little damage and exiles the target for 1 turn.",
     "effectText": "Token deals damage to a single target and inflicts them with the Isolated Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "トークン",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Tornado",
@@ -5429,7 +5715,9 @@
     "description": "A powerful wind technique, illegal to use near all airship terminals of the Archipelago.",
     "effectText": "Tornado deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "トルネード",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Tortenite's Garden",
@@ -5454,7 +5742,9 @@
     "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 10% while the target is Doomed for 4 turns.Used in combination with a Crystal ally, Tortenite's Garden heals 20% and inflicts Doomed for 3 turns instead of 4.",
     "effectText": "Tortenite's Garden inflicts a single other target with a 4 turn countdown of the Doomed Condition and restores 10% of the user's maximum HP.",
     "synergyText": "If used with a Crystal ally, the Doomed Condition has a 3 turn countdown and restores 20% of the user's maximum HP.",
-    "effects": []
+    "effects": [],
+    "nameJa": "トルテナイトの庭",
+    "descriptionJa": "対象にはめつ4を付与し使用者のHPを10%回復する。シナジー時、代わりに対象にはめつ3を付与し使用者のHPを20%回復する"
   },
   {
     "name": "Toughen",
@@ -5473,7 +5763,9 @@
     "description": "When the going gets tough, the tough get going - and DEF !",
     "effectText": "Toughen gifts the user with DEF .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "タフネス",
+    "descriptionJa": "対象のDEF+4"
   },
   {
     "name": "Toxic Fang",
@@ -5492,7 +5784,9 @@
     "description": "A quick nibble that doesn't look like much... until you notice the Poison for 1 turn.",
     "effectText": "Toxic Fang deals damage to a single other target and inflicts them with the Poisoned Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "毒のキバ",
+    "descriptionJa": "対象にどく1を付与"
   },
   {
     "name": "Toxic Gas",
@@ -5511,7 +5805,9 @@
     "description": "Hold your nose when you unleash this Toxic attack on the whole team.",
     "effectText": "Toxic Gas deals damage to the rival team or the user's ally.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "毒ガス",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Toxic Ink",
@@ -5530,7 +5826,9 @@
     "description": "The victim will have time to regret getting this tattoo... While it's Poisoned for 2 turns.",
     "effectText": "Toxic Ink deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "毒スミ飛ばし",
+    "descriptionJa": "対象にどく2を付与"
   },
   {
     "name": "Toxic Plume",
@@ -5545,22 +5843,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Crystal",
     "synergyEffects": [
-      {
-        "effect": "ATK",
-        "type": "unknown",
-        "damage": 0
-      },
-      {
-        "damage": 0,
-        "type": "buff",
-        "effect": "18 STA Cost"
-      }
+      { "effect": "ATK", "type": "unknown", "damage": 0 },
+      { "damage": 0, "type": "buff", "effect": "18 STA Cost" }
     ],
     "targets": "Other Team or Ally",
     "description": "Like a faulty airship engine, this Temtem can leave a trail of toxic gas that gives Poison to the whole team for 1 turn.Used in combination with a Crystal ally, Toxic Plume saves you STA and the target gets ATK .",
     "effectText": "Toxic Plume deals damage to the rival team or the user's ally and inflicts them with the Poisoned Condition for 1 turn.",
     "synergyText": "If used with a Crystal ally, its STA Cost decreases to 16 and also inflicts ATK .",
-    "effects": []
+    "effects": [],
+    "nameJa": "毒まき",
+    "descriptionJa": "対象にどく1を付与する。シナジー時STAコストが変化し対象のATK-2"
   },
   {
     "name": "Toxic Slime",
@@ -5579,7 +5871,9 @@
     "description": "This takes the form of a repulsive wave of slime that hurts the body... and your self-esteem.",
     "effectText": "Toxic Slime deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "どくどくヘドロ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Toxic Spores",
@@ -5598,7 +5892,9 @@
     "description": "Toxin-carrying spores that inoculate with Poisoned for 3 turns.",
     "effectText": "Toxic Spores inflicts a single other target with the Poisoned Condition for 3 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "毒ほうし",
+    "descriptionJa": "対象にどく3を付与"
   },
   {
     "name": "Toxic Stream",
@@ -5617,7 +5913,9 @@
     "description": "Condensing waterborne toxins, Koish can use a stream of Toxic fluid that inflicts moderate damage.",
     "effectText": "Toxic Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "トキシックストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Toxic Torrent",
@@ -5636,7 +5934,9 @@
     "description": "\"Chromeon, show me your Toxic side!\" This technique inflicts moderate damage.",
     "effectText": "Toxic Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "トキシックフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Toxin Shower",
@@ -5655,7 +5955,9 @@
     "description": "Soak everyone in nasty toxins - but don't splash yourself! Inflicts moderate damage on everyone but you, and lets you evade for 2 turns.",
     "effectText": "Toxin Shower deals damage to all other combatants on the battlefield and gifts the user with the Evading Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ポイズンシャワー",
+    "descriptionJa": "使用者にかいひ2を付与"
   },
   {
     "name": "Transient Echo",
@@ -5674,7 +5976,9 @@
     "description": "There and back again! This technique deals medium damage and gives -1 Hold.",
     "effectText": "Transient Echo deals damage to a single other target and gifts the user -1 Hold to all Techniques.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "トランジエントエコー",
+    "descriptionJa": "使用者の技のholdを1減らす"
   },
   {
     "name": "Tsunami",
@@ -5689,22 +5993,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Wind",
     "synergyEffects": [
-      {
-        "effect": "1 Turns  Cold",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 80,
-        "type": "damage",
-        "effect": "+80 Damage"
-      }
+      { "effect": "1 Turns  Cold", "type": "condition", "damage": 0 },
+      { "damage": 80, "type": "damage", "effect": "+80 Damage" }
     ],
     "targets": "Other Team or Ally",
     "description": "Summon a rarely seen tidal wave that damages a whole team.Uses in combination with a Wind ally, damage boost and Cold for 1 Turn.",
     "effectText": "Tsunami deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Wind ally, its damage increases to 80 and also inflicts the Cold Condition for 1 turn.",
-    "effects": []
+    "effects": [],
+    "nameJa": "大波",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にこごえ1を付与"
   },
   {
     "name": "Turbine",
@@ -5723,7 +6021,9 @@
     "description": "Swift as the wind and as harsh and razor sharp as a wintery gale. This technique is fast and inflicts decent damage.",
     "effectText": "Turbine deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "せんぷうげき",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Turbo Attack",
@@ -5742,7 +6042,9 @@
     "description": "Time to supercharge your attack - like nitro, but for Temtem!",
     "effectText": "Turbo Attack deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ターボアタック",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Turbo Charge",
@@ -5761,7 +6063,9 @@
     "description": "Turn it to eleven! Decreases the Hold level of our whole team.",
     "effectText": "Turbo Charge decreases the Hold of all the techniques of a single team by 1.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ターボチャージ",
+    "descriptionJa": "対象の技のHoldを1減らす"
   },
   {
     "name": "Turbo Choreography",
@@ -5775,18 +6079,14 @@
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Wind",
-    "synergyEffects": [
-      {
-        "effect": "SPD",
-        "type": "unknown",
-        "damage": 0
-      }
-    ],
+    "synergyEffects": [{ "effect": "SPD", "type": "unknown", "damage": 0 }],
     "targets": "Single Team",
     "description": "The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD to the whole team.Wind allies boost the effect of Turbo Choreography to the whole team SPD .",
     "effectText": "Turbo Choreography gifts a single team with SPD .",
     "synergyText": "If used with a Wind ally, it instead gifts SPD .",
-    "effects": []
+    "effects": [],
+    "nameJa": "アクセルダンス",
+    "descriptionJa": "対象のSPD+2。シナジー時、代わりにSPD+3"
   },
   {
     "name": "Ultrasound",
@@ -5805,7 +6105,9 @@
     "description": "If you can hear it, you've already been hit. This hyper-fast technique exhausts the whole target team for 2 turns.",
     "effectText": "Ultrasound inflicts the rival team or the user's ally with the Exhausted Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ちょうおんぱ",
+    "descriptionJa": "対象にひろう2を付与"
   },
   {
     "name": "Undermine",
@@ -5824,7 +6126,9 @@
     "description": "Leave your opponent heavily damaged and treading on very thin ice, giving it SPATK .",
     "effectText": "Undermine deals damage to a single other target and inflicts them with SPATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "じらい",
+    "descriptionJa": "対象のSPATK-1"
   },
   {
     "name": "Unseen Blow",
@@ -5843,7 +6147,9 @@
     "description": "Nothing hurts like the blow you didn't see coming! This technique inflicts heavy damage.",
     "effectText": "Unseen Blow deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "インビジストライク",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Untangle",
@@ -5862,7 +6168,9 @@
     "description": "With a few swift movement, this techniques Untraps the target from any tangle. If trapped is removed successfully, the target gets DEF and SPDEF .",
     "effectText": "Untangle cures a single target of the Trapped Condition and gifts them with DEF and SPDEF if they were cured from the Trapped Condition.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ときほぐす",
+    "descriptionJa": "対象のとらわれを回復。その後対象のDEF+1, SPDEF+1"
   },
   {
     "name": "Uppercut",
@@ -5881,7 +6189,9 @@
     "description": "Melee Temtem are all about raw strength. This technique is its sincerest expression.",
     "effectText": "Uppercut deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "アッパー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Urushiol",
@@ -5896,17 +6206,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Toxic",
     "synergyEffects": [
-      {
-        "effect": "4 Turns  Poisoned",
-        "type": "condition",
-        "damage": 0
-      }
+      { "effect": "4 Turns  Poisoned", "type": "condition", "damage": 0 }
     ],
     "targets": "Single Other Target",
     "description": "The substance known as Urushiol is a virulent toxic agent.Urushiol's synergy with a Toxic ally Poisons the enemy for 4 turns.",
     "effectText": "Urushiol deals damage to a single other target.",
     "synergyText": "If used with a Toxic ally, it also inflicts the Poisoned Condition for 4 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウルシオール",
+    "descriptionJa": "通常攻撃。シナジー時対象にどく4を付与"
   },
   {
     "name": "Venom Spread",
@@ -5925,7 +6233,9 @@
     "description": "This technique only works on already poisoned enemies - but in that case, the toxin rush inflicts 150 damage.",
     "effectText": "Venom Spread deals damage to a single target if they're afflicted with the Poisoned Condition.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ベノムスプレッド",
+    "descriptionJa": "対象がどく状態でなければ失敗"
   },
   {
     "name": "Venomous Claws",
@@ -5944,7 +6254,9 @@
     "description": "When the look of your claws doesn't prevent the fight, the poison finishes it.",
     "effectText": "Venomous Claws deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "毒ヅメ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Virulent Gust",
@@ -5959,17 +6271,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Water",
     "synergyEffects": [
-      {
-        "damage": 0,
-        "type": "targeting",
-        "effect": "Other Team or Ally"
-      }
+      { "damage": 0, "type": "targeting", "effect": "Other Team or Ally" }
     ],
     "targets": "Single Target",
     "description": "Don't you know that you're toxic? This technique does moderate damage.Can you feel me now? Used in combination with a Water ally, Virulent Gust inflcits damage on the whole enemy team.",
     "effectText": "Virulent Gust deals damage to a single target.",
     "synergyText": "If used with a Water ally, its targeting changes to Other Team or Ally. As such, if the user targets themselves and the synergy activates, only the user's ally will be damaged.",
-    "effects": []
+    "effects": [],
+    "nameJa": "病み風",
+    "descriptionJa": "通常攻撃。シナジー時対象が変化"
   },
   {
     "name": "Voltopuncture",
@@ -5988,7 +6298,9 @@
     "description": "Sometimes a little shock is all you need to gain an edge. This fast technique inflicts slight damage but seizes the target for 1 turn.",
     "effectText": "Voltopuncture deals damage to a single other target and inflicts them with the Seized Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ボルトパンク",
+    "descriptionJa": "対象にさしおさえ1を付与"
   },
   {
     "name": "Wake Up",
@@ -6007,7 +6319,9 @@
     "description": "Wake up and smell the coffee! Inflicts minimal damage but wakes up the target instantly.",
     "effectText": "Wake Up deals damage to a single target.",
     "synergyText": "Due to the low damage and high priority, its most encouraged use is to damage allies with the Asleep Condition in order to wake them.",
-    "effects": []
+    "effects": [],
+    "nameJa": "たたき起こす",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Warm Cuddle",
@@ -6026,7 +6340,9 @@
     "description": "Some Temtem are so warm and cuddly that they can weaponize that love as a Fire technique.",
     "effectText": "Warm Cuddle deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "あったかハグ",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Wastewater",
@@ -6045,7 +6361,9 @@
     "description": "Like raw sewage raining on you, without the \"like\". It inflicts moderate Toxic damage and poisons for 1 turn.",
     "effectText": "Wastewater deals damage to a single target and inflicts them with the Poisoned Condition for 1 turn.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "くさり水",
+    "descriptionJa": "対象にどく1を付与"
   },
   {
     "name": "Water Blade",
@@ -6064,7 +6382,9 @@
     "description": "Whipping seawater, like the stormy Sillaro whipping the rocks.",
     "effectText": "Water Blade deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウォーターブレード",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Water Cannon",
@@ -6079,22 +6399,16 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Toxic",
     "synergyEffects": [
-      {
-        "effect": "2 Turns  Poisoned",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 100,
-        "type": "damage",
-        "effect": "+100 Damage"
-      }
+      { "effect": "2 Turns  Poisoned", "type": "condition", "damage": 0 },
+      { "damage": 100, "type": "damage", "effect": "+100 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "The strongest Sillaro current has nothing on this unstoppable jet.Used in combination with a Toxic ally, it produces a stream of Poison for 2 turns.",
     "effectText": "Water Cannon deals damage to a single other target.",
     "synergyText": "If used with a Toxic ally, it also inflicts the Poisoned Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウォーターカノン",
+    "descriptionJa": "通常攻撃。シナジー時対象にどく2を付与"
   },
   {
     "name": "Water Cutting Lily",
@@ -6109,17 +6423,15 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Water",
     "synergyEffects": [
-      {
-        "damage": 134,
-        "type": "damage",
-        "effect": "+134 Damage"
-      }
+      { "damage": 134, "type": "damage", "effect": "+134 Damage" }
     ],
     "targets": "Single Target",
     "description": "As pretty than Denizan Water lilies... but much deadlier.",
     "effectText": "Water Cutting Lily deals damage to a single target.",
     "synergyText": "If used with a Water ally, its damage increases to 134 and priority increases to High.",
-    "effects": []
+    "effects": [],
+    "nameJa": "水切りスイレン",
+    "descriptionJa": "通常攻撃。シナジー時Priorityとダメージが変化"
   },
   {
     "name": "Water Stream",
@@ -6138,7 +6450,9 @@
     "description": "Like many Water Temtem, Koish can use jets of water to inflict moderate damage.",
     "effectText": "Water Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウォーターストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Water Torrent",
@@ -6157,7 +6471,9 @@
     "description": "\"Chromeon, it's time to hose 'em down!\" This technique inflicts moderate damage.",
     "effectText": "Water Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウォーターフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Waterjet",
@@ -6176,7 +6492,9 @@
     "description": "About time your enemies took a shower! This pressurized jet inflicts considerable damage and leaves the target Cold for 2 turns.",
     "effectText": "Waterjet deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウォータージェット",
+    "descriptionJa": "対象にこごえ2を付与"
   },
   {
     "name": "Willpower Drain",
@@ -6195,7 +6513,9 @@
     "description": "Sapping the very will to fight from an enemy's mind, this quick Neutral technique steals 25 Stamina points.",
     "effectText": "Willpower Drain drains 25 STA from a single other target and restores 25 STA to the user. The user will still overexert if they don't have enough STA to use Willpower Drain. If the target has less than 25 STA, the user will only restore the amount that was drained.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "戦意吸収",
+    "descriptionJa": "対象のSTAを25減らす"
   },
   {
     "name": "Wind Blade",
@@ -6214,7 +6534,9 @@
     "description": "Lashing gales, like the frozen tramontane wind howling over the Loch.",
     "effectText": "Wind Blade deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウィンドブレード",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Wind Burst",
@@ -6233,7 +6555,9 @@
     "description": "A terrifying gust of wind, capable of throwing a small airship off course.",
     "effectText": "Wind Burst deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウィンドバースト",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Wind Stream",
@@ -6252,7 +6576,9 @@
     "description": "This Koish variety, probably from Deniz, can inflict moderate Wind damage.",
     "effectText": "Wind Stream deals damage to a single target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウィンドストリーム",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Wind Torrent",
@@ -6271,7 +6597,9 @@
     "description": "\"Chromeon, make sure they are well ventilated!\" This technique inflicts moderate damage.",
     "effectText": "Wind Torrent deals damage to a single other target.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ウィンドフロー",
+    "descriptionJa": "通常攻撃"
   },
   {
     "name": "Winter Call",
@@ -6290,7 +6618,9 @@
     "description": "A wintry sonata that leaves all Temtem in the battlefield as Cold as the Kilima snows.",
     "effectText": "Winter Call inflicts all combatants on the battlefield with the Cold Condition for 2 turns.",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "冬の呼び声",
+    "descriptionJa": "対象にこおりつき2を付与"
   },
   {
     "name": "Wrenching Massage",
@@ -6305,22 +6635,16 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Electric",
     "synergyEffects": [
-      {
-        "effect": "2 Turn  Exhausted",
-        "type": "condition",
-        "damage": 0
-      },
-      {
-        "damage": 120,
-        "type": "damage",
-        "effect": "+120 Damage"
-      }
+      { "effect": "2 Turn  Exhausted", "type": "condition", "damage": 0 },
+      { "damage": 120, "type": "damage", "effect": "+120 Damage" }
     ],
     "targets": "Single Other Target",
     "description": "The masseurs of Onsenshima don't usually want to hurt you. This technique is the exception - slow, moderate-damage technique.Now, this really pummels your deep tissues. Used in combination with a Electric ally, damage is increased and the enemy is exhausted for 2 turns.",
     "effectText": "Wrenching Massage deals damage to a single other target.",
     "synergyText": "If used with an Electric ally, its damage increases to 116 and also inflicts the Exhausted Condition for 2 turns.",
-    "effects": []
+    "effects": [],
+    "nameJa": "激痛マッサージ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にひろう2を付与。"
   },
   {
     "name": "Zen Meditation",
@@ -6339,6 +6663,8 @@
     "description": "Focus on your breathing. Remember, no effort, no resistance... The technique consumes 0 Stamina and boosts your ATK and SPATK .",
     "effectText": "Zen Meditation gifts the user with ATK and SPATK .",
     "synergyText": "",
-    "effects": []
+    "effects": [],
+    "nameJa": "ざぜん",
+    "descriptionJa": "対象のATK+2, SPATK+2"
   }
 ]
