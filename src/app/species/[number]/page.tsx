@@ -3,8 +3,8 @@ import { normalizedTechniques } from '@/data/temtem/techniques'
 import type { PageProps } from '@/libs/nextjs/util-types'
 import { findItem } from '@/utils/dict'
 
-import { BaseStatsTable } from './_page/BaseStatsTable'
 import { GeneralDetails } from './_page/GeneralDetails'
+import { StatsTable } from './_page/StatsTable'
 import { TechniqueList } from './_page/TechniqueList'
 import { TypeMatchupTable } from './_page/TypeMatchup'
 
@@ -28,10 +28,10 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
         </section>
         <section>
           <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
-            SV
+            ステータス
           </h3>
           <div>
-            <BaseStatsTable baseStats={species.stats} />
+            <StatsTable baseStats={species.stats} />
           </div>
         </section>
       </div>
