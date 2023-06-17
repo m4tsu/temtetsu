@@ -1,4 +1,4 @@
-import type { TemType } from './type'
+import type { TemType } from './Type'
 
 export type TemTemTechnique = {
   name: string
@@ -25,8 +25,9 @@ export type TemTemEvolutionType = 'level' | 'special'
 
 export type Species = {
   /** identifier */
-  number: number
+  number: string
   name: string
+  nameJa: string
   types: [TemType] | [TemType, TemType]
   portraitWikiUrl: string
   wikiUrl: string
@@ -79,4 +80,51 @@ export type Stats = {
 
 export type BaseStats = Stats & {
   total: number
+}
+
+export const iconImage = (species: Species) =>
+  `https://temtem-api.mael.tech${species.icon}`
+
+export const formatEvolutionTree = (
+  species: Species,
+  treeItems: TemTemEvolitonTreeItem[]
+):
+  | {
+      type: 'multiple'
+      trees: TemTemEvolitonTreeItem[][]
+    }
+  | {
+      type: 'single'
+      tree: TemTemEvolitonTreeItem[]
+    } => {
+  const isMultiTree =
+    treeItems.filter((item) => String(item.number) === species.number).length >
+    1
+  if (isMultiTree) {
+    let currentTree: TemTemEvolitonTreeItem[] = []
+    const trees: TemTemEvolitonTreeItem[][] = []
+    treeItems.forEach((item) => {
+      if (species.number === String(item.number)) {
+        if (currentTree.length > 0) {
+          trees.push(currentTree)
+        }
+        currentTree = []
+      } else {
+        currentTree.push(item)
+      }
+    })
+    if (currentTree.length > 0) {
+      trees.push(currentTree)
+    }
+
+    return {
+      type: 'multiple',
+      trees,
+    }
+  } else {
+    return {
+      type: 'single',
+      tree: treeItems,
+    }
+  }
 }

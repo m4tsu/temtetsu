@@ -1,4 +1,4 @@
-import type { Gear } from '@/models/Temtem/gear'
+import type { Gear } from '@/models/Temtem/Gear'
 
 import gearsJson from './gears.json'
 

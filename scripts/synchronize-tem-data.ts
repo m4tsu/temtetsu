@@ -9,10 +9,10 @@ import { authorize } from './g-sheet/authorize'
 import { fetchTemtemDictionaryShett } from './g-sheet/fetch-temtem-dictionary-sheet'
 
 import type { Row, SHEET_DATA } from './g-sheet/fetch-temtem-dictionary-sheet'
-import type { Gear } from '../src/models/Temtem/gear'
-import type { Species } from '../src/models/Temtem/species'
-import type { Technique } from '../src/models/Temtem/technique'
-import type { Trait } from '../src/models/Temtem/trait'
+import type { Gear } from '../src/models/Temtem/Gear'
+import type { Species } from '../src/models/Temtem/Species'
+import type { Technique } from '../src/models/Temtem/Technique'
+import type { Trait } from '../src/models/Temtem/Trait'
 
 const dataDirPath = 'src/data/ja-dict'
 

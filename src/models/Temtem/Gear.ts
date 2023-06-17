@@ -11,4 +11,6 @@ export type Gear = {
   buyPrice: number
   description: string
   gameDescription: string
+  nameJa?: string
+  descriptionJa?: string
 }

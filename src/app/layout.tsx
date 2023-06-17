@@ -13,16 +13,16 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-base-100">
+      <body className="relative bg-base-100">
         <div className="flex min-h-screen flex-col">
           <HeaderNav />
-          <div className="container grid max-w-[1024px] grid-cols-[1fr_360px] py-8 ">
+          <div className="container grid max-w-[1024px] py-8 ">
             <main className="container max-w-[1024px] ">{children}</main>
-            <aside className="container max-w-[1024px] px-4">
+            {/* <aside className="container max-w-[1024px] px-4">
               <div className="grid-cols1 grid h-full w-full border border-primary">
                 サイドバー
               </div>
-            </aside>
+            </aside> */}
           </div>
           {/* <footer className="container border-t border-base-content"> */}
         </div>

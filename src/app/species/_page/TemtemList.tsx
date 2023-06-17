@@ -2,12 +2,12 @@
 
 import Link from 'next/link'
 
-import type { Species } from '@/models/Temtem/species'
+import type { Species } from '@/models/Temtem/Species'
 
 import type { FC } from 'react'
 
 type Props = {
-  speciesList: (Pick<Species, 'number' | 'name'> & { nameJa: string })[]
+  speciesList: Pick<Species, 'number' | 'nameJa'>[]
 }
 export const TemtemList: FC<Props> = ({ speciesList }) => {
   return (
@@ -15,9 +15,9 @@ export const TemtemList: FC<Props> = ({ speciesList }) => {
       {speciesList.map((species) => (
         <li
           key={species.number}
-          className="card rounded-lg bg-white  shadow hover:shadow-md"
+          className="card rounded-lg bg-white shadow hover:shadow-md"
         >
-          <Link href={`/tem-pedia/${species.number}`} className="p-4">
+          <Link href={`/species/${species.number}`} className="p-4">
             {species.nameJa}
           </Link>
         </li>

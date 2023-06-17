@@ -102,3 +102,29 @@ export const TemTypeCompatibilitiesMap: {
     Toxic: 0.5,
   },
 }
+
+const calculateEffectivenessAgainstSingleType = (
+  attack: TemType,
+  defense: TemType
+): TemTypeEffectiveNess => {
+  const effectiveness = TemTypeCompatibilitiesMap[attack][defense]
+  if (effectiveness === undefined) {
+    return 1
+  }
+  return effectiveness
+}
+
+export const calculateEffectiveness = (
+  attack: TemType,
+  defense: readonly [TemType] | readonly [TemType, TemType]
+): TemTypeEffectivenessAgainstMultiple => {
+  const ef1 = calculateEffectivenessAgainstSingleType(attack, defense[0])
+  if (defense.length === 1) {
+    return ef1
+  }
+  const ef2 = calculateEffectivenessAgainstSingleType(attack, defense[1])
+  return (ef1 * ef2) as TemTypeEffectivenessAgainstMultiple
+}
+
+export const temTypeImage = (type: TemType) =>
+  `/images/temtem/types/${type}.png`

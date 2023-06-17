@@ -4,6 +4,6 @@ export type Trait = {
   wikiUrl: string
   description: string
   effect: string
+  nameJa?: string
+  descriptionJa?: string
 }
-
-import {} from '@maael/temtem-types'

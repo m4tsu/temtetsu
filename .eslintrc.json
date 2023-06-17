@@ -35,6 +35,7 @@
     "plugin:jsx-a11y/recommended",
     "prettier"
   ],
+  "ignorePatterns": ["**/data/**/*.json"],
   "rules": {
     "react/prop-types": "off",
     "sort-imports": 0,

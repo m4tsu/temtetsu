@@ -1,15 +1,15 @@
-import data from '@/data/species.json'
-import type { Species } from '@/models/Temtem/species'
+import { species } from '@/data/temtem/species'
+import { pick } from '@/utils/pick'
 
 import { TemtemList } from './_page/TemtemList'
 
-const species: Species[] = Object.values(data)
+const speciesList = species.map((s) => pick(s, ['number', 'nameJa']))
 
 const TempediaPage = () => {
   return (
     <div className="flex flex-col gap-8">
       <h2 className="text-xl font-bold">テムテム図鑑</h2>
-      <TemtemList speciesList={species} />
+      <TemtemList speciesList={speciesList} />
     </div>
   )
 }

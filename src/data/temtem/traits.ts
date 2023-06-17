@@ -1,4 +1,4 @@
-import type { Trait } from '@/models/Temtem/trait'
+import type { Trait } from '@/models/Temtem/Trait'
 
 import traitsJson from './traits.json'
 

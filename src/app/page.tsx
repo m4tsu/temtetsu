@@ -7,7 +7,7 @@ export default function Home() {
       <div>
         <ul>
           <li>
-            <Link href="/tem-pedia" className="link-primary link ">
+            <Link href="/species" className="link-primary link ">
               テムテム図鑑
             </Link>
           </li>
