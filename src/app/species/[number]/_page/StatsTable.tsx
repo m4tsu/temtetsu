@@ -7,7 +7,7 @@ import {
   calculateStamina,
 } from '@/models/Temtem/Stats'
 
-import type { ComponentProps, FC, PropsWithChildren } from 'react'
+import type { ComponentProps, FC } from 'react'
 
 const StatsBar: FC<{ stat: number }> = ({ stat }) => {
   return (

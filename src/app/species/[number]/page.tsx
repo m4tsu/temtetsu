@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { normalizedSpecies } from '@/data/temtem/species'
 import { normalizedTechniques } from '@/data/temtem/techniques'
 import type { PageProps } from '@/libs/nextjs/util-types'
@@ -19,9 +21,19 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
 
   return (
     <div className="flex flex-col gap-4">
-      <h2 className="text-3xl font-bold text-secondary">{species.nameJa}</h2>
+      <div className="breadcrumbs flex items-end gap-2">
+        <ul>
+          <li>
+            <Link href="/species" className="link-hover link-primary">
+              テムテム一覧
+            </Link>
+          </li>
+          <li>
+            <h2 className="text-3xl font-bold">{species.nameJa}</h2>
+          </li>
+        </ul>
+      </div>
       <hr className="border-t border-primary" />
-      <p>ここに検索ボックス</p>
       <div className="grid grid-cols-[1fr_3fr] gap-4">
         <section>
           <GeneralDetails species={species} />

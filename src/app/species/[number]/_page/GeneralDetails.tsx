@@ -168,8 +168,8 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
           </tbody>
         </table>
 
-        <div className="flex flex-col items-center gap-2">
-          <p>進化</p>
+        <div className="flex flex-col items-center">
+          <p className="font-bold">進化</p>
           <div className="py-2">{evolution}</div>
         </div>
       </div>

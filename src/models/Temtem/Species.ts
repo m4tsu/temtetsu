@@ -82,7 +82,7 @@ export type BaseStats = Stats & {
   total: number
 }
 
-export const iconImage = (species: Species) =>
+export const iconImage = (species: Pick<Species, 'icon'>) =>
   `https://temtem-api.mael.tech${species.icon}`
 
 export const formatEvolutionTree = (

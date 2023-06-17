@@ -6,6 +6,7 @@ import type { TemTemTechnique } from '@/models/Temtem/Species'
 import {
   categoryIcon,
   priorityIcon,
+  targetsJaMap,
   type Technique,
 } from '@/models/Temtem/Technique'
 import { temTypeImage } from '@/models/Temtem/Type'
@@ -14,9 +15,12 @@ import type { ComponentProps, FC } from 'react'
 
 const imageFitClassName = 'object-contain !relative !w-auto mx-auto max-h-8'
 
-const Th: FC<ComponentProps<'th'>> = (props) => (
+const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
-    className="text-bold w-fit  bg-primary px-4 py-1 text-center text-white"
+    className={twMerge(
+      'text-bold w-fit  bg-primary px-2 py-1 text-center text-white',
+      className
+    )}
     {...props}
   />
 )
@@ -34,17 +38,17 @@ const Td: FC<ComponentProps<'td'>> = ({ className, ...props }) => (
 const TechniqueSource: FC<{ technique: TechniqueItem }> = ({ technique }) => {
   switch (technique.source) {
     case 'Levelling': {
-      return <div>レベル: {technique.levels}</div>
+      return `レベル: ${technique.levels}`
     }
     case 'Breeding': {
-      return <div>Breeding</div>
+      return '遺伝'
     }
     case 'TechniqueCourses': {
-      return <div>TechniqueCourses</div>
+      return 'コース'
     }
-    default: {
-      return <div></div>
-    }
+    // default: {
+    //   return <div></div>
+    // }
   }
 }
 
@@ -60,14 +64,15 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
         <thead className="sticky top-0 z-10">
           <tr>
             {/* 8 col */}
-            <Th>習得</Th>
-            <Th>名前</Th>
+            <Th className="w-[1px] whitespace-nowrap">習得</Th>
+            <Th className="w-[1px] whitespace-nowrap">名前</Th>
             <Th>タイプ</Th>
             <Th>クラス</Th>
             <Th>ダメージ</Th>
             <Th>スタミナコスト</Th>
             <Th>ホールド</Th>
             <Th>優先度</Th>
+            <Th>ターゲット</Th>
           </tr>
         </thead>
         <tbody>
@@ -83,24 +88,25 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
               staminaCost,
               hold,
               priority,
+              targets,
+              synergy,
+              synergyEffects,
             } = technique
             return (
               <Fragment key={name}>
                 <tr>
-                  <Td rowSpan={2}>
+                  <Td rowSpan={2} className="w-[1px] whitespace-nowrap">
                     <TechniqueSource technique={technique} />
                   </Td>
-                  <Td rowSpan={2}>{nameJa ?? name}</Td>
+                  <Td rowSpan={2} className="w-[1px] whitespace-nowrap">
+                    {nameJa ?? name}
+                  </Td>
                   <Td>
                     <Image
                       alt={type}
                       src={temTypeImage(type)}
                       className={imageFitClassName}
-                      // width={24}
-                      // height={24}
                       fill
-
-                      // style={{ objectFit: 'contain' }}
                     />
                   </Td>
                   <Td>
@@ -108,10 +114,7 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
                       alt={category}
                       src={categoryIcon(category)}
                       className={imageFitClassName}
-                      // width={24}
-                      // height={24}
                       fill
-                      // style={{ objectFit: 'contain' }}
                     />
                   </Td>
                   <Td>{damage}</Td>
@@ -123,15 +126,36 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
                       src={priorityIcon(priority)}
                       className={imageFitClassName}
                       fill
-                      // style={{ objectFit: 'contain' }}
-                      // width={40}
-                      // height={40}
                     />
+                  </Td>
+                  <Td className="w-[1px] whitespace-nowrap">
+                    {targetsJaMap[targets]}
                   </Td>
                 </tr>
                 <tr>
                   <Td colSpan={6} className="text-left">
-                    {descriptionJa ?? description}
+                    {descriptionJa ?? description}。{' '}
+                    {synergy !== 'None' ? (
+                      <span className="inline-flex">
+                        シナジー:{' '}
+                        {
+                          <Image
+                            alt={synergy}
+                            src={temTypeImage(synergy)}
+                            width={20}
+                            height={20}
+                          />
+                        }
+                        。
+                        {synergyEffects
+                          .filter((effect) => effect.type === 'damage')
+                          .map((effect, i) => (
+                            <span key={i}>+{effect.damage}。</span>
+                          ))}
+                      </span>
+                    ) : (
+                      ''
+                    )}
                   </Td>
                 </tr>
               </Fragment>

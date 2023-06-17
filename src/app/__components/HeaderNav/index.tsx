@@ -10,7 +10,7 @@ export const HeaderNav: FC = () => {
           href="/"
           className="btn-ghost btn text-3xl normal-case text-primary"
         >
-          テム徹
+          テム徹（仮）
         </Link>
       </nav>
     </header>

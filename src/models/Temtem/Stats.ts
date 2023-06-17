@@ -1,5 +1,3 @@
-import type { Species } from './Species'
-
 const LEVEL = 100
 export const calculateHP = (
   base: number,
@@ -25,7 +23,7 @@ export const calculateStamina = (
   return Math.floor(stats)
 }
 
-type OthersStatusName = 'atk' | 'def' | 'spatk' | 'spdef'
+// type OthersStatusName = 'atk' | 'def' | 'spatk' | 'spdef'
 export const calculateOthers = (
   baseStats: number,
   { sv = 50, tv }: { sv?: number; tv: number }
