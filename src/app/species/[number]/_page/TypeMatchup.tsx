@@ -18,7 +18,7 @@ const Th: FC<ComponentProps<'th'>> = ({ children }) => (
 const Td: FC<ComponentProps<'td'>> = ({ className, ...props }) => (
   <td
     className={twMerge(
-      'border border-primary px-2 py-1 text-center text-xl font-bold',
+      'border border-primary py-1 text-center text-lg font-bold',
       className
     )}
     {...props}
@@ -48,7 +48,7 @@ type Props = {
 }
 export const TypeMatchupTable: FC<Props> = ({ species }) => {
   return (
-    <table className="w-full border-collapse border border-primary">
+    <table className="w-full border-collapse border border-primary table-fixed">
       <thead>
         <tr>
           {TemTypes.map((type) => (

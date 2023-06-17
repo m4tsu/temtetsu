@@ -29,7 +29,9 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
             </Link>
           </li>
           <li>
-            <h2 className="text-3xl font-bold">{species.nameJa}</h2>
+            <h2 className="text-3xl font-bold text-primary-focus">
+              {species.nameJa}
+            </h2>
           </li>
         </ul>
       </div>

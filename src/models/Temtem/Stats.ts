@@ -19,7 +19,7 @@ export const calculateStamina = (
     base / 4 +
     LEVEL ** 0.35 * 6 +
     (sv * LEVEL * base) / 20000 +
-    (tv * LEVEL * base) / 3000
+    (tv * LEVEL * base) / 30000
   return Math.floor(stats)
 }
 

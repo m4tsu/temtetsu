@@ -9,6 +9,8 @@ import { temTypeImage } from '@/models/Temtem/Type'
 import { findItem } from '@/utils/dict'
 
 import type { ComponentProps, FC } from 'react'
+import { ArrowSmallDownIcon } from '@heroicons/react/24/solid'
+import { normalizedTraits } from '@/data/temtem/traits'
 
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
@@ -59,7 +61,7 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                 </Link>
               </div>
             </div>
-            <div className="text-center font-bold text-primary">↓</div>
+            <div className="flex justify-center font-bold text-primary"><ArrowSmallDownIcon className='w-5 h-5' /></div>
             <div className="flex flex-col gap-1">
               {formatted.trees.map((tree, i) => (
                 <div key={i} className="flex gap-1">
@@ -115,7 +117,7 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                     </div>
                   </div>
                   {i !== formatted.tree.length - 1 && (
-                    <div className="text-center font-bold text-primary">↓</div>
+                    <div className="font-bold text-primary flex justify-center"><ArrowSmallDownIcon className='w-5 h-5' /></div>
                   )}
                 </>
               )
@@ -163,6 +165,21 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                     />
                   ))}
                 </div>
+              </Td>
+            </tr>
+            <tr>
+              <Th className="border-l-0" >特性</Th>
+              <Td  className="border-r-0">
+                {
+                  species.traits.map(traitName =>{
+                    const trait = findItem(normalizedTraits, traitName)
+                    return  (
+                      <div key={traitName}>
+                        {trait.nameJa ?? trait.name}
+                      </div>
+                    )
+                  })
+                }
               </Td>
             </tr>
           </tbody>

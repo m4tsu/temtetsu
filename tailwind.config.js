@@ -73,7 +73,7 @@ module.exports = {
       {
         tt: {
           primary: '#0077b6',
-          secondary: '#f000b8',
+          secondary: '#B5121D',
           accent: '#1dcdbc',
           neutral: '#2b3440',
           'base-100': '#fcf9ff',
