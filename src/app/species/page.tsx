@@ -1,6 +1,8 @@
 import { species } from '@/data/temtem/species'
 import { pick } from '@/utils/pick'
 
+import { PageLayout } from '../__components/PageLayout'
+
 import { TemtemList } from './_page/TemtemList'
 
 const speciesList = species.map((s) =>
@@ -9,10 +11,9 @@ const speciesList = species.map((s) =>
 
 const TempediaPage = () => {
   return (
-    <div className="flex flex-col gap-8">
-      <h2 className="text-xl font-bold">テムテム一覧</h2>
+    <PageLayout header="テムテム一覧">
       <TemtemList speciesList={speciesList} />
-    </div>
+    </PageLayout>
   )
 }
 

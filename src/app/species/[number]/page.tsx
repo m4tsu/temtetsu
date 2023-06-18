@@ -1,5 +1,4 @@
-import Link from 'next/link'
-
+import { PageLayout } from '@/app/__components/PageLayout'
 import { normalizedSpecies } from '@/data/temtem/species'
 import { techniquesByName } from '@/data/temtem/techniques'
 import type { PageProps } from '@/libs/nextjs/util-types'
@@ -20,49 +19,41 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
   })
 
   return (
-    <div className="flex flex-col gap-4">
-      <div className="breadcrumbs flex items-end gap-2">
-        <ul>
-          <li>
-            <Link href="/species" className="link-hover link-primary">
-              テムテム一覧
-            </Link>
-          </li>
-          <li>
-            <h2 className="text-3xl font-bold text-primary-focus">
-              {species.nameJa}
-            </h2>
-          </li>
-        </ul>
-      </div>
-      <hr className="border-t border-primary" />
-      <div className="grid grid-cols-[1fr_3fr] gap-4">
-        <section>
-          <GeneralDetails species={species} />
-        </section>
+    <PageLayout
+      header={species.nameJa}
+      breadcrumbItems={[
+        { path: '/species', label: 'テムテム一覧' },
+        { label: species.nameJa },
+      ]}
+    >
+      <div className="flex flex-col gap-4">
+        <div className="grid grid-cols-[1fr_3fr] gap-4">
+          <section>
+            <GeneralDetails species={species} />
+          </section>
+          <section>
+            <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
+              ステータス
+            </h3>
+            <div>
+              <StatsTable baseStats={species.stats} />
+            </div>
+          </section>
+        </div>
         <section>
           <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
-            ステータス
+            タイプ相性
           </h3>
-          <div>
-            <StatsTable baseStats={species.stats} />
-          </div>
+          <TypeMatchupTable species={species} />
+        </section>
+        <section className="h-full">
+          <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
+            技一覧
+          </h3>
+          <TechniqueList techniques={techniques} />
         </section>
       </div>
-      <section>
-        <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
-          タイプ相性
-        </h3>
-        <TypeMatchupTable species={species} />
-      </section>
-      <section className="h-full">
-        <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
-          技一覧
-        </h3>
-        <TechniqueList techniques={techniques} />
-      </section>
-      <div style={{ height: '100vh' }}></div>
-    </div>
+    </PageLayout>
   )
 }
 

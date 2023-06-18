@@ -1,18 +1,18 @@
 import { PageLayout } from '@/app/__components/PageLayout'
-import { traitsByKey } from '@/data/temtem/traits'
+import { gearsByKey } from '@/data/temtem/gears'
 import type { PageProps } from '@/libs/nextjs/util-types'
 import { findItem } from '@/utils/dict'
 
-const TraitPage = ({ params: { key } }: PageProps<'key'>) => {
-  const trait = findItem(traitsByKey, key)
-  const { name, nameJa, description, descriptionJa } = trait
+const GearPage = ({ params: { key } }: PageProps<'key'>) => {
+  const gear = findItem(gearsByKey, key)
+  const { name, nameJa, description, descriptionJa } = gear
   return (
     <PageLayout
       header={nameJa ?? name}
       breadcrumbItems={[
-        { path: '/traits', label: '特性一覧' },
+        { path: '/traits', label: 'ギア一覧' },
         {
-          label: trait.nameJa ?? trait.name,
+          label: nameJa ?? name,
         },
       ]}
     >
@@ -21,4 +21,4 @@ const TraitPage = ({ params: { key } }: PageProps<'key'>) => {
   )
 }
 
-export default TraitPage
+export default GearPage

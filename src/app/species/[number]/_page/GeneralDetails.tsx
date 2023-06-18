@@ -9,7 +9,6 @@ import type { Species } from '@/models/Temtem/Species'
 import { formatEvolutionTree, iconImage } from '@/models/Temtem/Species'
 import { temTypeImage } from '@/models/Temtem/Type'
 import { findItem } from '@/utils/dict'
-import { replaceSpacesWithUnderscores } from '@/utils/replaceSpacesWithUnderscores'
 
 import type { ComponentProps, FC } from 'react'
 

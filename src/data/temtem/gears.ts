@@ -5,4 +5,6 @@ import gearsJson from './gears.json'
 
 export const gears: Gear[] = gearsJson
 
-export const normalizedGears = makeDictFromArray(gears, 'key')
+export const gearsByKey = makeDictFromArray(gears, 'key')
+
+export const gearsByName = makeDictFromArray(gears, 'name')
