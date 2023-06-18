@@ -1,7 +1,11 @@
 import { PageLayout } from '@/app/__components/PageLayout'
-import { traitsByKey } from '@/data/temtem/traits'
+import { traitsByKey, traits } from '@/data/temtem/traits'
 import type { PageProps } from '@/libs/nextjs/util-types'
 import { findItem } from '@/utils/dict'
+
+export function generateStaticParams() {
+  return traits.map((trait) => ({ key: trait.key }))
+}
 
 const TraitPage = ({ params: { key } }: PageProps<'key'>) => {
   const trait = findItem(traitsByKey, key)

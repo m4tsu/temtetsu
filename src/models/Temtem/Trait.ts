@@ -1,6 +1,6 @@
 export type Trait = {
   /** identifier */
-  key: string // name の Space を _ に変換したもの
+  key: string // name をURLとして利用可能な文字列に変換した文字列
   name: string
   wikiUrl: string
   description: string

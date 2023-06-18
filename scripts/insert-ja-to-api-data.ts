@@ -10,7 +10,7 @@ import gearsData from '../src/data/tem-api/gears.json'
 import speciesData from '../src/data/tem-api/species.json'
 import techniquesData from '../src/data/tem-api/techniques.json'
 import traitsData from '../src/data/tem-api/traits.json'
-import { replaceSpacesWithUnderscores } from '../src/utils/replaceSpacesWithUnderscores'
+import { convertToUrlableString } from '../src/utils/convertToUrlableString'
 
 const outputDirPath = 'src/data/temtem'
 
@@ -24,7 +24,7 @@ const mergeJaDictToApiData = (
   const merged = apiDataList.map((data) => {
     const identifierValue = String(data[identifierName])
     console.log(identifierValue)
-    const key = replaceSpacesWithUnderscores(identifierValue)
+    const key = convertToUrlableString(identifierValue)
     const jaData = jaDict[key]
     if (!jaData) {
       console.log(`No ja data for ${data[identifierName]}`)

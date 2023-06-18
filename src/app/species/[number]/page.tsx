@@ -1,5 +1,8 @@
 import { PageLayout } from '@/app/__components/PageLayout'
-import { normalizedSpecies } from '@/data/temtem/species'
+import {
+  normalizedSpecies,
+  species as speciesList,
+} from '@/data/temtem/species'
 import { techniquesByName } from '@/data/temtem/techniques'
 import type { PageProps } from '@/libs/nextjs/util-types'
 import { findItem } from '@/utils/dict'
@@ -8,6 +11,10 @@ import { GeneralDetails } from './_page/GeneralDetails'
 import { StatsTable } from './_page/StatsTable'
 import { TechniqueList } from './_page/TechniqueList'
 import { TypeMatchupTable } from './_page/TypeMatchup'
+
+export function generateStaticParams() {
+  return speciesList.map((species) => ({ number: species.number }))
+}
 
 const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
   const species = findItem(normalizedSpecies, number)
@@ -20,7 +27,19 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
 
   return (
     <PageLayout
-      header={<>{species.nameJa} <a href={species.wikiUrl} target='_blank' className='link text-sm'>(公式wiki)</a></> }
+      header={
+        <>
+          {species.nameJa}{' '}
+          <a
+            href={species.wikiUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="link text-sm"
+          >
+            (公式wiki)
+          </a>
+        </>
+      }
       breadcrumbItems={[
         { path: '/species', label: 'テムテム一覧' },
         { label: <>{species.nameJa} </> },

@@ -92,7 +92,7 @@
       "spdef": 31,
       "total": 342
     },
-    "traits": ["Attack<T>", "Fast Charge"],
+    "traits": ["Attack T", "Fast Charge"],
     "details": {
       "height": { "cm": 128, "inches": 50 },
       "weight": { "kg": 43, "lbs": 94 }
@@ -125,9 +125,9 @@
           "level": 0,
           "type": "levels",
           "trading": false,
-          "traits": ["Attack<T>", "Fast Charge"],
+          "traits": ["Attack T", "Fast Charge"],
           "traitMapping": {
-            "Attack<T>": "Attack<T>",
+            "Attack T": "Attack T",
             "Fast Charge": "Voltaic Charge"
           }
         },
@@ -138,9 +138,9 @@
           "level": 35,
           "type": "levels",
           "trading": false,
-          "traits": ["Attack<T>", "Voltaic Charge"],
+          "traits": ["Attack T", "Voltaic Charge"],
           "traitMapping": {
-            "Attack<T>": "Attack<T>",
+            "Attack T": "Attack T",
             "Voltaic Charge": "Voltaic Charge"
           }
         }
@@ -155,9 +155,9 @@
         "level": 35,
         "type": "levels",
         "trading": false,
-        "traits": ["Attack<T>", "Voltaic Charge"],
+        "traits": ["Attack T", "Voltaic Charge"],
         "traitMapping": {
-          "Attack<T>": "Attack<T>",
+          "Attack T": "Attack T",
           "Voltaic Charge": "Voltaic Charge"
         }
       },
@@ -165,9 +165,9 @@
       "name": "Oree",
       "level": 0,
       "trading": false,
-      "traits": ["Attack<T>", "Fast Charge"],
+      "traits": ["Attack T", "Fast Charge"],
       "traitMapping": {
-        "Attack<T>": "Attack<T>",
+        "Attack T": "Attack T",
         "Fast Charge": "Voltaic Charge"
       }
     },
@@ -246,7 +246,7 @@
       "spdef": 44,
       "total": 445
     },
-    "traits": ["Attack<T>", "Voltaic Charge"],
+    "traits": ["Attack T", "Voltaic Charge"],
     "details": {
       "height": { "cm": 213, "inches": 83 },
       "weight": { "kg": 93, "lbs": 205 }
@@ -285,9 +285,9 @@
           "level": 0,
           "type": "levels",
           "trading": false,
-          "traits": ["Attack<T>", "Fast Charge"],
+          "traits": ["Attack T", "Fast Charge"],
           "traitMapping": {
-            "Attack<T>": "Attack<T>",
+            "Attack T": "Attack T",
             "Fast Charge": "Voltaic Charge"
           }
         },
@@ -298,9 +298,9 @@
           "level": 35,
           "type": "levels",
           "trading": false,
-          "traits": ["Attack<T>", "Voltaic Charge"],
+          "traits": ["Attack T", "Voltaic Charge"],
           "traitMapping": {
-            "Attack<T>": "Attack<T>",
+            "Attack T": "Attack T",
             "Voltaic Charge": "Voltaic Charge"
           }
         }
@@ -314,9 +314,9 @@
         "level": 0,
         "type": "levels",
         "trading": false,
-        "traits": ["Attack<T>", "Fast Charge"],
+        "traits": ["Attack T", "Fast Charge"],
         "traitMapping": {
-          "Attack<T>": "Attack<T>",
+          "Attack T": "Attack T",
           "Fast Charge": "Voltaic Charge"
         }
       },
@@ -325,9 +325,9 @@
       "name": "Zaobian",
       "level": 35,
       "trading": false,
-      "traits": ["Attack<T>", "Voltaic Charge"],
+      "traits": ["Attack T", "Voltaic Charge"],
       "traitMapping": {
-        "Attack<T>": "Attack<T>",
+        "Attack T": "Attack T",
         "Voltaic Charge": "Voltaic Charge"
       }
     },
@@ -23342,7 +23342,7 @@
       "spdef": 48,
       "total": 444
     },
-    "traits": ["Meditation", "Shaolin"],
+    "traits": ["Meditation (Trait)", "Shaolin"],
     "details": {
       "height": { "cm": 158, "inches": 62 },
       "weight": { "kg": 66, "lbs": 145 }
@@ -23379,7 +23379,10 @@
           "type": "levels",
           "trading": false,
           "traits": ["Zen", "Mental Alliance"],
-          "traitMapping": { "Zen": "Meditation", "Mental Alliance": "Shaolin" }
+          "traitMapping": {
+            "Zen": "Meditation (Trait)",
+            "Mental Alliance": "Shaolin"
+          }
         },
         {
           "stage": 1,
@@ -23388,8 +23391,11 @@
           "level": 20,
           "type": "levels",
           "trading": false,
-          "traits": ["Meditation", "Shaolin"],
-          "traitMapping": { "Meditation": "Meditation", "Shaolin": "Shaolin" }
+          "traits": ["Meditation (Trait)", "Shaolin"],
+          "traitMapping": {
+            "Meditation (Trait)": "Meditation (Trait)",
+            "Shaolin": "Shaolin"
+          }
         }
       ],
       "evolves": true,
@@ -23402,15 +23408,21 @@
         "type": "levels",
         "trading": false,
         "traits": ["Zen", "Mental Alliance"],
-        "traitMapping": { "Zen": "Meditation", "Mental Alliance": "Shaolin" }
+        "traitMapping": {
+          "Zen": "Meditation (Trait)",
+          "Mental Alliance": "Shaolin"
+        }
       },
       "to": null,
       "number": 160,
       "name": "Monkko",
       "level": 20,
       "trading": false,
-      "traits": ["Meditation", "Shaolin"],
-      "traitMapping": { "Meditation": "Meditation", "Shaolin": "Shaolin" }
+      "traits": ["Meditation (Trait)", "Shaolin"],
+      "traitMapping": {
+        "Meditation (Trait)": "Meditation (Trait)",
+        "Shaolin": "Shaolin"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",

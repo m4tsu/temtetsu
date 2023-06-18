@@ -119,7 +119,10 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                     </div>
                   </div>
                   {i !== formatted.tree.length - 1 && (
-                    <div className="flex justify-center font-bold text-primary">
+                    <div
+                      key={tem.number}
+                      className="flex justify-center font-bold text-primary"
+                    >
                       <ArrowSmallDownIcon className="h-5 w-5" />
                     </div>
                   )}

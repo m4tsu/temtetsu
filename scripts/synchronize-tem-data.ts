@@ -13,7 +13,7 @@ import type { Gear } from '../src/models/Temtem/Gear'
 import type { Species } from '../src/models/Temtem/Species'
 import type { Technique } from '../src/models/Temtem/Technique'
 import type { Trait } from '../src/models/Temtem/Trait'
-import { replaceSpacesWithUnderscores } from '../src/utils/replaceSpacesWithUnderscores'
+import { convertToUrlableString } from '../src/utils/convertToUrlableString'
 
 const dataDirPath = 'src/data/ja-dict'
 
@@ -53,7 +53,7 @@ const getTechniquesFromCsv = async () => {
         nameJa: string
         descriptionJa: string
       }[] = rows.map((row) => ({
-        key: replaceSpacesWithUnderscores(row[1]),
+        key: convertToUrlableString(row[1]),
         name: row[1],
         nameJa: row[10],
         descriptionJa: row[11],
@@ -87,7 +87,7 @@ const getGears = async (auth: Auth) => {
   const rows = await fetchTemtemDictionarySheet(auth, 'gears')
   const gears: { key: string, name: string; nameJa: string; descriptionJa: string }[] =
     rows.map((row) => ({
-      key: replaceSpacesWithUnderscores(row[1]),
+      key: convertToUrlableString(row[1]),
       name: row[1],
       nameJa: row[2],
       descriptionJa: row[3],
@@ -100,7 +100,7 @@ const getTraits = async (auth: Auth) => {
   const rows = await fetchTemtemDictionarySheet(auth, 'traits')
   const traits: {key: string, name: string; nameJa: string; descriptionJa: string }[] =
     rows.map((row) => ({
-      key: replaceSpacesWithUnderscores(row[1]),
+      key: convertToUrlableString(row[1]),
       name: row[1],
       nameJa: row[2],
       descriptionJa: row[3],
@@ -112,10 +112,10 @@ const getTraits = async (auth: Auth) => {
 // スプレッドシート、CSVから日本語辞書データを作成
 ;(async () => {
   const auth = await authorize()
-  await synchronizeSpeaciesName(auth)
+  // await synchronizeSpeaciesName(auth)
   // await getTechniques(auth)
-  await getGears(auth)
-  await getTraits(auth)
+  // await getGears(auth)
+  // await getTraits(auth)
   await getTechniquesFromCsv()
 
   console.log('done!!!!')

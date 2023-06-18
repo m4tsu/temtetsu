@@ -19,6 +19,7 @@ export const Breadcrumbs: FC<Props> = ({ items }) => {
             {item.path ? (
               <Link
                 key={item.path}
+                /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
                 href={item.path as any}
                 className="link-hover link-primary"
               >

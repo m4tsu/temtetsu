@@ -1,10 +1,19 @@
+import { notFound } from 'next/navigation'
+
 import { PageLayout } from '@/app/__components/PageLayout'
-import { gearsByKey } from '@/data/temtem/gears'
+import { gearsByKey, gears } from '@/data/temtem/gears'
 import type { PageProps } from '@/libs/nextjs/util-types'
-import { findItem } from '@/utils/dict'
+
+export function generateStaticParams() {
+  return gears.map((gear) => ({ key: gear.key }))
+}
 
 const GearPage = ({ params: { key } }: PageProps<'key'>) => {
-  const gear = findItem(gearsByKey, key)
+  // 何故か "/gears/Eraser%2B" の時、 key が "Eraser%252B" になってしまいエラーになるので throw しない
+  const gear = gearsByKey[key]
+  if (gear === undefined) {
+    notFound()
+  }
   const { name, nameJa, description, descriptionJa } = gear
   return (
     <PageLayout

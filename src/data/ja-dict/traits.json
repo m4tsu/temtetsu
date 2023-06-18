@@ -47,8 +47,8 @@
     "nameJa": "秘伝の布",
     "descriptionJa": "とくしゅ技で受けるダメージを20%軽減する"
   },
-  "Attack<T>": {
-    "key": "Attack<T>",
+  "Attack%3CT%3E": {
+    "key": "Attack%3CT%3E",
     "name": "Attack<T>",
     "nameJa": "こうげき<T>",
     "descriptionJa": "攻撃するたび自身の2番目のタイプが使用した技のタイプになる"
