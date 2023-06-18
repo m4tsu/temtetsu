@@ -20,10 +20,10 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
 
   return (
     <PageLayout
-      header={species.nameJa}
+      header={<>{species.nameJa} <a href={species.wikiUrl} target='_blank' className='link text-sm'>(公式wiki)</a></> }
       breadcrumbItems={[
         { path: '/species', label: 'テムテム一覧' },
-        { label: species.nameJa },
+        { label: <>{species.nameJa} </> },
       ]}
     >
       <div className="flex flex-col gap-4">
