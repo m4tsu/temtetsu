@@ -10,9 +10,11 @@ import gearsData from '../src/data/tem-api/gears.json'
 import speciesData from '../src/data/tem-api/species.json'
 import techniquesData from '../src/data/tem-api/techniques.json'
 import traitsData from '../src/data/tem-api/traits.json'
+import { replaceSpacesWithUnderscores } from '../src/utils/replaceSpacesWithUnderscores'
 
 const outputDirPath = 'src/data/temtem'
 
+// 日本語辞書データを Tem-Api データとマージする
 const mergeJaDictToApiData = (
   apiDataList: any[],
   identifierName: string,
@@ -20,12 +22,15 @@ const mergeJaDictToApiData = (
   outputFileName: string
 ) => {
   const merged = apiDataList.map((data) => {
-    const jaData = jaDict[data[identifierName]]
+    const identifierValue = String(data[identifierName])
+    console.log(identifierValue)
+    const key = replaceSpacesWithUnderscores(identifierValue)
+    const jaData = jaDict[key]
     if (!jaData) {
       console.log(`No ja data for ${data[identifierName]}`)
-      return data
+      return {...data, key}
     }
-    return { ...data, ...jaData }
+    return { ...data, ...jaData, key }
   })
   fs.writeFileSync(`${outputDirPath}/${outputFileName}`, JSON.stringify(merged))
 }

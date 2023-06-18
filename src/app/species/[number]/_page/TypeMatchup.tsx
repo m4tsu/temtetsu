@@ -48,7 +48,7 @@ type Props = {
 }
 export const TypeMatchupTable: FC<Props> = ({ species }) => {
   return (
-    <table className="w-full border-collapse border border-primary table-fixed">
+    <table className="w-full table-fixed border-collapse border border-primary">
       <thead>
         <tr>
           {TemTypes.map((type) => (

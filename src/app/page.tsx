@@ -6,8 +6,13 @@ export default function Home() {
       <div>
         <ul>
           <li>
-            <Link href="/species" className="link-hover link-primary">
+            <Link href="/species" className="link-hover text-xl font-bold">
               テムテム一覧
+            </Link>
+          </li>
+          <li>
+            <Link href="/traits" className="link-hover text-xl font-bold">
+              特性一覧
             </Link>
           </li>
         </ul>

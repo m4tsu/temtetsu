@@ -51,7 +51,7 @@ export type Row<
     : never
   : never
 
-export const fetchTemtemDictionaryShett = async <
+export const fetchTemtemDictionarySheet = async <
   SheetName extends keyof typeof SHEET_DATA
 >(
   auth: any,

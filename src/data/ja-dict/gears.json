@@ -1,265 +1,318 @@
 {
-  "Fire Chip": {
+  "Fire_Chip": {
+    "key": "Fire_Chip",
     "name": "Fire Chip",
     "nameJa": "ファイアーチップ",
     "descriptionJa": "ほのお技で与えるダメージを10％増加"
   },
-  "Hand Fan": {
+  "Hand_Fan": {
+    "key": "Hand_Fan",
     "name": "Hand Fan",
     "nameJa": "おうぎ",
     "descriptionJa": "かぜ技で与えるダメージを10％増加"
   },
-  "Lightning Rod": {
+  "Lightning_Rod": {
+    "key": "Lightning_Rod",
     "name": "Lightning Rod",
     "nameJa": "ひらい針",
     "descriptionJa": "でんき技から受けるダメージを20％軽減"
   },
   "Pillow": {
+    "key": "Pillow",
     "name": "Pillow",
     "nameJa": "まくら",
     "descriptionJa": "ねむりになるとHPを15％回復"
   },
   "Pansunscreen": {
+    "key": "Pansunscreen",
     "name": "Pansunscreen",
     "nameJa": "日焼け止めクリーム",
     "descriptionJa": "ほのお技から受けるダメージを10％軽減し、やけどにならない"
   },
   "Talisman": {
+    "key": "Talisman",
     "name": "Talisman",
     "nameJa": "タリスマン",
     "descriptionJa": "味方チームがはめつにならない"
   },
   "Umbrella": {
+    "key": "Umbrella",
     "name": "Umbrella",
     "nameJa": "かさ",
     "descriptionJa": "みず技から受けるダメージを20％軽減"
   },
-  "Ice Cube": {
+  "Ice_Cube": {
+    "key": "Ice_Cube",
     "name": "Ice Cube",
     "nameJa": "角氷",
     "descriptionJa": "ほのお技から受けるダメージを20％軽減"
   },
-  "Energy Drink": {
+  "Energy_Drink": {
+    "key": "Energy_Drink",
     "name": "Energy Drink",
     "nameJa": "エナジードリンク",
     "descriptionJa": "ねむりにならない"
   },
-  "Rock Shield": {
+  "Rock_Shield": {
+    "key": "Rock_Shield",
     "name": "Rock Shield",
     "nameJa": "岩のたて",
     "descriptionJa": "クリスタル技から受けるダメージを20％軽減"
   },
   "Sweatband": {
+    "key": "Sweatband",
     "name": "Sweatband",
     "nameJa": "リストバンド",
     "descriptionJa": "ターン開始時にスタミナを10％回復"
   },
-  "Tucma Mask": {
+  "Tucma_Mask": {
+    "key": "Tucma_Mask",
     "name": "Tucma Mask",
     "nameJa": "トゥクママスク",
     "descriptionJa": "どく技から受けるダメージを8％軽減し、どくどくの持続ターン数が1現象"
   },
   "Snare": {
+    "key": "Snare",
     "name": "Snare",
     "nameJa": "なげなわ",
     "descriptionJa": "攻撃を受けると、自身と攻撃者のギアを無効化する"
   },
   "Chamomile": {
+    "key": "Chamomile",
     "name": "Chamomile",
     "nameJa": "カモミール",
     "descriptionJa": "場に出たとき、２ターンの間むこうになり、ステータス変化が解消される"
   },
   "Grease": {
+    "key": "Grease",
     "name": "Grease",
     "nameJa": "グリス",
     "descriptionJa": "とらわれにならない"
   },
-  "Shuine's Horn": {
+  "Shuine's_Horn": {
+    "key": "Shuine's_Horn",
     "name": "Shuine's Horn",
     "nameJa": "シュイーヌのツノ",
     "descriptionJa": "どく技をみず技に変え、与えるダメージを25％増加"
   },
   "Coat": {
+    "key": "Coat",
     "name": "Coat",
     "nameJa": "コート",
     "descriptionJa": "かぜ技から受けるダメージを20％軽減"
   },
-  "Resistance Badge": {
+  "Resistance_Badge": {
+    "key": "Resistance_Badge",
     "name": "Resistance Badge",
     "nameJa": "レジスタンスのバッジ",
     "descriptionJa": "ちゅうりつ技で与えるダメージを10％増加"
   },
-  "War Drum": {
+  "War_Drum": {
+    "key": "War_Drum",
     "name": "War Drum",
     "nameJa": "戦いのドラム",
     "descriptionJa": "味方チームがぶつり技で与えるダメージを8％増加"
   },
   "Turban": {
+    "key": "Turban",
     "name": "Turban",
     "nameJa": "ターバン",
     "descriptionJa": "だいち技から受けるダメージを20％軽減"
   },
   "Handcuffs": {
+    "key": "Handcuffs",
     "name": "Handcuffs",
     "nameJa": "てじょう",
     "descriptionJa": "ひへいを与えるかひへいのテムテムを攻撃したとき、とらわれ２を与える"
   },
   "Drill": {
+    "key": "Drill",
     "name": "Drill",
     "nameJa": "ドリル",
     "descriptionJa": "かいひ状態のテムテムを攻撃すると、かいひを打ち消して技が命中し、そのダメージを15％増加"
   },
-  "Strange Vest": {
+  "Strange_Vest": {
+    "key": "Strange_Vest",
     "name": "Strange Vest",
     "nameJa": "きみょうなベスト",
     "descriptionJa": "DEFとSPDEFを入れ替える"
   },
-  "Baton Pass": {
+  "Baton_Pass": {
+    "key": "Baton_Pass",
     "name": "Baton Pass",
     "nameJa": "バトン",
     "descriptionJa": "場に出たとき、HPを10％回復する"
   },
-  "Hopeless Tonic": {
+  "Hopeless_Tonic": {
+    "key": "Hopeless_Tonic",
     "name": "Hopeless Tonic",
     "nameJa": "ぜつぼうのトニック",
     "descriptionJa": "テムテムがチーム最後の１体になったとき、１バトルに１回、HPとスタミナを100％回復し、マイナスの状態異常を全て回復し、はめつ４が与えられる"
   },
   "DoubleScreen": {
+    "key": "DoubleScreen",
     "name": "DoubleScreen",
     "nameJa": "ダブルスクリーン",
     "descriptionJa": "複合タイプのテムテムから受けるダメージを10％軽減"
   },
-  "Iron Coating": {
+  "Iron_Coating": {
+    "key": "Iron_Coating",
     "name": "Iron Coating",
     "nameJa": "アイアンコート",
     "descriptionJa": "だいち技で与えるダメージを10%増加"
   },
   "Slingshot": {
+    "key": "Slingshot",
     "name": "Slingshot",
     "nameJa": "スリングショット",
     "descriptionJa": "威力1～50の技で敵のテムテムを攻撃したとき、SPD+1"
   },
-  "Doppelganger Brooch": {
+  "Doppelganger_Brooch": {
+    "key": "Doppelganger_Brooch",
     "name": "Doppelganger Brooch",
     "nameJa": "ドッペルゲンガーブローチ",
     "descriptionJa": "同じ進化系統のテムテムに与えるダメージを50％増加"
   },
-  "Sensei Robe": {
+  "Sensei_Robe": {
+    "key": "Sensei_Robe",
     "name": "Sensei Robe",
     "nameJa": "センセイローブ",
     "descriptionJa": "特殊かくとう技で与えるダメージを15％増加"
   },
-  "Aloe Vera": {
+  "Aloe_Vera": {
+    "key": "Aloe_Vera",
     "name": "Aloe Vera",
     "nameJa": "アロエベラ",
     "descriptionJa": "どくタイプのテムテムに与えるダメージを15％増加"
   },
-  "Tinfoil Hat": {
+  "Tinfoil_Hat": {
+    "key": "Tinfoil_Hat",
     "name": "Tinfoil Hat",
     "nameJa": "アルミホイルハット",
     "descriptionJa": "デジタル技から受けるダメージを30％軽減"
   },
   "Taser": {
+    "key": "Taser",
     "name": "Taser",
     "nameJa": "テザーガン",
     "descriptionJa": "物理でんき技で攻撃したとき、やけど１を与える"
   },
   "Matcha": {
+    "key": "Matcha",
     "name": "Matcha",
     "nameJa": "まっ茶",
     "descriptionJa": "休んだとき、こごえとこおりつきを取り除き、スタミナを40％回復する"
   },
-  "Reactive Vial": {
+  "Reactive_Vial": {
+    "key": "Reactive_Vial",
     "name": "Reactive Vial",
     "nameJa": "反応ビン",
     "descriptionJa": "１バトルに１回、弱点を突かれたとき、ちゅうわ２を得て、HPを8％回復する"
   },
-  "Hacked Microchip": {
+  "Hacked_Microchip": {
+    "key": "Hacked_Microchip",
     "name": "Hacked Microchip",
     "nameJa": "改造チップ",
     "descriptionJa": "単体デジタル技で攻撃されたとき、かいひ２を得る"
   },
-  "First Aid Kit": {
+  "First_Aid_Kit": {
+    "key": "First_Aid_Kit",
     "name": "First Aid Kit",
     "nameJa": "応急キット",
     "descriptionJa": "１バトルに１回、HPが25％未満になったとき、HPを20％回復する"
   },
-  "Fake Beard": {
+  "Fake_Beard": {
+    "key": "Fake_Beard",
     "name": "Fake Beard",
     "nameJa": "つけひげ",
     "descriptionJa": "場に出たとき、げんき２を得る"
   },
-  "Gravel Bag": {
+  "Gravel_Bag": {
+    "key": "Gravel_Bag",
     "name": "Gravel Bag",
     "nameJa": "砂利バッグ",
     "descriptionJa": "特殊だいち技で攻撃するとき、SPATKではなくATKを使用する"
   },
-  "Redirection Device": {
+  "Redirection_Device": {
+    "key": "Redirection_Device",
     "name": "Redirection Device",
     "nameJa": "転送デバイス",
     "descriptionJa": "味方がデジタル技で狙われたとき、代わりに攻撃を受ける"
   },
-  "Mom's Lunch": {
+  "Mom's_Lunch": {
+    "key": "Mom's_Lunch",
     "name": "Mom's Lunch",
     "nameJa": "ママのランチ",
     "descriptionJa": "場に出たとき、相手と味方にひへい１を与え、自身はさしおさえ４になる"
   },
-  "Morale-boosting Whip": {
+  "Morale-boosting_Whip": {
+    "key": "Morale-boosting_Whip",
     "name": "Morale-boosting Whip",
     "nameJa": "おしおきムチ",
     "descriptionJa": "場に出たとき、味方のスタミナを30％減少させ、SPDを+1させる"
   },
-  "Adrenaline Shot": {
+  "Adrenaline_Shot": {
+    "key": "Adrenaline_Shot",
     "name": "Adrenaline Shot",
     "nameJa": "アドレナリン注射",
     "descriptionJa": "１バトルに１回、スタミナ切れのターンペナルティをふせぐ"
   },
   "Bait": {
+    "key": "Bait",
     "name": "Bait",
     "nameJa": "エサ",
     "descriptionJa": "１バトルに１回、攻撃を受けたとき、げんき２とむこう２を得る"
   },
-  "Fat Burner": {
+  "Fat_Burner": {
+    "key": "Fat_Burner",
     "name": "Fat Burner",
     "nameJa": "ダイエットサプリ",
     "descriptionJa": "SPDを10％増加し、ATKとSPATKが15％減少する"
   },
-  "Heavy Armor": {
+  "Heavy_Armor": {
+    "key": "Heavy_Armor",
     "name": "Heavy Armor",
     "nameJa": "ヘビーアーマー",
     "descriptionJa": "SPDが15％減少し、受けるダメージを10％軽減する"
   },
-  "Nutrition Bar": {
+  "Nutrition_Bar": {
+    "key": "Nutrition_Bar",
     "name": "Nutrition Bar",
     "nameJa": "栄養バー",
     "descriptionJa": "場に出てから４ターンの間、攻撃を受けたとき、HPを5％回復する"
   },
   "Tent": {
+    "key": "Tent",
     "name": "Tent",
     "nameJa": "テント",
     "descriptionJa": "スタミナが切れた状態でターンを開始したとき、そのターンの間DEFとSPDEFを200％増加する"
   },
-  "Vitamin Complex": {
+  "Vitamin_Complex": {
+    "key": "Vitamin_Complex",
     "name": "Vitamin Complex",
     "nameJa": "ビタミンサプリ",
     "descriptionJa": "スタッツのランク変化を防ぐ"
   },
   "Marbles": {
+    "key": "Marbles",
     "name": "Marbles",
     "nameJa": "ビー玉",
     "descriptionJa": "相手が場に出たとき、HP5％とスタミナ10％を失う"
   },
-  "Building Blocks": {
+  "Building_Blocks": {
+    "key": "Building_Blocks",
     "name": "Building Blocks",
     "nameJa": "組み立てブロック",
     "descriptionJa": "場に出ている間、１ターン経過するごとにDEFとSPDEFを４％増加する"
   },
   "Kaleidoscope": {
+    "key": "Kaleidoscope",
     "name": "Kaleidoscope",
     "nameJa": "百色眼鏡",
     "descriptionJa": "有利な状態変化を得たとき、１ターン分消費してその効果を味方に譲り渡す"
   },
-  "Refreshing Diabolo": {
+  "Refreshing_Diabolo": {
+    "key": "Refreshing_Diabolo",
     "name": "Refreshing Diabolo",
     "nameJa": "さわやかディアボロ",
     "descriptionJa": "１バトルに１回、場に出たまま３ターン経過したとき、味方のHPとスタミナを25％回復する"

@@ -1,5 +1,6 @@
 export type Gear = {
   /** identifier */
+  key: string // name の Space を _ に変換したもの
   name: string
   wikiUrl: string
   wikiIconUrl: string

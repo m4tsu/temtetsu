@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 import { normalizedSpecies } from '@/data/temtem/species'
-import { normalizedTechniques } from '@/data/temtem/techniques'
+import { techniquesByName } from '@/data/temtem/techniques'
 import type { PageProps } from '@/libs/nextjs/util-types'
 import { findItem } from '@/utils/dict'
 
@@ -15,7 +15,7 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
   const techniques = species.techniques.map((technique) => {
     return {
       ...technique,
-      ...findItem(normalizedTechniques, technique.name),
+      ...findItem(techniquesByName, technique.name),
     }
   })
 

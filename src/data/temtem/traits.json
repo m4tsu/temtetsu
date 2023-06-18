@@ -4,6 +4,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Adaptive",
     "description": "Once per battle, after being attacked, changes the Temtem's second type to the type of the received technique and gets SPATK .",
     "effect": "Adaptive changes the holder's secondary type to the type of the first technique that hits them and gifts them with SPATK once per battle.",
+    "key": "Adaptive",
     "nameJa": "適応",
     "descriptionJa": "対戦中1度、攻撃を受けたときに発動する。自身の2番目のタイプを受けた攻撃技のタイプに変化させる。その後　SPATK+2を得る"
   },
@@ -12,6 +13,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Aerobic",
     "description": "After attacking with a Wind technique, gets SPDEF and SPD .",
     "effect": "Aerobic gifts the holder with SPD but also inflicts them with SPDEF whenever they use a Wind Technique.",
+    "key": "Aerobic",
     "nameJa": "好気性",
     "descriptionJa": "かぜタイプの技で攻撃するたびSPDEF-2, SPD+1"
   },
@@ -20,6 +22,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Aggressor",
     "description": "When entering the battlefield, gets ATK and DEF .",
     "effect": "Aggressor gifts the holder with ATK but inflicts them with DEF whenever they enter the battlefield.",
+    "key": "Aggressor",
     "nameJa": "ぶとうは",
     "descriptionJa": "このテムが場に出るたびATK+1, DEF-1"
   },
@@ -28,6 +31,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Air_Specialist",
     "description": "Damage done with Wind techniques is increased by 15%.",
     "effect": "Air Specialist increases the damage of the holder's Wind Techniques by 15%.",
+    "key": "Air_Specialist",
     "nameJa": "空の支配者",
     "descriptionJa": "かぜタイプの技で与えるダメージが15%増える"
   },
@@ -36,6 +40,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Amphibian",
     "description": "After being attacked with a Water technique, gets SPD and ATK .",
     "effect": "Amphibian gifts the holder with SPD and ATK after being affected by a Water Technique.",
+    "key": "Amphibian",
     "nameJa": "両生類",
     "descriptionJa": "みずタイプの技を受けるたびにSPD+1, ATK+2"
   },
@@ -44,6 +49,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Anaerobic",
     "description": "After attacking with a Toxic technique, gets SPDEF and SPATK .",
     "effect": "Anaerobic gifts the holder with SPDEF but also inflicts them with SPATK whenever they use a Toxic Technique.",
+    "key": "Anaerobic",
     "nameJa": "嫌気性",
     "descriptionJa": "どくタイプの技で攻撃するたびSPATK-2, SPDEF+2"
   },
@@ -51,13 +57,15 @@
     "name": "Antibodies",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Antibodies",
     "description": "When attacked with an Toxic technique, gets DEF and SPDEF .",
-    "effect": "Antibodies gifts the holder with DEF and SPDEF when hit by a Toxic Technique."
+    "effect": "Antibodies gifts the holder with DEF and SPDEF when hit by a Toxic Technique.",
+    "key": "Antibodies"
   },
   {
     "name": "Apothecary",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Apothecary",
     "description": "After attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally or itself.",
     "effect": "Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 1 turn if the target is a rival or gift the Regenerated Condition for 1 turn if the target is the holder or their ally.",
+    "key": "Apothecary",
     "nameJa": "薬ざい師",
     "descriptionJa": "とくしゅ技で攻撃するたび、対象が敵ならどく1を、味方ならさいせい1を付与する"
   },
@@ -66,6 +74,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Arcane_Wrap",
     "description": "Damage taken from special techniques is reduced by 20%.",
     "effect": "Arcane Wrap decreases the damage the holder takes from Special Techniques by 20%.",
+    "key": "Arcane_Wrap",
     "nameJa": "秘伝の布",
     "descriptionJa": "とくしゅ技で受けるダメージを20%軽減する"
   },
@@ -73,13 +82,15 @@
     "name": "Attack T",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Attack_T",
     "description": "Changes the Temtem's second type to the type of the technique it's about to use.",
-    "effect": "Attack<T> changes the holder's secondary type to match the Technique they're about to use. If the technique the holder is about to use is the same type as the holder's primary type, then the holder loses the secondary type. For example, Oree becomes Digital /Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
+    "effect": "Attack<T> changes the holder's secondary type to match the Technique they're about to use. If the technique the holder is about to use is the same type as the holder's primary type, then the holder loses the secondary type. For example, Oree becomes Digital /Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack.",
+    "key": "Attack_T"
   },
   {
     "name": "Autotomy",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Autotomy",
     "description": "Once per battle, when entering the battlefield, gets evading for 2 turns.",
     "effect": "Autotomy gifts the holder with the Evading Condition for 2 turns upon entering the battlefield once per battle.",
+    "key": "Autotomy",
     "nameJa": "しっぽ切り",
     "descriptionJa": "対戦中1度、このテムが場に出たときにかいひ2を得る"
   },
@@ -88,6 +99,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Avenger",
     "description": "When an ally is knocked-out, gets SPATK and SPD .",
     "effect": "Avenger gifts the holder with SPD and SPATK when their ally is knocked-out.",
+    "key": "Avenger",
     "nameJa": "ふくしゅう者",
     "descriptionJa": "味方が倒されるたびSPATK+2, SPD+2"
   },
@@ -96,6 +108,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Backhanded",
     "description": "When attacking with a status technique, gets invigorated for 2 turns.",
     "effect": "Backhanded gifts the holder the Invigorated Condition for 2 turns if a Status Technique is used.",
+    "key": "Backhanded",
     "nameJa": "バックハンド",
     "descriptionJa": "変化技を使うたびげんき2を得る"
   },
@@ -104,6 +117,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Benefactor",
     "description": "When an ally is damaged by a technique, restores 8% of max HP.",
     "effect": "Benefactor restores 8% of the holder's ally's maximum HP whenever they take damage from a Technique. The targeting of the technique doesn't matter and the effect has no minimum value, meaning it can restore the ally for more HP than they lost due to getting attacked. Benefactor will only trigger if the holder's ally takes damage from a technique, so damage from other traits like Mirroring or from Status Conditions like the Poisoned Condition will not cause it to activate.",
+    "key": "Benefactor",
     "nameJa": "保護者",
     "descriptionJa": "味方が攻撃を受けるたび、味方のHPを8%回復する"
   },
@@ -112,6 +126,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Body_Stretch",
     "description": "When resting, restores 10% of max HP and gets regenerating for 1 turn.",
     "effect": "Body Stretch restores 10% of the holder's maximum HP and gifts the holder with the Regenerated condition for 1 turn whenever they Rest.",
+    "key": "Body_Stretch",
     "nameJa": "ストレッチ",
     "descriptionJa": "休むたびさいせい1を得る"
   },
@@ -120,6 +135,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Book_Lungs",
     "description": "Damage taken from Water techniques is reduced by 50%.",
     "effect": "Book Lungs decreases the damage the holder takes from Water Techniques by 50%.",
+    "key": "Book_Lungs",
     "nameJa": "クモの呼吸",
     "descriptionJa": "みずタイプの技から受けるダメージを50%軽減する"
   },
@@ -128,6 +144,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Botanist",
     "description": "Damage done with Nature techniques is increased by 15%.",
     "effect": "Botanist increases the damage of the holder's Nature Techniques by 15%.",
+    "key": "Botanist",
     "nameJa": "園芸家",
     "descriptionJa": "しぜんタイプの技で与えるダメージが15%増える"
   },
@@ -135,13 +152,15 @@
     "name": "Botanophobia",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Botanophobia",
     "description": "Damage taken from Nature techniques is increased by 50%.",
-    "effect": "Botanophobia raises the damage the holder takes from Nature Techniques by 50%."
+    "effect": "Botanophobia raises the damage the holder takes from Nature Techniques by 50%.",
+    "key": "Botanophobia"
   },
   {
     "name": "Brawny",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Brawny",
     "description": "Damage done with physical techniques is increased by 15%.",
     "effect": "Brawny increases the damage of the holder's Physical Techniques by 15%.",
+    "key": "Brawny",
     "nameJa": "くっきょう",
     "descriptionJa": "ぶつり技で与えるダメージが15%増える"
   },
@@ -150,6 +169,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Bruiser",
     "description": "Damage done with Melee techniques is increased by 15%.",
     "effect": "Bruiser increases the damage of all of the holder's Melee Techniques by 15%.",
+    "key": "Bruiser",
     "nameJa": "乱暴者",
     "descriptionJa": "かくとうタイプの技で与えるダメージが15％増える"
   },
@@ -158,6 +178,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Brumation",
     "description": "When resting, gets DEF and -1 hold.",
     "effect": "Brumation gifts the holder with DEF and decreases the Hold on all their techniques by 1 whenever they Rest.",
+    "key": "Brumation",
     "nameJa": "とうみん",
     "descriptionJa": "休むとDEF+2を得て自分の技のholdが1進む"
   },
@@ -166,6 +187,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Bully",
     "description": "When the holder uses a technique on a Temtem with a negative Status Condition, the damage of the technique is multiplied by 25%.",
     "effect": "Bully increases the damage of the holder's Techniques by an additional 25% while the target is affected by a negative Status Condition.",
+    "key": "Bully",
     "nameJa": "いじめっこ",
     "descriptionJa": "不利な状態変化をもっているテムを攻撃した場合与えるダメージが25%増える"
   },
@@ -174,6 +196,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Burglar",
     "description": "When attacking an asleep or exhausted Temtem, disables its gear.",
     "effect": "Burglar causes all of the holder's Techniques to disable the target's gear for the rest of the battle if they're afflicted with the Asleep or Exhausted Conditions. This will also work if the holder is applying the Asleep or Exhausted Conditions with an own Technique.",
+    "key": "Burglar",
     "nameJa": "こそどろ",
     "descriptionJa": "対戦中1度、ねむりかひろう状態のテムを攻撃した時、そのテムのギアを無効化する"
   },
@@ -182,6 +205,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Caffeinated",
     "description": "Prevents the asleep status condition.",
     "effect": "Caffeinated protects the holder from being inflicted with the Asleep Condition.",
+    "key": "Caffeinated",
     "nameJa": "カフェイン好き",
     "descriptionJa": "ねむりにならない"
   },
@@ -190,6 +214,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Callosity",
     "description": "After being attacked with a physical technique, gets DEF .",
     "effect": "Callosity gifts the holder with DEF when hit with a Physical Technique.",
+    "key": "Callosity",
     "nameJa": "たたき上げ",
     "descriptionJa": "1ターンに1度、ぶつり技で攻撃された後にDEP+1を得る"
   },
@@ -198,6 +223,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Camaraderie",
     "description": "When attacked, reduces damage taken by 50% if both allies are part of the same evolutionary line.",
     "effect": "Camaraderie decreases the damage the holder takes from Techniques by 50% if both the holder and their ally are part of the same evolutionary line.",
+    "key": "Camaraderie",
     "nameJa": "団結心",
     "descriptionJa": "味方のテムが同進化種族のとき受けるダメージを50%減らす"
   },
@@ -206,6 +232,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Camouflage",
     "description": "When attacked with a physical technique, gets evading for 2 turns.",
     "effect": "Camouflage gifts the holder with the Evading Condition for 2 turns when hit with a Physical Technique.",
+    "key": "Camouflage",
     "nameJa": "カモフラージュ",
     "descriptionJa": "ぶつり技で攻撃された後かいひ2を得る"
   },
@@ -214,6 +241,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Channeler",
     "description": "Damage done with special techniques is increased by 25%.",
     "effect": "Channeler increases the damage of the holder's Special Techniques by 25%.",
+    "key": "Channeler",
     "nameJa": "交信",
     "descriptionJa": "とくしゅ技で与えるダメージが25%増える"
   },
@@ -222,6 +250,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Cobweb",
     "description": "When poisoning or attacking a poisoned Temtem, the target also gets trapped for 2 turns.",
     "effect": "Cobweb causes all of the holder's Techniques to inflict the target with the Trapped Condition for 2 turns if they're already afflicted with or the holder inflicts them with the Poisoned Condition.",
+    "key": "Cobweb",
     "nameJa": "クモの糸",
     "descriptionJa": "どくを付与するかどく状態のテムを攻撃した時、とらわれ2を付与する"
   },
@@ -229,19 +258,22 @@
     "name": "Cold-Blooded",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Cold-Blooded",
     "description": "Instead of getting cold or frozen, the Temtem regenerates for 1 turn.",
-    "effect": "Cold-Blooded protects the holder from being inflicted with the Cold or Frozen Conditions and instead gifts them with the Regenerated Condition for 1 turn."
+    "effect": "Cold-Blooded protects the holder from being inflicted with the Cold or Frozen Conditions and instead gifts them with the Regenerated Condition for 1 turn.",
+    "key": "Cold-Blooded"
   },
   {
     "name": "Cold-Natured",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Cold-Natured",
     "description": "Instead of getting cold, the Temtem gets frozen.",
-    "effect": "Cold-Natured causes any Cold Condition the holder is inflicted with to instead be replaced with the Frozen Condition for the same duration of the initial Cold Condition."
+    "effect": "Cold-Natured causes any Cold Condition the holder is inflicted with to instead be replaced with the Frozen Condition for the same duration of the initial Cold Condition.",
+    "key": "Cold-Natured"
   },
   {
     "name": "Comebacker",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Comebacker",
     "description": "When damaged by a technique, damage done to the attacker is increased by 32% during the same turn.",
     "effect": "Comebacker increases the damage of the holder's Techniques by 32% after taking damage from a technique but only when attacking the combatant that did damage to the holder.",
+    "key": "Comebacker",
     "nameJa": "仕返し",
     "descriptionJa": "攻撃するとき、このターンその対象から攻撃を受けていた場合与えるダメージが32%増える"
   },
@@ -250,6 +282,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Common_Factor",
     "description": "When entering the battlefield, all Temtem get nullified for 2 turns.",
     "effect": "Common Factor gives all combatants on the battlefield the Nullified Condition for 2 turns upon the holder entering the battlefield.",
+    "key": "Common_Factor",
     "nameJa": "共通要素",
     "descriptionJa": "場に出たとき、場の全てのテムにちゅうわ2を付与する"
   },
@@ -257,13 +290,15 @@
     "name": "Confident",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Confident",
     "description": "When using an effective or super effective technique, gets SPD .",
-    "effect": "Confident gifts the holder with SPD whenever they use a Technique that is at least Effective against a target."
+    "effect": "Confident gifts the holder with SPD whenever they use a Technique that is at least Effective against a target.",
+    "key": "Confident"
   },
   {
     "name": "Confined",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Confined",
     "description": "When getting an trapped status condition, gets DEF and SPDEF if the attacker is itself.",
     "effect": "Confined gifts the holder with DEF and SPDEF when the holder inflicts themselves with the Trapped Condition.",
+    "key": "Confined",
     "nameJa": "とじこもり",
     "descriptionJa": "自分の攻撃でとらわれ状態になるたびDEF+2, SPDEF+2"
   },
@@ -272,6 +307,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Contagious",
     "description": "When a rival exits the battlefield, they get poisoned for 1 turn.",
     "effect": "Contagious inflicts the Poisoned Condition for 1 turn onto any rival that exits the battlefield.",
+    "key": "Contagious",
     "nameJa": "伝染病",
     "descriptionJa": "相手が場を離れるときどく1を付与する"
   },
@@ -280,6 +316,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Contemplation",
     "description": "Once per battle, when resting, gets ATK and SPD .",
     "effect": "Contemplation gifts the holder with the ATK and SPD when they Rest, once per battle.",
+    "key": "Contemplation",
     "nameJa": "念",
     "descriptionJa": "対戦中1回、休むとATK+2, SPD+1"
   },
@@ -288,6 +325,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Coward%27s_Rest",
     "description": "When resting, gets evading and invigorated for 2 turns.",
     "effect": "Coward's Rest gifts the holder with the Evading and Invigorated conditions for 2 turns whenever they rest.",
+    "key": "Coward's_Rest",
     "nameJa": "にげごし",
     "descriptionJa": "休むとかいひ2とげんき2を得る"
   },
@@ -296,6 +334,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Deceit_Aura",
     "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. At the start of the turn, the holder loses 15% of their max HP.",
     "effect": "Deceit Aura causes the order of all Techniques used by all combatants on the battlefield to be reversed for the first four turns the holder is on the battlefield and causes the holder to lose 15% of their maximum HP at the start of the turn. Temtem swapping still occurs prior to techniques being used but the order of swapping is reversed and Item usage is unaffected. The HP loss effect will no longer activate once the effect of Deceit Aura ends.",
+    "key": "Deceit_Aura",
     "nameJa": "あざむく波動",
     "descriptionJa": "このテムが場に出てから4ターンの間、使われる技の順番が逆になる。この効果が続いている限り、ターン開始時にこのテムはHPを15%失う"
   },
@@ -304,6 +343,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Defuser",
     "description": "When attacking with a physical technique, the target gets seized for 2 turns.",
     "effect": "Defuser causes all of the holder's Physical Techniques to also inflict the Seized Condition for 2 turns.",
+    "key": "Defuser",
     "nameJa": "取り立て屋",
     "descriptionJa": "ぶつり技で攻撃した時、対象にさしおさえ2を付与する"
   },
@@ -312,6 +352,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Demoralize",
     "description": "When entering the battlefield, rivals get SPD .",
     "effect": "Demoralize inflicts all rivals with SPD when the holder enters the battlefield.",
+    "key": "Demoralize",
     "nameJa": "意気消ちん",
     "descriptionJa": "このテムが場に出たとき、相手テムのSPD-1"
   },
@@ -320,6 +361,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Determined",
     "description": "Prevents negative stat stage changes.",
     "effect": "Determined protects the holder's being inflicted with negative stat stage changes.",
+    "key": "Determined",
     "nameJa": "決意",
     "descriptionJa": "ステータスが低下しない"
   },
@@ -328,6 +370,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Digi-Protection",
     "description": "Damage taken from Digital techniques is reduced by 75%.",
     "effect": "Digi-Protection decreases the damage the holder takes from Digital Techniques by 75%.",
+    "key": "Digi-Protection",
     "nameJa": "デジタル防御",
     "descriptionJa": "デジタル技で受けるダメージが75%減少する"
   },
@@ -336,6 +379,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Disgrace",
     "description": "When a rival exits the battlefield, they get DEF and SPDEF .",
     "effect": "Disgrace inflicts DEF and SPDEF onto any rival that exits the battlefield.",
+    "key": "Disgrace",
     "nameJa": "ぶじょく",
     "descriptionJa": "相手のテムが場を離れるときそのテムのDEF-1, SPDEF-1"
   },
@@ -344,6 +388,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Dozing_Hit",
     "description": "After using an effective or super-effective technique, the target gets asleep for 1 turn.",
     "effect": "Dozing Hit causes all of the holder's Techniques to inflict the Asleep Condition for 1 turn if it's at least Effective against the target.",
+    "key": "Dozing_Hit",
     "nameJa": "ねむらせこうげき",
     "descriptionJa": "相手のテムの弱点で攻撃した時そのテムにねむり1を付与する"
   },
@@ -352,6 +397,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Dreaded_Alarm",
     "description": "Every time a rival gets the Alert Status, they lose 8% of their max HP.",
     "effect": "Every time a rival gets the Alert Status, they lose 8% of their max HP.",
+    "key": "Dreaded_Alarm",
     "nameJa": "うるさい目覚まし",
     "descriptionJa": "相手がけいかい状態になるたび、そのテムはHPを8%失う"
   },
@@ -360,6 +406,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Earthbound",
     "description": "After attacking with a Earth technique, gets DEF .",
     "effect": "Earthbound gifts the holder with DEF whenever they use an Earth Technique.",
+    "key": "Earthbound",
     "nameJa": "陸生",
     "descriptionJa": "だいちタイプの技で攻撃するたびDEF+1"
   },
@@ -368,6 +415,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Effective_Denial",
     "description": "Damage taken from effective techniques is reduced by 30%.",
     "effect": "Effective Denial decreases the damage the holder takes from Effective Techniques by 30%.",
+    "key": "Effective_Denial",
     "nameJa": "効果否定",
     "descriptionJa": "弱点をつかれたときのダメージを30%減らす"
   },
@@ -376,6 +424,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Efficient",
     "description": "When attacking, STA cost is reduced by 30%.",
     "effect": "Efficient decreases the STA Cost of the holder's damage-dealing Techniques by 30%.",
+    "key": "Efficient",
     "nameJa": "高効率",
     "descriptionJa": "攻撃する際のSTA消費量が30%減る"
   },
@@ -384,6 +433,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Electric_Custodian",
     "description": "Electric techniques targeting the ally will target the Temtem instead and deal 15% less damage.",
     "effect": "Electric Custodian causes all incoming Electric Techniques targeting the holder's ally to hit the holder instead and reduces the damage taken from them by 15%. Note that each strike of Chain Lightning is considered independently.",
+    "key": "Electric_Custodian",
     "nameJa": "電気寄せ",
     "descriptionJa": "味方のテムがでんきタイプで攻撃されたとき技の対象が自分に変化し、受けるダメージを15%減らす"
   },
@@ -392,6 +442,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Electric_Synthesize",
     "description": "When attacked with an Electric technique, restores HP instead of receiving damage.",
     "effect": "Electric Synthesize protects the holder from taking damage from Electric Techniques and restores their HP equal to the amount of damage they would've taken.",
+    "key": "Electric_Synthesize",
     "nameJa": "電気チャージ",
     "descriptionJa": "でんきタイプの技で攻撃されたとき受けるダメージ分HPを回復する"
   },
@@ -399,13 +450,15 @@
     "name": "Energized",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Energized",
     "description": "At the start of the turn, restores 6% of max HP.",
-    "effect": "Energized restores 6% of the holder's max HP at the start of each turn."
+    "effect": "Energized restores 6% of the holder's max HP at the start of each turn.",
+    "key": "Energized"
   },
   {
     "name": "Energy Reserves",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Energy_Reserves",
     "description": "Once per battle, if the Temtem is attacked and HP is below 40%, gets ATK and invigorated for 2 turns.",
     "effect": "Energy Reserves gifts the holder with ATK and the Invigorated Condition for 2 turns as soon as the holder's HP drops below 40% once per battle.",
+    "key": "Energy_Reserves",
     "nameJa": "温存",
     "descriptionJa": "対戦中1回、攻撃されてHPが40％を下回った時ATK+4とげんき2を得る"
   },
@@ -414,6 +467,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Enraged",
     "description": "While HP is below 30%, damage done is increased by 30%.",
     "effect": "Enraged increases the damage of all the holder's Techniques by 30% while they're below 30% of their maximum HP.",
+    "key": "Enraged",
     "nameJa": "激怒",
     "descriptionJa": "自信のHPが30%を下回った場合与えるダメージが30%増える"
   },
@@ -422,6 +476,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Escapist",
     "description": "When entering the battlefield, removes the trapped status condition on the ally and prevents the trapped status condition on the ally and itself.",
     "effect": "Escapist protects the holder and their ally from the Trapped Condition and cures their ally of the Trapped Condition when the holder enters the battlefield.",
+    "key": "Escapist",
     "nameJa": "エスケーピスト",
     "descriptionJa": "場に出たとき味方のとらわれを解除し、自身と味方のテムがとらわれ状態になるのを防ぐ"
   },
@@ -430,6 +485,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Fainted_Curse",
     "description": "When knocked-out, the attacker loses 30% of max HP.",
     "effect": "Fainted Curse causes the attacker who knocked-out the holder with a damage-dealing Technique to lose 30% of their maximum HP.",
+    "key": "Fainted_Curse",
     "nameJa": "気絶ののろい",
     "descriptionJa": "攻撃技で倒されたとき、倒したテムのHPを30%減らす"
   },
@@ -438,6 +494,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Fast_Charge",
     "description": "Once per battle, when a Digital ally enters the battlefield, gets SPD .",
     "effect": "Fast Charge gifts the holder's Digital ally with SPD once the Digital ally enters the battlefield once per battle.",
+    "key": "Fast_Charge",
     "nameJa": "そっこうチャージ",
     "descriptionJa": "対戦中1回、デジタルタイプの味方が場に出たときそのテムのSPD+2"
   },
@@ -446,6 +503,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Fever_Rush",
     "description": "When getting a status condition, gets ATK .",
     "effect": "Fever Rush gifts the holder with ATK whenever they get a Status Condition with the exception of the Alerted Condition.",
+    "key": "Fever_Rush",
     "nameJa": "ねっきょう",
     "descriptionJa": "状態変化をうけるたびATK+2"
   },
@@ -453,13 +511,15 @@
     "name": "Final Stand",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Final_Stand",
     "description": "At the start of the turn, while HP is below 30%, gets DEF and SPDEF .",
-    "effect": "Final Stand gifts the holder with DEF and SPDEF at the start of each turn while they're below 30% of their maximum HP."
+    "effect": "Final Stand gifts the holder with DEF and SPDEF at the start of each turn while they're below 30% of their maximum HP.",
+    "key": "Final_Stand"
   },
   {
     "name": "Flawed Crystal",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Flawed_Crystal",
     "description": "Damage taken from Mental, Toxic, or Electric techniques is increased by 50%.",
     "effect": "Flawed Crystal causes the holder to take 50% more damage from Electric, Mental and Toxic Techniques.",
+    "key": "Flawed_Crystal",
     "nameJa": "未完成クリスタル",
     "descriptionJa": "でんき、精神、どくタイプで受けるダメージが50%増える"
   },
@@ -468,6 +528,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Friendship",
     "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%.",
     "effect": "{When the holder with Friendship and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%. The second technique has not to be executed by the holder of Friendship.",
+    "key": "Friendship",
     "nameJa": "友情",
     "descriptionJa": "このテムと味方のテムが同じテムを攻撃していた場合、2番目の技のダメージが15%増える"
   },
@@ -476,6 +537,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Frightening",
     "description": "Gears from the rival and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield.",
     "effect": "Frightening prevents the Gears of the rival team and the holder's ally from having any effects for the first 3 turns the holder is on the battlefield.",
+    "key": "Frightening",
     "nameJa": "きょうふ感",
     "descriptionJa": "このテムが場に出て3ターンの間、味方と相手のテムが持っているギアが無効化される"
   },
@@ -484,6 +546,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Furor",
     "description": "When HP is below 33%, techniques do 33% more damage.",
     "effect": "Furor increases the damage of holder's Techniques by 33% while they're below 33% of their maximum HP.",
+    "key": "Furor",
     "nameJa": "火事場の底力",
     "descriptionJa": "自身のHPが33％未満になると与えるダメージが33％増える"
   },
@@ -492,6 +555,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Going_Away_Gift",
     "description": "When knocked-out, adds the Temtem positive stat stage changes to the ally.",
     "effect": "Going Away Gift gifts all the holder's positive stat stage changes to their ally upon the holder being knocked-out.",
+    "key": "Going_Away_Gift",
     "nameJa": "別れのおくりもの",
     "descriptionJa": "気絶するとき、自身のステータス変化を味方に与える"
   },
@@ -500,6 +564,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Good_Friend",
     "description": "After the ally receives a rival attack, the next one during the same turn gets redirected to the Temtem.",
     "effect": "Good Friend causes a second incoming rival Technique that's directed at the holder's ally to be redirected to the holder.",
+    "key": "Good_Friend",
     "nameJa": "友達思い",
     "descriptionJa": "味方が攻撃を受けると、2回目の攻撃は自身が受ける"
   },
@@ -508,6 +573,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Gotta_Go_Fast",
     "description": "Changes the Temtem's very low, low and normal priority techniques to high priority.",
     "effect": "Gotta Go Fast causes all of the holders Techniques that have Very Low, Low, and Normal priority to be increased to High priority.",
+    "key": "Gotta_Go_Fast",
     "nameJa": "最速のアイツ",
     "descriptionJa": "自分が使う優先度0~2の技の優先度が3になる"
   },
@@ -516,6 +582,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Guardian",
     "description": "Prevents negative stat stage changes and the cold, Frozen, burned, poisoned, and doomed status conditions on the ally.",
     "effect": "Guardian protects the holder's ally from being inflicted with negative stat stage changes and the Cold, Frozen, Burned, Poisoned, and Doomed Conditions.",
+    "key": "Guardian",
     "nameJa": "ガーディアン",
     "descriptionJa": "味方の不利なステータス変化とこごえ、こおりつき、どく、やけど、はめつを防ぐ"
   },
@@ -524,6 +591,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Haka",
     "description": "Once per battle, when entering the battlefield, the ally gets ATK and SPATK .",
     "effect": "Haka gifts the holder's ally with ATK and SPATK upon the holder entering the battlefield once per battle.",
+    "key": "Haka",
     "nameJa": "ハカダンス",
     "descriptionJa": "対戦中1回、場に出たときに味方のATK+1, SPATK+1"
   },
@@ -532,6 +600,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Half_Full",
     "description": "Once per battle and while HP is full, when entering the battlefield, loses 50% of max HP and gets ATK , DEF , SPATK , and SPDEF .",
     "effect": "Half Full gifts the holder with ATK , DEF , SPATK , and SPDEF but also causes them to lose 50% of their maximum HP upon entering the battlefield with full HP once per battle.",
+    "key": "Half_Full",
     "nameJa": "半分満タン",
     "descriptionJa": "戦闘中1回、HPが満タンの状態で場に出たとき、HPを50%失いATK+2, DEF+2, SPATK+1, SPDEF+2を得る"
   },
@@ -540,6 +609,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Heat_Discharge",
     "description": "When knocked-out, the attacker gets burned for 3 turns.",
     "effect": "Heat Discharge inflicts the attacker that knocked-out the holder with the Burned Condition for 3 turns.",
+    "key": "Heat_Discharge",
     "nameJa": "放熱",
     "descriptionJa": "このテムが倒されたとき、攻撃してきた相手にやけど3を付与"
   },
@@ -548,6 +618,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Heater",
     "description": "Once per battle, when entering the battlefield, all other Temtem get burned for 1 turn.",
     "effect": "Heater inflicts all other Temtem with the Burned Condition for 1 turn upon the holder entering the battlefield once per battle.",
+    "key": "Heater",
     "nameJa": "ヒーター",
     "descriptionJa": "戦闘中1回、場に出たとき、味方と相手のテムにやけど1を付与"
   },
@@ -556,6 +627,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hostile",
     "description": "Once per battle, when entering the battlefield, gets ATK and SPATK .",
     "effect": "Hostile gifts the holder with ATK and SPATK upon entering the battlefield once per battle.",
+    "key": "Hostile",
     "nameJa": "敵対の構え",
     "descriptionJa": "戦闘中1回、場に出たときにATK+1, SPATK+1を得る"
   },
@@ -564,6 +636,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hover",
     "description": "Damage taken from Earth techniques is reduced by 50%.",
     "effect": "Hover decreases the damage the holder takes from Earth Techniques by 50%.",
+    "key": "Hover",
     "nameJa": "ふゆう",
     "descriptionJa": "だいちタイプの技で受けるダメージを50%減らす"
   },
@@ -572,6 +645,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hurry-wart",
     "description": "When entering the battlefield, the Temtem gets -1 Hold.",
     "effect": "Hurry-wart decreases the Hold of all the holder's Techniques by 1 upon entering the battlefield.",
+    "key": "Hurry-wart",
     "nameJa": "せっかち",
     "descriptionJa": "場に出たとき、自身の技のholdが1減る"
   },
@@ -580,6 +654,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hydrologist",
     "description": "Damage done with Water techniques is increased by 15%.",
     "effect": "Hydrologist increases the damage of the holder's Water Techniques by 15%.",
+    "key": "Hydrologist",
     "nameJa": "アクアソムリエ",
     "descriptionJa": "みずタイプの技で与えるダメージが15%増える"
   },
@@ -588,6 +663,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hypnotist",
     "description": "Once per battle, when entering the battlefield, rivals and the ally get asleep for 1 turn.",
     "effect": "Hypnotist inflicts both rivals and the holder's ally with the Asleep Condition for 1 turn upon the holder entering the battlefield once per battle.",
+    "key": "Hypnotist",
     "nameJa": "さいみん術師",
     "descriptionJa": "対戦中1回、場に出たとき、相手と仲間のテムにねむり1を付与する"
   },
@@ -596,6 +672,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Ignis_Fatuus",
     "description": "When another Temtem is knocked-out, gets evading for 1 turn.",
     "effect": "Ignis Fatuus gifts the holder with the Evading Condition for 1 turn whenever another combatant is knocked-out.",
+    "key": "Ignis_Fatuus",
     "nameJa": "キツネ火",
     "descriptionJa": "他のテムが気絶したときかいひ1を得る"
   },
@@ -604,6 +681,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Immunity",
     "description": "Resists damage from Toxic techniques and prevents poisoned.",
     "effect": "Immunity protects the holder from taking damage from Toxic Techniques and from being inflicted with the Poisoned Condition.",
+    "key": "Immunity",
     "nameJa": "めんえき力",
     "descriptionJa": "どくタイプの技によるダメージを無効化し、どく状態にならない"
   },
@@ -612,6 +690,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Individualist",
     "description": "Techniques targeting the ally will fail.",
     "effect": "Individualist protects the holder's ally from being affected by any techniques the holder uses against them.",
+    "key": "Individualist",
     "nameJa": "個人主義",
     "descriptionJa": "味方を対象とする技が失敗する"
   },
@@ -620,6 +699,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Inductor",
     "description": "After attacking with a Electric technique, restores 8% of max HP.",
     "effect": "Inductor restores 8% of the holder's maximum HP every time an Electric Technique is used by any combatant on the battlefield.",
+    "key": "Inductor",
     "nameJa": "電磁コイル",
     "descriptionJa": "でんきタイプの技で攻撃するとHP8%回復する"
   },
@@ -628,6 +708,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Infectious",
     "description": "Prevents the Regenerating Status Condition from being applied on the Rivals and removes that same Status on the Rival upon entering the battlefield.",
     "effect": "Infectious prevents the Regenerated Condition from being applied on the rivals and it removes that same Status on the rival upon entering the battlefield.",
+    "key": "Infectious",
     "nameJa": "感染性",
     "descriptionJa": "場に出たとき相手チームのさいせい状態を取り除く。相手チームのさいせい状態を無効化する。"
   },
@@ -636,6 +717,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Inhibiter",
     "description": "Once per battle, when attacking a Temtem, disables its trait.",
     "effect": "Inhibiter prevents the Trait of a single combatant from having any effect for rest of the battle after being attacked by the holder once per battle.",
+    "key": "Inhibiter",
     "nameJa": "おさえ役",
     "descriptionJa": "対戦中1回、攻撃した時相手のテムのギアを無効化する"
   },
@@ -644,6 +726,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Inner_Shield",
     "description": "Prevents Rival status techniques.",
     "effect": "Inner Shield causes the holder to not be affected by any Status Techniques used by the rival team.",
+    "key": "Inner_Shield",
     "nameJa": "インナーシールド",
     "descriptionJa": "相手の変化技の効果を防ぐ"
   },
@@ -652,6 +735,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Intimidator",
     "description": "Traits from the rivals and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield.",
     "effect": "Intimidator prevents the Traits of the rival team and the holder's ally from having any effects for the first 3 turns the holder is on the battlefield.",
+    "key": "Intimidator",
     "nameJa": "いあつ感",
     "descriptionJa": "このテムが場に出て3ターンの間、味方と相手のテムの個性が無効化される"
   },
@@ -660,6 +744,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Iridescence",
     "description": "Type resistances for the Temtem are reversed.",
     "effect": "Iridescence causes the holder to have inverted type effectiveness. For example: if the holder is Water and is attacked by a Fire Technique, they will take Effective damage rather than Ineffective damage.",
+    "key": "Iridescence",
     "nameJa": "たまむし色",
     "descriptionJa": "このテムが攻撃されるときタイプ相性が逆転する"
   },
@@ -668,6 +753,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Jack_of_all_Trades",
     "description": "When attacking with a physical technique, gets SPATK , and when attacking with a special technique, gets ATK .",
     "effect": "Jack of all Trades gifts the holder with SPATK when a Physical Technique is used and ATK when a Special Technique is used.",
+    "key": "Jack_of_all_Trades",
     "nameJa": "器用貧乏",
     "descriptionJa": "とくしゅ技で攻撃するとATK+2, ぶつり技で攻撃するとSPATK+2を得る"
   },
@@ -676,6 +762,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Kinetic_Transfer",
     "description": "When attacked, restores 10% of max STA and the attacker loses 10% of max STA.",
     "effect": "Kinetic Transfer causes the holder to restore 10% of their maximum STA and their attacker to lose 10% of their maximum STA when the holder is hit by a damage-dealing Technique.",
+    "key": "Kinetic_Transfer",
     "nameJa": "動力転移",
     "descriptionJa": "攻撃されたとき自身のSTA10%回復、攻撃してきたテムのSTA10%減らす"
   },
@@ -684,6 +771,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Landing_Transmog",
     "description": "When entering the battlefield, Mimit transforms into the next Temtem in clockwise order.",
     "effect": "Landing Transmog causes Mimit to transform into the next Temtem in clockwise order upon entering the battlefield. It will use the same Base Stats, Techniques, Trait and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species. If already transformed, swapped out, and sent back in, so long as the next Temtem in a different species than what is currently copied, Mimit will change when entering the battlefield.",
+    "key": "Landing_Transmog",
     "nameJa": "変身スタート",
     "descriptionJa": "このテムが場に出たとき、時計回りに左側のテムに変身する"
   },
@@ -692,6 +780,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Last_Rush",
     "description": "While rivals outnumber allies, techniques inflict +40% Damage.",
     "effect": "Last Rush increases the damage of the holder's Techniques by an additional 40% while the number of conscious combatants on the rival's squad outnumber the number of conscious combatants on the holder's squad.",
+    "key": "Last_Rush",
     "nameJa": "たのみのつな",
     "descriptionJa": "味方テムが相手テムより少ないとき与えるダメージが40%増える"
   },
@@ -699,13 +788,15 @@
     "name": "Loneliness",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Loneliness",
     "description": "Synergies won't work on both allies.",
-    "effect": "Loneliness causes the holder and their ally to be unable to use synergies."
+    "effect": "Loneliness causes the holder and their ally to be unable to use synergies.",
+    "key": "Loneliness"
   },
   {
     "name": "Marathonist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Marathonist",
     "description": "When attacking, gets SPD , and STA cost is reduced by 50%.",
     "effect": "Marathonist decreases the STA Cost of the holder's Techniques by 50% but also inflicts them with SPD whenever they use a Technique.",
+    "key": "Marathonist",
     "nameJa": "持久戦の構え",
     "descriptionJa": "攻撃するたびSPD-1の代わりに消費STAが50%減る"
   },
@@ -713,13 +804,15 @@
     "name": "Meditation (Trait)",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Meditation_(Trait)",
     "description": "When resting, heals all negative status conditions, and gets regenerating for 1 turn.",
-    "effect": "Meditation gifts the holder with the Regenerated Condition for 1 turn and cures them of all negative status conditions whenever they Rest."
+    "effect": "Meditation gifts the holder with the Regenerated Condition for 1 turn and cures them of all negative status conditions whenever they Rest.",
+    "key": "Meditation_(Trait)"
   },
   {
     "name": "Mental Alliance",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mental_Alliance",
     "description": "Increases SPATK by 15% if ally is Mental.",
     "effect": "Mental Alliance increases the holder's SPATK by 15% if their ally is part Mental.",
+    "key": "Mental_Alliance",
     "nameJa": "心の友",
     "descriptionJa": "味方が精神タイプのとき与えるダメージが15%増える"
   },
@@ -727,13 +820,15 @@
     "name": "Mineral Crusher",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mineral_Crusher",
     "description": "Damage done to Earth or Crystal Temtem is increased by 25%.",
-    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if their target is part Earth or Crystal."
+    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if their target is part Earth or Crystal.",
+    "key": "Mineral_Crusher"
   },
   {
     "name": "Mirroring",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mirroring",
     "description": "When attacked with a Special technique, the attacker gets 25% knockback damage.",
     "effect": "Mirroring inflicts 25% of the damage the holder takes from Special Techniques to the attacker.",
+    "key": "Mirroring",
     "nameJa": "反射",
     "descriptionJa": "とくしゅ技で攻撃されたとき、ダメージの25%を攻撃してきたテムに与える"
   },
@@ -742,6 +837,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mithridatism",
     "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%.",
     "effect": "Mithridatism protects the holder from being inflicted with the Poisoned Condition, decreases damage taken from Toxic Techniques by 22% and gifts the Regenerated Condition for 1 turn.",
+    "key": "Mithridatism",
     "nameJa": "毒無効",
     "descriptionJa": "どく状態を防ぐ。どくタイプの技で攻撃されたときダメージを22%減らしさいせい1を得る"
   },
@@ -750,6 +846,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Motivator",
     "description": "At the start of the turn, allies restore 10% of max STA.",
     "effect": "Motivator restores 10% of both the holder's and their ally's maximum STA at the start of each turn.",
+    "key": "Motivator",
     "nameJa": "背中おし",
     "descriptionJa": "ターン開始時に味方のテムのSTAを10%回復する"
   },
@@ -758,6 +855,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mucous",
     "description": "Damage taken from Electric or Toxic techniques is reduced by 30% and prevents the cold and burned status condition.",
     "effect": "Mucous decreases the damage the holder takes from Electric and Toxic Techniques by 30% and protects them from being inflicted with the Cold and Burned Conditions.",
+    "key": "Mucous",
     "nameJa": "ねんえきはだ",
     "descriptionJa": "でんきとどくによるダメージを30％減らし、こごえとやけど状態を防ぐ"
   },
@@ -766,6 +864,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Neurotoxins",
     "description": "Once per battle, instead of applying poison, the target gets doomed for 3 turns instead.",
     "effect": "Once per battle, Neurotoxins causes all of the holder's Techniques that can inflict the Poisoned Condition to instead inflict a 3 turn countdown of the Doomed Condition. Neurotoxins will inflict the Doomed Condition on Toxic targets but will fail to inflict targets that have Mithridatism or Immunity as their Trait. Neurotoxins will not be consumed if the Doomed Condition is not applied.",
+    "key": "Neurotoxins",
     "nameJa": "神経毒",
     "descriptionJa": "戦闘中1回、相手にどくを付与する代わりにはめつ3を付与する"
   },
@@ -774,6 +873,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Neutrality",
     "description": "Prevent all negative status conditions.",
     "effect": "Neutrality protects the holder from being inflicted with the Asleep, Burned, Cold, Frozen, Exhausted, Isolated, Poisoned, Seized, Trapped and Doomed Conditions.",
+    "key": "Neutrality",
     "nameJa": "不変",
     "descriptionJa": "不利な状態変化を防ぐ"
   },
@@ -782,6 +882,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Parrier",
     "description": "Damage taken from physical techniques is reduced by 20%.",
     "effect": "Parrier decreases the damage the holder takes from Physical Techniques by 20%.",
+    "key": "Parrier",
     "nameJa": "さばき上手",
     "descriptionJa": "ぶつり技で受けるダメージを20%減らす"
   },
@@ -790,6 +891,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Patient",
     "description": "Restores 15% of max STA when using a Hold technique.",
     "effect": "Patient restores 15% of the holder's maximum STA when they use a Technique that has any amount of Hold.",
+    "key": "Patient",
     "nameJa": "がまん",
     "descriptionJa": "hold1以上の技を使うとSTAが15%回復する"
   },
@@ -798,6 +900,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Physgulp",
     "description": "When attacked with a physical technique, restores 8% of max HP.",
     "effect": "Physgulp restores 8% of the holder's maximum HP whenever they are attacked by a Physical Technique.",
+    "key": "Physgulp",
     "nameJa": "ぶつり飲み込み",
     "descriptionJa": "ぶつり技で攻撃された後HPを8％回復する"
   },
@@ -806,6 +909,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Physmaster",
     "description": "Damage done with physical techniques is increased by 50%.",
     "effect": "Physmaster increases the damage of the holder's Physical Techniques by 50%.",
+    "key": "Physmaster",
     "nameJa": "ぶつりマスター",
     "descriptionJa": "ぶつり技で与えるダメージが50%増える"
   },
@@ -814,6 +918,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Pigment_Inverter",
     "description": "When attacking, type resistances for the target Temtem are reversed.",
     "effect": "Pigment Inverter causes the holder's target to have inverted Type effectiveness. For example: if the holder uses a Fire Technique on a Water target, they will take Effective damage rather than Ineffective damage.",
+    "key": "Pigment_Inverter",
     "nameJa": "色こうかん",
     "descriptionJa": "攻撃するとき、自身の攻撃技と相手のタイプが入れ替わる"
   },
@@ -822,6 +927,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Plethoric",
     "description": "Increases SPD by 30% while HP is over 70%.",
     "effect": "Plethoric increases the holder's SPD by 30% as long as they're at or above 70% of their maximum HP.",
+    "key": "Plethoric",
     "nameJa": "元気満タン",
     "descriptionJa": "自身のHPが70%以上のとき、SPDが30%上昇する"
   },
@@ -830,6 +936,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Power_Nap",
     "description": "At the start of the turn, restores 15% of max HP of an Asleep Temtem.",
     "effect": "Power Nap restores 15% of the holder's maximum HP at the start of each turn if they're afflicted with the Asleep Condition.",
+    "key": "Power_Nap",
     "nameJa": "かみん",
     "descriptionJa": "ターン開始時にねむり状態ならHPを15%回復する"
   },
@@ -837,13 +944,15 @@
     "name": "Predatory",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Predatory",
     "description": "Restores HP by 30% upon knocking out a Temtem.",
-    "effect": "Predatory restores 30% of the holder's maximum HP when they knock-out a target."
+    "effect": "Predatory restores 30% of the holder's maximum HP when they knock-out a target.",
+    "key": "Predatory"
   },
   {
     "name": "Prideful",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Prideful",
     "description": "When attacking, gets ATK , SPATK and SPD if the target gets knocked-out.",
     "effect": "Prideful gifts the holder with SPD , ATK and SPATK when they knock-out a target.",
+    "key": "Prideful",
     "nameJa": "高飛車",
     "descriptionJa": "自身の攻撃で相手のテムを倒したときATK+2, SPATK+2, SPD+1を得る"
   },
@@ -852,6 +961,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Protective_Crystal",
     "description": "When an ally is damaged by an offensive technique, damage is reduced by 10%. When allies are damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%.",
     "effect": "Protective Crystal decreases the damage the holder's team takes from Electric, Mental and Fire Technique by 20%. The holder's ally has an additional 10% base damage reduction off every offensive Technique received, whatever its type.",
+    "key": "Protective_Crystal",
     "nameJa": "クリスタルの守り",
     "descriptionJa": "味方が攻撃を受けたときダメージを10%減らす。自身か味方がでんき、せいしん、ほのおタイプの技でダメージを受けるときそのダメージを20%減らす"
   },
@@ -860,6 +970,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Protector",
     "description": "Once per battle, when entering the battlefield, the ally gets DEF and SPDEF .",
     "effect": "Protector gifts the holder's ally with DEF and SPDEF upon the holder entering the battlefield once per battle.",
+    "key": "Protector",
     "nameJa": "守護",
     "descriptionJa": "対戦中1回、場に出たとき、味方のDEF+1, SPDEF+1"
   },
@@ -868,6 +979,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Provident",
     "description": "After being attacked with a Fire, Earth or Melee technique, gets SPDEF .",
     "effect": "Provident gifts the holder with SPDEF after being hit by Earth, Fire and Melee Techniques.",
+    "key": "Provident",
     "nameJa": "しんちょう派",
     "descriptionJa": "ほのお、だいち、かくとうタイプの技で攻撃されるとSPDEF+2"
   },
@@ -876,6 +988,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Punch_Bag",
     "description": "Damage taken from Melee techniques is reduced by 30%.",
     "effect": "Punch Bag decreases the damage the holder takes from Melee Techniques by 30%.",
+    "key": "Punch_Bag",
     "nameJa": "サンドバッグ",
     "descriptionJa": "かくとうタイプの技で受けるダメージが30%減る"
   },
@@ -884,6 +997,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Puppet_Master",
     "description": "While HP is below 40%, received rival techniques get redirected to the ally.",
     "effect": "Puppet Master causes all incoming rival, single target Techniques aimed at the holder to be redirected to their ally while the holder is below 40% of their maximum HP.",
+    "key": "Puppet_Master",
     "nameJa": "くぐつ師",
     "descriptionJa": "自身のHPが40％以下の時、相手から受ける技の対象を味方に変更する"
   },
@@ -892,6 +1006,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Pyromaniac",
     "description": "Damage done with Fire techniques is increased by 15%.",
     "effect": "Pyromaniac increases the damage of the holder's Fire Techniques by 15%.",
+    "key": "Pyromaniac",
     "nameJa": "火遊び好き",
     "descriptionJa": "ほのおタイプの技で与えるダメージが15％増える"
   },
@@ -900,6 +1015,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Receptive",
     "description": "When getting a favorable status condition, increases its turns by 1.",
     "effect": "Receptive increases the duration of any Invigorated, Immune, Regenerated, Evading, and Alerted Conditions the holder is gifted with by 1 turn.",
+    "key": "Receptive",
     "nameJa": "受け入れ体勢",
     "descriptionJa": "有利な状態変化を受けたときそのターン数が1増える"
   },
@@ -908,6 +1024,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Refurbished",
     "description": "Once per battle, regenerating for 4 turns after 3 consecutive turns on the battlefield.",
     "effect": "Refurbished gifts the holder with the Regenerated Condition for 4 turns after the holder has been on the battlefield for 3 turns in a row once per battle.",
+    "key": "Refurbished",
     "nameJa": "リファビッシュ",
     "descriptionJa": "対戦中1回、このテムが場に出て3ターン経過した後さいせい4を得る"
   },
@@ -916,6 +1033,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Rejuvenate",
     "description": "After attacking with a special technique, restores 10% of max HP.",
     "effect": "Rejuvenate restores 10% of the holder's maximum HP after using a Special Technique.",
+    "key": "Rejuvenate",
     "nameJa": "はつらつ",
     "descriptionJa": "とくしゅ技で攻撃した時HPを10%回復する"
   },
@@ -924,6 +1042,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Relaxed",
     "description": "Restores 15% of max HP after not receiving any rival attacks during the turn.",
     "effect": "Relaxed restores 15% of the holder's maximum HP so long as the holder does not take any damage from Techniques from the rival team while being present on the battlefield.",
+    "key": "Relaxed",
     "nameJa": "一安心",
     "descriptionJa": "ターン中に攻撃を受けなかったとき、HPを15%回復する"
   },
@@ -932,6 +1051,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Resilient",
     "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD .",
     "effect": "Resilient protects the holder from being knocked-out due to overexertion by leaving them with 1 HP, gifts them with SPD and negates the overexertion turn penalty once per battle.",
+    "key": "Resilient",
     "nameJa": "ふんばり",
     "descriptionJa": "対戦中1回、スタミナ切れで気絶する場合、気絶とターンペナルティを防ぎSPD+3を得る"
   },
@@ -940,6 +1060,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Resistant",
     "description": "When getting a negative status condition, decreases its turns by 1.",
     "effect": "Resistant decreases the duration of the Poisoned, Burned, Asleep, Cold, Exhausted, Isolated, Seized, and Trapped Conditions the holder is inflicted with by 1 turn. If the inflicted Condition would only last 1 turn normally, the holder will not be inflicted with it.",
+    "key": "Resistant",
     "nameJa": "抵抗力",
     "descriptionJa": "不利な状態変化を受けたとき、ターン数を1減らす"
   },
@@ -948,6 +1069,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Rested",
     "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield.",
     "effect": "Rested increases the holder's ATK and SPATK by 30% for the first 2 turns they start the turn on the battlefield once per battle.",
+    "key": "Rested",
     "nameJa": "準備ばんたん",
     "descriptionJa": "このテムが場に出て2ターンの間ATKとSPATKが30％増える"
   },
@@ -956,6 +1078,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Royal_Jelly",
     "description": "At the start of the turn, allies restore 5% of max HP.",
     "effect": "Royal Jelly restores 5% of the holder's and their allies' maximum HP at the start of each turn. The healing is applied after Status Conditions have been triggered but before a player is able to replace a knocked-out Temtem.",
+    "key": "Royal_Jelly",
     "nameJa": "ロイヤルゼリー",
     "descriptionJa": "ターン開始時に味方のテムのHPを5%回復する"
   },
@@ -964,6 +1087,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Ruminant",
     "description": "When any Temtem uses a Nature technique, restores 20% max STA.",
     "effect": "Ruminant restores 20% of the holder's maximum STA if any temtem uses a Nature technique.",
+    "key": "Ruminant",
     "nameJa": "反すう",
     "descriptionJa": "場に出ているテムがしぜんタイプの技を使ったときSTAを20%回復する"
   },
@@ -972,6 +1096,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Rusher",
     "description": "When the Temtem exits the battlefield, gets SPD , and when a rival enters the battlefield, gets SPD .",
     "effect": "Rusher gifts the holder with SPD whenever a rival combatant enters the battlefield but inflicts the holder with SPD whenever the holder leaves the battlefield.",
+    "key": "Rusher",
     "nameJa": "スプリント",
     "descriptionJa": "相手が場に出たときSPD+1, 自身が場から離れたときSPD-2"
   },
@@ -980,6 +1105,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Scavenger",
     "description": "Restores 17% of max HP if another Temtem is knocked-out.",
     "effect": "Scavenger restores 17% of the holder's maximum HP when either their ally or a rival is knocked-out.",
+    "key": "Scavenger",
     "nameJa": "スカベンジャー",
     "descriptionJa": "他のテムが気絶した時、HPを17%回復する"
   },
@@ -988,6 +1114,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Seismic",
     "description": "When entering the battlefield, rivals lose 7% of their max HP. This effect cannot knock out Temtem.",
     "effect": "Seismic causes all rival combatants on the battlefield to lose 7% of their maximum HP whenever the user enters the battlefield. Seismic can't reduce their HP below 1.",
+    "key": "Seismic",
     "nameJa": "げきしん",
     "descriptionJa": "場に出たとき相手のテムはHPを7%失う。この効果では気絶しない"
   },
@@ -996,6 +1123,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Self-Care",
     "description": "When attacked with a physical or special technique, gets regenerating for 1 turn.",
     "effect": "Self-Care gifts the holder with the Regenerated Condition for 1 turn whenever they are hit with a damaging Physical or Special Technique.",
+    "key": "Self-Care",
     "nameJa": "セルフケア",
     "descriptionJa": "攻撃されたときさいせい1を得る"
   },
@@ -1004,6 +1132,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Self-Esteem",
     "description": "When attacking, removes all negative status conditions if the target gets knocked-out.",
     "effect": "Self-Esteem cures the holder of the Poisoned, Burned, Cold, Exhausted, Isolated, Seized, Trapped, and Doomed Conditions when they knock-out a target.",
+    "key": "Self-Esteem",
     "nameJa": "自尊心",
     "descriptionJa": "相手を気絶させたとき自身にかかっている不利な状態変化をすべて取り除く"
   },
@@ -1012,6 +1141,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Sensei",
     "description": "When attacking with a Physical technique, uses SPATK, and when attacking with a Special technique, uses the ATK.",
     "effect": "Sensei causes the holder to use their SPATK instead of their ATK when using a Physical Technique and use their ATK instead of their SPATK when using a Special Technique.",
+    "key": "Sensei",
     "nameJa": "センセイ",
     "descriptionJa": "ぶつり技のダメージ計算にSPATKを、とくしゅ技のダメージ計算にATKを使う"
   },
@@ -1020,6 +1150,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Sentinel",
     "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself.",
     "effect": "Sentinel protects the holder and their ally from the Asleep Condition and cures their ally of the Asleep Condition when the holder enters the battlefield.",
+    "key": "Sentinel",
     "nameJa": "見張り役",
     "descriptionJa": "場に出たとき味方のねむり状態を取り除く。自身と味方がねむり状態になることを防ぐ。"
   },
@@ -1028,6 +1159,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Seppuku",
     "description": "When the holder faints due to recoil damage or Overexertion, it applies 4 turns of Doom to the rival Tems.",
     "effect": "Seppuku inflicts the rival team with the Doomed Status Condition for 4 turns if the holder is knocked-out due to Overexertion or self-damaging moves like Autodestruction.",
+    "key": "Seppuku",
     "nameJa": "セップク",
     "descriptionJa": "反動かスタミナ切れによるダメージで倒れるとき、相手のテム2体にはめつ4を付与する"
   },
@@ -1036,6 +1168,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Settling",
     "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield.",
     "effect": "Settling increases the holder's ATK by 8% for each turn they are on the battlefield. If the holder leaves the battlefield at any point, the cumulative bonus is reset.",
+    "key": "Settling",
     "nameJa": "場慣れ",
     "descriptionJa": "場に出ている間ターン経過ごとにATKが8％増える"
   },
@@ -1044,6 +1177,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Shaolin",
     "description": "Damage done with special techniques is increased by 10%.",
     "effect": "All damage done by this Temtem's Special Techniques is increased by 10%.",
+    "key": "Shaolin",
     "nameJa": "ショーリン寺テム法",
     "descriptionJa": "とくしゅ技で与えるダメージが10%増える"
   },
@@ -1052,6 +1186,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Shared_Pain",
     "description": "After receiving a rival attack, the next one during the same turn gets redirected to the ally.",
     "effect": "Shared Pain protects the holder from receiving damage from a second attack from the rival team that turn by redirecting it to their ally.",
+    "key": "Shared_Pain",
     "nameJa": "分かち合い",
     "descriptionJa": "攻撃を受けると、同じターン中の次の攻撃は味方に向かう"
   },
@@ -1060,6 +1195,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Short_Circuit",
     "description": "Prevents all stat changes on all Temtem.",
     "effect": "Short Circuit prevents all Stat Stage Changes from being gifted/inflicted to all combatants on the battlefield as long as the holder is on the battlefield.",
+    "key": "Short_Circuit",
     "nameJa": "ショート",
     "descriptionJa": "全てのステータス変化を防ぐ"
   },
@@ -1068,6 +1204,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Skull_Helmet",
     "description": "Damage taken from Mental or Melee techniques is reduced by 25%.",
     "effect": "Skull Helmet decreases the damage the holder takes from Mental and Melee Techniques by 25%.",
+    "key": "Skull_Helmet",
     "nameJa": "ホネヘルメット",
     "descriptionJa": "せいしんとかくとうタイプから受けるダメージを25％減らす"
   },
@@ -1076,6 +1213,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Snowstorm",
     "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 2 turns if they aren't cold already.",
     "effect": "Snowstorm inflicts both rivals and the holder's ally with the Cold Condition for 2 turns if they aren't already inflicted with the Cold Condition when the holder enters the battlefield once per battle.",
+    "key": "Snowstorm",
     "nameJa": "雪風",
     "descriptionJa": "対戦中1回、場に出たとき、味方と相手のテムにこごえ2を付与する。既にこごえ状態のテムには付与しない"
   },
@@ -1084,6 +1222,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Soft_Touch",
     "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up.",
     "effect": "Soft Touch increases the damage the holder does to targets affected by the Asleep Condition by 12% and stops the holder from curing them of the Asleep Condition with any damage-dealing Techniques.",
+    "key": "Soft_Touch",
     "nameJa": "ソフトタッチ",
     "descriptionJa": "ねむり状態のテムを攻撃しても起こさず、与えるダメージが12%増える"
   },
@@ -1092,6 +1231,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Solidifier",
     "description": "When attacking with a Water Special technique, uses the ATK.",
     "effect": "Solidifier causes the holder to use their ATK instead of their SPATK when using a Special Water Technique.",
+    "key": "Solidifier",
     "nameJa": "練り固め",
     "descriptionJa": "みずタイプのとくしゅ技で攻撃するときATKを使ってダメージ計算する"
   },
@@ -1100,6 +1240,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Source_Replicator",
     "description": "When getting a positive status condition, adds the change to the ally too.",
     "effect": "Source Replicator copies any Alerted, Regenerated, Evading, Immune, or Invigorated Conditions the holder is gifted with and gifts them to their ally for the same duration.",
+    "key": "Source_Replicator",
     "nameJa": "ソースコピー",
     "descriptionJa": "有利な状態変化を受けたとき味方にもそれを付与する"
   },
@@ -1108,6 +1249,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Specgulp",
     "description": "When attacked with a special technique, restores 8% of max HP.",
     "effect": "Specgulp restores 8% of the holder's maximum HP whenever they are attacked by a Special Technique.",
+    "key": "Specgulp",
     "nameJa": "とくしゅ飲み込み",
     "descriptionJa": "とくしゅ技でダメージを受けたときHPを8％回復"
   },
@@ -1116,6 +1258,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Specmaster",
     "description": "Damage done with special techniques is increased by 50%",
     "effect": "Specmaster increases the damage of the holder's Special Techniques by 50%.",
+    "key": "Specmaster",
     "nameJa": "とくしゅマスター",
     "descriptionJa": "とくしゅ技で与えるダメージが50％増える"
   },
@@ -1124,6 +1267,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Spiritual",
     "description": "When entering the battlefield, gets SPATK and SPDEF .",
     "effect": "Spiritual gifts the holder with SPATK but also inflicts them with SPDEF whenever they enter the battlefield.",
+    "key": "Spiritual",
     "nameJa": "スピリチュアル",
     "descriptionJa": "場に出たときSPATK+1, SPDEF-1"
   },
@@ -1132,6 +1276,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Splitter",
     "description": "Prevents getting a negative status condition and gets Invigorated for 2 turns.",
     "effect": "Splitter protects the holder from being inflicted with the Poisoned, Burned, Asleep, Cold, Exhausted, Isolated, Seized, or Trapped Conditions. For example: Embers won't inflict Burned, Hypnosis won't inflict Asleep, and Toxic Ink won't inflict Poisoned.",
+    "key": "Splitter",
     "nameJa": "スプリッター",
     "descriptionJa": "不利な状態変化を防ぎ代わりにげんき2を得る"
   },
@@ -1140,6 +1285,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Spoilsport",
     "description": "Damage done with multi-target techniques is increased by 25%.",
     "effect": "Spoilsport increases the damage of the holder's Techniques that target the rival team or the user's ally by 25%.",
+    "key": "Spoilsport",
     "nameJa": "冷や水がけ",
     "descriptionJa": "複数のテムを対象とする攻撃のダメージが25%増える"
   },
@@ -1148,6 +1294,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Spreader",
     "description": "If there are multiple rivals, single-target special techniques become multi-target and damage done with them is reduced by 20%.",
     "effect": "Spreader causes all of the holder's Special Techniques that have single target or single other target as their targeting to hit both rivals but reduces the damage of these Techniques by 20% if there are multiple rivals on the battlefield.",
+    "key": "Spreader",
     "nameJa": "拡散",
     "descriptionJa": "相手が複数いる場合、単体攻撃のとくしゅ技が範囲攻撃に変わりダメージが20％減る"
   },
@@ -1156,6 +1303,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Stabmaster",
     "description": "Damage done with matching type techniques is increased by 35%.",
     "effect": "Stabmaster increases the damage of the holders Techniques that are the same Type as the holder by 35%. This boost stacks with STAB.",
+    "key": "Stabmaster",
     "nameJa": "STABマスター",
     "descriptionJa": "自分のタイプと同じタイプの技で攻撃した時ダメージが35%増える"
   },
@@ -1164,6 +1312,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Striking_Transmog",
     "description": "Once per battle, when attacking an individual Temtem with a physical technique, Mimit transforms into the target.",
     "effect": "Once per battle, Striking Transmog causes Mimit to transform into the Temtem the holder hits with Physical Techniques that has single target or single other target as their targeting and will multiply MMimit's DEF and SPDEF stat by 50% for the rest of the current turn. It will use the same Base Stats, Techniques, Trait, and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target.",
+    "key": "Striking_Transmog",
     "nameJa": "変身こうげき",
     "descriptionJa": "ぶつり技で攻撃した時、対象のテムに変身する"
   },
@@ -1172,6 +1321,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Strong_Liver",
     "description": "When attacked with a Toxic technique, restores HP instead of receiving damage.",
     "effect": "Strong Liver protects the holder from taking damage from Toxic Techniques and restores their HP equal to the amount of damage they would've taken.",
+    "key": "Strong_Liver",
     "nameJa": "毒吸収",
     "descriptionJa": "どくタイプの技で攻撃されたときダメージを受ける代わりに回復する"
   },
@@ -1180,6 +1330,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Superconductivity",
     "description": "When an ally uses a technique, the temtem counts as all types for its synergy.",
     "effect": "Superconductivity causes all of the holder's ally's Techniques that have a Synergy to activate that Synergy's effect even if the holder doesn't match the Synergy's Type.",
+    "key": "Superconductivity",
     "nameJa": "超電導",
     "descriptionJa": "味方の技に対して全てのタイプとして同調する"
   },
@@ -1188,6 +1339,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Synergy_Adept",
     "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy.",
     "effect": "Synergy Adept increases the damage of the holder's and their allies' Synergy Techniques by 15% when the Synergy activates.",
+    "key": "Synergy_Adept",
     "nameJa": "同調上手",
     "descriptionJa": "自身もしくは味方が同調したときダメージが15%増える"
   },
@@ -1196,6 +1348,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Synergy_Master",
     "description": "Damage done with synergy techniques is increased by 25% while the Temtem participate in the synergy.",
     "effect": "Synergy Master increases the damage of the holder's and their allies' Synergy Techniques by 25% when the Synergy activates.",
+    "key": "Synergy_Master",
     "nameJa": "同調マスター",
     "descriptionJa": "自身もしくは味方が同調したときダメージが25%増える"
   },
@@ -1204,6 +1357,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Synertyper",
     "description": "Damage done with techniques is increased by 30% if both allies share a type.",
     "effect": "Synertyper increases the damage of the holder's Techniques by 30% if both the holder and their ally share a Type.",
+    "key": "Synertyper",
     "nameJa": "タイプシナジー",
     "descriptionJa": "味方と自身のタイプが共通しているときこのテムが与えるダメージが30%増える"
   },
@@ -1212,6 +1366,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tactical_Strike",
     "description": "Damage done with Hold techniques is increased by 20%.",
     "effect": "Tactical Strike increases the damage of the holder's Techniques that have any amount of Hold by 20%.",
+    "key": "Tactical_Strike",
     "nameJa": "戦術こうげき",
     "descriptionJa": "hold1以上の技のダメージが20%増える"
   },
@@ -1220,6 +1375,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tag_Team",
     "description": "Damage taken from techniques is reduced by 15% if both allies share a type.",
     "effect": "Tag Team decreases the damage the holder takes from Techniques by 15% if both the holder and their ally share a Type.",
+    "key": "Tag_Team",
     "nameJa": "タッグチーム",
     "descriptionJa": "味方と自身のタイプが共通しているとき受けるダメージがそれぞれ15％減る"
   },
@@ -1228,6 +1384,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tardy_Rush",
     "description": "Increases SPD by 85% and ATK by 10% after 3 consecutive turns on the battlefield.",
     "effect": "Tardy Rush increases the holder's SPD by 85% and ATK by 10% after being on the battlefield for 3 turns in a row and lasts until the holder leaves the battlefield. If the holder is swapped in, the turn they enter the battlefield counts as turn 1.",
+    "key": "Tardy_Rush",
     "nameJa": "しり上がり",
     "descriptionJa": "場に出たまま3ターン経過するとSPDが85%, ATKが10%上昇する"
   },
@@ -1236,6 +1393,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Target_Replicator",
     "description": "When the ally gets a positive status condition, adds the change to the Temtem too.",
     "effect": "Target Replicator copies any Alerted, Regenerated, Evading, Immune, or Invigorated Conditions the ally is gifted with and gifts them to the holder for the same duration.",
+    "key": "Target_Replicator",
     "nameJa": "ターゲットコピー",
     "descriptionJa": "味方が有利な状態変化を受けたとき自分にも付与する"
   },
@@ -1244,6 +1402,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Team_Elusive",
     "description": "Prevents multi-target offensive techniques.",
     "effect": "Team Elusive protects the holder from being affected by Techniques from both their ally and the rivals that have single team, rival team or the user's ally, all other Temtem, or all as their targeting. If Puppet Master would cause a holder to be the target of a Technique, it will.",
+    "key": "Team_Elusive",
     "nameJa": "みかわし上手",
     "descriptionJa": "範囲技のダメージを受けない"
   },
@@ -1252,6 +1411,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Thick_Skin",
     "description": "Damage taken by Wind techniques is reduced by 50%.",
     "effect": "Thick Skin decreases the damage the holder takes from Wind Techniques by 50%.",
+    "key": "Thick_Skin",
     "nameJa": "分厚いヒフ",
     "descriptionJa": "かぜタイプの技で受けるダメージを50%減らす"
   },
@@ -1260,6 +1420,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tireless",
     "description": "When overexerted, prevents the turn penalization and gets ATK .",
     "effect": "Tireless gifts the holder with ATK and prevents the turn penalty from Overexerting whenever the holder Overexerts.",
+    "key": "Tireless",
     "nameJa": "つかれ知らず",
     "descriptionJa": "スタミナが切れたときターンペナルティを防ぎATK+2を得る"
   },
@@ -1268,6 +1429,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Affinity",
     "description": "Toxic techniques get type damage boost.",
     "effect": "Toxic Affinity increases the damage of the holder's Toxic Techniques by 50%, as if they had STAB. This boost stacks with actual STAB if the holder is part Toxic.",
+    "key": "Toxic_Affinity",
     "nameJa": "毒慣れ",
     "descriptionJa": "どくタイプの技で与えるダメージが50％増える"
   },
@@ -1276,6 +1438,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Farewell",
     "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns.",
     "effect": "Toxic Farewell inflicts the attacker that knocked-out the holder with the Poisoned Condition for 3 turns and they lose 10% of their maximum HP.",
+    "key": "Toxic_Farewell",
     "nameJa": "別れの毒",
     "descriptionJa": "相手のテムの攻撃で倒されたとき、そのテムのHPを10%減らしどく3を付与する"
   },
@@ -1284,6 +1447,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Skin",
     "description": "When attacked, the attacker gets poisoned for 1 turn.",
     "effect": "Toxic Skin inflicts the Poisoned Condition for 1 turn onto any attacker that hits the holder with a Technique.",
+    "key": "Toxic_Skin",
     "nameJa": "毒のヒフ",
     "descriptionJa": "攻撃されたときそのテムにどく1を付与する"
   },
@@ -1291,19 +1455,22 @@
     "name": "Toxin Crusher",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxin_Crusher",
     "description": "Damage done to Toxic Temtem is increased by 50%.",
-    "effect": "Toxin Crusher increases the damage of all the holder's Techniques by 50% if their target is part Toxic."
+    "effect": "Toxin Crusher increases the damage of all the holder's Techniques by 50% if their target is part Toxic.",
+    "key": "Toxin_Crusher"
   },
   {
     "name": "Traits",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Traits",
     "description": "",
-    "effect": ""
+    "effect": "",
+    "key": "Traits"
   },
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Trance",
     "description": "Once per battle, if the Temtem is attacked and HP is below 30%, gets asleep for 2 turns and regenerating for 3 turns, SPATK and SPDEF .",
     "effect": "Trance gifts the holder with SPATK , SPDEF , and the Regenerated Condition for 3 turns but also inflicts the Asleep Condition for 2 turns when the holder's is below 30% of their maximum HP and is the target of a Technique once per battle.",
+    "key": "Trance",
     "nameJa": "トランス",
     "descriptionJa": "対戦中1回、攻撃されてHPが30%を下回った時ねむり2、さいせい3、SPATK+2、SPDEF+2を得る"
   },
@@ -1312,6 +1479,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Trauma",
     "description": "After being attacked if hit by a Physical technique gets DEF ; if hit by a Special technique, SPDEF .",
     "effect": "Trauma inflicts the holder with DEF after they're hit with a Physical Technique and inflicts the holder with SPDEF after they're hit with a Special Technique.",
+    "key": "Trauma",
     "nameJa": "トラウマ",
     "descriptionJa": "ぶつり技で攻撃されるとDEF-1、とくしゅ技で攻撃されるとSPDEF-1"
   },
@@ -1320,6 +1488,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tri-Apothecary",
     "description": "After attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself.",
     "effect": "Tri-Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 3 turns if the target was a rival or gift the Regenerated Condition for 3 turns if the target is the holder or their ally.",
+    "key": "Tri-Apothecary",
     "nameJa": "三びきの薬ざい師",
     "descriptionJa": "とくしゅ技で攻撃した時、対象が相手ならどく3を、味方か自身ならさいせい3を付与する"
   },
@@ -1328,6 +1497,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tri-Phytologist",
     "description": "When attacking with a physical technique, the target gets exhausted for 1 turn if it's a rival or invigorated for 2 turns if it's an ally or itself.",
     "effect": "When the holder attacks a target with a Physical Technique, Tri-Phytologist inflicts the target with the Exhausted Status Condition for 1 turn if the target is a rival or the Invigorated Status Condition for 2 turns if the target is the holder itself or its ally.",
+    "key": "Tri-Phytologist",
     "nameJa": "三びきの本草家",
     "descriptionJa": "ぶつり技で攻撃した時、対象が相手ならひろう1を、味方か自身ならげんき2を付与する"
   },
@@ -1336,6 +1506,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Unnoticed",
     "description": "Gets SPD after not receiving any rival attacks during the turn.",
     "effect": "Unnoticed gifts the holder with SPD so long as the holder does not take any damage from Techniques from the rival team while being present on the battlefield.",
+    "key": "Unnoticed",
     "nameJa": "しのび足",
     "descriptionJa": "ターン中攻撃を受けなかったらSPD+1"
   },
@@ -1344,6 +1515,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Vigorous",
     "description": "Damage done when overexerting is increased by 50%.",
     "effect": "Vigorous increases the damage of the holder's Techniques by 50% when the holder Overexerts.",
+    "key": "Vigorous",
     "nameJa": "活力",
     "descriptionJa": "スタミナ切れになった攻撃で与えるダメージが50%増える"
   },
@@ -1352,6 +1524,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Viral_Combustion",
     "description": "When getting a poison status condition, the attacker gets burned for 4 turns.",
     "effect": "Viral Combustion inflicts the Burned Condition for 4 turns onto any attacker that inflicts the Poisoned Condition onto the holder.",
+    "key": "Viral_Combustion",
     "nameJa": "ウィルス燃焼",
     "descriptionJa": "相手の攻撃でどく状態になった時そのテムにやけど4を付与する"
   },
@@ -1360,6 +1533,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voltaic_Charge",
     "description": "The caster heals 15% of the damage it has done with any offensive technique.",
     "effect": "Voltaic Charge restores 15% of the damage the holder inflicts to the target as HP.",
+    "key": "Voltaic_Charge",
     "nameJa": "感電",
     "descriptionJa": "攻撃した時、与えたダメージの15%分HPを回復する"
   },
@@ -1368,6 +1542,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voodoo",
     "description": "When the holder applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too.",
     "effect": "When the holder of Voodoo applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too.",
+    "key": "Voodoo",
     "nameJa": "ブードゥー",
     "descriptionJa": "不利な状態変化やステータス変化を相手のテム1体に与えたとき、もう1体にも同じ効果を与える"
   },
@@ -1376,6 +1551,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Warm_Gift",
     "description": "When a rival exits the battlefield, they get burned for 3 turns.",
     "effect": "Warm Gift inflicts the Burned Condition for 3 turns onto any rival that exits the battlefield.",
+    "key": "Warm_Gift",
     "nameJa": "あったかギフト",
     "descriptionJa": "相手が場を離れたとき、そのテムにやけど3を与える"
   },
@@ -1384,6 +1560,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Warm-Blooded",
     "description": "Prevents the Cold and Frozen status condition.",
     "effect": "Warm-Blooded protects the holder from being inflicted with the Cold and Frozen Conditions.",
+    "key": "Warm-Blooded",
     "nameJa": "熱血",
     "descriptionJa": "こごえとこおりつきを防ぐ"
   },
@@ -1392,6 +1569,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Affinity",
     "description": "Water techniques get type damage boost.",
     "effect": "Water Affinity increases the damage of the holder's Water Techniques by 50%, as if they had STAB. This boost stacks with actual STAB if the holder is part Water.",
+    "key": "Water_Affinity",
     "nameJa": "水慣れ",
     "descriptionJa": "みずタイプの技で与えるダメージが50%増える"
   },
@@ -1400,6 +1578,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Custodian",
     "description": "Water techniques targeting the ally will target the Temtem instead and deal 15% less damage.",
     "effect": "Water Custodian causes all incoming Water Techniques targeting the holder's ally to hit the holder instead and reduces the damage taken from them by 15%.",
+    "key": "Water_Custodian",
     "nameJa": "水寄せ",
     "descriptionJa": "味方がみずタイプの攻撃の対象になった時その対象を自分に変更しダメージを15%減らす"
   },
@@ -1408,6 +1587,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Synthesizer",
     "description": "When attacked with a Water technique, restores HP instead of receiving damage.",
     "effect": "Water Synthesizer protects the holder from taking damage from Water Techniques and restores their HP equal to the amount of damage they would've taken.",
+    "key": "Water_Synthesizer",
     "nameJa": "給水",
     "descriptionJa": "みずタイプの技で攻撃されたとき、ダメージの代わりに回復する"
   },
@@ -1416,6 +1596,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Wax_Bath",
     "description": "When an ally rests, they get SPDEF .",
     "effect": "Wax Bath gifts the holder's ally with SPDEF whenever they Rest.",
+    "key": "Wax_Bath",
     "nameJa": "ろう浴",
     "descriptionJa": "味方が休んだ時SPDEF+2を与える"
   },
@@ -1424,6 +1605,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Welcomer",
     "description": "Once per battle, when an ally enters the battlefield, the ally gets evading for 1 turn.",
     "effect": "Welcomer gifts the holder's ally with the Evading Condition for 1 turn when they enter the battlefield once per battle.",
+    "key": "Welcomer",
     "nameJa": "お出むかえ",
     "descriptionJa": "対戦中1回、味方が場に出たとき、味方にかいひ1を付与する"
   },
@@ -1432,6 +1614,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Withdrawal",
     "description": "When resting, restores 20% of max HP and removes asleep and poisoned status conditions.",
     "effect": "Withdrawal restores 20% of the holder's maximum HP and cures them of the Asleep and Poisoned Conditions whenever they Rest.",
+    "key": "Withdrawal",
     "nameJa": "ひきこもり",
     "descriptionJa": "休むとHPを20%回復しどくとねむり状態を取り除く"
   },
@@ -1440,6 +1623,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Wrecked_Farewell",
     "description": "The rival loses 10% of its max STA and gets ATK and SPATK when it knocks the holder out. In case the holder is self knocked-out, both rivals receive the effects of Wrech Farewell.",
     "effect": "Wrecked Farewell causes the rival to lose 10% of their maximum STA when they knocked out the holder. If the holder knocks themself out, the effect is applied to all rivals.",
+    "key": "Wrecked_Farewell",
     "nameJa": "別れの苦難",
     "descriptionJa": "このテムが気絶した時、相手のテムの攻撃によってであればそのテムはSTAを10%失いATK-2、SPATK-2を得る。自滅で気絶した場合、相手のテム両方がSTAを10%失いATK-2、SPATK-2を得る。"
   },
@@ -1448,6 +1632,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Zen",
     "description": "When getting an asleep status condition, gets DEF and SPDEF .",
     "effect": "Zen gifts the holder with DEF and SPDEF upon being inflicted with the Asleep Condition.",
+    "key": "Zen",
     "nameJa": "ゼン",
     "descriptionJa": "このテムがねむり状態になった時、DEF+2、SPDEF+2を得る"
   }

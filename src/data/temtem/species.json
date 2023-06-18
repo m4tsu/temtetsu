@@ -72,7 +72,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mimit.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mimit.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mimit.gif",
-    "nameJa": "ミミット"
+    "nameJa": "ミミット",
+    "key": "1"
   },
   {
     "number": "2",
@@ -225,7 +226,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Oree.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Oree.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oree.gif",
-    "nameJa": "オリィ"
+    "nameJa": "オリィ",
+    "key": "2"
   },
   {
     "number": "3",
@@ -355,7 +357,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Zaobian.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Zaobian.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zaobian.gif",
-    "nameJa": "メガビアン"
+    "nameJa": "メガビアン",
+    "key": "3"
   },
   {
     "number": "4",
@@ -551,7 +554,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Chromeon.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Chromeon.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Chromeon.gif",
-    "nameJa": "クロメオン"
+    "nameJa": "クロメオン",
+    "key": "4"
   },
   {
     "number": "5",
@@ -674,7 +678,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Halzhi.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Halzhi.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Halzhi.gif",
-    "nameJa": "ハルビー"
+    "nameJa": "ハルビー",
+    "key": "5"
   },
   {
     "number": "6",
@@ -788,7 +793,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Molgu.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Molgu.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Molgu.gif",
-    "nameJa": "ハルモグ"
+    "nameJa": "ハルモグ",
+    "key": "6"
   },
   {
     "number": "7",
@@ -988,7 +994,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Platypet.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Platypet.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platypet.gif",
-    "nameJa": "プラティペット"
+    "nameJa": "プラティペット",
+    "key": "7"
   },
   {
     "number": "8",
@@ -1175,7 +1182,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Platox.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Platox.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platox.gif",
-    "nameJa": "プラトックス"
+    "nameJa": "プラトックス",
+    "key": "8"
   },
   {
     "number": "9",
@@ -1325,7 +1333,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Platimous.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Platimous.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platimous.gif",
-    "nameJa": "プラティマス"
+    "nameJa": "プラティマス",
+    "key": "9"
   },
   {
     "number": "10",
@@ -1473,7 +1482,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Swali.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Swali.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Swali.gif",
-    "nameJa": "スワリ"
+    "nameJa": "スワリ",
+    "key": "10"
   },
   {
     "number": "11",
@@ -1671,7 +1681,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Loali.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Loali.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Loali.gif",
-    "nameJa": "ロアリ"
+    "nameJa": "ロアリ",
+    "key": "11"
   },
   {
     "number": "12",
@@ -1868,7 +1879,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tateru.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tateru.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tateru.gif",
-    "nameJa": "タテル"
+    "nameJa": "タテル",
+    "key": "12"
   },
   {
     "number": "13",
@@ -1954,7 +1966,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Gharunder.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Gharunder.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Gharunder.gif",
-    "nameJa": "ガルンダー"
+    "nameJa": "ガルンダー",
+    "key": "13"
   },
   {
     "number": "14",
@@ -2089,7 +2102,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mosu.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mosu.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mosu.gif",
-    "nameJa": "モス"
+    "nameJa": "モス",
+    "key": "14"
   },
   {
     "number": "15",
@@ -2204,7 +2218,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Magmut.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Magmut.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Magmut.gif",
-    "nameJa": "マグムート"
+    "nameJa": "マグムート",
+    "key": "15"
   },
   {
     "number": "16",
@@ -2372,7 +2387,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Paharo.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Paharo.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Paharo.gif",
-    "nameJa": "パハロ"
+    "nameJa": "パハロ",
+    "key": "16"
   },
   {
     "number": "17",
@@ -2664,7 +2680,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Paharac.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Paharac.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Paharac.gif",
-    "nameJa": "パハラク"
+    "nameJa": "パハラク",
+    "key": "17"
   },
   {
     "number": "18",
@@ -2797,7 +2814,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Granpah.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Granpah.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Granpah.gif",
-    "nameJa": "グランパー"
+    "nameJa": "グランパー",
+    "key": "18"
   },
   {
     "number": "19",
@@ -2931,7 +2949,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Ampling.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Ampling.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Ampling.gif",
-    "nameJa": "アンプリング"
+    "nameJa": "アンプリング",
+    "key": "19"
   },
   {
     "number": "20",
@@ -3052,7 +3071,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Amphatyr.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Amphatyr.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Amphatyr.gif",
-    "nameJa": "アンパティル"
+    "nameJa": "アンパティル",
+    "key": "20"
   },
   {
     "number": "21",
@@ -3205,7 +3225,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Bunbun.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Bunbun.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Bunbun.gif",
-    "nameJa": "ブンブン"
+    "nameJa": "ブンブン",
+    "key": "21"
   },
   {
     "number": "22",
@@ -3368,7 +3389,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mudrid.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mudrid.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mudrid.gif",
-    "nameJa": "マドラビッド"
+    "nameJa": "マドラビッド",
+    "key": "22"
   },
   {
     "number": "23",
@@ -3539,7 +3561,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hidody.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Hidody.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hidody.gif",
-    "nameJa": "ハイディ"
+    "nameJa": "ハイディ",
+    "key": "23"
   },
   {
     "number": "24",
@@ -3706,7 +3729,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Taifu.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Taifu.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Taifu.gif",
-    "nameJa": "タイフー"
+    "nameJa": "タイフー",
+    "key": "24"
   },
   {
     "number": "25",
@@ -3876,7 +3900,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Fomu.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Fomu.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Fomu.gif",
-    "nameJa": "フォームン"
+    "nameJa": "フォームン",
+    "key": "25"
   },
   {
     "number": "26",
@@ -4050,7 +4075,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Wiplump.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Wiplump.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Wiplump.gif",
-    "nameJa": "ウィプラン"
+    "nameJa": "ウィプラン",
+    "key": "26"
   },
   {
     "number": "27",
@@ -4246,7 +4272,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Skail.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Skail.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Skail.gif",
-    "nameJa": "スケイル"
+    "nameJa": "スケイル",
+    "key": "27"
   },
   {
     "number": "28",
@@ -4462,7 +4489,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Skunch.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Skunch.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Skunch.gif",
-    "nameJa": "スカンチ"
+    "nameJa": "スカンチ",
+    "key": "28"
   },
   {
     "number": "29",
@@ -4629,7 +4657,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Goty.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Goty.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Goty.gif",
-    "nameJa": "ゴティ"
+    "nameJa": "ゴティ",
+    "key": "29"
   },
   {
     "number": "30",
@@ -4748,7 +4777,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mouflank.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mouflank.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mouflank.gif",
-    "nameJa": "ムフランク"
+    "nameJa": "ムフランク",
+    "key": "30"
   },
   {
     "number": "31",
@@ -4837,7 +4867,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Rhoulder.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Rhoulder.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Rhoulder.gif",
-    "nameJa": "ロールダー"
+    "nameJa": "ロールダー",
+    "key": "31"
   },
   {
     "number": "32",
@@ -4988,7 +5019,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Houchic.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Houchic.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Houchic.gif",
-    "nameJa": "フーキック"
+    "nameJa": "フーキック",
+    "key": "32"
   },
   {
     "number": "33",
@@ -5138,7 +5170,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tental.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tental.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tental.gif",
-    "nameJa": "テンタル"
+    "nameJa": "テンタル",
+    "key": "33"
   },
   {
     "number": "34",
@@ -5280,7 +5313,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Nagaise.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Nagaise.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Nagaise.gif",
-    "nameJa": "ナーガイズ"
+    "nameJa": "ナーガイズ",
+    "key": "34"
   },
   {
     "number": "35",
@@ -5438,7 +5472,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Orphyll.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Orphyll.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Orphyll.gif",
-    "nameJa": "オルフィル"
+    "nameJa": "オルフィル",
+    "key": "35"
   },
   {
     "number": "36",
@@ -5568,7 +5603,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Nidrasil.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Nidrasil.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Nidrasil.gif",
-    "nameJa": "ニードラシル"
+    "nameJa": "ニードラシル",
+    "key": "36"
   },
   {
     "number": "37",
@@ -5721,7 +5757,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Banapi.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Banapi.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Banapi.gif",
-    "nameJa": "バナピー"
+    "nameJa": "バナピー",
+    "key": "37"
   },
   {
     "number": "38",
@@ -5867,7 +5904,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Capyre.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Capyre.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Capyre.gif",
-    "nameJa": "カパイロ"
+    "nameJa": "カパイロ",
+    "key": "38"
   },
   {
     "number": "39",
@@ -6029,7 +6067,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Lapinite.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Lapinite.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Lapinite.gif",
-    "nameJa": "ラピナイト"
+    "nameJa": "ラピナイト",
+    "key": "39"
   },
   {
     "number": "40",
@@ -6193,7 +6232,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Azuroc.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Azuroc.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Azuroc.gif",
-    "nameJa": "アズロック"
+    "nameJa": "アズロック",
+    "key": "40"
   },
   {
     "number": "41",
@@ -6351,7 +6391,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Zenoreth.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Zenoreth.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zenoreth.gif",
-    "nameJa": "ゼノレス"
+    "nameJa": "ゼノレス",
+    "key": "41"
   },
   {
     "number": "42",
@@ -6484,7 +6525,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Reval.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Reval.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Reval.gif",
-    "nameJa": "ミココン"
+    "nameJa": "ミココン",
+    "key": "42"
   },
   {
     "number": "43",
@@ -6610,7 +6652,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Aohi.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Aohi.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Aohi.gif",
-    "nameJa": "アオビ"
+    "nameJa": "アオビ",
+    "key": "43"
   },
   {
     "number": "44",
@@ -6724,7 +6767,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Bigu.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Bigu.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Bigu.gif",
-    "nameJa": "ビグー"
+    "nameJa": "ビグー",
+    "key": "44"
   },
   {
     "number": "45",
@@ -6957,7 +7001,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Babawa.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Babawa.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Babawa.gif",
-    "nameJa": "ババワ"
+    "nameJa": "ババワ",
+    "key": "45"
   },
   {
     "number": "46",
@@ -7099,7 +7144,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/0b1.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/0b1.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/0b1.gif",
-    "nameJa": "0b1"
+    "nameJa": "0b1",
+    "key": "46"
   },
   {
     "number": "47",
@@ -7231,7 +7277,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/0b10.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/0b10.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/0b10.gif",
-    "nameJa": "0b10"
+    "nameJa": "0b10",
+    "key": "47"
   },
   {
     "number": "48",
@@ -7428,7 +7475,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Kaku.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Kaku.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Kaku.gif",
-    "nameJa": "カクゥ"
+    "nameJa": "カクゥ",
+    "key": "48"
   },
   {
     "number": "49",
@@ -7605,7 +7653,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Saku.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Saku.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Saku.gif",
-    "nameJa": "サクゥ"
+    "nameJa": "サクゥ",
+    "key": "49"
   },
   {
     "number": "50",
@@ -7708,7 +7757,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Valash.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Valash.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Valash.gif",
-    "nameJa": "バナッシュ"
+    "nameJa": "バナッシュ",
+    "key": "50"
   },
   {
     "number": "51",
@@ -7890,7 +7940,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Towly.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Towly.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Towly.gif",
-    "nameJa": "コクロー"
+    "nameJa": "コクロー",
+    "key": "51"
   },
   {
     "number": "52",
@@ -8026,7 +8077,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Owlhe.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Owlhe.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Owlhe.gif",
-    "nameJa": "ヒークロー"
+    "nameJa": "ヒークロー",
+    "key": "52"
   },
   {
     "number": "53",
@@ -8190,7 +8242,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Barnshe.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Barnshe.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Barnshe.gif",
-    "nameJa": "シークロー"
+    "nameJa": "シークロー",
+    "key": "53"
   },
   {
     "number": "54",
@@ -8278,7 +8331,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Gyalis.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Gyalis.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Gyalis.gif",
-    "nameJa": "ギャリス"
+    "nameJa": "ギャリス",
+    "key": "54"
   },
   {
     "number": "55",
@@ -8429,7 +8483,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Occlura.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Occlura.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Occlura.gif",
-    "nameJa": "グルマウ"
+    "nameJa": "グルマウ",
+    "key": "55"
   },
   {
     "number": "56",
@@ -8557,7 +8612,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Myx.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Myx.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Myx.gif",
-    "nameJa": "ミュクス"
+    "nameJa": "ミュクス",
+    "key": "56"
   },
   {
     "number": "57",
@@ -8704,7 +8760,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Raiber.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Raiber.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raiber.gif",
-    "nameJa": "ライバー"
+    "nameJa": "ライバー",
+    "key": "57"
   },
   {
     "number": "58",
@@ -8861,7 +8918,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Raize.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Raize.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raize.gif",
-    "nameJa": "ライゼ"
+    "nameJa": "ライゼ",
+    "key": "58"
   },
   {
     "number": "59",
@@ -9001,7 +9059,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Raican.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Raican.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raican.gif",
-    "nameJa": "ライカーン"
+    "nameJa": "ライカーン",
+    "key": "59"
   },
   {
     "number": "60",
@@ -9181,7 +9240,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Pewki.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Pewki.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pewki.gif",
-    "nameJa": "ピューキィ"
+    "nameJa": "ピューキィ",
+    "key": "60"
   },
   {
     "number": "61",
@@ -9331,7 +9391,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Piraniant.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Piraniant.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Piraniant.gif",
-    "nameJa": "ピラニアント"
+    "nameJa": "ピラニアント",
+    "key": "61"
   },
   {
     "number": "62",
@@ -9490,7 +9551,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Scarawatt.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Scarawatt.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Scarawatt.gif",
-    "nameJa": "スカラワット"
+    "nameJa": "スカラワット",
+    "key": "62"
   },
   {
     "number": "63",
@@ -9613,7 +9675,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Scaravolt.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Scaravolt.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Scaravolt.gif",
-    "nameJa": "スカラボルト"
+    "nameJa": "スカラボルト",
+    "key": "63"
   },
   {
     "number": "64",
@@ -9750,7 +9813,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hoglip.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Hoglip.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hoglip.gif",
-    "nameJa": "ホグリップ"
+    "nameJa": "ホグリップ",
+    "key": "64"
   },
   {
     "number": "65",
@@ -9868,7 +9932,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hedgine.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Hedgine.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hedgine.gif",
-    "nameJa": "ヘッジン"
+    "nameJa": "ヘッジン",
+    "key": "65"
   },
   {
     "number": "66",
@@ -10027,7 +10092,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Osuchi.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Osuchi.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Osuchi.gif",
-    "nameJa": "オスチー"
+    "nameJa": "オスチー",
+    "key": "66"
   },
   {
     "number": "67",
@@ -10169,7 +10235,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Osukan.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Osukan.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Osukan.gif",
-    "nameJa": "オスカン"
+    "nameJa": "オスカン",
+    "key": "67"
   },
   {
     "number": "68",
@@ -10317,7 +10384,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Osukai.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Osukai.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Osukai.gif",
-    "nameJa": "オスバトル"
+    "nameJa": "オスバトル",
+    "key": "68"
   },
   {
     "number": "69",
@@ -10580,7 +10648,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Saipat.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Saipat.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Saipat.gif",
-    "nameJa": "サイパト"
+    "nameJa": "サイパト",
+    "key": "69"
   },
   {
     "number": "70",
@@ -10722,7 +10791,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Pycko.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Pycko.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pycko.gif",
-    "nameJa": "パイコー"
+    "nameJa": "パイコー",
+    "key": "70"
   },
   {
     "number": "71",
@@ -10858,7 +10928,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Drakash.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Drakash.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Drakash.gif",
-    "nameJa": "ドラカッシュ"
+    "nameJa": "ドラカッシュ",
+    "key": "71"
   },
   {
     "number": "72",
@@ -11020,7 +11091,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Crystle.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Crystle.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Crystle.gif",
-    "nameJa": "クリストル"
+    "nameJa": "クリストル",
+    "key": "72"
   },
   {
     "number": "73",
@@ -11151,7 +11223,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Sherald.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Sherald.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Sherald.gif",
-    "nameJa": "シェラルド"
+    "nameJa": "シェラルド",
+    "key": "73"
   },
   {
     "number": "74",
@@ -11277,7 +11350,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tortenite.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tortenite.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tortenite.gif",
-    "nameJa": "トルテナイト"
+    "nameJa": "トルテナイト",
+    "key": "74"
   },
   {
     "number": "75",
@@ -11366,7 +11440,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Innki.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Innki.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Innki.gif",
-    "nameJa": "インキ"
+    "nameJa": "インキ",
+    "key": "75"
   },
   {
     "number": "76",
@@ -11503,7 +11578,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Shaolite.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Shaolite.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Shaolite.gif",
-    "nameJa": "ショーリン"
+    "nameJa": "ショーリン",
+    "key": "76"
   },
   {
     "number": "77",
@@ -11618,7 +11694,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Shaolant.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Shaolant.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Shaolant.gif",
-    "nameJa": "ショーラント"
+    "nameJa": "ショーラント",
+    "key": "77"
   },
   {
     "number": "78",
@@ -11732,7 +11809,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Cycrox.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Cycrox.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Cycrox.gif",
-    "nameJa": "サイクロックス"
+    "nameJa": "サイクロックス",
+    "key": "78"
   },
   {
     "number": "79",
@@ -11878,7 +11956,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hocus.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Hocus.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hocus.gif",
-    "nameJa": "ホーカス"
+    "nameJa": "ホーカス",
+    "key": "79"
   },
   {
     "number": "80",
@@ -12003,7 +12082,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Pocus.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Pocus.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pocus.gif",
-    "nameJa": "ポーカス"
+    "nameJa": "ポーカス",
+    "key": "80"
   },
   {
     "number": "81",
@@ -12133,7 +12213,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Smolzy.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Smolzy.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Smolzy.gif",
-    "nameJa": "スモルジー"
+    "nameJa": "スモルジー",
+    "key": "81"
   },
   {
     "number": "82",
@@ -12323,7 +12404,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Sparzy.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Sparzy.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Sparzy.gif",
-    "nameJa": "スパージー"
+    "nameJa": "スパージー",
+    "key": "82"
   },
   {
     "number": "83",
@@ -12480,7 +12562,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Golzy.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Golzy.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Golzy.gif",
-    "nameJa": "ゴーレジー"
+    "nameJa": "ゴーレジー",
+    "key": "83"
   },
   {
     "number": "84",
@@ -12629,7 +12712,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mushi.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mushi.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mushi.gif",
-    "nameJa": "マッシィ"
+    "nameJa": "マッシィ",
+    "key": "84"
   },
   {
     "number": "85",
@@ -12759,7 +12843,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mushook.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mushook.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mushook.gif",
-    "nameJa": "ムシュック"
+    "nameJa": "ムシュック",
+    "key": "85"
   },
   {
     "number": "86",
@@ -12893,7 +12978,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Magmis.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Magmis.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Magmis.gif",
-    "nameJa": "マグミス"
+    "nameJa": "マグミス",
+    "key": "86"
   },
   {
     "number": "87",
@@ -13055,7 +13141,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mastione.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mastione.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mastione.gif",
-    "nameJa": "マスティオン"
+    "nameJa": "マスティオン",
+    "key": "87"
   },
   {
     "number": "88",
@@ -13205,7 +13292,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Umishi.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Umishi.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Umishi.gif",
-    "nameJa": "ウミシ"
+    "nameJa": "ウミシ",
+    "key": "88"
   },
   {
     "number": "89",
@@ -13358,7 +13446,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Ukama.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Ukama.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Ukama.gif",
-    "nameJa": "ウカマ"
+    "nameJa": "ウカマ",
+    "key": "89"
   },
   {
     "number": "90",
@@ -13507,7 +13596,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Galvanid.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Galvanid.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Galvanid.gif",
-    "nameJa": "ガルヴァニッド"
+    "nameJa": "ガルヴァニッド",
+    "key": "90"
   },
   {
     "number": "91",
@@ -13632,7 +13722,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Raignet.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Raignet.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raignet.gif",
-    "nameJa": "ライグネット"
+    "nameJa": "ライグネット",
+    "key": "91"
   },
   {
     "number": "92",
@@ -13780,7 +13871,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Smazee.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Smazee.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Smazee.gif",
-    "nameJa": "スマッジー"
+    "nameJa": "スマッジー",
+    "key": "92"
   },
   {
     "number": "93",
@@ -13924,7 +14016,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Baboong.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Baboong.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Baboong.gif",
-    "nameJa": "バブーン"
+    "nameJa": "バブーン",
+    "key": "93"
   },
   {
     "number": "94",
@@ -14070,7 +14163,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Seismunch.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Seismunch.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Seismunch.gif",
-    "nameJa": "シーズマンチ"
+    "nameJa": "シーズマンチ",
+    "key": "94"
   },
   {
     "number": "95",
@@ -14227,7 +14321,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Zizare.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Zizare.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zizare.gif",
-    "nameJa": "ジーザレ"
+    "nameJa": "ジーザレ",
+    "key": "95"
   },
   {
     "number": "96",
@@ -14309,7 +14404,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Gorong.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Gorong.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Gorong.gif",
-    "nameJa": "ゴロング"
+    "nameJa": "ゴロング",
+    "key": "96"
   },
   {
     "number": "97",
@@ -14445,7 +14541,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mitty.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mitty.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mitty.gif",
-    "nameJa": "ミッティ"
+    "nameJa": "ミッティ",
+    "key": "97"
   },
   {
     "number": "98",
@@ -14573,7 +14670,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Sanbi.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Sanbi.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Sanbi.gif",
-    "nameJa": "ミツビ"
+    "nameJa": "ミツビ",
+    "key": "98"
   },
   {
     "number": "99",
@@ -14702,7 +14800,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Momo.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Momo.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Momo.gif",
-    "nameJa": "モモ"
+    "nameJa": "モモ",
+    "key": "99"
   },
   {
     "number": "100",
@@ -14876,7 +14975,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Kuri.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Kuri.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Kuri.gif",
-    "nameJa": "クーリ"
+    "nameJa": "クーリ",
+    "key": "100"
   },
   {
     "number": "101",
@@ -15007,7 +15107,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Kauren.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Kauren.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Kauren.gif",
-    "nameJa": "カウレン"
+    "nameJa": "カウレン",
+    "key": "101"
   },
   {
     "number": "102",
@@ -15203,7 +15304,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Spriole.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Spriole.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Spriole.gif",
-    "nameJa": "スプリオール"
+    "nameJa": "スプリオール",
+    "key": "102"
   },
   {
     "number": "103",
@@ -15395,7 +15497,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Deendre.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Deendre.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Deendre.gif",
-    "nameJa": "ディーンドル"
+    "nameJa": "ディーンドル",
+    "key": "103"
   },
   {
     "number": "104",
@@ -15524,7 +15627,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Cerneaf.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Cerneaf.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Cerneaf.gif",
-    "nameJa": "ケルニーフ"
+    "nameJa": "ケルニーフ",
+    "key": "104"
   },
   {
     "number": "105",
@@ -15651,7 +15755,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Toxolotl.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Toxolotl.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Toxolotl.gif",
-    "nameJa": "ポゾロトル"
+    "nameJa": "ポゾロトル",
+    "key": "105"
   },
   {
     "number": "106",
@@ -15773,7 +15878,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Noxolotl.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Noxolotl.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Noxolotl.gif",
-    "nameJa": "ベノロトル"
+    "nameJa": "ベノロトル",
+    "key": "106"
   },
   {
     "number": "107",
@@ -15899,7 +16005,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Blooze.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Blooze.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Blooze.gif",
-    "nameJa": "ベローズ"
+    "nameJa": "ベローズ",
+    "key": "107"
   },
   {
     "number": "108",
@@ -16019,7 +16126,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Goolder.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Goolder.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Goolder.gif",
-    "nameJa": "ベドロン"
+    "nameJa": "ベドロン",
+    "key": "108"
   },
   {
     "number": "109",
@@ -16203,7 +16311,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Zephyruff.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Zephyruff.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zephyruff.gif",
-    "nameJa": "ゼフィラフ"
+    "nameJa": "ゼフィラフ",
+    "key": "109"
   },
   {
     "number": "110",
@@ -16367,7 +16476,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Volarend.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Volarend.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Volarend.gif",
-    "nameJa": "ヴォラレンド"
+    "nameJa": "ヴォラレンド",
+    "key": "110"
   },
   {
     "number": "111",
@@ -16512,7 +16622,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Grumvel.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Grumvel.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Grumvel.gif",
-    "nameJa": "ゴーツク"
+    "nameJa": "ゴーツク",
+    "key": "111"
   },
   {
     "number": "112",
@@ -16656,7 +16767,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Grumper.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Grumper.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Grumper.gif",
-    "nameJa": "ライゴーツク"
+    "nameJa": "ライゴーツク",
+    "key": "112"
   },
   {
     "number": "113",
@@ -16806,7 +16918,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Ganki.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Ganki.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Ganki.gif",
-    "nameJa": "エレガ"
+    "nameJa": "エレガ",
+    "key": "113"
   },
   {
     "number": "114",
@@ -16955,7 +17068,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Gazuma.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Gazuma.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Gazuma.gif",
-    "nameJa": "ガズマ"
+    "nameJa": "ガズマ",
+    "key": "114"
   },
   {
     "number": "115",
@@ -17043,7 +17157,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Oceara.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Oceara.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oceara.gif",
-    "nameJa": "オセアーラ"
+    "nameJa": "オセアーラ",
+    "key": "115"
   },
   {
     "number": "116",
@@ -17127,7 +17242,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Yowlar.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Yowlar.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Yowlar.gif",
-    "nameJa": "ヨウラー"
+    "nameJa": "ヨウラー",
+    "key": "116"
   },
   {
     "number": "117",
@@ -17309,7 +17425,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Droply.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Droply.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Droply.gif",
-    "nameJa": "ドロッピー"
+    "nameJa": "ドロッピー",
+    "key": "117"
   },
   {
     "number": "118",
@@ -17459,7 +17576,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Garyo.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Garyo.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Garyo.gif",
-    "nameJa": "モヨモリ"
+    "nameJa": "モヨモリ",
+    "key": "118"
   },
   {
     "number": "119",
@@ -17603,7 +17721,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Broccoblin.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Broccoblin.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Broccoblin.gif",
-    "nameJa": "ブロッコブリン"
+    "nameJa": "ブロッコブリン",
+    "key": "119"
   },
   {
     "number": "120",
@@ -17751,7 +17870,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Broccorc.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Broccorc.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Broccorc.gif",
-    "nameJa": "ブロッコーク"
+    "nameJa": "ブロッコーク",
+    "key": "120"
   },
   {
     "number": "121",
@@ -17907,7 +18027,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Broccolem.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Broccolem.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Broccolem.gif",
-    "nameJa": "ブロッコーレム"
+    "nameJa": "ブロッコーレム",
+    "key": "121"
   },
   {
     "number": "122",
@@ -17996,7 +18117,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Shuine.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Shuine.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Shuine.gif",
-    "nameJa": "シュイーヌ"
+    "nameJa": "シュイーヌ",
+    "key": "122"
   },
   {
     "number": "123",
@@ -18155,7 +18277,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Nessla.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Nessla.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Nessla.gif",
-    "nameJa": "ネッスラ"
+    "nameJa": "ネッスラ",
+    "key": "123"
   },
   {
     "number": "124",
@@ -18241,7 +18364,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Valiar.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Valiar.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Valiar.gif",
-    "nameJa": "クーピアス"
+    "nameJa": "クーピアス",
+    "key": "124"
   },
   {
     "number": "125",
@@ -18367,7 +18491,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Pupoise.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Pupoise.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pupoise.gif",
-    "nameJa": "ワンタス"
+    "nameJa": "ワンタス",
+    "key": "125"
   },
   {
     "number": "126",
@@ -18486,7 +18611,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Loatle.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Loatle.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Loatle.gif",
-    "nameJa": "ロアートル"
+    "nameJa": "ロアートル",
+    "key": "126"
   },
   {
     "number": "127",
@@ -18683,7 +18809,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Kalazu.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Kalazu.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Kalazu.gif",
-    "nameJa": "カラズー"
+    "nameJa": "カラズー",
+    "key": "127"
   },
   {
     "number": "128",
@@ -18849,7 +18976,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Kalabyss.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Kalabyss.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Kalabyss.gif",
-    "nameJa": "カラビス"
+    "nameJa": "カラビス",
+    "key": "128"
   },
   {
     "number": "129",
@@ -18956,7 +19084,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Adoroboros.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Adoroboros.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Adoroboros.gif",
-    "nameJa": "ウロポロン"
+    "nameJa": "ウロポロン",
+    "key": "129"
   },
   {
     "number": "130",
@@ -19310,7 +19439,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tuwai.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tuwai.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tuwai.gif",
-    "nameJa": "トゥーワイ"
+    "nameJa": "トゥーワイ",
+    "key": "130"
   },
   {
     "number": "131",
@@ -19433,7 +19563,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tukai.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tukai.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tukai.gif",
-    "nameJa": "トゥーカイ"
+    "nameJa": "トゥーカイ",
+    "key": "131"
   },
   {
     "number": "132",
@@ -19544,7 +19675,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tulcan.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tulcan.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tulcan.gif",
-    "nameJa": "トゥルカン"
+    "nameJa": "トゥルカン",
+    "key": "132"
   },
   {
     "number": "133",
@@ -19662,7 +19794,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tuvine.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tuvine.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tuvine.gif",
-    "nameJa": "トゥーバイン"
+    "nameJa": "トゥーバイン",
+    "key": "133"
   },
   {
     "number": "134",
@@ -19788,7 +19921,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Turoc.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Turoc.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Turoc.gif",
-    "nameJa": "トゥーロック"
+    "nameJa": "トゥーロック",
+    "key": "134"
   },
   {
     "number": "135",
@@ -19915,7 +20049,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tuwire.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tuwire.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tuwire.gif",
-    "nameJa": "トゥワイア"
+    "nameJa": "トゥワイア",
+    "key": "135"
   },
   {
     "number": "136",
@@ -20042,7 +20177,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tutsu.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tutsu.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tutsu.gif",
-    "nameJa": "トゥーブ"
+    "nameJa": "トゥーブ",
+    "key": "136"
   },
   {
     "number": "137",
@@ -20129,7 +20265,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Kinu.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Kinu.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Kinu.gif",
-    "nameJa": "キヌ"
+    "nameJa": "キヌ",
+    "key": "137"
   },
   {
     "number": "138",
@@ -20274,7 +20411,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Vulvir.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Vulvir.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vulvir.gif",
-    "nameJa": "バルカプ"
+    "nameJa": "バルカプ",
+    "key": "138"
   },
   {
     "number": "139",
@@ -20456,7 +20594,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Vulor.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Vulor.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vulor.gif",
-    "nameJa": "バルメット"
+    "nameJa": "バルメット",
+    "key": "139"
   },
   {
     "number": "140",
@@ -20607,7 +20746,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Vulcrane.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Vulcrane.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vulcrane.gif",
-    "nameJa": "バルヘルム"
+    "nameJa": "バルヘルム",
+    "key": "140"
   },
   {
     "number": "141",
@@ -20743,7 +20883,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Pigepic.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Pigepic.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pigepic.gif",
-    "nameJa": "ピグピック"
+    "nameJa": "ピグピック",
+    "key": "141"
   },
   {
     "number": "142",
@@ -20830,7 +20971,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Akranox.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Akranox.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Akranox.gif",
-    "nameJa": "アクラノクス"
+    "nameJa": "アクラノクス",
+    "key": "142"
   },
   {
     "number": "143",
@@ -21275,7 +21417,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Koish.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Koish.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Koish.gif",
-    "nameJa": "コイシュ"
+    "nameJa": "コイシュ",
+    "key": "143"
   },
   {
     "number": "144",
@@ -21372,7 +21515,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Vulffy.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Vulffy.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vulffy.gif",
-    "nameJa": "モフネック"
+    "nameJa": "モフネック",
+    "key": "144"
   },
   {
     "number": "145",
@@ -21501,7 +21645,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Chubee.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Chubee.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Chubee.gif",
-    "nameJa": "チュビー"
+    "nameJa": "チュビー",
+    "key": "145"
   },
   {
     "number": "146",
@@ -21626,7 +21771,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Waspeen.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Waspeen.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Waspeen.gif",
-    "nameJa": "ワスピーン"
+    "nameJa": "ワスピーン",
+    "key": "146"
   },
   {
     "number": "147",
@@ -21761,7 +21907,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mawtle.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mawtle.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mawtle.gif",
-    "nameJa": "モートル"
+    "nameJa": "モートル",
+    "key": "147"
   },
   {
     "number": "148",
@@ -21888,7 +22035,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mawmense.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Mawmense.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mawmense.gif",
-    "nameJa": "モーメンス"
+    "nameJa": "モーメンス",
+    "key": "148"
   },
   {
     "number": "149",
@@ -21986,7 +22134,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hazrat.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Hazrat.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hazrat.gif",
-    "nameJa": "ハズラット"
+    "nameJa": "ハズラット",
+    "key": "149"
   },
   {
     "number": "150",
@@ -22120,7 +22269,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Minttle.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Minttle.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Minttle.gif",
-    "nameJa": "ミントル"
+    "nameJa": "ミントル",
+    "key": "150"
   },
   {
     "number": "151",
@@ -22251,7 +22401,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Minox.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Minox.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Minox.gif",
-    "nameJa": "ミノックス"
+    "nameJa": "ミノックス",
+    "key": "151"
   },
   {
     "number": "152",
@@ -22377,7 +22528,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Minothor.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Minothor.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Minothor.gif",
-    "nameJa": "ミノトール"
+    "nameJa": "ミノトール",
+    "key": "152"
   },
   {
     "number": "153",
@@ -22461,7 +22613,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Maoala.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Maoala.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Maoala.gif",
-    "nameJa": "マオアラ"
+    "nameJa": "マオアラ",
+    "key": "153"
   },
   {
     "number": "154",
@@ -22628,7 +22781,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Venx.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Venx.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Venx.gif",
-    "nameJa": "ベンクス"
+    "nameJa": "ベンクス",
+    "key": "154"
   },
   {
     "number": "155",
@@ -22743,7 +22897,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Venmet.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Venmet.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Venmet.gif",
-    "nameJa": "ベンマキ"
+    "nameJa": "ベンマキ",
+    "key": "155"
   },
   {
     "number": "156",
@@ -22865,7 +23020,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Vental.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Vental.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vental.gif",
-    "nameJa": "ベンタル"
+    "nameJa": "ベンタル",
+    "key": "156"
   },
   {
     "number": "157",
@@ -22949,7 +23105,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Chimurian.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Chimurian.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Chimurian.gif",
-    "nameJa": "チムリアン"
+    "nameJa": "チムリアン",
+    "key": "157"
   },
   {
     "number": "158",
@@ -23040,7 +23197,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Arachnyte.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Arachnyte.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Arachnyte.gif",
-    "nameJa": "アラクバイト"
+    "nameJa": "アラクバイト",
+    "key": "158"
   },
   {
     "number": "159",
@@ -23164,7 +23322,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Thaiko.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Thaiko.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Thaiko.gif",
-    "nameJa": "タイニャ"
+    "nameJa": "タイニャ",
+    "key": "159"
   },
   {
     "number": "160",
@@ -23279,7 +23438,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Monkko.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Monkko.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Monkko.gif",
-    "nameJa": "モンニャ"
+    "nameJa": "モンニャ",
+    "key": "160"
   },
   {
     "number": "161",
@@ -23421,7 +23581,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anahir.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Anahir.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anahir.gif",
-    "nameJa": "アナヒール"
+    "nameJa": "アナヒール",
+    "key": "161"
   },
   {
     "number": "162",
@@ -23546,7 +23707,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anatan.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Anatan.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anatan.gif",
-    "nameJa": "アナターン"
+    "nameJa": "アナターン",
+    "key": "162"
   },
   {
     "number": "163",
@@ -23633,7 +23795,8 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tyranak.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tyranak.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tyranak.gif",
-    "nameJa": "ティラナク"
+    "nameJa": "ティラナク",
+    "key": "163"
   },
   {
     "number": "164",
@@ -23720,6 +23883,7 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Volgon.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Volgon.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Volgon.gif",
-    "nameJa": "ヴォルゴン"
+    "nameJa": "ヴォルゴン",
+    "key": "164"
   }
 ]

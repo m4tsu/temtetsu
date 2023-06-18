@@ -62,7 +62,7 @@ export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
             <StatsBar stat={hp} />
           </Td>
           <Td className="w-[1px] whitespace-nowrap">
-            <div className="flex gap-1 justify-center">
+            <div className="flex justify-center gap-1">
               {calculateHP(hp, { sv: 0, tv: 0 })} <span>-</span>
               {calculateHP(hp, { sv: 50, tv: 0 })} <span>-</span>
               {calculateHP(hp, { sv: 50, tv: 500 })}
@@ -75,10 +75,10 @@ export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
             <StatsBar stat={sta} />
           </Td>
           <Td>
-          <div className="flex gap-1 justify-center">
-            {calculateStamina(sta, { sv: 0, tv: 0 })} <span>-</span>
-            {calculateStamina(sta, { sv: 50, tv: 0 })} <span>-</span>
-            {calculateStamina(sta, { sv: 50, tv: 500 })}
+            <div className="flex justify-center gap-1">
+              {calculateStamina(sta, { sv: 0, tv: 0 })} <span>-</span>
+              {calculateStamina(sta, { sv: 50, tv: 0 })} <span>-</span>
+              {calculateStamina(sta, { sv: 50, tv: 500 })}
             </div>
           </Td>
         </tr>
@@ -88,7 +88,7 @@ export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
             <StatsBar stat={spd} />
           </Td>
           <Td>
-            <div className="flex gap-1 justify-center">
+            <div className="flex justify-center gap-1">
               {calculateOthers(spd, { sv: 0, tv: 0 })} <span>-</span>
               {calculateOthers(spd, { sv: 50, tv: 0 })} <span>-</span>
               {calculateOthers(spd, { sv: 50, tv: 500 })}
@@ -101,7 +101,7 @@ export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
             <StatsBar stat={atk} />
           </Td>
           <Td>
-            <div className="flex gap-1 justify-center">
+            <div className="flex justify-center gap-1">
               {calculateOthers(atk, { sv: 0, tv: 0 })} <span>-</span>
               {calculateOthers(atk, { sv: 50, tv: 0 })} <span>-</span>
               {calculateOthers(atk, { sv: 50, tv: 500 })}
@@ -114,7 +114,7 @@ export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
             <StatsBar stat={def} />
           </Td>
           <Td>
-            <div className="flex gap-1 justify-center">
+            <div className="flex justify-center gap-1">
               {calculateOthers(def, { sv: 0, tv: 0 })}
               <span>-</span>
               {calculateOthers(def, { sv: 50, tv: 0 })} <span>-</span>
@@ -128,7 +128,7 @@ export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
             <StatsBar stat={spatk} />
           </Td>
           <Td>
-            <div className="flex gap-1 justify-center">
+            <div className="flex justify-center gap-1">
               {calculateOthers(spatk, { sv: 0, tv: 0 })} <span>-</span>
               {calculateOthers(spatk, { sv: 50, tv: 0 })} <span>-</span>
               {calculateOthers(spatk, { sv: 50, tv: 500 })}
@@ -141,7 +141,7 @@ export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
             <StatsBar stat={spdef} />
           </Td>
           <Td>
-            <div className="flex gap-1 justify-center">
+            <div className="flex justify-center gap-1">
               {calculateOthers(spdef, { sv: 0, tv: 0 })} <span>-</span>
               {calculateOthers(spdef, { sv: 50, tv: 0 })} <span>-</span>
               {calculateOthers(spdef, { sv: 50, tv: 500 })}

@@ -1,8 +1,9 @@
 import type { Trait } from '@/models/Temtem/Trait'
+import { makeDictFromArray } from '@/utils/dict'
 
 import traitsJson from './traits.json'
-import { makeDictFromArray } from '@/utils/dict'
 
 export const traits: Trait[] = traitsJson
 
-export const normalizedTraits = makeDictFromArray(traits, 'name')
+export const traitsByKey = makeDictFromArray(traits, 'key')
+export const traitsByName = makeDictFromArray(traits, 'name')

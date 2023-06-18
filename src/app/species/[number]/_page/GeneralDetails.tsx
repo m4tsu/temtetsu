@@ -1,16 +1,17 @@
+import { ArrowSmallDownIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import Link from 'next/link'
 import { twMerge } from 'tailwind-merge'
 
 import { normalizedSpecies } from '@/data/temtem/species'
+import { traitsByName } from '@/data/temtem/traits'
 import type { Species } from '@/models/Temtem/Species'
 import { formatEvolutionTree, iconImage } from '@/models/Temtem/Species'
 import { temTypeImage } from '@/models/Temtem/Type'
 import { findItem } from '@/utils/dict'
+import { replaceSpacesWithUnderscores } from '@/utils/replaceSpacesWithUnderscores'
 
 import type { ComponentProps, FC } from 'react'
-import { ArrowSmallDownIcon } from '@heroicons/react/24/solid'
-import { normalizedTraits } from '@/data/temtem/traits'
 
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
@@ -61,7 +62,9 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                 </Link>
               </div>
             </div>
-            <div className="flex justify-center font-bold text-primary"><ArrowSmallDownIcon className='w-5 h-5' /></div>
+            <div className="flex justify-center font-bold text-primary">
+              <ArrowSmallDownIcon className="h-5 w-5" />
+            </div>
             <div className="flex flex-col gap-1">
               {formatted.trees.map((tree, i) => (
                 <div key={i} className="flex gap-1">
@@ -117,7 +120,9 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                     </div>
                   </div>
                   {i !== formatted.tree.length - 1 && (
-                    <div className="font-bold text-primary flex justify-center"><ArrowSmallDownIcon className='w-5 h-5' /></div>
+                    <div className="flex justify-center font-bold text-primary">
+                      <ArrowSmallDownIcon className="h-5 w-5" />
+                    </div>
                   )}
                 </>
               )
@@ -168,18 +173,20 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
               </Td>
             </tr>
             <tr>
-              <Th className="border-l-0" >特性</Th>
-              <Td  className="border-r-0">
-                {
-                  species.traits.map(traitName =>{
-                    const trait = findItem(normalizedTraits, traitName)
-                    return  (
-                      <div key={traitName}>
-                        {trait.nameJa ?? trait.name}
-                      </div>
-                    )
-                  })
-                }
+              <Th className="border-l-0">特性</Th>
+              <Td className="border-r-0">
+                {species.traits.map((traitName) => {
+                  const trait = findItem(traitsByName, traitName)
+                  return (
+                    <Link
+                      href={`/traits/${trait.key}`}
+                      key={trait.key}
+                      className="link block"
+                    >
+                      {trait.nameJa ?? trait.name}
+                    </Link>
+                  )
+                })}
               </Td>
             </tr>
           </tbody>

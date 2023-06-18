@@ -11,6 +11,7 @@
     "buyPrice": 0,
     "description": "Adrenaline Shot is a Gear Item.",
     "gameDescription": "",
+    "key": "Adrenaline_Shot",
     "nameJa": "アドレナリン注射",
     "descriptionJa": "１バトルに１回、スタミナ切れのターンペナルティをふせぐ"
   },
@@ -25,7 +26,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Aggressive DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Aggressive_DNA_Strand"
   },
   {
     "name": "Aloe Vera",
@@ -39,6 +41,7 @@
     "buyPrice": 0,
     "description": "Aloe Vera is a Gear Item.",
     "gameDescription": "",
+    "key": "Aloe_Vera",
     "nameJa": "アロエベラ",
     "descriptionJa": "どくタイプのテムテムに与えるダメージを15％増加"
   },
@@ -54,6 +57,7 @@
     "buyPrice": 0,
     "description": "Bait is a Gear Item.",
     "gameDescription": "",
+    "key": "Bait",
     "nameJa": "エサ",
     "descriptionJa": "１バトルに１回、攻撃を受けたとき、げんき２とむこう２を得る"
   },
@@ -69,6 +73,7 @@
     "buyPrice": 0,
     "description": "Baton Pass is a Gear Item.",
     "gameDescription": "",
+    "key": "Baton_Pass",
     "nameJa": "バトン",
     "descriptionJa": "場に出たとき、HPを10％回復する"
   },
@@ -84,6 +89,7 @@
     "buyPrice": 0,
     "description": "Building Blocks is a Gear Item.",
     "gameDescription": "",
+    "key": "Building_Blocks",
     "nameJa": "組み立てブロック",
     "descriptionJa": "場に出ている間、１ターン経過するごとにDEFとSPDEFを４％増加する"
   },
@@ -98,7 +104,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Calm Patch is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Calm_Patch"
   },
   {
     "name": "Chamomile",
@@ -112,6 +119,7 @@
     "buyPrice": 0,
     "description": "Chamomile is a Gear Item.",
     "gameDescription": "",
+    "key": "Chamomile",
     "nameJa": "カモミール",
     "descriptionJa": "場に出たとき、２ターンの間むこうになり、ステータス変化が解消される"
   },
@@ -126,7 +134,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Clumsy Patch is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Clumsy_Patch"
   },
   {
     "name": "Coat",
@@ -140,6 +149,7 @@
     "buyPrice": 0,
     "description": "Coat is a Gear Item.",
     "gameDescription": "",
+    "key": "Coat",
     "nameJa": "コート",
     "descriptionJa": "かぜ技から受けるダメージを20％軽減"
   },
@@ -154,7 +164,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Coward's Cloak is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Coward's_Cloak"
   },
   {
     "name": "Decoy",
@@ -167,7 +178,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Decoy is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Decoy"
   },
   {
     "name": "Dominant DNA Strand",
@@ -180,7 +192,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Dominant DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Dominant_DNA_Strand"
   },
   {
     "name": "Doppelganger Brooch",
@@ -194,6 +207,7 @@
     "buyPrice": 0,
     "description": "Doppelganger Brooch is a Gear Item.",
     "gameDescription": "",
+    "key": "Doppelganger_Brooch",
     "nameJa": "ドッペルゲンガーブローチ",
     "descriptionJa": "同じ進化系統のテムテムに与えるダメージを50％増加"
   },
@@ -209,6 +223,7 @@
     "buyPrice": 0,
     "description": "DoubleScreen is a Gear Item.",
     "gameDescription": "",
+    "key": "DoubleScreen",
     "nameJa": "ダブルスクリーン",
     "descriptionJa": "複合タイプのテムテムから受けるダメージを10％軽減"
   },
@@ -224,6 +239,7 @@
     "buyPrice": 0,
     "description": "Drill is a Gear Item.",
     "gameDescription": "",
+    "key": "Drill",
     "nameJa": "ドリル",
     "descriptionJa": "かいひ状態のテムテムを攻撃すると、かいひを打ち消して技が命中し、そのダメージを15％増加"
   },
@@ -238,7 +254,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Endurance DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Endurance_DNA_Strand"
   },
   {
     "name": "Energy Drink",
@@ -252,6 +269,7 @@
     "buyPrice": 0,
     "description": "Energy Drink is a Gear Item.",
     "gameDescription": "",
+    "key": "Energy_Drink",
     "nameJa": "エナジードリンク",
     "descriptionJa": "ねむりにならない"
   },
@@ -266,7 +284,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Engineered DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Engineered_DNA_Strand"
   },
   {
     "name": "Eraser",
@@ -279,7 +298,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Eraser is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Eraser"
   },
   {
     "name": "Eraser+",
@@ -292,7 +312,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Eraser+ is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Eraser+"
   },
   {
     "name": "Fake Beard",
@@ -306,6 +327,7 @@
     "buyPrice": 0,
     "description": "Fake Beard is a Gear Item.",
     "gameDescription": "",
+    "key": "Fake_Beard",
     "nameJa": "つけひげ",
     "descriptionJa": "場に出たとき、げんき２を得る"
   },
@@ -321,6 +343,7 @@
     "buyPrice": 0,
     "description": "Fat Burner is a Gear Item.",
     "gameDescription": "",
+    "key": "Fat_Burner",
     "nameJa": "ダイエットサプリ",
     "descriptionJa": "SPDを10％増加し、ATKとSPATKが15％減少する"
   },
@@ -335,7 +358,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Fatigue Patch is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Fatigue_Patch"
   },
   {
     "name": "Fire Chip",
@@ -349,6 +373,7 @@
     "buyPrice": 0,
     "description": "Fire Chip is a Gear Item.",
     "gameDescription": "",
+    "key": "Fire_Chip",
     "nameJa": "ファイアーチップ",
     "descriptionJa": "ほのお技で与えるダメージを10％増加"
   },
@@ -364,6 +389,7 @@
     "buyPrice": 0,
     "description": "First Aid Kit is a Gear Item.",
     "gameDescription": "",
+    "key": "First_Aid_Kit",
     "nameJa": "応急キット",
     "descriptionJa": "１バトルに１回、HPが25％未満になったとき、HPを20％回復する"
   },
@@ -378,7 +404,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Four-Leaf Clover is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Four-Leaf_Clover"
   },
   {
     "name": "Gifted DNA Strand",
@@ -391,7 +418,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Gifted DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Gifted_DNA_Strand"
   },
   {
     "name": "Gravel Bag",
@@ -405,6 +433,7 @@
     "buyPrice": 0,
     "description": "Gravel Bag is a Gear Item.",
     "gameDescription": "",
+    "key": "Gravel_Bag",
     "nameJa": "砂利バッグ",
     "descriptionJa": "特殊だいち技で攻撃するとき、SPATKではなくATKを使用する"
   },
@@ -420,6 +449,7 @@
     "buyPrice": 0,
     "description": "Grease is a Gear Item.",
     "gameDescription": "",
+    "key": "Grease",
     "nameJa": "グリス",
     "descriptionJa": "とらわれにならない"
   },
@@ -435,6 +465,7 @@
     "buyPrice": 0,
     "description": "Hacked Microchip is a Gear Item.",
     "gameDescription": "",
+    "key": "Hacked_Microchip",
     "nameJa": "改造チップ",
     "descriptionJa": "単体デジタル技で攻撃されたとき、かいひ２を得る"
   },
@@ -450,6 +481,7 @@
     "buyPrice": 0,
     "description": "Hand Fan is a Gear Item.",
     "gameDescription": "",
+    "key": "Hand_Fan",
     "nameJa": "おうぎ",
     "descriptionJa": "かぜ技で与えるダメージを10％増加"
   },
@@ -465,6 +497,7 @@
     "buyPrice": 0,
     "description": "Handcuffs is a Gear Item.",
     "gameDescription": "",
+    "key": "Handcuffs",
     "nameJa": "てじょう",
     "descriptionJa": "ひへいを与えるかひへいのテムテムを攻撃したとき、とらわれ２を与える"
   },
@@ -479,7 +512,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Hardening DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Hardening_DNA_Strand"
   },
   {
     "name": "Heavy Armor",
@@ -493,6 +527,7 @@
     "buyPrice": 0,
     "description": "Heavy Armor is a Gear Item.",
     "gameDescription": "",
+    "key": "Heavy_Armor",
     "nameJa": "ヘビーアーマー",
     "descriptionJa": "SPDが15％減少し、受けるダメージを10％軽減する"
   },
@@ -508,6 +543,7 @@
     "buyPrice": 0,
     "description": "Hopeless Tonic is a Gear Item.",
     "gameDescription": "When there's nothing else to drink... Once per battle, if the Temtem is the last ally standing, restores full HP, STA, heals all previous negative Status Conditions, and gets Doomed for 4 turns.",
+    "key": "Hopeless_Tonic",
     "nameJa": "ぜつぼうのトニック",
     "descriptionJa": "テムテムがチーム最後の１体になったとき、１バトルに１回、HPとスタミナを100％回復し、マイナスの状態異常を全て回復し、はめつ４が与えられる"
   },
@@ -522,7 +558,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Humble Patch is a Gear Item.",
-    "gameDescription": "Prevents earning SPDEF TVs from defeated Temtem."
+    "gameDescription": "Prevents earning SPDEF TVs from defeated Temtem.",
+    "key": "Humble_Patch"
   },
   {
     "name": "Ice Cube",
@@ -536,6 +573,7 @@
     "buyPrice": 0,
     "description": "Ice Cube is a Gear Item.",
     "gameDescription": "",
+    "key": "Ice_Cube",
     "nameJa": "角氷",
     "descriptionJa": "ほのお技から受けるダメージを20％軽減"
   },
@@ -550,7 +588,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Ignoramus' Cloak is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Ignoramus'_Cloak"
   },
   {
     "name": "Immunity DNA Strand",
@@ -563,7 +602,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Immunity DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Immunity_DNA_Strand"
   },
   {
     "name": "Iron Coating",
@@ -577,6 +617,7 @@
     "buyPrice": 0,
     "description": "Iron Coating is a Gear Item.",
     "gameDescription": "Damage done with Earth techniques is increased by 10%.",
+    "key": "Iron_Coating",
     "nameJa": "アイアンコート",
     "descriptionJa": "だいち技で与えるダメージを10%増加"
   },
@@ -592,6 +633,7 @@
     "buyPrice": 0,
     "description": "Kaleidoscope is a Gear Item.",
     "gameDescription": "",
+    "key": "Kaleidoscope",
     "nameJa": "百色眼鏡",
     "descriptionJa": "有利な状態変化を得たとき、１ターン分消費してその効果を味方に譲り渡す"
   },
@@ -606,7 +648,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Lazy Patch is a Gear Item.",
-    "gameDescription": "Prevents earning STA TVs from defeated Temtem."
+    "gameDescription": "Prevents earning STA TVs from defeated Temtem.",
+    "key": "Lazy_Patch"
   },
   {
     "name": "Lightning Rod",
@@ -620,6 +663,7 @@
     "buyPrice": 0,
     "description": "Lightning Rod is a Gear Item.",
     "gameDescription": "",
+    "key": "Lightning_Rod",
     "nameJa": "ひらい針",
     "descriptionJa": "でんき技から受けるダメージを20％軽減"
   },
@@ -634,7 +678,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Lithe DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Lithe_DNA_Strand"
   },
   {
     "name": "Lure",
@@ -647,7 +692,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Lure is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Lure"
   },
   {
     "name": "Marbles",
@@ -661,6 +707,7 @@
     "buyPrice": 0,
     "description": "Marbles is a Gear Item.",
     "gameDescription": "",
+    "key": "Marbles",
     "nameJa": "ビー玉",
     "descriptionJa": "相手が場に出たとき、HP5％とスタミナ10％を失う"
   },
@@ -676,6 +723,7 @@
     "buyPrice": 0,
     "description": "Matcha is a Gear Item.",
     "gameDescription": "",
+    "key": "Matcha",
     "nameJa": "まっ茶",
     "descriptionJa": "休んだとき、こごえとこおりつきを取り除き、スタミナを40％回復する"
   },
@@ -690,7 +738,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Mighty DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Mighty_DNA_Strand"
   },
   {
     "name": "Mom's Lunch",
@@ -704,6 +753,7 @@
     "buyPrice": 0,
     "description": "Mom's Lunch is a Gear Item.",
     "gameDescription": "",
+    "key": "Mom's_Lunch",
     "nameJa": "ママのランチ",
     "descriptionJa": "場に出たとき、相手と味方にひへい１を与え、自身はさしおさえ４になる"
   },
@@ -719,6 +769,7 @@
     "buyPrice": 0,
     "description": "Morale-boosting Whip is a Gear Item.",
     "gameDescription": "",
+    "key": "Morale-boosting_Whip",
     "nameJa": "おしおきムチ",
     "descriptionJa": "場に出たとき、味方のスタミナを30％減少させ、SPDを+1させる"
   },
@@ -734,6 +785,7 @@
     "buyPrice": 0,
     "description": "Nutrition Bar is a Gear Item.",
     "gameDescription": "",
+    "key": "Nutrition_Bar",
     "nameJa": "栄養バー",
     "descriptionJa": "場に出てから４ターンの間、攻撃を受けたとき、HPを5％回復する"
   },
@@ -748,7 +800,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Oblivion Patch is a Gear Item.",
-    "gameDescription": "Prevents earning TVs from defeated Temtem."
+    "gameDescription": "Prevents earning TVs from defeated Temtem.",
+    "key": "Oblivion_Patch"
   },
   {
     "name": "Pansunscreen",
@@ -762,6 +815,7 @@
     "buyPrice": 0,
     "description": "Pansunscreen is a Gear Item.",
     "gameDescription": "",
+    "key": "Pansunscreen",
     "nameJa": "日焼け止めクリーム",
     "descriptionJa": "ほのお技から受けるダメージを10％軽減し、やけどにならない"
   },
@@ -777,6 +831,7 @@
     "buyPrice": 0,
     "description": "Pillow is a Gear Item.",
     "gameDescription": "",
+    "key": "Pillow",
     "nameJa": "まくら",
     "descriptionJa": "ねむりになるとHPを15％回復"
   },
@@ -791,7 +846,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Proteins is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Proteins"
   },
   {
     "name": "Reactive Vial",
@@ -805,6 +861,7 @@
     "buyPrice": 0,
     "description": "Reactive Vial is a Gear Item.",
     "gameDescription": "",
+    "key": "Reactive_Vial",
     "nameJa": "反応ビン",
     "descriptionJa": "１バトルに１回、弱点を突かれたとき、ちゅうわ２を得て、HPを8％回復する"
   },
@@ -820,6 +877,7 @@
     "buyPrice": 0,
     "description": "Redirection Device is a Gear Item.",
     "gameDescription": "",
+    "key": "Redirection_Device",
     "nameJa": "転送デバイス",
     "descriptionJa": "味方がデジタル技で狙われたとき、代わりに攻撃を受ける"
   },
@@ -835,6 +893,7 @@
     "buyPrice": 0,
     "description": "Refreshing Diabolo is a Gear Item.",
     "gameDescription": "",
+    "key": "Refreshing_Diabolo",
     "nameJa": "さわやかディアボロ",
     "descriptionJa": "１バトルに１回、場に出たまま３ターン経過したとき、味方のHPとスタミナを25％回復する"
   },
@@ -850,6 +909,7 @@
     "buyPrice": 0,
     "description": "Resistance Badge is a Gear Item.",
     "gameDescription": "",
+    "key": "Resistance_Badge",
     "nameJa": "レジスタンスのバッジ",
     "descriptionJa": "ちゅうりつ技で与えるダメージを10％増加"
   },
@@ -865,6 +925,7 @@
     "buyPrice": 0,
     "description": "Rock Shield is a Gear Item.",
     "gameDescription": "",
+    "key": "Rock_Shield",
     "nameJa": "岩のたて",
     "descriptionJa": "クリスタル技から受けるダメージを20％軽減"
   },
@@ -880,6 +941,7 @@
     "buyPrice": 0,
     "description": "Sensei Robe is a Gear Item.",
     "gameDescription": "",
+    "key": "Sensei_Robe",
     "nameJa": "センセイローブ",
     "descriptionJa": "特殊かくとう技で与えるダメージを15％増加"
   },
@@ -895,6 +957,7 @@
     "buyPrice": 0,
     "description": "Shuine's Horn is a Gear Item.",
     "gameDescription": "",
+    "key": "Shuine's_Horn",
     "nameJa": "シュイーヌのツノ",
     "descriptionJa": "どく技をみず技に変え、与えるダメージを25％増加"
   },
@@ -910,6 +973,7 @@
     "buyPrice": 0,
     "description": "Slingshot is a Gear Item.",
     "gameDescription": "",
+    "key": "Slingshot",
     "nameJa": "スリングショット",
     "descriptionJa": "威力1～50の技で敵のテムテムを攻撃したとき、SPD+1"
   },
@@ -925,6 +989,7 @@
     "buyPrice": 0,
     "description": "Snare is a Gear Item.",
     "gameDescription": "",
+    "key": "Snare",
     "nameJa": "なげなわ",
     "descriptionJa": "攻撃を受けると、自身と攻撃者のギアを無効化する"
   },
@@ -939,7 +1004,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Soft Patch is a Gear Item.",
-    "gameDescription": "Prevents earning DEF TVs from defeated Temtem."
+    "gameDescription": "Prevents earning DEF TVs from defeated Temtem.",
+    "key": "Soft_Patch"
   },
   {
     "name": "Squeezer",
@@ -952,7 +1018,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Squeezer is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Squeezer"
   },
   {
     "name": "Stiff Patch",
@@ -965,7 +1032,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Stiff Patch is a Gear Item.",
-    "gameDescription": "Prevents earning SPD TVs from defeated Temtem."
+    "gameDescription": "Prevents earning SPD TVs from defeated Temtem.",
+    "key": "Stiff_Patch"
   },
   {
     "name": "Strange Vest",
@@ -979,6 +1047,7 @@
     "buyPrice": 0,
     "description": "Strange Vest is a Gear Item.",
     "gameDescription": "When attacked with a Physical technique, uses the SPDEF, and when attacked with a Special technique, uses the DEF.",
+    "key": "Strange_Vest",
     "nameJa": "きみょうなベスト",
     "descriptionJa": "DEFとSPDEFを入れ替える"
   },
@@ -993,7 +1062,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Straw Shield is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Straw_Shield"
   },
   {
     "name": "Sweatband",
@@ -1007,6 +1077,7 @@
     "buyPrice": 0,
     "description": "Sweatband is a Gear Item.",
     "gameDescription": "",
+    "key": "Sweatband",
     "nameJa": "リストバンド",
     "descriptionJa": "ターン開始時にスタミナを10％回復"
   },
@@ -1022,6 +1093,7 @@
     "buyPrice": 0,
     "description": "Talisman is a Gear Item.",
     "gameDescription": "",
+    "key": "Talisman",
     "nameJa": "タリスマン",
     "descriptionJa": "味方チームがはめつにならない"
   },
@@ -1037,6 +1109,7 @@
     "buyPrice": 0,
     "description": "Taser is a Gear Item.",
     "gameDescription": "",
+    "key": "Taser",
     "nameJa": "テザーガン",
     "descriptionJa": "物理でんき技で攻撃したとき、やけど１を与える"
   },
@@ -1052,6 +1125,7 @@
     "buyPrice": 0,
     "description": "Tent is a Gear Item.",
     "gameDescription": "",
+    "key": "Tent",
     "nameJa": "テント",
     "descriptionJa": "スタミナが切れた状態でターンを開始したとき、そのターンの間DEFとSPDEFを200％増加する"
   },
@@ -1067,6 +1141,7 @@
     "buyPrice": 0,
     "description": "Tinfoil Hat is a Gear Item.",
     "gameDescription": "",
+    "key": "Tinfoil_Hat",
     "nameJa": "アルミホイルハット",
     "descriptionJa": "デジタル技から受けるダメージを30％軽減"
   },
@@ -1082,6 +1157,7 @@
     "buyPrice": 0,
     "description": "Tucma Mask is a Gear Item.",
     "gameDescription": "",
+    "key": "Tucma_Mask",
     "nameJa": "トゥクママスク",
     "descriptionJa": "どく技から受けるダメージを8％軽減し、どくどくの持続ターン数が1現象"
   },
@@ -1097,6 +1173,7 @@
     "buyPrice": 0,
     "description": "Turban is a Gear Item.",
     "gameDescription": "",
+    "key": "Turban",
     "nameJa": "ターバン",
     "descriptionJa": "だいち技から受けるダメージを20％軽減"
   },
@@ -1112,6 +1189,7 @@
     "buyPrice": 0,
     "description": "Umbrella is a Gear Item.",
     "gameDescription": "",
+    "key": "Umbrella",
     "nameJa": "かさ",
     "descriptionJa": "みず技から受けるダメージを20％軽減"
   },
@@ -1126,7 +1204,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Vigor DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Vigor_DNA_Strand"
   },
   {
     "name": "Vitality DNA Strand",
@@ -1139,7 +1218,8 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Vitality DNA Strand is a Gear Item.",
-    "gameDescription": ""
+    "gameDescription": "",
+    "key": "Vitality_DNA_Strand"
   },
   {
     "name": "Vitamin Complex",
@@ -1153,6 +1233,7 @@
     "buyPrice": 0,
     "description": "Vitamin Complex is a Gear Item.",
     "gameDescription": "",
+    "key": "Vitamin_Complex",
     "nameJa": "ビタミンサプリ",
     "descriptionJa": "スタッツのランク変化を防ぐ"
   },
@@ -1168,6 +1249,7 @@
     "buyPrice": 0,
     "description": "War Drum is a Gear Item.",
     "gameDescription": "",
+    "key": "War_Drum",
     "nameJa": "戦いのドラム",
     "descriptionJa": "味方チームがぶつり技で与えるダメージを8％増加"
   }

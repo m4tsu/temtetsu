@@ -17,6 +17,7 @@
     "effectText": "5PPEH inflicts a single other target with a 5 turn countdown of the Doomed Condition but also gifts them with the Immune Condition for 5 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "5PPEH",
     "nameJa": "ごてんしょうばくしん",
     "descriptionJa": "対象にはめつ5とむこう5を付与"
   },
@@ -38,6 +39,7 @@
     "effectText": "Acid Reflux deals damage to the rival team or the user's ally and inflicts them with the Poisoned Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Acid_Reflux",
     "nameJa": "アシッド・フラッド",
     "descriptionJa": "対象にどく2を付与"
   },
@@ -59,6 +61,7 @@
     "effectText": "Allergic Spread deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Allergic_Spread",
     "nameJa": "アレルギー拡散",
     "descriptionJa": "通常攻撃"
   },
@@ -80,6 +83,7 @@
     "effectText": "Ampere Outburst causes all other combatants on the battlefield to be overexerted the next turn and gifts the user with the Invigorated Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Ampere_Outburst",
     "nameJa": "アンペールバースト",
     "descriptionJa": "対象に次ターン行動不能、自分にげんき2をそれぞれ付与"
   },
@@ -101,6 +105,7 @@
     "effectText": "Antitoxins cures a single team of the Poisoned Condition and gifts them with the Invigorated Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Antitoxins",
     "nameJa": "アンチドート",
     "descriptionJa": "対象のどくを取り除きげんき2を付与"
   },
@@ -122,6 +127,7 @@
     "effectText": "Aqua Bullet Hell deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Aqua_Bullet_Hell",
     "nameJa": "アクアマシンガン",
     "descriptionJa": "通常攻撃"
   },
@@ -145,6 +151,7 @@
     "effectText": "Aqua Stone deals damage to a single other target.",
     "synergyText": "If used with an Earth ally, its damage increases to 104.",
     "effects": [],
+    "key": "Aqua_Stone",
     "nameJa": "アクアストーン",
     "descriptionJa": "通常攻撃"
   },
@@ -166,6 +173,7 @@
     "effectText": "Aquatic Whirlwind deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Aquatic_Whirlwind",
     "nameJa": "水乱流",
     "descriptionJa": "通常攻撃"
   },
@@ -187,6 +195,7 @@
     "effectText": "Autodestruction's damage formula is close, but not exactly equal to, the combination of the damage it would deal based on ATK and the damage it would deal based on DEF. The exact formula is intended to be:",
     "synergyText": "",
     "effects": [],
+    "key": "Autodestruction",
     "nameJa": "じばく",
     "descriptionJa": "使用者のDEFもダメージ計算に使用。使用者は倒れる。"
   },
@@ -210,6 +219,7 @@
     "effectText": "Awful Song deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "synergyText": "If used with a Neutral ally, its targeting changes Other Team or Ally. As such, if the user targets themselves and the synergy activates, only the user's ally will be damaged.",
     "effects": [],
+    "key": "Awful_Song",
     "nameJa": "ヒドい歌",
     "descriptionJa": "対象にこりつ3を付与。シナジー時対象範囲が変化"
   },
@@ -231,6 +241,7 @@
     "effectText": "Bamboozle gifts a single target with the Evading Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Bamboozle",
     "nameJa": "トリック",
     "descriptionJa": "対象にかいひ1を付与"
   },
@@ -252,6 +263,7 @@
     "effectText": "Bark inflicts a single other target with DEF and SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Bark",
     "nameJa": "ほえる",
     "descriptionJa": "対象のDEF-2, SPDEF-2"
   },
@@ -273,6 +285,7 @@
     "effectText": "Bark Shield gifts a single team with DEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Bark_Shield",
     "nameJa": "バークシールド",
     "descriptionJa": "対象のDEF+3"
   },
@@ -294,6 +307,7 @@
     "effectText": "Base Jump deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Base_Jump",
     "nameJa": "ベースジャンプ",
     "descriptionJa": "通常攻撃"
   },
@@ -315,6 +329,7 @@
     "effectText": "Bestial Charge deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Bestial_Charge",
     "nameJa": "ビーストチャージ",
     "descriptionJa": "通常攻撃"
   },
@@ -336,6 +351,7 @@
     "effectText": "Beta Burst deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Beta_Burst",
     "nameJa": "ベータバースト",
     "descriptionJa": "通常攻撃"
   },
@@ -357,6 +373,7 @@
     "effectText": "Binary Flood deals damage to the rival team or the user's ally and also inflicts the Seized Condition for 2 turns..",
     "synergyText": "",
     "effects": [],
+    "key": "Binary_Flood",
     "nameJa": "バイナリフラッド",
     "descriptionJa": "対象にさしおさえ2を付与"
   },
@@ -384,6 +401,7 @@
     "effectText": "Blackhole deals damage to a single target and cures/removes their Status Conditions.",
     "synergyText": "If used with an Earth ally, is priority increases to Normal and it also removes the target's Stat Stage Changes.",
     "effects": [],
+    "key": "Blackhole",
     "nameJa": "ブラックホール",
     "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象のステータス変化をリセットする"
   },
@@ -405,6 +423,7 @@
     "effectText": "Blizzard deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Blizzard",
     "nameJa": "ふぶき",
     "descriptionJa": "通常攻撃"
   },
@@ -426,6 +445,7 @@
     "effectText": "Block gifts the user with DEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Block",
     "nameJa": "仁王立ち",
     "descriptionJa": "対象のDEF+3"
   },
@@ -447,6 +467,7 @@
     "effectText": "Blue Screen inflicts a single other target with the Frozen Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Blue_Screen",
     "nameJa": "ブルースクリーン",
     "descriptionJa": "対象にこおりつき2を付与"
   },
@@ -468,6 +489,7 @@
     "effectText": "Boomerang deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Boomerang",
     "nameJa": "ブーメラン",
     "descriptionJa": "通常攻撃"
   },
@@ -489,6 +511,7 @@
     "effectText": "Brace gifts the user with the Evading Condition for 2 turns and restores 10% of their maximum HP if they already have the Alerted Condition. The Alerted Condition is removed after.",
     "synergyText": "",
     "effects": [],
+    "key": "Brace",
     "nameJa": "構える",
     "descriptionJa": "対象にかいひ2を付与しHPを10%回復する。この技はけいかい状態でないと使用不可。使用後けいかい状態は解除される"
   },
@@ -512,6 +535,7 @@
     "effectText": "Bright Beam deals damage to the rival team or the user's ally and gifts the user with the Alerted Condition and Evading Condition for 2 turns.",
     "synergyText": "If used with a Crystal ally, its damage increases to 45.",
     "effects": [],
+    "key": "Bright_Beam",
     "nameJa": "まばゆい光",
     "descriptionJa": "使用者にけいかい2とかいひ2を付与。シナジー時ダメージ増加"
   },
@@ -533,6 +557,7 @@
     "effectText": "Bubbles deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Bubbles",
     "nameJa": "あわあわ",
     "descriptionJa": "通常攻撃"
   },
@@ -554,6 +579,7 @@
     "effectText": "Burrow gifts the user with the Evading Condition for 4 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Burrow",
     "nameJa": "巣穴",
     "descriptionJa": "対象にかいひ4を付与"
   },
@@ -575,6 +601,7 @@
     "effectText": "Bush gifts the user with the Regenerated Condition and Evading Condition for 1 turn.",
     "synergyText": "If used with an Earth ally, it also gifts the user with SPDEF .",
     "effects": [],
+    "key": "Bush",
     "nameJa": "カバー",
     "descriptionJa": "対象にさいせい1とかいひ1を付与。シナジー時対象のSPDEF+3"
   },
@@ -596,6 +623,7 @@
     "effectText": "Cage inflicts all combatants on the battlefield with the Trapped Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Cage",
     "nameJa": "鳥カゴ",
     "descriptionJa": "対象にとらわれ2を付与"
   },
@@ -617,6 +645,7 @@
     "effectText": "Chain Heal restores 15% of a single target's and two other combatant's maximum HP in clockwise order from the initial target. When only two combatants are on the battlefield, the initial target will restore 40% while the remaining target will restore 15%.",
     "synergyText": "",
     "effects": [],
+    "key": "Chain_Heal",
     "nameJa": "チェーンヒール",
     "descriptionJa": "対象と、対象から時計回り右隣、さらにその右隣りのHPをそれぞれ15%回復する"
   },
@@ -638,6 +667,7 @@
     "effectText": "Chain Lightning deals damage to a single target then two other combatants in clockwise order from the initial target. The initial target takes 100% of the damage, the second takes 70%, and the third takes 60%. The chain of damage will fail to continue to the next target if the damage was blocked by the current target. Damage can be blocked if the target who would have taken damage has the Evading Condition, has the Electric Synthesize Trait, or, if the target is an ally, has the Friendship Trait.",
     "synergyText": "",
     "effects": [],
+    "key": "Chain_Lightning",
     "nameJa": "チェーンライトニング",
     "descriptionJa": "対象と、対象から時計回り右隣、さらにその右隣りにそれぞれダメージ。ダメージは100%->70%->60%と減衰する"
   },
@@ -659,6 +689,7 @@
     "effectText": "Chains Hit deals damage to a single other target and inflicts them with the Trapped Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Chains_Hit",
     "nameJa": "チェーンヒット",
     "descriptionJa": "対処にとらわれ2を付与"
   },
@@ -680,6 +711,7 @@
     "effectText": "Charcoal Wall gifts the user with SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Charcoal_Wall",
     "nameJa": "チャコールウォール",
     "descriptionJa": "対象のSPDEF+4"
   },
@@ -701,6 +733,7 @@
     "effectText": "Charge deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Charge",
     "nameJa": "とつげき",
     "descriptionJa": "通常攻撃"
   },
@@ -722,6 +755,7 @@
     "effectText": "Charged Iron Filings deals damage to the rival team or the user's ally and gives them the Nullified Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Charged_Iron_Filings",
     "nameJa": "帯電鉄粉",
     "descriptionJa": "対象にちゅうわ2を付与"
   },
@@ -743,6 +777,7 @@
     "effectText": "Cheer Up decreases the Hold of all the techniques of a single target by 1.",
     "synergyText": "",
     "effects": [],
+    "key": "Cheer_Up",
     "nameJa": "おうえん",
     "descriptionJa": "対象が持つ技のHoldを1進める"
   },
@@ -764,6 +799,7 @@
     "effectText": "Clay Ball deals damage to a single other target and inflicts them with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Clay_Ball",
     "nameJa": "どろ団子",
     "descriptionJa": "対象のSPD-1"
   },
@@ -785,6 +821,7 @@
     "effectText": "Clinch deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Clinch",
     "nameJa": "クリンチ",
     "descriptionJa": "通常攻撃"
   },
@@ -806,6 +843,7 @@
     "effectText": "Cold Breeze deals damage to a single other target and inflicts them with the Cold Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Cold_Breeze",
     "nameJa": "つめたい風",
     "descriptionJa": "対象にこごえ1を付与"
   },
@@ -827,6 +865,7 @@
     "effectText": "Cold Geyser deals damage to a single target and inflicts them with the Cold Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Cold_Geyser",
     "nameJa": "コールドガイザー",
     "descriptionJa": "対象にこごえ2を付与"
   },
@@ -848,6 +887,7 @@
     "effectText": "Confiscate inflicts a single other target with the Seized Condition for 3 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Confiscate",
     "nameJa": "めしあげ",
     "descriptionJa": "対象にさしおさえ3を付与"
   },
@@ -869,6 +909,7 @@
     "effectText": "Cooperation takes a single team's current total STA, then evenly splits it between the team's combatants and heals 10% of their maximum HP.",
     "synergyText": "",
     "effects": [],
+    "key": "Cooperation",
     "nameJa": "協力",
     "descriptionJa": "対象のSTAを平均化し、HPを10%回復"
   },
@@ -896,6 +937,7 @@
     "effectText": "Cozy Net inflicts a single other target with the Asleep Condition for 2 turns and the Trapped Condition for 3 turns.",
     "synergyText": "If used with a Nature ally, it also gifts the user with the Regenerated Condition for 3 turns.",
     "effects": [],
+    "key": "Cozy_Net",
     "nameJa": "快適ネット",
     "descriptionJa": "対象にねむり2ととらわれ3を付与。シナジー時使用者にさいせい3を付与"
   },
@@ -917,6 +959,7 @@
     "effectText": "Crystal Bite deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Crystal_Bite",
     "nameJa": "クリスタルバイト",
     "descriptionJa": "通常攻撃"
   },
@@ -940,6 +983,7 @@
     "effectText": "Crystal Deluge deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "synergyText": "If used with a Mental ally, its priority increases to High and also inflicts the Asleep Condition for 2 turns.",
     "effects": [],
+    "key": "Crystal_Deluge",
     "nameJa": "クリスタルドロップ",
     "descriptionJa": "対象にこりつ3を付与。シナジー時Priorityが変化し対象に追加でねむり2を付与"
   },
@@ -963,6 +1007,7 @@
     "effectText": "Crystal Dust deals damage to a single target.",
     "synergyText": "If used with a Wind ally, its damage increases to 80 and priority increases to Very High.",
     "effects": [],
+    "key": "Crystal_Dust",
     "nameJa": "クリスタルダスト",
     "descriptionJa": "通常攻撃。シナジー時Priorityが変化"
   },
@@ -984,6 +1029,7 @@
     "effectText": "Crystal Plume Gatling deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Crystal_Plume_Gatling",
     "nameJa": "クリスタルガトリング",
     "descriptionJa": "通常攻撃"
   },
@@ -1005,6 +1051,7 @@
     "effectText": "Crystal Spikes deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Crystal_Spikes",
     "nameJa": "クリスタルスパイク",
     "descriptionJa": "通常攻撃"
   },
@@ -1026,6 +1073,7 @@
     "effectText": "Crystal Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Crystal_Stream",
     "nameJa": "クリスタルストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -1047,6 +1095,7 @@
     "effectText": "Crystal Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Crystal_Torrent",
     "nameJa": "クリスタルフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -1068,6 +1117,7 @@
     "effectText": "Crystallize gifts the user with DEF and the Immune Condition for 2 turns but also inflicts them with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Crystallize",
     "nameJa": "クリスタライズ",
     "descriptionJa": "対象のSPDEF+4, SPD-1, むこう2を付与"
   },
@@ -1089,6 +1139,7 @@
     "effectText": "Cyberclaw deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Cyberclaw",
     "nameJa": "サイバークロー",
     "descriptionJa": "通常攻撃"
   },
@@ -1110,6 +1161,7 @@
     "effectText": "Darkness inflicts all combatants on the battlefield with the Isolated Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Darkness",
     "nameJa": "ダークネス",
     "descriptionJa": "対象にこりつ2を付与"
   },
@@ -1131,6 +1183,7 @@
     "effectText": "Data Burst deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Data_Burst",
     "nameJa": "データバースト",
     "descriptionJa": "通常攻撃"
   },
@@ -1152,6 +1205,7 @@
     "effectText": "Data Corruption inflicts a single other target with SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Data_Corruption",
     "nameJa": "データ破損",
     "descriptionJa": "対象のSPDEF-4"
   },
@@ -1173,6 +1227,7 @@
     "effectText": "DC Beam deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "DC_Beam",
     "nameJa": "DCビーム",
     "descriptionJa": "通常攻撃"
   },
@@ -1196,6 +1251,7 @@
     "effectText": "Debris Typhoon deals damage to a single target.",
     "synergyText": "If used with a Wind ally, its damage increases to 95.",
     "effects": [],
+    "key": "Debris_Typhoon",
     "nameJa": "デブリタイフーン",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
   },
@@ -1217,6 +1273,7 @@
     "effectText": "Defibrillate deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Defibrillate",
     "nameJa": "でんきショック",
     "descriptionJa": "対象にこりつ2を付与"
   },
@@ -1238,6 +1295,7 @@
     "effectText": "Denigrate deals damage and inflicts SPATK to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Denigrate",
     "nameJa": "悪口",
     "descriptionJa": "対象のSPATK-1"
   },
@@ -1259,6 +1317,7 @@
     "effectText": "Depress deals an exact 120 damage to a single other target, regardless of DEF, SPDEF, Type Effectivness, or Traits. It will also not cause a target afflicted with the Asleep Condition to wake up.",
     "synergyText": "",
     "effects": [],
+    "key": "Depress",
     "nameJa": "メランコリア",
     "descriptionJa": "対象のHPを120へらす。ねむり状態でも回復しない"
   },
@@ -1280,6 +1339,7 @@
     "effectText": "Diamond Fort gifts the user with DEF and SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Diamond_Fort",
     "nameJa": "ダイヤモンドフォート",
     "descriptionJa": "対象のDEF+4, SPDEF+4"
   },
@@ -1301,6 +1361,7 @@
     "effectText": "Digital Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Digital_Stream",
     "nameJa": "デジタルストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -1322,6 +1383,7 @@
     "effectText": "Digital Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Digital_Torrent",
     "nameJa": "デジタルフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -1343,6 +1405,7 @@
     "effectText": "Digital Whip deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Digital_Whip",
     "nameJa": "デジタルウィップ",
     "descriptionJa": "通常攻撃"
   },
@@ -1366,6 +1429,7 @@
     "effectText": "Digithreat deals damage to a single target.",
     "synergyText": "If used with a Mental ally, it also inflicts a 3 turn countdown of the Doomed Condition.",
     "effects": [],
+    "key": "Digithreat",
     "nameJa": "デジスリート",
     "descriptionJa": "通常攻撃。シナジー時対象にはめつ3を付与"
   },
@@ -1387,6 +1451,7 @@
     "effectText": "Dim Mak deals an exact 100 damage to a single other target, regardless of DEF, SPDEF, Type Effectiveness, or Traits. It will also not cause a target afflicted with the Asleep Condition to wake up.",
     "synergyText": "",
     "effects": [],
+    "key": "Dim_Mak",
     "nameJa": "点穴",
     "descriptionJa": "対象のHPを100減らす"
   },
@@ -1408,6 +1473,7 @@
     "effectText": "Divine Inspiration gifts a single team with SPDEF and restores 15% of their maximum HP.",
     "synergyText": "",
     "effects": [],
+    "key": "Divine_Inspiration",
     "nameJa": "カミのお告げ",
     "descriptionJa": "対象のSPDEF+1、HPを15%回復"
   },
@@ -1429,6 +1495,7 @@
     "effectText": "DNA Extraction deals damage to a single other target and gifts the user with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "DNA_Extraction",
     "nameJa": "DNAサンプリング",
     "descriptionJa": "使用者のSPD+2"
   },
@@ -1452,6 +1519,7 @@
     "effectText": "Double Edge deals damage to a single other target and gifts them with DEF and SPDEF .",
     "synergyText": "If used with a Neutral ally, its damage decreases to 1.",
     "effects": [],
+    "key": "Double_Edge",
     "nameJa": "もろはのやいば",
     "descriptionJa": "対象のDEF+1, SPDEF+1。シナジー時ダメージが変化"
   },
@@ -1473,6 +1541,7 @@
     "effectText": "Double Gash deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Double_Gash",
     "nameJa": "ダブルカット",
     "descriptionJa": "通常攻撃"
   },
@@ -1494,6 +1563,7 @@
     "effectText": "Double Kick deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Double_Kick",
     "nameJa": "2段キック",
     "descriptionJa": "通常攻撃"
   },
@@ -1515,6 +1585,7 @@
     "effectText": "Drill Impact deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Drill_Impact",
     "nameJa": "ドリルインパクト",
     "descriptionJa": "通常攻撃"
   },
@@ -1536,6 +1607,7 @@
     "effectText": "Drool gifts a single target with the Regenerated Condition for 2 turns and the Immune Condition for 3 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Drool",
     "nameJa": "よだれ",
     "descriptionJa": "対象にさいせい2, むこう3を付与"
   },
@@ -1557,6 +1629,7 @@
     "effectText": "Drought inflicts all other combatants on the battlefield with the Seized Condition and the Exhausted Condition for 2 turns but causes the user to be overexerted the next turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Drought",
     "nameJa": "干ばつ",
     "descriptionJa": "対象にさしおさえ2とひへい2を付与"
   },
@@ -1578,6 +1651,7 @@
     "effectText": "Dust Vortex deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Dust_Vortex",
     "nameJa": "砂たつまき",
     "descriptionJa": "通常攻撃"
   },
@@ -1599,6 +1673,7 @@
     "effectText": "Earth Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Earth_Stream",
     "nameJa": "アースストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -1620,6 +1695,7 @@
     "effectText": "Earth Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Earth_Torrent",
     "nameJa": "アースフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -1641,6 +1717,7 @@
     "effectText": "Earth Wave deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Earth_Wave",
     "nameJa": "大地のうねり",
     "descriptionJa": "通常攻撃"
   },
@@ -1669,6 +1746,7 @@
     "effectText": "Earthbreaker deals damage to a single other target.",
     "synergyText": "If used with an Electric ally, it becomes Electric Type, damage increases to 175 and also inflicts the Seized Condition for 2 turns.",
     "effects": [],
+    "key": "Earthbreaker",
     "nameJa": "地割り",
     "descriptionJa": "通常攻撃。シナジー時攻撃がでんきタイプに変化し対象にさしおさえ2を付与"
   },
@@ -1690,6 +1768,7 @@
     "effectText": "Electric Storm deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Electric_Storm",
     "nameJa": "サンダーストーム",
     "descriptionJa": "通常攻撃"
   },
@@ -1711,6 +1790,7 @@
     "effectText": "Electric Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Electric_Stream",
     "nameJa": "エレクトリックストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -1732,6 +1812,7 @@
     "effectText": "Electric Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Electric_Torrent",
     "nameJa": "エレクトリックフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -1753,6 +1834,7 @@
     "effectText": "Electromagnetism inflicts a single other target and the user with the Trapped Condition for 3 turns and inflicts the target with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Electromagnetism",
     "nameJa": "でんきしばり",
     "descriptionJa": "使用者にとらわれ3を付与。対象にとらわれ3とSPD-1を付与"
   },
@@ -1774,6 +1856,7 @@
     "effectText": "Electropunch deals damage to a single target.",
     "synergyText": "If used with a Digital ally, its priority increases to High.",
     "effects": [],
+    "key": "Electropunch",
     "nameJa": "でんげきパンチ",
     "descriptionJa": "通常攻撃。シナジー時Priorityが変化"
   },
@@ -1795,6 +1878,7 @@
     "effectText": "Embers deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Embers",
     "nameJa": "残り火",
     "descriptionJa": "対象にやけど1を付与"
   },
@@ -1819,6 +1903,7 @@
     "effectText": "Energy Manipulation deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
     "synergyText": "If used with a Nature ally, its damage increases to 60 and the Exhausted Condition lasts for 2 turns.",
     "effects": [],
+    "key": "Energy_Manipulation",
     "nameJa": "エナジー操作",
     "descriptionJa": "対象にひろう1を付与。シナジー時ダメージが変化しひろう1の代わりにひろう2を付与"
   },
@@ -1840,6 +1925,7 @@
     "effectText": "Execution deals damage to a single other target and if this damage would put them below 35% of their maximum HP, they're instead instantly knocked-out.",
     "synergyText": "",
     "effects": [],
+    "key": "Execution",
     "nameJa": "トドメのいちげき",
     "descriptionJa": "対象のHPが35%以下だったらダメージを与える代わりに倒す"
   },
@@ -1861,6 +1947,7 @@
     "effectText": "Extinction inflicts all combatants on the battlefield with a 4 turn countdown of the Doomed Condition.",
     "synergyText": "",
     "effects": [],
+    "key": "Extinction",
     "nameJa": "終末の空",
     "descriptionJa": "対象にはめつ4を付与"
   },
@@ -1882,6 +1969,7 @@
     "effectText": "Extra Energy Slam deals damage to a single other target with its damage varying based on the user's current STA.",
     "synergyText": "The following formula applies:",
     "effects": [],
+    "key": "Extra_Energy_Slam",
     "nameJa": "エナジーバッシュ",
     "descriptionJa": "使用者のSTAによって威力が変化"
   },
@@ -1906,6 +1994,7 @@
     "effectText": "Faraday Cage deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "synergyText": "If used with a Toxic ally, it also inflicts the Poisoned Condition for 2 turns.",
     "effects": [],
+    "key": "Faraday_Cage",
     "nameJa": "ファラデーケージ",
     "descriptionJa": "対象にこりつ3を付与。シナジー時ダメージが変化し対象に追加でどく2を付与"
   },
@@ -1927,6 +2016,7 @@
     "effectText": "Feather Gatling deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Feather_Gatling",
     "nameJa": "フェザーガトリング",
     "descriptionJa": "通常攻撃"
   },
@@ -1948,6 +2038,7 @@
     "effectText": "Fierce Claw deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Fierce_Claw",
     "nameJa": "ワイルドクロー",
     "descriptionJa": "通常攻撃"
   },
@@ -1975,6 +2066,7 @@
     "effectText": "Fiery Heist inflicts a single other target with the Seized Condition and the Burned Condition for 2 turns.",
     "synergyText": "If used with an Earth ally, the Seized Condition and the Burned Condition last for 4 turns.",
     "effects": [],
+    "key": "Fiery_Heist",
     "nameJa": "ファイアジャック",
     "descriptionJa": "対象にさしおさえ2とやけど2を付与。シナジー時その代わりにさしおさえ4とやけど4を付与"
   },
@@ -1996,6 +2088,7 @@
     "effectText": "Fiery Soul deals damage to a single other target and inflicts them with the Burned Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Fiery_Soul",
     "nameJa": "ファイヤソウル",
     "descriptionJa": "対象にやけど1を付与"
   },
@@ -2017,6 +2110,7 @@
     "effectText": "Finbeat deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Finbeat",
     "nameJa": "フィンビート",
     "descriptionJa": "通常攻撃"
   },
@@ -2038,6 +2132,7 @@
     "effectText": "Fire Flame deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Fire_Flame",
     "nameJa": "ファイヤフレイム",
     "descriptionJa": "通常攻撃"
   },
@@ -2059,6 +2154,7 @@
     "effectText": "Fire Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Fire_Stream",
     "nameJa": "ファイヤストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -2080,6 +2176,7 @@
     "effectText": "Fire Tornado deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Fire_Tornado",
     "nameJa": "かえんたつまき",
     "descriptionJa": "通常攻撃"
   },
@@ -2101,6 +2198,7 @@
     "effectText": "Fire Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Fire_Torrent",
     "nameJa": "ファイヤフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -2122,6 +2220,7 @@
     "effectText": "Firewall gifts the user with the Immune Condition for 4 turns and gifts DEF and SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Firewall",
     "nameJa": "ファイアウォール",
     "descriptionJa": "対象にむこう4, DEF+1, SPDEF+1を付与"
   },
@@ -2143,6 +2242,7 @@
     "effectText": "Flaming Meteorite deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Flaming_Meteorite",
     "nameJa": "フレイムメテオ",
     "descriptionJa": "通常攻撃"
   },
@@ -2167,6 +2267,7 @@
     "effectText": "Flood inflicts the rival team or the user's ally with SPD .",
     "synergyText": "If used with an Earth ally, its STA Cost decreases to 22 and it instead inflicts SPD .",
     "effects": [],
+    "key": "Flood",
     "nameJa": "水びたし",
     "descriptionJa": "対象のSPD-2。シナジー時その代わりに対象のSPD-3"
   },
@@ -2188,6 +2289,7 @@
     "effectText": "Fluid Barrier gifts a single target with SPDEF and the Immune Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Fluid_Barrier",
     "nameJa": "液体バリア",
     "descriptionJa": "対象にむこう2, SPDEF+2を付与"
   },
@@ -2209,6 +2311,7 @@
     "effectText": "Footwork gifts the user with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Footwork",
     "nameJa": "フットワーク",
     "descriptionJa": "対象のSPD+2"
   },
@@ -2230,6 +2333,7 @@
     "effectText": "Frond Whip deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Frond_Whip",
     "nameJa": "森のムチ",
     "descriptionJa": "通常攻撃"
   },
@@ -2251,6 +2355,7 @@
     "effectText": "Gaia gifts the user with the Regenerated Condition for 2 turns and restores 100% of their maximum STA. The user will still overexert if they lack the required STA before use.",
     "synergyText": "",
     "effects": [],
+    "key": "Gaia",
     "nameJa": "ガイアのめぐみ",
     "descriptionJa": "対象にさいせい2を付与しSTAを100%回復"
   },
@@ -2272,6 +2377,7 @@
     "effectText": "Gamma Burst deals damage to a single other target and inflicts them with the Exhausted Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Gamma_Burst",
     "nameJa": "ガンマバースト",
     "descriptionJa": "対象にひろう2を付与"
   },
@@ -2295,6 +2401,7 @@
     "effectText": "Generify gives the user the Nullified Condition for 2 turns.",
     "synergyText": "If used with a Neutral ally, it also gifts the user with the Evading Condition for 2 turns.",
     "effects": [],
+    "key": "Generify",
     "nameJa": "ジェネリクス",
     "descriptionJa": "対象にちゅうわ2を付与。シナジー時追加で対象にかいひ2を付与"
   },
@@ -2316,6 +2423,7 @@
     "effectText": "Glass Blade deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Glass_Blade",
     "nameJa": "グラスブレード",
     "descriptionJa": "通常攻撃"
   },
@@ -2337,6 +2445,7 @@
     "effectText": "Goring deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Goring",
     "nameJa": "ツノとつげき",
     "descriptionJa": "通常攻撃"
   },
@@ -2361,6 +2470,7 @@
     "effectText": "Gust deals damage to a single target.",
     "synergyText": "If used with an Electric ally, its damage increases to 75, priority increases to Very High and also inflicts the Trapped Condition for 2 turns.",
     "effects": [],
+    "key": "Gust",
     "nameJa": "風巻き",
     "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化し対象にとらわれ2を付与"
   },
@@ -2382,6 +2492,7 @@
     "effectText": "Haito Uchi deals damage to a single other target and inflicts them with the Asleep Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Haito_Uchi",
     "nameJa": "背刀打ち",
     "descriptionJa": "対象にねむり1を付与"
   },
@@ -2405,6 +2516,7 @@
     "effectText": "Hallucination inflicts a single other target with the Exhausted Condition and the Trapped Condition for 2 turns.",
     "synergyText": "If used with a Mental ally, its class becomes Special with 100 damage.",
     "effects": [],
+    "key": "Hallucination",
     "nameJa": "げんかく",
     "descriptionJa": "対象にひろう2ととらわれ2を付与。シナジー時通常効果に追加でダメージ100の技になる"
   },
@@ -2426,6 +2538,7 @@
     "effectText": "Harmful Lick deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Harmful_Lick",
     "nameJa": "なめしばき",
     "descriptionJa": "通常攻撃"
   },
@@ -2450,6 +2563,7 @@
     "effectText": "Harmful Microwaves deals damage to a single target.",
     "synergyText": "If used with an Electric ally, its STA Cost decreases to 18 and priority increases to High.",
     "effects": [],
+    "key": "Harmful_Microwaves",
     "nameJa": "マイクロウェーブ",
     "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化し対象にとらわれ2を付与"
   },
@@ -2473,6 +2587,7 @@
     "effectText": "Hasty Lunge deals damage to a single other target but causes the user to be overexerted the next turn.",
     "synergyText": "If used with a Nature ally, it won't overexert the user.",
     "effects": [],
+    "key": "Hasty_Lunge",
     "nameJa": "ちょとつもうしん",
     "descriptionJa": "使用者は次ターン行動不能。シナジー時通常効果が消える"
   },
@@ -2494,6 +2609,7 @@
     "effectText": "Head Charge deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Head_Charge",
     "nameJa": "ブレイクショット",
     "descriptionJa": "通常攻撃"
   },
@@ -2515,6 +2631,7 @@
     "effectText": "Head Ram deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Head_Ram",
     "nameJa": "ずつき",
     "descriptionJa": "通常攻撃"
   },
@@ -2536,6 +2653,7 @@
     "effectText": "Heat Up gifts the user with ATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Heat_Up",
     "nameJa": "ヒートアップ",
     "descriptionJa": "対象のATK+3"
   },
@@ -2557,6 +2675,7 @@
     "effectText": "Heavy Blow deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Heavy_Blow",
     "nameJa": "強打",
     "descriptionJa": "通常攻撃"
   },
@@ -2578,6 +2697,7 @@
     "effectText": "Held Anger deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Held_Anger",
     "nameJa": "いかりため",
     "descriptionJa": "通常攻撃"
   },
@@ -2599,6 +2719,7 @@
     "effectText": "Helicopter Kick deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Helicopter_Kick",
     "nameJa": "ヘリコプターキック",
     "descriptionJa": "通常攻撃"
   },
@@ -2623,6 +2744,7 @@
     "effectText": "Hellfire deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Fire ally, its damage increases to 100, priority increases to High and also inflicts the Burned Condition for 2 turns.",
     "effects": [],
+    "key": "Hellfire",
     "nameJa": "ヘルファイア",
     "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象にやけど2を付与"
   },
@@ -2644,6 +2766,7 @@
     "effectText": "Hibernate restores 35% of the user's maximum HP and STA but also inflicts the user with the Frozen Condition for 3 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Hibernate",
     "nameJa": "冬ごもり",
     "descriptionJa": "対象にこおりつき3を付与。対象のHPとSTAを35%回復"
   },
@@ -2667,6 +2790,7 @@
     "effectText": "High-pressure Water deals damage to a single other target.",
     "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 3 turns.",
     "effects": [],
+    "key": "High-pressure_Water",
     "nameJa": "高圧放水",
     "descriptionJa": "通常攻撃。シナジー時対象にやけど3を付与"
   },
@@ -2688,6 +2812,7 @@
     "effectText": "Hologram gifts the user with the Evading Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Hologram",
     "nameJa": "ホログラム",
     "descriptionJa": "対象にかいひ1を付与"
   },
@@ -2709,6 +2834,7 @@
     "effectText": "Hook deals damage to a single target and gifts the user with ATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Hook",
     "nameJa": "フック",
     "descriptionJa": "使用者のATK+2"
   },
@@ -2730,6 +2856,7 @@
     "effectText": "Hook Kick deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Hook_Kick",
     "nameJa": "フックキック",
     "descriptionJa": "通常攻撃"
   },
@@ -2751,6 +2878,7 @@
     "effectText": "Horror deals damage to a single target if they're afflicted with the Asleep Condition.",
     "synergyText": "",
     "effects": [],
+    "key": "Horror",
     "nameJa": "ホラー",
     "descriptionJa": "対象がねむり状態でなければ失敗"
   },
@@ -2772,6 +2900,7 @@
     "effectText": "Humiliating Slap deals damage to a single other target and inflicts them with DEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Humiliating_Slap",
     "nameJa": "ひっぱたき",
     "descriptionJa": "対象のDEF-1"
   },
@@ -2796,6 +2925,7 @@
     "effectText": "Hurricane deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Digital ally, it also gifts the user with SPD and deals 77 damage.",
     "effects": [],
+    "key": "Hurricane",
     "nameJa": "ハリケーン",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化し使用者のSPD+1"
   },
@@ -2817,6 +2947,7 @@
     "effectText": "Hyperkinetic Strike deals damage to a single target.",
     "synergyText": "Hyperkinetic Strike's damage formula is close, but not exactly equal to, the combination of the damage it would deal based on SPATK and the damage it would deal based on SPD. The exact formula is intended to be:",
     "effects": [],
+    "key": "Hyperkinetic_Strike",
     "nameJa": "ダッシュアタック",
     "descriptionJa": "使用者のSPDもダメージ計算に使用"
   },
@@ -2838,6 +2969,7 @@
     "effectText": "Hypnosis inflicts a single other target with the Asleep Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Hypnosis",
     "nameJa": "さいみん",
     "descriptionJa": "対象にねむり2を付与"
   },
@@ -2859,6 +2991,7 @@
     "effectText": "Hypoxia deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Hypoxia",
     "nameJa": "真空責め",
     "descriptionJa": "通常攻撃"
   },
@@ -2880,6 +3013,7 @@
     "effectText": "Ice Cubes deals damage to a single other target.",
     "synergyText": "If used with a Water ally, its STA Cost decreases to 9.",
     "effects": [],
+    "key": "Ice_Cubes",
     "nameJa": "アイスキューブ",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
   },
@@ -2901,6 +3035,7 @@
     "effectText": "Ice Shuriken deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Ice_Shuriken",
     "nameJa": "アイスシュリケン",
     "descriptionJa": "対象にこごえ2を付与"
   },
@@ -2922,6 +3057,7 @@
     "effectText": "Iced Stalactite deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Iced_Stalactite",
     "nameJa": "つらら落とし",
     "descriptionJa": "対象にこごえ2を付与"
   },
@@ -2943,6 +3079,7 @@
     "effectText": "Inner Spirit deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Inner_Spirit",
     "nameJa": "ねむれるたましい",
     "descriptionJa": "通常攻撃"
   },
@@ -2964,6 +3101,7 @@
     "effectText": "Intimidation inflicts the rival team or the user's ally with the Exhausted Condition for 2 turns and gifts the user with the Evading Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Intimidation",
     "nameJa": "いあつ",
     "descriptionJa": "対象にひろう2を付与、使用者にかいひ1を付与"
   },
@@ -2985,6 +3123,7 @@
     "effectText": "Jaw Strike deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Jaw_Strike",
     "nameJa": "かみつき",
     "descriptionJa": "通常攻撃"
   },
@@ -3006,6 +3145,7 @@
     "effectText": "Jinxed Whisper inflicts a single other target with the Asleep Condition for 2 turns but causes the user to be overexerted the next turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Jinxed_Whisper",
     "nameJa": "フキツなささやき",
     "descriptionJa": "対象にねむり2を付与。使用者は次ターン動けない"
   },
@@ -3027,6 +3167,7 @@
     "effectText": "Kesa Gatame inflicts a single other target with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Kesa_Gatame",
     "nameJa": "けさ固め",
     "descriptionJa": "対象のSPD-3"
   },
@@ -3048,6 +3189,7 @@
     "effectText": "Kick deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Kick",
     "nameJa": "キック",
     "descriptionJa": "通常攻撃"
   },
@@ -3069,6 +3211,7 @@
     "effectText": "King's Roar inflicts the rival team or the user's ally with SPD , ATK and SPATK .",
     "synergyText": "",
     "effects": [],
+    "key": "King's_Roar",
     "nameJa": "王者のおたけび",
     "descriptionJa": "対象のSPD-2, ATK-2, SPATK-2"
   },
@@ -3090,6 +3233,7 @@
     "effectText": "Knockback deals damage to a single other target but causes the user to take 30% of the damage dealt as recoil.",
     "synergyText": "",
     "effects": [],
+    "key": "Knockback",
     "nameJa": "ノックバック",
     "descriptionJa": "反動で与ダメージの30%を使用者も受ける"
   },
@@ -3111,6 +3255,7 @@
     "effectText": "Late Torment deals damage to a single other target if they're afflicted with the Trapped Condition.",
     "synergyText": "",
     "effects": [],
+    "key": "Late_Torment",
     "nameJa": "ラストトーメント",
     "descriptionJa": "対象がとらわれ状態でなければ失敗"
   },
@@ -3138,6 +3283,7 @@
     "effectText": "Laundry deals damage to a single target and cures/removes all of their Status Conditions.",
     "synergyText": "If used with an Electric ally, its priority increases to High and also heals 10% of user's maximum HP.",
     "effects": [],
+    "key": "Laundry",
     "nameJa": "せんたく",
     "descriptionJa": "対象の状態変化をすべて取り除く。シナジー時Priorityが変化し使用者のHPが10%回復する"
   },
@@ -3161,6 +3307,7 @@
     "effectText": "Lava Wave deals damage to a single other target.",
     "synergyText": "If used with a Water ally, its priority increases to High and inflicts the Seized Condition for 3 turns.",
     "effects": [],
+    "key": "Lava_Wave",
     "nameJa": "マグマウェーブ",
     "descriptionJa": "通常攻撃。シナジー時Priorityが変化し対象にさしおさえ3を付与"
   },
@@ -3184,6 +3331,7 @@
     "effectText": "Leech causes a single other target to lose 25% of their maximum HP and restores 25% of the user's maximum HP. It will not remove the Asleep Condition from afflicted targets.",
     "synergyText": "If used with a Water ally, its STA Cost decreases to 20 and priority increases to High.",
     "effects": [],
+    "key": "Leech",
     "nameJa": "吸血",
     "descriptionJa": "対象のHPを25%減らし使用者のHPを25%回復する。相手のねむりを解除しない。シナジー時PriorityとSTAコストが変化する"
   },
@@ -3205,6 +3353,7 @@
     "effectText": "Lifeful Sap gifts the user with the Regenerated Condition for 5 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Lifeful_Sap",
     "nameJa": "いのちのしずく",
     "descriptionJa": "対象にさいせい5を付与"
   },
@@ -3226,6 +3375,7 @@
     "effectText": "Look out gifts a single target with the Alerted Condition for 5 turns and cures them of the Asleep Condition. Unlike other techniques, it will set the duration of any previously gifted Alerted Conditions to 5 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Look_out",
     "nameJa": "見張り",
     "descriptionJa": "対象にけいかい5を付与しねむりを回復する"
   },
@@ -3247,6 +3397,7 @@
     "effectText": "Lullaby inflicts the rival team or the user's ally with the Asleep Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Lullaby",
     "nameJa": "ララバイ",
     "descriptionJa": "対象にねむり2を付与"
   },
@@ -3268,6 +3419,7 @@
     "effectText": "Madness Buff causes the user to lose 30% of their maximum HP and then is gifted SPATK and SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Madness_Buff",
     "nameJa": "どはつてん",
     "descriptionJa": "対象のSPATK+3, SPDEF+3, HP30%を消費"
   },
@@ -3289,6 +3441,7 @@
     "effectText": "Magma Cannon deals damage to a single other target and inflicts them with the Burned Condition for 3 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Magma_Cannon",
     "nameJa": "マグマカノン",
     "descriptionJa": "対象にやけど3を付与"
   },
@@ -3310,6 +3463,7 @@
     "effectText": "Major Slash deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Major_Slash",
     "nameJa": "メジャースラッシュ",
     "descriptionJa": "通常攻撃"
   },
@@ -3331,6 +3485,7 @@
     "effectText": "Martial Strike deals damage to a single other target and grants the user SPATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Martial_Strike",
     "nameJa": "てっついうち",
     "descriptionJa": "使用者のSPATK+1"
   },
@@ -3352,6 +3507,7 @@
     "effectText": "Matter Teleport deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Matter_Teleport",
     "nameJa": "マテリアテレポート",
     "descriptionJa": "通常攻撃"
   },
@@ -3373,6 +3529,7 @@
     "effectText": "Mechanical Heat deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Mechanical_Heat",
     "nameJa": "メカニカルヒート",
     "descriptionJa": "通常攻撃"
   },
@@ -3394,6 +3551,7 @@
     "effectText": "Meditation gifts the user with the Invigorated Condition for 3 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Meditation",
     "nameJa": "ヨガ",
     "descriptionJa": "対象にげんき3を付与"
   },
@@ -3415,6 +3573,7 @@
     "effectText": "Melee Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Melee_Stream",
     "nameJa": "メレーストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -3436,6 +3595,7 @@
     "effectText": "Melee Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Melee_Torrent",
     "nameJa": "メレーフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -3457,6 +3617,7 @@
     "effectText": "Mental Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Mental_Stream",
     "nameJa": "メンタルストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -3478,6 +3639,7 @@
     "effectText": "Mental Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Mental_Torrent",
     "nameJa": "メンタルフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -3501,6 +3663,7 @@
     "effectText": "Metabolize cures a single other target of the Poisoned Condition, restores 20% of the user's maximum HP and grants for 1 turn if the target was cured from the Poisoned Condition.",
     "synergyText": "If used with a Nature ally, it also gifts the user with the Regenerated Condition for 2 turns.",
     "effects": [],
+    "key": "Metabolize",
     "nameJa": "デトックス",
     "descriptionJa": "対象のどくを回復しHPを20%回復しさいせい1を付与する。シナジー時使用者にさいせい2を付与する"
   },
@@ -3525,6 +3688,7 @@
     "effectText": "Meteor Swarm deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Fire ally, its damage increases to 90 and also inflicts the Burned Condition for 2 turns.",
     "effects": [],
+    "key": "Meteor_Swarm",
     "nameJa": "メテオスウォーム",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にやけど2を付与"
   },
@@ -3546,6 +3710,7 @@
     "effectText": "Mineral Hail deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Mineral_Hail",
     "nameJa": "クリスタルヘイル",
     "descriptionJa": "通常攻撃"
   },
@@ -3567,6 +3732,7 @@
     "effectText": "Mirror Shell gifts the user with SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Mirror_Shell",
     "nameJa": "ミラーシェル",
     "descriptionJa": "対象のSPDEF+4"
   },
@@ -3594,6 +3760,7 @@
     "effectText": "Misogi cures/removes all Status Conditions gifted/given/inflicted on the target and also removes the target's Stat Stage Changes.",
     "synergyText": "If used with a Water ally, it also gifts the target with the Immune Condition for 3 turns and the Regenerated Condition for 2 turns.",
     "effects": [],
+    "key": "Misogi",
     "nameJa": "みそぎ",
     "descriptionJa": "対象のステータス変化と状態変化をすべて取り除く。シナジー時対象にむこう3とさいせい2を付与する"
   },
@@ -3615,6 +3782,7 @@
     "effectText": "Mud Shower deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Mud_Shower",
     "nameJa": "どろ浴びせ",
     "descriptionJa": "通常攻撃"
   },
@@ -3636,6 +3804,7 @@
     "effectText": "Multiple Pecks deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Multiple_Pecks",
     "nameJa": "連続ついばみ",
     "descriptionJa": "通常攻撃"
   },
@@ -3659,6 +3828,7 @@
     "effectText": "Nagaise's Fury deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Mental ally, its damage increases to 130.",
     "effects": [],
+    "key": "Nagaise's_Fury",
     "nameJa": "ナーガイズのいかり",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化する"
   },
@@ -3680,6 +3850,7 @@
     "effectText": "Narcoleptic Hit deals damage to a single other target but inflicts the user with the Asleep Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Narcoleptic_Hit",
     "nameJa": "おやすみアタック",
     "descriptionJa": "使用者にねむり2を付与"
   },
@@ -3701,6 +3872,7 @@
     "effectText": "Nature Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Nature_Stream",
     "nameJa": "ネイチャーストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -3722,6 +3894,7 @@
     "effectText": "Nature Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Nature_Torrent",
     "nameJa": "ネイチャーフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -3743,6 +3916,7 @@
     "effectText": "Neutral Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Neutral_Stream",
     "nameJa": "ニュートラルストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -3764,6 +3938,7 @@
     "effectText": "Neutral Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Neutral_Torrent",
     "nameJa": "ニュートラルフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -3785,6 +3960,7 @@
     "effectText": "Nibble deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Nibble",
     "nameJa": "あまがみ",
     "descriptionJa": "通常攻撃"
   },
@@ -3806,6 +3982,7 @@
     "effectText": "Nicho Sai deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Nicho_Sai",
     "nameJa": "二丁サイ",
     "descriptionJa": "通常攻撃"
   },
@@ -3827,6 +4004,7 @@
     "effectText": "Nightmare Feed causes a single target to lose 30% of their maximum HP and the user to restore 30% of their maximum HP if the target is afflicted with the Asleep Condition. It will not cause the target to wake up.",
     "synergyText": "",
     "effects": [],
+    "key": "Nightmare_Feed",
     "nameJa": "悪夢食らい",
     "descriptionJa": "ねむり状態の対象のHPを30%減らし使用者のHPが30%回復する"
   },
@@ -3848,6 +4026,7 @@
     "effectText": "Nimble gifts a single other target with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Nimble",
     "nameJa": "いだてん",
     "descriptionJa": "対象のSPD+1"
   },
@@ -3869,6 +4048,7 @@
     "effectText": "Ninja Jutsu deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Ninja_Jutsu",
     "nameJa": "縮地の術",
     "descriptionJa": "通常攻撃"
   },
@@ -3890,6 +4070,7 @@
     "effectText": "Nito Seiho deals damage to a single other target and inflicts them with DEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Nito_Seiho",
     "nameJa": "二刀勢法",
     "descriptionJa": "対象のDEF-1"
   },
@@ -3914,6 +4095,7 @@
     "effectText": "Novice Punch deals damage to a single other target.",
     "synergyText": "If used with a Melee ally, it becomes Melee Type and its damage increases to 51.",
     "effects": [],
+    "key": "Novice_Punch",
     "nameJa": "ひよっこパンチ",
     "descriptionJa": "通常攻撃。シナジー時ダメージと技のタイプが変化する"
   },
@@ -3935,6 +4117,7 @@
     "effectText": "Noxious Bomb deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Noxious_Bomb",
     "nameJa": "どくどくボム",
     "descriptionJa": "通常攻撃"
   },
@@ -3956,6 +4139,7 @@
     "effectText": "Oshi-Dashi deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Oshi-Dashi",
     "nameJa": "おしだし",
     "descriptionJa": "通常攻撃"
   },
@@ -3977,6 +4161,7 @@
     "effectText": "Outgrowth deals damage to the rival team or the user's ally, causes them to lose 20% of their maximum STA, and inflicts them with the Trapped Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Outgrowth",
     "nameJa": "オーバーグロウ",
     "descriptionJa": "対象のSTAを20%減らしとらわれ2を付与"
   },
@@ -3998,6 +4183,7 @@
     "effectText": "Overclock gifts the user with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Overclock",
     "nameJa": "オーバークロック",
     "descriptionJa": "対象のSPD+2"
   },
@@ -4021,6 +4207,7 @@
     "effectText": "Paralyzing Poison inflicts a single other target with the Poisoned Condition for 4 turns and the Trapped Condition for 2 turns.",
     "synergyText": "If used with a Toxic ally, the Poisoned Condition lasts 6 turns.",
     "effects": [],
+    "key": "Paralyzing_Poison",
     "nameJa": "マヒ毒",
     "descriptionJa": "対象にどく4ととらわれ2を付与する。シナジー時どく4の代わりにどく6を付与する"
   },
@@ -4042,6 +4229,7 @@
     "effectText": "Peck deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Peck",
     "nameJa": "ついばみ",
     "descriptionJa": "通常攻撃"
   },
@@ -4063,6 +4251,7 @@
     "effectText": "Penance gifts a single other target with ATK and SPATK but causes the user to lose 20% of their maximum HP.",
     "synergyText": "",
     "effects": [],
+    "key": "Penance",
     "nameJa": "捨身の行",
     "descriptionJa": "使用者のHPが20%減り対象のATK+4, SPATK+4"
   },
@@ -4084,6 +4273,7 @@
     "effectText": "Perfect Jab deals damage to a single target and inflicts them with DEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Perfect_Jab",
     "nameJa": "追いづき",
     "descriptionJa": "対象のDEF-2, SPDEF-2"
   },
@@ -4105,6 +4295,7 @@
     "effectText": "Petrify deals damage to a single target and inflicts them with the Trapped Condition for 3 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Petrify",
     "nameJa": "石になれ",
     "descriptionJa": "対象にとらわれ3を付与"
   },
@@ -4126,6 +4317,7 @@
     "effectText": "Photosynthesis restores 50% of the user's maximum STA.",
     "synergyText": "",
     "effects": [],
+    "key": "Photosynthesis",
     "nameJa": "光合成",
     "descriptionJa": "対象のSTAを50%回復"
   },
@@ -4147,6 +4339,7 @@
     "effectText": "Pickpocket deals damage to a single other target and inflicts them with the Seized Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Pickpocket",
     "nameJa": "ピックポケット",
     "descriptionJa": "対象にさしおさえ2を付与"
   },
@@ -4168,6 +4361,7 @@
     "effectText": "Piercing Wheel deals damage to a single other target and inflicts them with DEF while also gifting the user with the Invigorated Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Piercing_Wheel",
     "nameJa": "大車輪",
     "descriptionJa": "対象のDEF-2, 使用者にげんき2を付与"
   },
@@ -4192,6 +4386,7 @@
     "effectText": "Piezoelectric Blow deals damage to a single target.",
     "synergyText": "If used with an Earth ally, its damage increases to 155 and also inflicts the Seized Condition for 2 turns.",
     "effects": [],
+    "key": "Piezoelectric_Blow",
     "nameJa": "ピエゾブロー",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にさしおさえ2を付与する"
   },
@@ -4213,6 +4408,7 @@
     "effectText": "Plague deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Plague",
     "nameJa": "病原体",
     "descriptionJa": "対象にひろう1を付与"
   },
@@ -4234,6 +4430,7 @@
     "effectText": "Plasma Beam deals damage to a single other target and inflicts them with the Burned Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Plasma_Beam",
     "nameJa": "プラズマビーム",
     "descriptionJa": "対象にやけど1を付与"
   },
@@ -4255,6 +4452,7 @@
     "effectText": "Pollution inflicts the rival team or the user's ally with the Poisoned Condition for 2 turns and causes them to lose 25% of their maximum STA.",
     "synergyText": "",
     "effects": [],
+    "key": "Pollution",
     "nameJa": "おせんガス",
     "descriptionJa": "対象のSTAを25%減らしどく2を付与"
   },
@@ -4276,6 +4474,7 @@
     "effectText": "Psy Surge deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Psy_Surge",
     "nameJa": "サイコサージ",
     "descriptionJa": "通常攻撃"
   },
@@ -4297,6 +4496,7 @@
     "effectText": "Psy Wave deals damage to a single other target and inflicts SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Psy_Wave",
     "nameJa": "サイコウェーブ",
     "descriptionJa": "対象のSPDEF-2"
   },
@@ -4321,6 +4521,7 @@
     "effectText": "Psychic Collaborator deals damage to a single other target and grants SPATK .",
     "synergyText": "If used with a Mental ally, its damage increases to 170 and it no longer grants SPATK .",
     "effects": [],
+    "key": "Psychic_Collaborator",
     "nameJa": "サイキックコラボ",
     "descriptionJa": "対象にSPATK+2を付与する。シナジー時ダメージが変化し通常効果が消滅する"
   },
@@ -4342,6 +4543,7 @@
     "effectText": "Psychosis inflicts a single target with a 4 turn countdown of the Doomed Condition.",
     "synergyText": "",
     "effects": [],
+    "key": "Psychosis",
     "nameJa": "さくらん念波",
     "descriptionJa": "対象にはめつ4を付与"
   },
@@ -4363,6 +4565,7 @@
     "effectText": "Purgation gifts a single target with ATK and cures them of the Doomed Condition.",
     "synergyText": "",
     "effects": [],
+    "key": "Purgation",
     "nameJa": "お清め",
     "descriptionJa": "対象のはめつを取り除きATK+2"
   },
@@ -4387,6 +4590,7 @@
     "effectText": "Quartz Dirt deals damage to the rival team or the user's ally.",
     "synergyText": "If used with an Earth ally, its damage increases to 80 and also inflicts the Trapped Condition for 2 turns.",
     "effects": [],
+    "key": "Quartz_Dirt",
     "nameJa": "クウォーツダート",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にとらわれ2を付与する"
   },
@@ -4408,6 +4612,7 @@
     "effectText": "Quartz Shield gifts a single target with DEF and SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Quartz_Shield",
     "nameJa": "クォーツシールド",
     "descriptionJa": "対象のDEF+2, SPDEF+2"
   },
@@ -4430,7 +4635,8 @@
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log, and a bottle of Quetzaleño Reposado...",
     "effectText": "Quetza-leño deals damage to a single other target.",
     "synergyText": "If used with a Neutral ally, its damage increases to 115 and priority increases to High.",
-    "effects": []
+    "effects": [],
+    "key": "Quetza-leño"
   },
   {
     "name": "Quicksand",
@@ -4452,6 +4658,7 @@
     "effectText": "Quicksand inflicts all combatants on the battlefield with SPD .",
     "synergyText": "If used with a Wind ally, it only affects the rival team.",
     "effects": [],
+    "key": "Quicksand",
     "nameJa": "流砂",
     "descriptionJa": "対象のSPD-2。シナジー時対象が相手チームのみに変化"
   },
@@ -4473,6 +4680,7 @@
     "effectText": "Rage gifts the user with ATK but also inflicts them with DEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Rage",
     "nameJa": "きょうぼう化",
     "descriptionJa": "対象のATK+4, DEF-3"
   },
@@ -4494,6 +4702,7 @@
     "effectText": "Rainbow Guard gifts the user with the Immune Condition for 3 turns and the Evading Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Rainbow_Guard",
     "nameJa": "レインボーガード",
     "descriptionJa": "対象にかいひ1とむこう3を付与"
   },
@@ -4518,6 +4727,7 @@
     "effectText": "Rampage deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Melee ally, its damage increases to 85 and STA Cost decreases to 25 and Priority increases to Normal.",
     "effects": [],
+    "key": "Rampage",
     "nameJa": "ランページ",
     "descriptionJa": "通常攻撃。シナジー時ダメージとSTA消費量とPriorityが変化"
   },
@@ -4539,6 +4749,7 @@
     "effectText": "Refresh gifts the user with SPATK and heals 6% of their maximum HP.",
     "synergyText": "",
     "effects": [],
+    "key": "Refresh",
     "nameJa": "リフレッシュ",
     "descriptionJa": "対象のHPを6%回復しSPATK+2"
   },
@@ -4563,6 +4774,7 @@
     "effectText": "Refreshing Breeze cures/removes all of the user's Status Conditions but inflicts them with SPDEF .",
     "synergyText": "If used with a Nature ally, it gifts the user with SPDEF instead of inflicting the SPDEF .",
     "effects": [],
+    "key": "Refreshing_Breeze",
     "nameJa": "心地よい風",
     "descriptionJa": "対象の状態変化を取り除きSPDEF-1。シナジー時SPDEF-1の代わりにSPDEF+2"
   },
@@ -4584,6 +4796,7 @@
     "effectText": "Relax inflicts all combatants on the battlefield with the Asleep Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Relax",
     "nameJa": "リラックス",
     "descriptionJa": "対象にねむり2を付与"
   },
@@ -4605,6 +4818,7 @@
     "effectText": "Rend deals damage to a single other target and gives them the Nullified Condition for 4 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Rend",
     "nameJa": "つんざく",
     "descriptionJa": "対象にちゅうわ4を付与"
   },
@@ -4626,6 +4840,7 @@
     "effectText": "Reset cures/removes all Status Conditions and Stat Stage Changes gifted/given/inflicted on a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Reset",
     "nameJa": "リセット",
     "descriptionJa": "対象の能力変化及び状態変化をすべて取り除く"
   },
@@ -4647,6 +4862,7 @@
     "effectText": "Resin Trap deals damage to a single target and inflicts them with the Trapped Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Resin_Trap",
     "nameJa": "じゅし固め",
     "descriptionJa": "対象にとらわれ2を付与"
   },
@@ -4674,6 +4890,7 @@
     "effectText": "Restore restores 40% of a single other target's maximum STA.",
     "synergyText": "If used with a Water ally, it also restores 20% of the user's maximum STA.",
     "effects": [],
+    "key": "Restore",
     "nameJa": "リストア",
     "descriptionJa": "対象のSTAを40%回復する。シナジー時使用者のSTAを20%回復する"
   },
@@ -4702,6 +4919,7 @@
     "effectText": "Revitalize restores 20% of a single target's maximum HP.",
     "synergyText": "If used with a Nature ally, its STA Cost decreases to 15 and also restores 10% of the user's maximum HP.",
     "effects": [],
+    "key": "Revitalize",
     "nameJa": "手当て",
     "descriptionJa": "対象のHPを20%回復する。シナジー時STAコストが変化し使用者のHPも10%回復する"
   },
@@ -4723,6 +4941,7 @@
     "effectText": "Roar inflicts the rival team or the user's ally with ATK and SPATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Roar",
     "nameJa": "ほうこう",
     "descriptionJa": "対象のATK-1, SPATK-1"
   },
@@ -4746,6 +4965,7 @@
     "effectText": "Rockfall deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 2 turns.",
     "effects": [],
+    "key": "Rockfall",
     "nameJa": "岩落とし",
     "descriptionJa": "通常攻撃。シナジー時対象にやけど2を付与"
   },
@@ -4767,6 +4987,7 @@
     "effectText": "Roots inflicts a single other target with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Roots",
     "nameJa": "ツタしばり",
     "descriptionJa": "対象のSPD-1"
   },
@@ -4788,6 +5009,7 @@
     "effectText": "Rotten Goo deals damage to a single other target and inflicts them with the Seized Condition for 2 turns.",
     "synergyText": "If used with an Electric ally, its priority increases to High.",
     "effects": [],
+    "key": "Rotten_Goo",
     "nameJa": "くさったスライム",
     "descriptionJa": "対象にとらわれ2を付与。シナジー時Priorityが変化"
   },
@@ -4809,6 +5031,7 @@
     "effectText": "Rush deals an exact 40 damage to a single other target regardless of DEF, SPDEF, Type Effectivness, or Traits, but causes the user to be overexerted the next turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Rush",
     "nameJa": "しっぷうじんらい",
     "descriptionJa": "対象のHPを40減らす。使用者は次ターン行動不能"
   },
@@ -4830,6 +5053,7 @@
     "effectText": "Sacrifice removes/cures a single other target of all Status Conditions and gifts them with DEF and SPDEF , then the user is knocked-out.",
     "synergyText": "",
     "effects": [],
+    "key": "Sacrifice",
     "nameJa": "サクリファイス",
     "descriptionJa": "使用者は倒れる。対象のDEF+3, SPDEF+3"
   },
@@ -4857,6 +5081,7 @@
     "effectText": "Sanative Rain restores 15% of all combatants on the battlefield's maximum HP.",
     "synergyText": "If used with a Wind ally, its priority increases to Normal and instead restores 20% of allies' maximum HP and restores 10% of rivals' maximum HP.",
     "effects": [],
+    "key": "Sanative_Rain",
     "nameJa": "回復の雨",
     "descriptionJa": "対象のHPを15%回復。シナジー時、自分のテムの回復量が20%に、相手のテムの回復量が10%に変化"
   },
@@ -4878,6 +5103,7 @@
     "effectText": "Sand Splatter deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Sand_Splatter",
     "nameJa": "砂かけ",
     "descriptionJa": "通常攻撃"
   },
@@ -4899,6 +5125,7 @@
     "effectText": "Sand Storm deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Sand_Storm",
     "nameJa": "砂あらし",
     "descriptionJa": "通常攻撃"
   },
@@ -4920,6 +5147,7 @@
     "effectText": "Savage Suplex deals damage to a single other target and inflicts them with the Exhausted Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Savage_Suplex",
     "nameJa": "ワイルドスープレックス",
     "descriptionJa": "対象にひろう2を付与"
   },
@@ -4941,6 +5169,7 @@
     "effectText": "Scratch deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Scratch",
     "nameJa": "ひっかき",
     "descriptionJa": "通常攻撃"
   },
@@ -4964,6 +5193,7 @@
     "effectText": "Seismunch's Wreck deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Melee ally, its damage increases to 120 and priority increases to High.",
     "effects": [],
+    "key": "Seismunch's_Wreck",
     "nameJa": "シーズマンチの本気",
     "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化"
   },
@@ -4985,6 +5215,7 @@
     "effectText": "Serbatiyo's Wrath deals damage to the rival team or the user's ally and gifts the user with SPATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Serbatiyo's_Wrath",
     "nameJa": "セルバティオのいかり",
     "descriptionJa": "使用者のSPATK+2"
   },
@@ -5006,6 +5237,7 @@
     "effectText": "Sharp Leaf deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Sharp_Leaf",
     "nameJa": "シャープリーフ",
     "descriptionJa": "通常攻撃"
   },
@@ -5027,6 +5259,7 @@
     "effectText": "Sharp Rain deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Sharp_Rain",
     "nameJa": "アイシクルレイン",
     "descriptionJa": "通常攻撃"
   },
@@ -5048,6 +5281,7 @@
     "effectText": "Sharp Stabs deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Sharp_Stabs",
     "nameJa": "シャープスピア",
     "descriptionJa": "通常攻撃"
   },
@@ -5069,6 +5303,7 @@
     "effectText": "Sharpening gifts the user with SPD and ATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Sharpening",
     "nameJa": "みがき上げる",
     "descriptionJa": "対象のATK+2, SPD+1"
   },
@@ -5090,6 +5325,7 @@
     "effectText": "Shelter gifts the user with DEF and SPDEF but causes the user to be overexerted the next turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Shelter",
     "nameJa": "シェルター",
     "descriptionJa": "対象のDEF+4, SPDEF+4, 使用者は次ターン行動不能"
   },
@@ -5113,6 +5349,7 @@
     "effectText": "Show Off gifts the user with ATK .",
     "synergyText": "If used with a Melee ally, it also gifts the Invigorated Condition for 3 turns.",
     "effects": [],
+    "key": "Show_Off",
     "nameJa": "見せつけ",
     "descriptionJa": "対象のATK+2。シナジー時対象にげんき3を付与"
   },
@@ -5134,6 +5371,7 @@
     "effectText": "Shrill Voice deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Shrill_Voice",
     "nameJa": "金切り声",
     "descriptionJa": "通常攻撃"
   },
@@ -5155,6 +5393,7 @@
     "effectText": "Shy Shield gifts the user with DEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Shy_Shield",
     "nameJa": "シャイシールド",
     "descriptionJa": "対象のDEF+1"
   },
@@ -5176,6 +5415,7 @@
     "effectText": "Slime inflicts a single other target with SPD and the Trapped Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Slime",
     "nameJa": "ねばねば",
     "descriptionJa": "対象のSPD-1, とらわれ2を付与"
   },
@@ -5199,6 +5439,7 @@
     "effectText": "Slow Down inflicts a single target with SPD .",
     "synergyText": "If used with a Mental ally, it also inflicts the Asleep Condition for 2 turns.",
     "effects": [],
+    "key": "Slow_Down",
     "nameJa": "スローダウン",
     "descriptionJa": "対象のSPD-1。シナジー時対象にねむり2を付与"
   },
@@ -5220,6 +5461,7 @@
     "effectText": "Sludge Gift deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Sludge_Gift",
     "nameJa": "どろおくり",
     "descriptionJa": "通常攻撃"
   },
@@ -5241,6 +5483,7 @@
     "effectText": "Smoldering Kiss deals damage to a single other target and gifts the user with the Invigorated Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Smoldering_Kiss",
     "nameJa": "情熱のキス",
     "descriptionJa": "使用者にげんき2を付与"
   },
@@ -5262,6 +5505,7 @@
     "effectText": "Soil Steam inflicts damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Soil_Steam",
     "nameJa": "ソイルスチーム",
     "descriptionJa": "通常攻撃"
   },
@@ -5283,6 +5527,7 @@
     "effectText": "Soul Shout deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Soul_Shout",
     "nameJa": "たましいのさけび",
     "descriptionJa": "通常攻撃"
   },
@@ -5306,6 +5551,7 @@
     "effectText": "Sparkling Bullet deals damage to a single other target.",
     "synergyText": "If used with a Neutral ally, its damage increases to 98.",
     "effects": [],
+    "key": "Sparkling_Bullet",
     "nameJa": "スパークバレット",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化"
   },
@@ -5327,6 +5573,7 @@
     "effectText": "Sparks gifts a single target with SPATK and Invigorated Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Sparks",
     "nameJa": "スパーク",
     "descriptionJa": "対象にSPATK+1, げんき1を付与"
   },
@@ -5348,6 +5595,7 @@
     "effectText": "Spores deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Spores",
     "nameJa": "ほうし",
     "descriptionJa": "通常攻撃"
   },
@@ -5372,6 +5620,7 @@
     "effectText": "Stampede deals damage to the rival team or the user's ally.",
     "synergyText": "If used with an Earth ally, its damage increases to 125 and also inflicts the Seized Condition for 3 turns.",
     "effects": [],
+    "key": "Stampede",
     "nameJa": "スタンピード",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にとらわれ3を付与"
   },
@@ -5393,6 +5642,7 @@
     "effectText": "Stare inflicts a single other target with DEF and gifts the user with the Alerted Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Stare",
     "nameJa": "にらみつけ",
     "descriptionJa": "対象のDEF-2, 使用者にけいかい2を付与"
   },
@@ -5414,6 +5664,7 @@
     "effectText": "Sting deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Sting",
     "nameJa": "毒針",
     "descriptionJa": "対象にどく2を付与"
   },
@@ -5437,6 +5688,7 @@
     "effectText": "Stone Ball deals damage to a single target.",
     "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 2 turns.",
     "effects": [],
+    "key": "Stone_Ball",
     "nameJa": "がれき落とし",
     "descriptionJa": "通常攻撃。シナジー時対象にやけど2を付与"
   },
@@ -5458,6 +5710,7 @@
     "effectText": "Stone Trench deals damage to the rival team or the user's ally and gifts the user with the Evading Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Stone_Trench",
     "nameJa": "ざんごう戦",
     "descriptionJa": "使用者にかいひ1を付与"
   },
@@ -5479,6 +5732,7 @@
     "effectText": "Stone Wall gifts a single target with DEF and SPDEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Stone_Wall",
     "nameJa": "ストーンウォール",
     "descriptionJa": "対象のDEF+3, SPDEF+1"
   },
@@ -5500,6 +5754,7 @@
     "effectText": "Strangle deals damage to a single other target but causes both the user and the target to be overexerted the next turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Strangle",
     "nameJa": "しめつけ",
     "descriptionJa": "使用者と対象は次のターン行動不能"
   },
@@ -5527,6 +5782,7 @@
     "effectText": "Swarm Aid causes the rival team or the user's ally to lose 10% of their maximum HP, inflicts them with the Exhausted Condition for 1 turn and restores 10% of the user's maximum HP.",
     "synergyText": "If used with an Earth ally, its priority increases to Very High and instead causes the rival team or the user's ally to lose 15% of their maximum HP and restores 15% of the user's maximum HP.",
     "effects": [],
+    "key": "Swarm_Aid",
     "nameJa": "ミリオンドレイン",
     "descriptionJa": "対象のHPを10%減らしひろう1を付与。使用者のHPを10%回復。シナジー時Priorityが変化し、HPの減少量および回復量が15%に変化"
   },
@@ -5548,6 +5804,7 @@
     "effectText": "Tail Strike deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Tail_Strike",
     "nameJa": "しっぽ打ち",
     "descriptionJa": "通常攻撃"
   },
@@ -5569,6 +5826,7 @@
     "effectText": "Telekinetic Shrapnel deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Telekinetic_Shrapnel",
     "nameJa": "テレキネシス",
     "descriptionJa": "通常攻撃"
   },
@@ -5590,6 +5848,7 @@
     "effectText": "Tenderness inflicts a single other target with ATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Tenderness",
     "nameJa": "あいきょう",
     "descriptionJa": "対象のATK-2"
   },
@@ -5611,6 +5870,7 @@
     "effectText": "Tentacle Whip deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Tentacle_Whip",
     "nameJa": "テンタクルウィップ",
     "descriptionJa": "通常攻撃"
   },
@@ -5632,6 +5892,7 @@
     "effectText": "Tesla Prison deals damage to a single other target and inflicts them with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Tesla_Prison",
     "nameJa": "テスラプリズン",
     "descriptionJa": "対象のSPD-1"
   },
@@ -5653,6 +5914,7 @@
     "effectText": "Thunder Strike deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Thunder_Strike",
     "nameJa": "らいげき",
     "descriptionJa": "通常攻撃"
   },
@@ -5674,6 +5936,7 @@
     "effectText": "Time Split deals damage to a single other target then gifts the user with SPD and inflicts the target with SPD .",
     "synergyText": "",
     "effects": [],
+    "key": "Time_Split",
     "nameJa": "タイムスプリット",
     "descriptionJa": "対象のSPD-2, 使用者のSPD+2"
   },
@@ -5695,6 +5958,7 @@
     "effectText": "Token deals damage to a single target and inflicts them with the Isolated Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Token",
     "nameJa": "トークン",
     "descriptionJa": "通常攻撃"
   },
@@ -5716,6 +5980,7 @@
     "effectText": "Tornado deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Tornado",
     "nameJa": "トルネード",
     "descriptionJa": "通常攻撃"
   },
@@ -5743,6 +6008,7 @@
     "effectText": "Tortenite's Garden inflicts a single other target with a 4 turn countdown of the Doomed Condition and restores 10% of the user's maximum HP.",
     "synergyText": "If used with a Crystal ally, the Doomed Condition has a 3 turn countdown and restores 20% of the user's maximum HP.",
     "effects": [],
+    "key": "Tortenite's_Garden",
     "nameJa": "トルテナイトの庭",
     "descriptionJa": "対象にはめつ4を付与し使用者のHPを10%回復する。シナジー時、代わりに対象にはめつ3を付与し使用者のHPを20%回復する"
   },
@@ -5764,6 +6030,7 @@
     "effectText": "Toughen gifts the user with DEF .",
     "synergyText": "",
     "effects": [],
+    "key": "Toughen",
     "nameJa": "タフネス",
     "descriptionJa": "対象のDEF+4"
   },
@@ -5785,6 +6052,7 @@
     "effectText": "Toxic Fang deals damage to a single other target and inflicts them with the Poisoned Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Toxic_Fang",
     "nameJa": "毒のキバ",
     "descriptionJa": "対象にどく1を付与"
   },
@@ -5806,6 +6074,7 @@
     "effectText": "Toxic Gas deals damage to the rival team or the user's ally.",
     "synergyText": "",
     "effects": [],
+    "key": "Toxic_Gas",
     "nameJa": "毒ガス",
     "descriptionJa": "通常攻撃"
   },
@@ -5827,6 +6096,7 @@
     "effectText": "Toxic Ink deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Toxic_Ink",
     "nameJa": "毒スミ飛ばし",
     "descriptionJa": "対象にどく2を付与"
   },
@@ -5851,6 +6121,7 @@
     "effectText": "Toxic Plume deals damage to the rival team or the user's ally and inflicts them with the Poisoned Condition for 1 turn.",
     "synergyText": "If used with a Crystal ally, its STA Cost decreases to 16 and also inflicts ATK .",
     "effects": [],
+    "key": "Toxic_Plume",
     "nameJa": "毒まき",
     "descriptionJa": "対象にどく1を付与する。シナジー時STAコストが変化し対象のATK-2"
   },
@@ -5872,6 +6143,7 @@
     "effectText": "Toxic Slime deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Toxic_Slime",
     "nameJa": "どくどくヘドロ",
     "descriptionJa": "通常攻撃"
   },
@@ -5893,6 +6165,7 @@
     "effectText": "Toxic Spores inflicts a single other target with the Poisoned Condition for 3 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Toxic_Spores",
     "nameJa": "毒ほうし",
     "descriptionJa": "対象にどく3を付与"
   },
@@ -5914,6 +6187,7 @@
     "effectText": "Toxic Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Toxic_Stream",
     "nameJa": "トキシックストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -5935,6 +6209,7 @@
     "effectText": "Toxic Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Toxic_Torrent",
     "nameJa": "トキシックフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -5956,6 +6231,7 @@
     "effectText": "Toxin Shower deals damage to all other combatants on the battlefield and gifts the user with the Evading Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Toxin_Shower",
     "nameJa": "ポイズンシャワー",
     "descriptionJa": "使用者にかいひ2を付与"
   },
@@ -5977,6 +6253,7 @@
     "effectText": "Transient Echo deals damage to a single other target and gifts the user -1 Hold to all Techniques.",
     "synergyText": "",
     "effects": [],
+    "key": "Transient_Echo",
     "nameJa": "トランジエントエコー",
     "descriptionJa": "使用者の技のholdを1減らす"
   },
@@ -6001,6 +6278,7 @@
     "effectText": "Tsunami deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Wind ally, its damage increases to 80 and also inflicts the Cold Condition for 1 turn.",
     "effects": [],
+    "key": "Tsunami",
     "nameJa": "大波",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にこごえ1を付与"
   },
@@ -6022,6 +6300,7 @@
     "effectText": "Turbine deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Turbine",
     "nameJa": "せんぷうげき",
     "descriptionJa": "通常攻撃"
   },
@@ -6043,6 +6322,7 @@
     "effectText": "Turbo Attack deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Turbo_Attack",
     "nameJa": "ターボアタック",
     "descriptionJa": "通常攻撃"
   },
@@ -6064,6 +6344,7 @@
     "effectText": "Turbo Charge decreases the Hold of all the techniques of a single team by 1.",
     "synergyText": "",
     "effects": [],
+    "key": "Turbo_Charge",
     "nameJa": "ターボチャージ",
     "descriptionJa": "対象の技のHoldを1減らす"
   },
@@ -6085,6 +6366,7 @@
     "effectText": "Turbo Choreography gifts a single team with SPD .",
     "synergyText": "If used with a Wind ally, it instead gifts SPD .",
     "effects": [],
+    "key": "Turbo_Choreography",
     "nameJa": "アクセルダンス",
     "descriptionJa": "対象のSPD+2。シナジー時、代わりにSPD+3"
   },
@@ -6106,6 +6388,7 @@
     "effectText": "Ultrasound inflicts the rival team or the user's ally with the Exhausted Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Ultrasound",
     "nameJa": "ちょうおんぱ",
     "descriptionJa": "対象にひろう2を付与"
   },
@@ -6127,6 +6410,7 @@
     "effectText": "Undermine deals damage to a single other target and inflicts them with SPATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Undermine",
     "nameJa": "じらい",
     "descriptionJa": "対象のSPATK-1"
   },
@@ -6148,6 +6432,7 @@
     "effectText": "Unseen Blow deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Unseen_Blow",
     "nameJa": "インビジストライク",
     "descriptionJa": "通常攻撃"
   },
@@ -6169,6 +6454,7 @@
     "effectText": "Untangle cures a single target of the Trapped Condition and gifts them with DEF and SPDEF if they were cured from the Trapped Condition.",
     "synergyText": "",
     "effects": [],
+    "key": "Untangle",
     "nameJa": "ときほぐす",
     "descriptionJa": "対象のとらわれを回復。その後対象のDEF+1, SPDEF+1"
   },
@@ -6190,6 +6476,7 @@
     "effectText": "Uppercut deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Uppercut",
     "nameJa": "アッパー",
     "descriptionJa": "通常攻撃"
   },
@@ -6213,6 +6500,7 @@
     "effectText": "Urushiol deals damage to a single other target.",
     "synergyText": "If used with a Toxic ally, it also inflicts the Poisoned Condition for 4 turns.",
     "effects": [],
+    "key": "Urushiol",
     "nameJa": "ウルシオール",
     "descriptionJa": "通常攻撃。シナジー時対象にどく4を付与"
   },
@@ -6234,6 +6522,7 @@
     "effectText": "Venom Spread deals damage to a single target if they're afflicted with the Poisoned Condition.",
     "synergyText": "",
     "effects": [],
+    "key": "Venom_Spread",
     "nameJa": "ベノムスプレッド",
     "descriptionJa": "対象がどく状態でなければ失敗"
   },
@@ -6255,6 +6544,7 @@
     "effectText": "Venomous Claws deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Venomous_Claws",
     "nameJa": "毒ヅメ",
     "descriptionJa": "通常攻撃"
   },
@@ -6278,6 +6568,7 @@
     "effectText": "Virulent Gust deals damage to a single target.",
     "synergyText": "If used with a Water ally, its targeting changes to Other Team or Ally. As such, if the user targets themselves and the synergy activates, only the user's ally will be damaged.",
     "effects": [],
+    "key": "Virulent_Gust",
     "nameJa": "病み風",
     "descriptionJa": "通常攻撃。シナジー時対象が変化"
   },
@@ -6299,6 +6590,7 @@
     "effectText": "Voltopuncture deals damage to a single other target and inflicts them with the Seized Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Voltopuncture",
     "nameJa": "ボルトパンク",
     "descriptionJa": "対象にさしおさえ1を付与"
   },
@@ -6320,6 +6612,7 @@
     "effectText": "Wake Up deals damage to a single target.",
     "synergyText": "Due to the low damage and high priority, its most encouraged use is to damage allies with the Asleep Condition in order to wake them.",
     "effects": [],
+    "key": "Wake_Up",
     "nameJa": "たたき起こす",
     "descriptionJa": "通常攻撃"
   },
@@ -6341,6 +6634,7 @@
     "effectText": "Warm Cuddle deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Warm_Cuddle",
     "nameJa": "あったかハグ",
     "descriptionJa": "通常攻撃"
   },
@@ -6362,6 +6656,7 @@
     "effectText": "Wastewater deals damage to a single target and inflicts them with the Poisoned Condition for 1 turn.",
     "synergyText": "",
     "effects": [],
+    "key": "Wastewater",
     "nameJa": "くさり水",
     "descriptionJa": "対象にどく1を付与"
   },
@@ -6383,6 +6678,7 @@
     "effectText": "Water Blade deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Water_Blade",
     "nameJa": "ウォーターブレード",
     "descriptionJa": "通常攻撃"
   },
@@ -6407,6 +6703,7 @@
     "effectText": "Water Cannon deals damage to a single other target.",
     "synergyText": "If used with a Toxic ally, it also inflicts the Poisoned Condition for 2 turns.",
     "effects": [],
+    "key": "Water_Cannon",
     "nameJa": "ウォーターカノン",
     "descriptionJa": "通常攻撃。シナジー時対象にどく2を付与"
   },
@@ -6430,6 +6727,7 @@
     "effectText": "Water Cutting Lily deals damage to a single target.",
     "synergyText": "If used with a Water ally, its damage increases to 134 and priority increases to High.",
     "effects": [],
+    "key": "Water_Cutting_Lily",
     "nameJa": "水切りスイレン",
     "descriptionJa": "通常攻撃。シナジー時Priorityとダメージが変化"
   },
@@ -6451,6 +6749,7 @@
     "effectText": "Water Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Water_Stream",
     "nameJa": "ウォーターストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -6472,6 +6771,7 @@
     "effectText": "Water Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Water_Torrent",
     "nameJa": "ウォーターフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -6493,6 +6793,7 @@
     "effectText": "Waterjet deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Waterjet",
     "nameJa": "ウォータージェット",
     "descriptionJa": "対象にこごえ2を付与"
   },
@@ -6514,6 +6815,7 @@
     "effectText": "Willpower Drain drains 25 STA from a single other target and restores 25 STA to the user. The user will still overexert if they don't have enough STA to use Willpower Drain. If the target has less than 25 STA, the user will only restore the amount that was drained.",
     "synergyText": "",
     "effects": [],
+    "key": "Willpower_Drain",
     "nameJa": "戦意吸収",
     "descriptionJa": "対象のSTAを25減らす"
   },
@@ -6535,6 +6837,7 @@
     "effectText": "Wind Blade deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Wind_Blade",
     "nameJa": "ウィンドブレード",
     "descriptionJa": "通常攻撃"
   },
@@ -6556,6 +6859,7 @@
     "effectText": "Wind Burst deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Wind_Burst",
     "nameJa": "ウィンドバースト",
     "descriptionJa": "通常攻撃"
   },
@@ -6577,6 +6881,7 @@
     "effectText": "Wind Stream deals damage to a single target.",
     "synergyText": "",
     "effects": [],
+    "key": "Wind_Stream",
     "nameJa": "ウィンドストリーム",
     "descriptionJa": "通常攻撃"
   },
@@ -6598,6 +6903,7 @@
     "effectText": "Wind Torrent deals damage to a single other target.",
     "synergyText": "",
     "effects": [],
+    "key": "Wind_Torrent",
     "nameJa": "ウィンドフロー",
     "descriptionJa": "通常攻撃"
   },
@@ -6619,6 +6925,7 @@
     "effectText": "Winter Call inflicts all combatants on the battlefield with the Cold Condition for 2 turns.",
     "synergyText": "",
     "effects": [],
+    "key": "Winter_Call",
     "nameJa": "冬の呼び声",
     "descriptionJa": "対象にこおりつき2を付与"
   },
@@ -6643,6 +6950,7 @@
     "effectText": "Wrenching Massage deals damage to a single other target.",
     "synergyText": "If used with an Electric ally, its damage increases to 116 and also inflicts the Exhausted Condition for 2 turns.",
     "effects": [],
+    "key": "Wrenching_Massage",
     "nameJa": "激痛マッサージ",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化し対象にひろう2を付与。"
   },
@@ -6664,6 +6972,7 @@
     "effectText": "Zen Meditation gifts the user with ATK and SPATK .",
     "synergyText": "",
     "effects": [],
+    "key": "Zen_Meditation",
     "nameJa": "ざぜん",
     "descriptionJa": "対象のATK+2, SPATK+2"
   }

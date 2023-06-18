@@ -6,4 +6,5 @@ import techniquesJson from './techniques.json'
 
 export const techniques: Technique[] = techniquesJson as Technique[]
 
-export const normalizedTechniques = makeDictFromArray(techniques, 'name')
+export const techniquesByKey = makeDictFromArray(techniques, 'key')
+export const techniquesByName = makeDictFromArray(techniques, 'name')
