@@ -91,6 +91,7 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
               targets,
               synergy,
               synergyEffects,
+              wikiUrl,
             } = technique
             return (
               <Fragment key={name}>
@@ -99,7 +100,14 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
                     <TechniqueSource technique={technique} />
                   </Td>
                   <Td rowSpan={2} className="w-[1px] whitespace-nowrap">
-                    {nameJa ?? name}
+                    <a
+                      href={wikiUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="link"
+                    >
+                      {nameJa ?? name}
+                    </a>
                   </Td>
                   <Td>
                     <Image

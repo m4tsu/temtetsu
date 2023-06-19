@@ -14,10 +14,22 @@ const GearPage = ({ params: { key } }: PageProps<'key'>) => {
   if (gear === undefined) {
     notFound()
   }
-  const { name, nameJa, description, descriptionJa } = gear
+  const { name, nameJa, description, descriptionJa, wikiUrl } = gear
   return (
     <PageLayout
-      header={nameJa ?? name}
+      header={
+        <>
+          {nameJa ?? name}{' '}
+          <a
+            href={wikiUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="link text-sm"
+          >
+            (公式wiki)
+          </a>
+        </>
+      }
       breadcrumbItems={[
         { path: '/traits', label: 'ギア一覧' },
         {

@@ -9,10 +9,22 @@ export function generateStaticParams() {
 
 const TraitPage = ({ params: { key } }: PageProps<'key'>) => {
   const trait = findItem(traitsByKey, key)
-  const { name, nameJa, description, descriptionJa } = trait
+  const { name, nameJa, description, descriptionJa, wikiUrl } = trait
   return (
     <PageLayout
-      header={nameJa ?? name}
+      header={
+        <>
+          {nameJa ?? name}{' '}
+          <a
+            href={wikiUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="link text-sm"
+          >
+            (公式wiki)
+          </a>
+        </>
+      }
       breadcrumbItems={[
         { path: '/traits', label: '特性一覧' },
         {
