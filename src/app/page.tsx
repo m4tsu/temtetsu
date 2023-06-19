@@ -11,7 +11,7 @@ export default function Home() {
         </li>
         <li>
           <Link href="/traits" className="link-hover text-xl font-bold">
-            特性一覧
+            個性一覧
           </Link>
         </li>
         <li>

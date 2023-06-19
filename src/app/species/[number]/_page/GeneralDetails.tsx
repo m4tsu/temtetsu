@@ -175,7 +175,7 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
               </Td>
             </tr>
             <tr>
-              <Th className="border-l-0">特性</Th>
+              <Th className="border-l-0">個性</Th>
               <Td className="border-r-0">
                 {species.traits.map((traitName) => {
                   const trait = findItem(traitsByName, traitName)
