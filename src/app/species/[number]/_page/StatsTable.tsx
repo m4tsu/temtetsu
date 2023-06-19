@@ -1,6 +1,6 @@
 import { twMerge } from 'tailwind-merge'
 
-import type { BaseStats } from '@/models/Temtem/Species'
+import type { Stats } from '@/models/Temtem/Species'
 import {
   calculateHP,
   calculateOthers,
@@ -40,8 +40,8 @@ const Td: FC<ComponentProps<'td'>> = ({ className, ...props }) => (
   />
 )
 
-export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
-  const { hp, spatk, spd, spdef, sta, atk, def } = baseStats
+export const StatsTable: FC<{ baseStats: Stats }> = ({ baseStats }) => {
+  const { hp, spatk, spd, spdef, sta, atk, def, total } = baseStats
   return (
     <table className="w-full border-collapse border border-primary">
       <thead>
@@ -151,10 +151,7 @@ export const StatsTable: FC<{ baseStats: BaseStats }> = ({ baseStats }) => {
         <tr>
           <Th>合計</Th>
           <Td>
-            <StatsBar
-              stat={hp + sta + spd + atk + def + spatk + spdef}
-              denominator={150 * 7}
-            />
+            <StatsBar stat={total} denominator={150 * 7} />
           </Td>
           <Td></Td>
         </tr>

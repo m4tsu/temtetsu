@@ -1,5 +1,24 @@
 import type { TemType } from './Type'
 
+export const STATS_NAMES = [
+  'hp',
+  'sta',
+  'spd',
+  'atk',
+  'def',
+  'spatk',
+  'spdef',
+  'total',
+] as const
+export type StatsName = (typeof STATS_NAMES)[number]
+export type Stats = {
+  [key in StatsName]: number
+}
+
+export type BaseStats = Stats & {
+  total: number
+}
+
 export type TemTemTechnique = {
   name: string
 } & (
@@ -31,16 +50,7 @@ export type Species = {
   types: [TemType] | [TemType, TemType]
   portraitWikiUrl: string
   wikiUrl: string
-  stats: {
-    hp: number
-    sta: number
-    spd: number
-    atk: number
-    def: number
-    spatk: number
-    spdef: number
-    total: number
-  }
+  stats: Stats
   traits: string[]
   details: {
     heightt: {
@@ -66,20 +76,6 @@ export type Species = {
       }
   wikiPortraitUrlLarge: string
   icon: string
-}
-
-export type Stats = {
-  hp: number
-  sta: number
-  spd: number
-  atk: number
-  def: number
-  spatk: number
-  spdef: number
-}
-
-export type BaseStats = Stats & {
-  total: number
 }
 
 export const iconImage = (species: Pick<Species, 'icon'>) =>

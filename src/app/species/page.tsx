@@ -6,7 +6,7 @@ import { PageLayout } from '../__components/PageLayout'
 import { TemtemList } from './_page/TemtemList'
 
 const speciesList = species.map((s) =>
-  pick(s, ['number', 'name', 'nameJa', 'icon'])
+  pick(s, ['number', 'name', 'nameJa', 'icon', 'types', 'stats'])
 )
 
 const TempediaPage = () => {
