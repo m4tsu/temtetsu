@@ -41,7 +41,7 @@ const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
 const Td: FC<ComponentProps<'td'>> = ({ className, ...props }) => (
   <td
     className={twMerge(
-      '0 relative border border-primary px-2 py-1 text-center',
+      '0 relative border border-primary p-1 text-center',
       className
     )}
     {...props}
@@ -186,20 +186,21 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
             <tr key={species.number}>
               <Td>{species.number}</Td>
               <Td>
-                <div className="flex items-center gap-2">
+                <Link
+                    href={`/species/${species.number}`}
+                    className="font-bold flex items-center gap-2"
+                  >
                   <Image
                     src={iconImage(species)}
                     alt={species.nameJa}
                     width={36}
                     height={36}
                   />
-                  <Link
-                    href={`/species/${species.number}`}
-                    className="font-bold"
-                  >
+                    <span className='hidden md:inline'>
                     {species.nameJa}
+
+                    </span>
                   </Link>
-                </div>
               </Td>
               {species.types.length === 1 ? (
                 <Td colSpan={2}>
@@ -214,7 +215,6 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
               ) : (
                 species.types.map((type) => (
                   <Td key={type}>
-                    {' '}
                     <Image
                       src={temTypeImage(type)}
                       alt={type}
