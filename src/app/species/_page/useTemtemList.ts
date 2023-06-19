@@ -62,6 +62,8 @@ export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
       )
       if (filterCondition !== null) {
         params.set('filter', filterCondition)
+      } else {
+        params.delete('filter')
       }
       router.push(`${pathname}?${params.toString()}`)
     },
