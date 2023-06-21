@@ -1,4 +1,4 @@
-import { encodeSingleQuote } from "./convertToUrlableString"
+import { encodeSingleQuote } from './convertToUrlableString'
 
 export type Dict<
   T extends Record<string, unknown>,

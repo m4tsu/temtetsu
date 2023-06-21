@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { HeaderNav } from './__components/HeaderNav'
 import { RootProviders } from './_providers'
 import './globals.css'
@@ -18,7 +20,7 @@ export default function RootLayout({
         <body className="relative bg-base-100">
           <div className="flex min-h-screen flex-col">
             <HeaderNav />
-            <div className="container grid max-w-[1024px] py-8 ">
+            <div className="container grid max-w-[1024px] grow py-8">
               <main className="container max-w-[1024px] ">{children}</main>
               {/* <aside className="container max-w-[1024px] px-4">
               <div className="grid-cols1 grid h-full w-full border border-primary">
@@ -26,7 +28,11 @@ export default function RootLayout({
               </div>
             </aside> */}
             </div>
-            {/* <footer className="container border-t border-base-content"> */}
+            <footer className="container  flex max-w-[1024px] justify-center border-t border-zinc-200 py-2 text-xs">
+              <Link href="/terms" className="link-hover link-primary">
+                利用規約
+              </Link>
+            </footer>
           </div>
         </body>
       </RootProviders>
