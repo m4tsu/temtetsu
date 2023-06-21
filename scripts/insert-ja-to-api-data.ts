@@ -24,13 +24,13 @@ const mergeJaDictToApiData = (
   const merged = apiDataList.map((data) => {
     const identifierValue = String(data[identifierName])
     console.log(identifierValue)
-    const key = convertToUrlableString(identifierValue)
+    const key = identifierValue
     const jaData = jaDict[key]
     if (!jaData) {
       console.log(`No ja data for ${data[identifierName]}`)
-      return {...data, key}
+      return data
     }
-    return { ...data, ...jaData, key }
+    return { ...data, ...jaData }
   })
   fs.writeFileSync(`${outputDirPath}/${outputFileName}`, JSON.stringify(merged))
 }

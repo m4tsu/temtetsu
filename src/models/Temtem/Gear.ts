@@ -12,6 +12,6 @@ export type Gear = {
   buyPrice: number
   description: string
   gameDescription: string
-  nameJa?: string
-  descriptionJa?: string
+  nameJa: string // これが無いやつは対戦で使えないやつらしいから無視する
+  descriptionJa: string
 }

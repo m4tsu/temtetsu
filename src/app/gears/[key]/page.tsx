@@ -1,25 +1,23 @@
-import { notFound } from 'next/navigation'
-
 import { PageLayout } from '@/app/__components/PageLayout'
 import { gearsByKey, gears } from '@/data/temtem/gears'
 import type { PageProps } from '@/libs/nextjs/util-types'
+import { findItem } from '@/utils/dict'
 
 export function generateStaticParams() {
-  return gears.map((gear) => ({ key: gear.key }))
+  const params = gears.map((gear) => ({ key: decodeURIComponent(gear.key) }))
+  return params
 }
 
 const GearPage = ({ params: { key } }: PageProps<'key'>) => {
-  // 何故か "/gears/Eraser%2B" の時、 key が "Eraser%252B" になってしまいエラーになるので throw しない
-  const gear = gearsByKey[key]
-  if (gear === undefined) {
-    notFound()
-  }
-  const { name, nameJa, description, descriptionJa, wikiUrl } = gear
+  // generateStaticParams で Mom%27s_Lunch => Mom%2527s_Lunch に encode されてしまうので、 decode して Mom%27s_Lunch に戻す
+  const gear = findItem(gearsByKey, key)
+
+  const { nameJa, descriptionJa, wikiUrl } = gear
   return (
     <PageLayout
       header={
         <>
-          {nameJa ?? name}{' '}
+          {nameJa}{' '}
           <a
             href={wikiUrl}
             target="_blank"
@@ -33,11 +31,11 @@ const GearPage = ({ params: { key } }: PageProps<'key'>) => {
       breadcrumbItems={[
         { path: '/traits', label: 'ギア一覧' },
         {
-          label: nameJa ?? name,
+          label: nameJa,
         },
       ]}
     >
-      <div>{descriptionJa ?? description}</div>
+      <div>{descriptionJa}</div>
     </PageLayout>
   )
 }

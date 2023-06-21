@@ -4,17 +4,18 @@ import type { PageProps } from '@/libs/nextjs/util-types'
 import { findItem } from '@/utils/dict'
 
 export function generateStaticParams() {
-  return traits.map((trait) => ({ key: trait.key }))
+  return traits.map((trait) => ({ key: decodeURIComponent(trait.key) }))
 }
 
 const TraitPage = ({ params: { key } }: PageProps<'key'>) => {
-  const trait = findItem(traitsByKey, key)
-  const { name, nameJa, description, descriptionJa, wikiUrl } = trait
+  // generateStaticParams で Mom%27s_Lunch => Mom%2527s_Lunch に encode されてしまうので、 decode して Mom%27s_Lunch に戻す
+  const trait = findItem(traitsByKey,key)
+  const { nameJa, descriptionJa, wikiUrl } = trait
   return (
     <PageLayout
       header={
         <>
-          {nameJa ?? name}{' '}
+          {nameJa}{' '}
           <a
             href={wikiUrl}
             target="_blank"
@@ -28,11 +29,11 @@ const TraitPage = ({ params: { key } }: PageProps<'key'>) => {
       breadcrumbItems={[
         { path: '/traits', label: '個性一覧' },
         {
-          label: trait.nameJa ?? trait.name,
+          label: trait.nameJa,
         },
       ]}
     >
-      <div>{descriptionJa ?? description}</div>
+      <div>{descriptionJa}</div>
     </PageLayout>
   )
 }

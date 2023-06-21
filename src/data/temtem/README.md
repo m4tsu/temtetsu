@@ -4,5 +4,7 @@ JSON created by merging "data/tem-api" and "data/ja-dict".
 
 ## データの手動補正
 
-- species.json, `Meditation` (traits) => `Meditation (Trait)`
-- species.json, `Attack<T>` => `Attack_T`
+- tem-api/traits.json `Attack T` を `Attack<T>` に置換
+- `Quetza-leño` を全体から検索して `Quetza-leno` に置換
+
+これを行ってから `npm run insert-ja-to-api-data` する

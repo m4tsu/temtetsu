@@ -26,8 +26,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Aggressive DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Aggressive_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Aloe Vera",
@@ -104,8 +103,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Calm Patch is a Gear Item.",
-    "gameDescription": "",
-    "key": "Calm_Patch"
+    "gameDescription": ""
   },
   {
     "name": "Chamomile",
@@ -134,8 +132,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Clumsy Patch is a Gear Item.",
-    "gameDescription": "",
-    "key": "Clumsy_Patch"
+    "gameDescription": ""
   },
   {
     "name": "Coat",
@@ -164,8 +161,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Coward's Cloak is a Gear Item.",
-    "gameDescription": "",
-    "key": "Coward's_Cloak"
+    "gameDescription": ""
   },
   {
     "name": "Decoy",
@@ -178,8 +174,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Decoy is a Gear Item.",
-    "gameDescription": "",
-    "key": "Decoy"
+    "gameDescription": ""
   },
   {
     "name": "Dominant DNA Strand",
@@ -192,8 +187,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Dominant DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Dominant_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Doppelganger Brooch",
@@ -254,8 +248,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Endurance DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Endurance_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Energy Drink",
@@ -284,8 +277,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Engineered DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Engineered_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Eraser",
@@ -298,8 +290,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Eraser is a Gear Item.",
-    "gameDescription": "",
-    "key": "Eraser"
+    "gameDescription": ""
   },
   {
     "name": "Eraser+",
@@ -312,8 +303,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Eraser+ is a Gear Item.",
-    "gameDescription": "",
-    "key": "Eraser%2B"
+    "gameDescription": ""
   },
   {
     "name": "Fake Beard",
@@ -358,8 +348,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Fatigue Patch is a Gear Item.",
-    "gameDescription": "",
-    "key": "Fatigue_Patch"
+    "gameDescription": ""
   },
   {
     "name": "Fire Chip",
@@ -404,8 +393,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Four-Leaf Clover is a Gear Item.",
-    "gameDescription": "",
-    "key": "Four-Leaf_Clover"
+    "gameDescription": ""
   },
   {
     "name": "Gifted DNA Strand",
@@ -418,8 +406,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Gifted DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Gifted_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Gravel Bag",
@@ -512,8 +499,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Hardening DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Hardening_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Heavy Armor",
@@ -558,8 +544,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Humble Patch is a Gear Item.",
-    "gameDescription": "Prevents earning SPDEF TVs from defeated Temtem.",
-    "key": "Humble_Patch"
+    "gameDescription": "Prevents earning SPDEF TVs from defeated Temtem."
   },
   {
     "name": "Ice Cube",
@@ -588,8 +573,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Ignoramus' Cloak is a Gear Item.",
-    "gameDescription": "",
-    "key": "Ignoramus'_Cloak"
+    "gameDescription": ""
   },
   {
     "name": "Immunity DNA Strand",
@@ -602,8 +586,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Immunity DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Immunity_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Iron Coating",
@@ -648,8 +631,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Lazy Patch is a Gear Item.",
-    "gameDescription": "Prevents earning STA TVs from defeated Temtem.",
-    "key": "Lazy_Patch"
+    "gameDescription": "Prevents earning STA TVs from defeated Temtem."
   },
   {
     "name": "Lightning Rod",
@@ -678,8 +660,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Lithe DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Lithe_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Lure",
@@ -692,8 +673,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Lure is a Gear Item.",
-    "gameDescription": "",
-    "key": "Lure"
+    "gameDescription": ""
   },
   {
     "name": "Marbles",
@@ -738,8 +718,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Mighty DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Mighty_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Mom's Lunch",
@@ -753,7 +732,7 @@
     "buyPrice": 0,
     "description": "Mom's Lunch is a Gear Item.",
     "gameDescription": "",
-    "key": "Mom's_Lunch",
+    "key": "Mom%27s_Lunch",
     "nameJa": "ママのランチ",
     "descriptionJa": "場に出たとき、相手と味方にひへい１を与え、自身はさしおさえ４になる"
   },
@@ -800,8 +779,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Oblivion Patch is a Gear Item.",
-    "gameDescription": "Prevents earning TVs from defeated Temtem.",
-    "key": "Oblivion_Patch"
+    "gameDescription": "Prevents earning TVs from defeated Temtem."
   },
   {
     "name": "Pansunscreen",
@@ -846,8 +824,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Proteins is a Gear Item.",
-    "gameDescription": "",
-    "key": "Proteins"
+    "gameDescription": ""
   },
   {
     "name": "Reactive Vial",
@@ -957,7 +934,7 @@
     "buyPrice": 0,
     "description": "Shuine's Horn is a Gear Item.",
     "gameDescription": "",
-    "key": "Shuine's_Horn",
+    "key": "Shuine%27s_Horn",
     "nameJa": "シュイーヌのツノ",
     "descriptionJa": "どく技をみず技に変え、与えるダメージを25％増加"
   },
@@ -1004,8 +981,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Soft Patch is a Gear Item.",
-    "gameDescription": "Prevents earning DEF TVs from defeated Temtem.",
-    "key": "Soft_Patch"
+    "gameDescription": "Prevents earning DEF TVs from defeated Temtem."
   },
   {
     "name": "Squeezer",
@@ -1018,8 +994,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Squeezer is a Gear Item.",
-    "gameDescription": "",
-    "key": "Squeezer"
+    "gameDescription": ""
   },
   {
     "name": "Stiff Patch",
@@ -1032,8 +1007,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Stiff Patch is a Gear Item.",
-    "gameDescription": "Prevents earning SPD TVs from defeated Temtem.",
-    "key": "Stiff_Patch"
+    "gameDescription": "Prevents earning SPD TVs from defeated Temtem."
   },
   {
     "name": "Strange Vest",
@@ -1062,8 +1036,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Straw Shield is a Gear Item.",
-    "gameDescription": "",
-    "key": "Straw_Shield"
+    "gameDescription": ""
   },
   {
     "name": "Sweatband",
@@ -1204,8 +1177,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Vigor DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Vigor_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Vitality DNA Strand",
@@ -1218,8 +1190,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Vitality DNA Strand is a Gear Item.",
-    "gameDescription": "",
-    "key": "Vitality_DNA_Strand"
+    "gameDescription": ""
   },
   {
     "name": "Vitamin Complex",

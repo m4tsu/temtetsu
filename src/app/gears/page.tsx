@@ -11,7 +11,7 @@ const GearsPage = () => {
         {gears.map((gear) => (
           <li key={gear.key}>
             <Link href={`/gears/${gear.key}`} className="link">
-              {gear.nameJa ?? gear.name}
+              {gear.nameJa}
             </Link>
           </li>
         ))}

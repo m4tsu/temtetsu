@@ -57,8 +57,7 @@
     "name": "Antibodies",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Antibodies",
     "description": "When attacked with an Toxic technique, gets DEF and SPDEF .",
-    "effect": "Antibodies gifts the holder with DEF and SPDEF when hit by a Toxic Technique.",
-    "key": "Antibodies"
+    "effect": "Antibodies gifts the holder with DEF and SPDEF when hit by a Toxic Technique."
   },
   {
     "name": "Apothecary",
@@ -79,11 +78,13 @@
     "descriptionJa": "とくしゅ技で受けるダメージを20%軽減する"
   },
   {
-    "name": "Attack T",
+    "name": "Attack<T>",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Attack_T",
     "description": "Changes the Temtem's second type to the type of the technique it's about to use.",
     "effect": "Attack<T> changes the holder's secondary type to match the Technique they're about to use. If the technique the holder is about to use is the same type as the holder's primary type, then the holder loses the secondary type. For example, Oree becomes Digital /Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack.",
-    "key": "Attack_T"
+    "key": "Attack_T",
+    "nameJa": "こうげき<T>",
+    "descriptionJa": "攻撃するたび自身の2番目のタイプが使用した技のタイプになる"
   },
   {
     "name": "Autotomy",
@@ -152,8 +153,7 @@
     "name": "Botanophobia",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Botanophobia",
     "description": "Damage taken from Nature techniques is increased by 50%.",
-    "effect": "Botanophobia raises the damage the holder takes from Nature Techniques by 50%.",
-    "key": "Botanophobia"
+    "effect": "Botanophobia raises the damage the holder takes from Nature Techniques by 50%."
   },
   {
     "name": "Brawny",
@@ -258,15 +258,13 @@
     "name": "Cold-Blooded",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Cold-Blooded",
     "description": "Instead of getting cold or frozen, the Temtem regenerates for 1 turn.",
-    "effect": "Cold-Blooded protects the holder from being inflicted with the Cold or Frozen Conditions and instead gifts them with the Regenerated Condition for 1 turn.",
-    "key": "Cold-Blooded"
+    "effect": "Cold-Blooded protects the holder from being inflicted with the Cold or Frozen Conditions and instead gifts them with the Regenerated Condition for 1 turn."
   },
   {
     "name": "Cold-Natured",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Cold-Natured",
     "description": "Instead of getting cold, the Temtem gets frozen.",
-    "effect": "Cold-Natured causes any Cold Condition the holder is inflicted with to instead be replaced with the Frozen Condition for the same duration of the initial Cold Condition.",
-    "key": "Cold-Natured"
+    "effect": "Cold-Natured causes any Cold Condition the holder is inflicted with to instead be replaced with the Frozen Condition for the same duration of the initial Cold Condition."
   },
   {
     "name": "Comebacker",
@@ -290,8 +288,7 @@
     "name": "Confident",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Confident",
     "description": "When using an effective or super effective technique, gets SPD .",
-    "effect": "Confident gifts the holder with SPD whenever they use a Technique that is at least Effective against a target.",
-    "key": "Confident"
+    "effect": "Confident gifts the holder with SPD whenever they use a Technique that is at least Effective against a target."
   },
   {
     "name": "Confined",
@@ -325,7 +322,7 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Coward%27s_Rest",
     "description": "When resting, gets evading and invigorated for 2 turns.",
     "effect": "Coward's Rest gifts the holder with the Evading and Invigorated conditions for 2 turns whenever they rest.",
-    "key": "Coward's_Rest",
+    "key": "Coward%27s_Rest",
     "nameJa": "にげごし",
     "descriptionJa": "休むとかいひ2とげんき2を得る"
   },
@@ -450,8 +447,7 @@
     "name": "Energized",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Energized",
     "description": "At the start of the turn, restores 6% of max HP.",
-    "effect": "Energized restores 6% of the holder's max HP at the start of each turn.",
-    "key": "Energized"
+    "effect": "Energized restores 6% of the holder's max HP at the start of each turn."
   },
   {
     "name": "Energy Reserves",
@@ -511,8 +507,7 @@
     "name": "Final Stand",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Final_Stand",
     "description": "At the start of the turn, while HP is below 30%, gets DEF and SPDEF .",
-    "effect": "Final Stand gifts the holder with DEF and SPDEF at the start of each turn while they're below 30% of their maximum HP.",
-    "key": "Final_Stand"
+    "effect": "Final Stand gifts the holder with DEF and SPDEF at the start of each turn while they're below 30% of their maximum HP."
   },
   {
     "name": "Flawed Crystal",
@@ -788,8 +783,7 @@
     "name": "Loneliness",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Loneliness",
     "description": "Synergies won't work on both allies.",
-    "effect": "Loneliness causes the holder and their ally to be unable to use synergies.",
-    "key": "Loneliness"
+    "effect": "Loneliness causes the holder and their ally to be unable to use synergies."
   },
   {
     "name": "Marathonist",
@@ -801,11 +795,13 @@
     "descriptionJa": "攻撃するたびSPD-1の代わりに消費STAが50%減る"
   },
   {
-    "name": "Meditation (Trait)",
+    "name": "Meditation",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Meditation_(Trait)",
     "description": "When resting, heals all negative status conditions, and gets regenerating for 1 turn.",
     "effect": "Meditation gifts the holder with the Regenerated Condition for 1 turn and cures them of all negative status conditions whenever they Rest.",
-    "key": "Meditation_(Trait)"
+    "key": "Meditation_(Trait)",
+    "nameJa": "めいそう",
+    "descriptionJa": "休むたび不利な状態変化が消えさいせい1を得る"
   },
   {
     "name": "Mental Alliance",
@@ -820,8 +816,7 @@
     "name": "Mineral Crusher",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mineral_Crusher",
     "description": "Damage done to Earth or Crystal Temtem is increased by 25%.",
-    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if their target is part Earth or Crystal.",
-    "key": "Mineral_Crusher"
+    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if their target is part Earth or Crystal."
   },
   {
     "name": "Mirroring",
@@ -944,8 +939,7 @@
     "name": "Predatory",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Predatory",
     "description": "Restores HP by 30% upon knocking out a Temtem.",
-    "effect": "Predatory restores 30% of the holder's maximum HP when they knock-out a target.",
-    "key": "Predatory"
+    "effect": "Predatory restores 30% of the holder's maximum HP when they knock-out a target."
   },
   {
     "name": "Prideful",
@@ -1455,15 +1449,13 @@
     "name": "Toxin Crusher",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxin_Crusher",
     "description": "Damage done to Toxic Temtem is increased by 50%.",
-    "effect": "Toxin Crusher increases the damage of all the holder's Techniques by 50% if their target is part Toxic.",
-    "key": "Toxin_Crusher"
+    "effect": "Toxin Crusher increases the damage of all the holder's Techniques by 50% if their target is part Toxic."
   },
   {
     "name": "Traits",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Traits",
     "description": "",
-    "effect": "",
-    "key": "Traits"
+    "effect": ""
   },
   {
     "name": "Trance",

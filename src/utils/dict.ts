@@ -1,3 +1,5 @@
+import { encodeSingleQuote } from "./convertToUrlableString"
+
 export type Dict<
   T extends Record<string, unknown>,
   Key extends keyof T
@@ -25,6 +27,11 @@ export const makeDictFromArray = <
 export const findItem = <T>(dict: Record<string, T>, id: string): T => {
   const item = dict[id]
   if (item === undefined) {
+    // ex.) Mom's_Lunch =>  Mom%27s_Lunch にしたい
+    const item2 = dict[encodeSingleQuote(id)]
+    if (item2 !== undefined) {
+      return item2
+    }
     throw new Error(`item(id: ${id}) not found.`)
   }
   return item

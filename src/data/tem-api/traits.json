@@ -54,7 +54,7 @@
     "effect": "Arcane Wrap decreases the damage the holder takes from Special Techniques by 20%."
   },
   {
-    "name": "Attack T",
+    "name": "Attack<T>",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Attack_T",
     "description": "Changes the Temtem's second type to the type of the technique it's about to use.",
     "effect": "Attack<T> changes the holder's secondary type to match the Technique they're about to use. If the technique the holder is about to use is the same type as the holder's primary type, then the holder loses the secondary type. For example, Oree becomes Digital /Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
@@ -546,7 +546,7 @@
     "effect": "Marathonist decreases the STA Cost of the holder's Techniques by 50% but also inflicts them with SPD whenever they use a Technique."
   },
   {
-    "name": "Meditation (Trait)",
+    "name": "Meditation",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Meditation_(Trait)",
     "description": "When resting, heals all negative status conditions, and gets regenerating for 1 turn.",
     "effect": "Meditation gifts the holder with the Regenerated Condition for 1 turn and cures them of all negative status conditions whenever they Rest."

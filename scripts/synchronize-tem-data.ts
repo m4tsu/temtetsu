@@ -53,12 +53,12 @@ const getTechniquesFromCsv = async () => {
         nameJa: string
         descriptionJa: string
       }[] = rows.map((row) => ({
-        key: convertToUrlableString(row[1]),
+        key: row[0],
         name: row[1],
         nameJa: row[10],
         descriptionJa: row[11],
       }))
-      const dict = makeDictFromArray(techniques, 'key')
+      const dict = makeDictFromArray(techniques, 'name')
       fs.writeFileSync(`${dataDirPath}/techniques.json`, JSON.stringify(dict))
     })
 }
@@ -87,12 +87,12 @@ const getGears = async (auth: Auth) => {
   const rows = await fetchTemtemDictionarySheet(auth, 'gears')
   const gears: { key: string, name: string; nameJa: string; descriptionJa: string }[] =
     rows.map((row) => ({
-      key: convertToUrlableString(row[1]),
+      key: row[0],
       name: row[1],
       nameJa: row[2],
       descriptionJa: row[3],
     }))
-  const dict = makeDictFromArray(gears, 'key')
+  const dict = makeDictFromArray(gears, 'name')
   fs.writeFileSync(`${dataDirPath}/gears.json`, JSON.stringify(dict))
 }
 
@@ -100,12 +100,12 @@ const getTraits = async (auth: Auth) => {
   const rows = await fetchTemtemDictionarySheet(auth, 'traits')
   const traits: {key: string, name: string; nameJa: string; descriptionJa: string }[] =
     rows.map((row) => ({
-      key: convertToUrlableString(row[1]),
+      key: row[0],
       name: row[1],
       nameJa: row[2],
       descriptionJa: row[3],
     }))
-  const dict = makeDictFromArray(traits, 'key')
+  const dict = makeDictFromArray(traits, 'name')
   fs.writeFileSync(`${dataDirPath}/traits.json`, JSON.stringify(dict))
 }
 
@@ -114,8 +114,8 @@ const getTraits = async (auth: Auth) => {
   const auth = await authorize()
   // await synchronizeSpeaciesName(auth)
   // await getTechniques(auth)
-  // await getGears(auth)
-  // await getTraits(auth)
+  await getGears(auth)
+  await getTraits(auth)
   await getTechniquesFromCsv()
 
   console.log('done!!!!')

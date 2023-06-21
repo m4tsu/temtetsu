@@ -5,6 +5,6 @@ export type Trait = {
   wikiUrl: string
   description: string
   effect: string
-  nameJa?: string
-  descriptionJa?: string
+  nameJa: string // これが無いやつは対戦で使えないやつらしいから無視する
+  descriptionJa: string
 }

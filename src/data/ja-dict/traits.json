@@ -17,7 +17,7 @@
     "nameJa": "ぶとうは",
     "descriptionJa": "このテムが場に出るたびATK+1, DEF-1"
   },
-  "Air_Specialist": {
+  "Air Specialist": {
     "key": "Air_Specialist",
     "name": "Air Specialist",
     "nameJa": "空の支配者",
@@ -41,14 +41,14 @@
     "nameJa": "薬ざい師",
     "descriptionJa": "とくしゅ技で攻撃するたび、対象が敵ならどく1を、味方ならさいせい1を付与する"
   },
-  "Arcane_Wrap": {
+  "Arcane Wrap": {
     "key": "Arcane_Wrap",
     "name": "Arcane Wrap",
     "nameJa": "秘伝の布",
     "descriptionJa": "とくしゅ技で受けるダメージを20%軽減する"
   },
-  "Attack%3CT%3E": {
-    "key": "Attack%3CT%3E",
+  "Attack<T>": {
+    "key": "Attack_T",
     "name": "Attack<T>",
     "nameJa": "こうげき<T>",
     "descriptionJa": "攻撃するたび自身の2番目のタイプが使用した技のタイプになる"
@@ -77,13 +77,13 @@
     "nameJa": "保護者",
     "descriptionJa": "味方が攻撃を受けるたび、味方のHPを8%回復する"
   },
-  "Body_Stretch": {
+  "Body Stretch": {
     "key": "Body_Stretch",
     "name": "Body Stretch",
     "nameJa": "ストレッチ",
     "descriptionJa": "休むたびさいせい1を得る"
   },
-  "Book_Lungs": {
+  "Book Lungs": {
     "key": "Book_Lungs",
     "name": "Book Lungs",
     "nameJa": "クモの呼吸",
@@ -167,7 +167,7 @@
     "nameJa": "仕返し",
     "descriptionJa": "攻撃するとき、このターンその対象から攻撃を受けていた場合与えるダメージが32%増える"
   },
-  "Common_Factor": {
+  "Common Factor": {
     "key": "Common_Factor",
     "name": "Common Factor",
     "nameJa": "共通要素",
@@ -191,13 +191,13 @@
     "nameJa": "念",
     "descriptionJa": "対戦中1回、休むとATK+2, SPD+1"
   },
-  "Coward's_Rest": {
-    "key": "Coward's_Rest",
+  "Coward's Rest": {
+    "key": "Coward%27s_Rest",
     "name": "Coward's Rest",
     "nameJa": "にげごし",
     "descriptionJa": "休むとかいひ2とげんき2を得る"
   },
-  "Deceit_Aura": {
+  "Deceit Aura": {
     "key": "Deceit_Aura",
     "name": "Deceit Aura",
     "nameJa": "あざむく波動",
@@ -233,13 +233,13 @@
     "nameJa": "ぶじょく",
     "descriptionJa": "相手のテムが場を離れるときそのテムのDEF-1, SPDEF-1"
   },
-  "Dozing_Hit": {
+  "Dozing Hit": {
     "key": "Dozing_Hit",
     "name": "Dozing Hit",
     "nameJa": "ねむらせこうげき",
     "descriptionJa": "相手のテムの弱点で攻撃した時そのテムにねむり1を付与する"
   },
-  "Dreaded_Alarm": {
+  "Dreaded Alarm": {
     "key": "Dreaded_Alarm",
     "name": "Dreaded Alarm",
     "nameJa": "うるさい目覚まし",
@@ -251,7 +251,7 @@
     "nameJa": "陸生",
     "descriptionJa": "だいちタイプの技で攻撃するたびDEF+1"
   },
-  "Effective_Denial": {
+  "Effective Denial": {
     "key": "Effective_Denial",
     "name": "Effective Denial",
     "nameJa": "効果否定",
@@ -263,19 +263,19 @@
     "nameJa": "高効率",
     "descriptionJa": "攻撃する際のSTA消費量が30%減る"
   },
-  "Electric_Custodian": {
+  "Electric Custodian": {
     "key": "Electric_Custodian",
     "name": "Electric Custodian",
     "nameJa": "電気寄せ",
     "descriptionJa": "味方のテムがでんきタイプで攻撃されたとき技の対象が自分に変化し、受けるダメージを15%減らす"
   },
-  "Electric_Synthesize": {
+  "Electric Synthesize": {
     "key": "Electric_Synthesize",
     "name": "Electric Synthesize",
     "nameJa": "電気チャージ",
     "descriptionJa": "でんきタイプの技で攻撃されたとき受けるダメージ分HPを回復する"
   },
-  "Energy_Reserves": {
+  "Energy Reserves": {
     "key": "Energy_Reserves",
     "name": "Energy Reserves",
     "nameJa": "温存",
@@ -293,25 +293,25 @@
     "nameJa": "エスケーピスト",
     "descriptionJa": "場に出たとき味方のとらわれを解除し、自身と味方のテムがとらわれ状態になるのを防ぐ"
   },
-  "Fainted_Curse": {
+  "Fainted Curse": {
     "key": "Fainted_Curse",
     "name": "Fainted Curse",
     "nameJa": "気絶ののろい",
     "descriptionJa": "攻撃技で倒されたとき、倒したテムのHPを30%減らす"
   },
-  "Fast_Charge": {
+  "Fast Charge": {
     "key": "Fast_Charge",
     "name": "Fast Charge",
     "nameJa": "そっこうチャージ",
     "descriptionJa": "対戦中1回、デジタルタイプの味方が場に出たときそのテムのSPD+2"
   },
-  "Fever_Rush": {
+  "Fever Rush": {
     "key": "Fever_Rush",
     "name": "Fever Rush",
     "nameJa": "ねっきょう",
     "descriptionJa": "状態変化をうけるたびATK+2"
   },
-  "Flawed_Crystal": {
+  "Flawed Crystal": {
     "key": "Flawed_Crystal",
     "name": "Flawed Crystal",
     "nameJa": "未完成クリスタル",
@@ -335,19 +335,19 @@
     "nameJa": "火事場の底力",
     "descriptionJa": "自身のHPが33％未満になると与えるダメージが33％増える"
   },
-  "Going_Away_Gift": {
+  "Going Away Gift": {
     "key": "Going_Away_Gift",
     "name": "Going Away Gift",
     "nameJa": "別れのおくりもの",
     "descriptionJa": "気絶するとき、自身のステータス変化を味方に与える"
   },
-  "Good_Friend": {
+  "Good Friend": {
     "key": "Good_Friend",
     "name": "Good Friend",
     "nameJa": "友達思い",
     "descriptionJa": "味方が攻撃を受けると、2回目の攻撃は自身が受ける"
   },
-  "Gotta_Go_Fast": {
+  "Gotta Go Fast": {
     "key": "Gotta_Go_Fast",
     "name": "Gotta Go Fast",
     "nameJa": "最速のアイツ",
@@ -365,13 +365,13 @@
     "nameJa": "ハカダンス",
     "descriptionJa": "対戦中1回、場に出たときに味方のATK+1, SPATK+1"
   },
-  "Half_Full": {
+  "Half Full": {
     "key": "Half_Full",
     "name": "Half Full",
     "nameJa": "半分満タン",
     "descriptionJa": "戦闘中1回、HPが満タンの状態で場に出たとき、HPを50%失いATK+2, DEF+2, SPATK+1, SPDEF+2を得る"
   },
-  "Heat_Discharge": {
+  "Heat Discharge": {
     "key": "Heat_Discharge",
     "name": "Heat Discharge",
     "nameJa": "放熱",
@@ -413,7 +413,7 @@
     "nameJa": "さいみん術師",
     "descriptionJa": "対戦中1回、場に出たとき、相手と仲間のテムにねむり1を付与する"
   },
-  "Ignis_Fatuus": {
+  "Ignis Fatuus": {
     "key": "Ignis_Fatuus",
     "name": "Ignis Fatuus",
     "nameJa": "キツネ火",
@@ -449,7 +449,7 @@
     "nameJa": "おさえ役",
     "descriptionJa": "対戦中1回、攻撃した時相手のテムのギアを無効化する"
   },
-  "Inner_Shield": {
+  "Inner Shield": {
     "key": "Inner_Shield",
     "name": "Inner Shield",
     "nameJa": "インナーシールド",
@@ -467,25 +467,25 @@
     "nameJa": "たまむし色",
     "descriptionJa": "このテムが攻撃されるときタイプ相性が逆転する"
   },
-  "Jack_of_all_Trades": {
+  "Jack of all Trades": {
     "key": "Jack_of_all_Trades",
     "name": "Jack of all Trades",
     "nameJa": "器用貧乏",
     "descriptionJa": "とくしゅ技で攻撃するとATK+2, ぶつり技で攻撃するとSPATK+2を得る"
   },
-  "Kinetic_Transfer": {
+  "Kinetic Transfer": {
     "key": "Kinetic_Transfer",
     "name": "Kinetic Transfer",
     "nameJa": "動力転移",
     "descriptionJa": "攻撃されたとき自身のSTA10%回復、攻撃してきたテムのSTA10%減らす"
   },
-  "Landing_Transmog": {
+  "Landing Transmog": {
     "key": "Landing_Transmog",
     "name": "Landing Transmog",
     "nameJa": "変身スタート",
     "descriptionJa": "このテムが場に出たとき、時計回りに左側のテムに変身する"
   },
-  "Last_Rush": {
+  "Last Rush": {
     "key": "Last_Rush",
     "name": "Last Rush",
     "nameJa": "たのみのつな",
@@ -498,12 +498,12 @@
     "descriptionJa": "攻撃するたびSPD-1の代わりに消費STAが50%減る"
   },
   "Meditation": {
-    "key": "Meditation",
+    "key": "Meditation_(Trait)",
     "name": "Meditation",
     "nameJa": "めいそう",
     "descriptionJa": "休むたび不利な状態変化が消えさいせい1を得る"
   },
-  "Mental_Alliance": {
+  "Mental Alliance": {
     "key": "Mental_Alliance",
     "name": "Mental Alliance",
     "nameJa": "心の友",
@@ -569,7 +569,7 @@
     "nameJa": "ぶつりマスター",
     "descriptionJa": "ぶつり技で与えるダメージが50%増える"
   },
-  "Pigment_Inverter": {
+  "Pigment Inverter": {
     "key": "Pigment_Inverter",
     "name": "Pigment Inverter",
     "nameJa": "色こうかん",
@@ -581,7 +581,7 @@
     "nameJa": "元気満タン",
     "descriptionJa": "自身のHPが70%以上のとき、SPDが30%上昇する"
   },
-  "Power_Nap": {
+  "Power Nap": {
     "key": "Power_Nap",
     "name": "Power Nap",
     "nameJa": "かみん",
@@ -593,7 +593,7 @@
     "nameJa": "高飛車",
     "descriptionJa": "自身の攻撃で相手のテムを倒したときATK+2, SPATK+2, SPD+1を得る"
   },
-  "Protective_Crystal": {
+  "Protective Crystal": {
     "key": "Protective_Crystal",
     "name": "Protective Crystal",
     "nameJa": "クリスタルの守り",
@@ -611,13 +611,13 @@
     "nameJa": "しんちょう派",
     "descriptionJa": "ほのお、だいち、かくとうタイプの技で攻撃されるとSPDEF+2"
   },
-  "Punch_Bag": {
+  "Punch Bag": {
     "key": "Punch_Bag",
     "name": "Punch Bag",
     "nameJa": "サンドバッグ",
     "descriptionJa": "かくとうタイプの技で受けるダメージが30%減る"
   },
-  "Puppet_Master": {
+  "Puppet Master": {
     "key": "Puppet_Master",
     "name": "Puppet Master",
     "nameJa": "くぐつ師",
@@ -671,7 +671,7 @@
     "nameJa": "準備ばんたん",
     "descriptionJa": "このテムが場に出て2ターンの間ATKとSPATKが30％増える"
   },
-  "Royal_Jelly": {
+  "Royal Jelly": {
     "key": "Royal_Jelly",
     "name": "Royal Jelly",
     "nameJa": "ロイヤルゼリー",
@@ -743,19 +743,19 @@
     "nameJa": "ショーリン寺テム法",
     "descriptionJa": "とくしゅ技で与えるダメージが10%増える"
   },
-  "Shared_Pain": {
+  "Shared Pain": {
     "key": "Shared_Pain",
     "name": "Shared Pain",
     "nameJa": "分かち合い",
     "descriptionJa": "攻撃を受けると、同じターン中の次の攻撃は味方に向かう"
   },
-  "Short_Circuit": {
+  "Short Circuit": {
     "key": "Short_Circuit",
     "name": "Short Circuit",
     "nameJa": "ショート",
     "descriptionJa": "全てのステータス変化を防ぐ"
   },
-  "Skull_Helmet": {
+  "Skull Helmet": {
     "key": "Skull_Helmet",
     "name": "Skull Helmet",
     "nameJa": "ホネヘルメット",
@@ -767,7 +767,7 @@
     "nameJa": "雪風",
     "descriptionJa": "対戦中1回、場に出たとき、味方と相手のテムにこごえ2を付与する。既にこごえ状態のテムには付与しない"
   },
-  "Soft_Touch": {
+  "Soft Touch": {
     "key": "Soft_Touch",
     "name": "Soft Touch",
     "nameJa": "ソフトタッチ",
@@ -779,7 +779,7 @@
     "nameJa": "練り固め",
     "descriptionJa": "みずタイプのとくしゅ技で攻撃するときATKを使ってダメージ計算する"
   },
-  "Source_Replicator": {
+  "Source Replicator": {
     "key": "Source_Replicator",
     "name": "Source Replicator",
     "nameJa": "ソースコピー",
@@ -827,13 +827,13 @@
     "nameJa": "STABマスター",
     "descriptionJa": "自分のタイプと同じタイプの技で攻撃した時ダメージが35%増える"
   },
-  "Striking_Transmog": {
+  "Striking Transmog": {
     "key": "Striking_Transmog",
     "name": "Striking Transmog",
     "nameJa": "変身こうげき",
     "descriptionJa": "ぶつり技で攻撃した時、対象のテムに変身する"
   },
-  "Strong_Liver": {
+  "Strong Liver": {
     "key": "Strong_Liver",
     "name": "Strong Liver",
     "nameJa": "毒吸収",
@@ -845,13 +845,13 @@
     "nameJa": "超電導",
     "descriptionJa": "味方の技に対して全てのタイプとして同調する"
   },
-  "Synergy_Adept": {
+  "Synergy Adept": {
     "key": "Synergy_Adept",
     "name": "Synergy Adept",
     "nameJa": "同調上手",
     "descriptionJa": "自身もしくは味方が同調したときダメージが15%増える"
   },
-  "Synergy_Master": {
+  "Synergy Master": {
     "key": "Synergy_Master",
     "name": "Synergy Master",
     "nameJa": "同調マスター",
@@ -863,37 +863,37 @@
     "nameJa": "タイプシナジー",
     "descriptionJa": "味方と自身のタイプが共通しているときこのテムが与えるダメージが30%増える"
   },
-  "Tactical_Strike": {
+  "Tactical Strike": {
     "key": "Tactical_Strike",
     "name": "Tactical Strike",
     "nameJa": "戦術こうげき",
     "descriptionJa": "hold1以上の技のダメージが20%増える"
   },
-  "Tag_Team": {
+  "Tag Team": {
     "key": "Tag_Team",
     "name": "Tag Team",
     "nameJa": "タッグチーム",
     "descriptionJa": "味方と自身のタイプが共通しているとき受けるダメージがそれぞれ15％減る"
   },
-  "Tardy_Rush": {
+  "Tardy Rush": {
     "key": "Tardy_Rush",
     "name": "Tardy Rush",
     "nameJa": "しり上がり",
     "descriptionJa": "場に出たまま3ターン経過するとSPDが85%, ATKが10%上昇する"
   },
-  "Target_Replicator": {
+  "Target Replicator": {
     "key": "Target_Replicator",
     "name": "Target Replicator",
     "nameJa": "ターゲットコピー",
     "descriptionJa": "味方が有利な状態変化を受けたとき自分にも付与する"
   },
-  "Team_Elusive": {
+  "Team Elusive": {
     "key": "Team_Elusive",
     "name": "Team Elusive",
     "nameJa": "みかわし上手",
     "descriptionJa": "範囲技のダメージを受けない"
   },
-  "Thick_Skin": {
+  "Thick Skin": {
     "key": "Thick_Skin",
     "name": "Thick Skin",
     "nameJa": "分厚いヒフ",
@@ -905,19 +905,19 @@
     "nameJa": "つかれ知らず",
     "descriptionJa": "スタミナが切れたときターンペナルティを防ぎATK+2を得る"
   },
-  "Toxic_Affinity": {
+  "Toxic Affinity": {
     "key": "Toxic_Affinity",
     "name": "Toxic Affinity",
     "nameJa": "毒慣れ",
     "descriptionJa": "どくタイプの技で与えるダメージが50％増える"
   },
-  "Toxic_Farewell": {
+  "Toxic Farewell": {
     "key": "Toxic_Farewell",
     "name": "Toxic Farewell",
     "nameJa": "別れの毒",
     "descriptionJa": "相手のテムの攻撃で倒されたとき、そのテムのHPを10%減らしどく3を付与する"
   },
-  "Toxic_Skin": {
+  "Toxic Skin": {
     "key": "Toxic_Skin",
     "name": "Toxic Skin",
     "nameJa": "毒のヒフ",
@@ -959,13 +959,13 @@
     "nameJa": "活力",
     "descriptionJa": "スタミナ切れになった攻撃で与えるダメージが50%増える"
   },
-  "Viral_Combustion": {
+  "Viral Combustion": {
     "key": "Viral_Combustion",
     "name": "Viral Combustion",
     "nameJa": "ウィルス燃焼",
     "descriptionJa": "相手の攻撃でどく状態になった時そのテムにやけど4を付与する"
   },
-  "Voltaic_Charge": {
+  "Voltaic Charge": {
     "key": "Voltaic_Charge",
     "name": "Voltaic Charge",
     "nameJa": "感電",
@@ -977,7 +977,7 @@
     "nameJa": "ブードゥー",
     "descriptionJa": "不利な状態変化やステータス変化を相手のテム1体に与えたとき、もう1体にも同じ効果を与える"
   },
-  "Warm_Gift": {
+  "Warm Gift": {
     "key": "Warm_Gift",
     "name": "Warm Gift",
     "nameJa": "あったかギフト",
@@ -989,25 +989,25 @@
     "nameJa": "熱血",
     "descriptionJa": "こごえとこおりつきを防ぐ"
   },
-  "Water_Affinity": {
+  "Water Affinity": {
     "key": "Water_Affinity",
     "name": "Water Affinity",
     "nameJa": "水慣れ",
     "descriptionJa": "みずタイプの技で与えるダメージが50%増える"
   },
-  "Water_Custodian": {
+  "Water Custodian": {
     "key": "Water_Custodian",
     "name": "Water Custodian",
     "nameJa": "水寄せ",
     "descriptionJa": "味方がみずタイプの攻撃の対象になった時その対象を自分に変更しダメージを15%減らす"
   },
-  "Water_Synthesizer": {
+  "Water Synthesizer": {
     "key": "Water_Synthesizer",
     "name": "Water Synthesizer",
     "nameJa": "給水",
     "descriptionJa": "みずタイプの技で攻撃されたとき、ダメージの代わりに回復する"
   },
-  "Wax_Bath": {
+  "Wax Bath": {
     "key": "Wax_Bath",
     "name": "Wax Bath",
     "nameJa": "ろう浴",
@@ -1025,7 +1025,7 @@
     "nameJa": "ひきこもり",
     "descriptionJa": "休むとHPを20%回復しどくとねむり状態を取り除く"
   },
-  "Wrecked_Farewell": {
+  "Wrecked Farewell": {
     "key": "Wrecked_Farewell",
     "name": "Wrecked Farewell",
     "nameJa": "別れの苦難",

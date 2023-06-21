@@ -3211,7 +3211,7 @@
     "effectText": "King's Roar inflicts the rival team or the user's ally with SPD , ATK and SPATK .",
     "synergyText": "",
     "effects": [],
-    "key": "King's_Roar",
+    "key": "King%27s_Roar",
     "nameJa": "王者のおたけび",
     "descriptionJa": "対象のSPD-2, ATK-2, SPATK-2"
   },
@@ -3828,7 +3828,7 @@
     "effectText": "Nagaise's Fury deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Mental ally, its damage increases to 130.",
     "effects": [],
-    "key": "Nagaise's_Fury",
+    "key": "Nagaise%27s_Fury",
     "nameJa": "ナーガイズのいかり",
     "descriptionJa": "通常攻撃。シナジー時ダメージが変化する"
   },
@@ -4617,7 +4617,7 @@
     "descriptionJa": "対象のDEF+2, SPDEF+2"
   },
   {
-    "name": "Quetza-leño",
+    "name": "Quetza-leno",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Quetza-le%C3%B1o",
     "type": "Fire",
     "class": "Physical",
@@ -4633,10 +4633,12 @@
     ],
     "targets": "Single Other Target",
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log, and a bottle of Quetzaleño Reposado...",
-    "effectText": "Quetza-leño deals damage to a single other target.",
+    "effectText": "Quetza-leno deals damage to a single other target.",
     "synergyText": "If used with a Neutral ally, its damage increases to 115 and priority increases to High.",
     "effects": [],
-    "key": "Quetza-le%C3%B1o"
+    "key": "Quetza-le%C3%B1o",
+    "nameJa": "クエツァレーニョ",
+    "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化する"
   },
   {
     "name": "Quicksand",
@@ -5193,7 +5195,7 @@
     "effectText": "Seismunch's Wreck deals damage to the rival team or the user's ally.",
     "synergyText": "If used with a Melee ally, its damage increases to 120 and priority increases to High.",
     "effects": [],
-    "key": "Seismunch's_Wreck",
+    "key": "Seismunch%27s_Wreck",
     "nameJa": "シーズマンチの本気",
     "descriptionJa": "通常攻撃。シナジー時ダメージとPriorityが変化"
   },
@@ -5215,7 +5217,7 @@
     "effectText": "Serbatiyo's Wrath deals damage to the rival team or the user's ally and gifts the user with SPATK .",
     "synergyText": "",
     "effects": [],
-    "key": "Serbatiyo's_Wrath",
+    "key": "Serbatiyo%27s_Wrath",
     "nameJa": "セルバティオのいかり",
     "descriptionJa": "使用者のSPATK+2"
   },
@@ -6008,7 +6010,7 @@
     "effectText": "Tortenite's Garden inflicts a single other target with a 4 turn countdown of the Doomed Condition and restores 10% of the user's maximum HP.",
     "synergyText": "If used with a Crystal ally, the Doomed Condition has a 3 turn countdown and restores 20% of the user's maximum HP.",
     "effects": [],
-    "key": "Tortenite's_Garden",
+    "key": "Tortenite%27s_Garden",
     "nameJa": "トルテナイトの庭",
     "descriptionJa": "対象にはめつ4を付与し使用者のHPを10%回復する。シナジー時、代わりに対象にはめつ3を付与し使用者のHPを20%回復する"
   },

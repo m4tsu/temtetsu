@@ -11,7 +11,7 @@ const TraitsPage = () => {
         {traits.map((trait) => (
           <li key={trait.key}>
             <Link href={`/traits/${trait.key}`} className="link">
-              {trait.nameJa ?? trait.name}
+              {trait.nameJa}
             </Link>
           </li>
         ))}

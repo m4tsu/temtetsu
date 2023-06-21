@@ -4182,7 +4182,7 @@
     "effects": []
   },
   {
-    "name": "Quetza-leño",
+    "name": "Quetza-leno",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Quetza-le%C3%B1o",
     "type": "Fire",
     "class": "Physical",
@@ -4202,7 +4202,7 @@
     ],
     "targets": "Single Other Target",
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log, and a bottle of Quetzaleño Reposado...",
-    "effectText": "Quetza-leño deals damage to a single other target.",
+    "effectText": "Quetza-leno deals damage to a single other target.",
     "synergyText": "If used with a Neutral ally, its damage increases to 115 and priority increases to High.",
     "effects": []
   },

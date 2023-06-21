@@ -64,6 +64,6 @@ export type Technique = {
   synergyEffects: SynergyEffect[]
   targets: Targets
   description: string
-  nameJa?: string
-  descriptionJa?: string
+  nameJa: string
+  descriptionJa: string
 }

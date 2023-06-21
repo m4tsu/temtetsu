@@ -187,20 +187,17 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
               <Td>{species.number}</Td>
               <Td>
                 <Link
-                    href={`/species/${species.number}`}
-                    className="font-bold flex items-center gap-2"
-                  >
+                  href={`/species/${species.number}`}
+                  className="flex items-center gap-2 font-bold"
+                >
                   <Image
                     src={iconImage(species)}
                     alt={species.nameJa}
                     width={36}
                     height={36}
                   />
-                    <span className='hidden md:inline'>
-                    {species.nameJa}
-
-                    </span>
-                  </Link>
+                  <span className="hidden md:inline">{species.nameJa}</span>
+                </Link>
               </Td>
               {species.types.length === 1 ? (
                 <Td colSpan={2}>
