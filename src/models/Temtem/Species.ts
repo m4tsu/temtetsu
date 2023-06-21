@@ -70,6 +70,7 @@ export type Species = {
         stage: number
         evolutionTree: TemTemEvolitonTreeItem[]
         type: TemTemEvolutionType
+        to: null | Record<string, unknown>
       }
     | {
         evolves: false

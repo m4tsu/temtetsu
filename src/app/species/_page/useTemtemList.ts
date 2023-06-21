@@ -44,9 +44,15 @@ const speciesNamefilter = (
   return false
 }
 
+const filterEvolved = (speciesList: SpeciesListItem[]) => {
+  return speciesList.filter(
+    (species) => species.evolution.evolves === false || !species.evolution.to
+  )
+}
+
 export type SpeciesListItem = Pick<
   Species,
-  'number' | 'nameJa' | 'name' | 'icon' | 'types' | 'stats'
+  'number' | 'nameJa' | 'name' | 'icon' | 'types' | 'stats' | 'evolution'
 >
 export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
   const router = useRouter()
@@ -90,6 +96,15 @@ export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
     [searchParams, router, pathname]
   )
 
+  const isFullyEvolvedOnly = searchParams.get('fullyEvolvedOnly') === 'true'
+  const toggleIsFullyEvolvedOnly = useCallback(() => {
+    const params = new URLSearchParams(
+      searchParams as unknown as URLSearchParams
+    )
+    params.set('fullyEvolvedOnly', String(!isFullyEvolvedOnly))
+    router.push(`${pathname}?${params.toString()}`)
+  }, [searchParams])
+
   const [searchText, setSearchText] = useState('')
   // const [filterCondition, setFilterCondition] = useState<FilterCondition>(null)
   // const [sortCondition, setSortCondition] = useState<SortCondition>({
@@ -116,15 +131,19 @@ export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
     setSortCondition({ ...sortCondition, order: newOrder })
   }, [setSortCondition, sortCondition])
 
+  const filteredByEvolved = useMemo(() => {
+    return isFullyEvolvedOnly ? filterEvolved(allSpeciesList) : allSpeciesList
+  }, [isFullyEvolvedOnly, allSpeciesList])
+
   const filtered = useMemo(() => {
-    return allSpeciesList.filter((species) => {
+    return filteredByEvolved.filter((species) => {
       const nameFilterResult =
         searchText === '' || speciesNamefilter(species, searchText)
       const typeFilterResult =
         filterCondition === null || species.types.includes(filterCondition)
       return nameFilterResult && typeFilterResult
     })
-  }, [allSpeciesList, filterCondition, searchText])
+  }, [filteredByEvolved, filterCondition, searchText])
 
   const sorted = useMemo(() => {
     return sortSpeciesList(filtered, sortCondition)
@@ -135,9 +154,11 @@ export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
     searchText: searchText,
     filterCondition,
     sortCondition,
+    isFullyEvolvedOnly,
     filter,
     sort,
     toggleSortOrder,
+    toggleIsFullyEvolvedOnly,
     searchByName: setSearchText,
   }
 }

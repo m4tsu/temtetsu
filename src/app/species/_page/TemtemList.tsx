@@ -57,6 +57,8 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
     sort,
     toggleSortOrder,
     searchByName,
+    toggleIsFullyEvolvedOnly,
+    isFullyEvolvedOnly,
     speciesList,
     searchText,
     sortCondition,
@@ -72,13 +74,25 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
   }
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-2">
       <input
         className="bg-base input-bordered input-primary input w-full"
         placeholder="検索"
         onChange={(e) => searchByName(e.target.value)}
         value={searchText}
       />
+      <div className="flex flex-col gap-2">
+        <label className="flex gap-2">
+          <input
+            className="checkbox-primary checkbox"
+            type="checkbox"
+            checked={isFullyEvolvedOnly}
+            onChange={toggleIsFullyEvolvedOnly}
+          />
+
+          <span>進化後のみ</span>
+        </label>
+      </div>
 
       <table className="w-full border-collapse border border-primary">
         <thead>
