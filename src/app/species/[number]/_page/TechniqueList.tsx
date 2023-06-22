@@ -65,7 +65,7 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
             <Th className="w-[1px] whitespace-nowrap">習得</Th>
             <Th className="w-[1px] whitespace-nowrap">名前</Th>
             <Th>タイプ</Th>
-            <Th>クラス</Th>
+            <Th>分類</Th>
             <Th>ダメージ</Th>
             <Th>スタミナコスト</Th>
             <Th>ホールド</Th>

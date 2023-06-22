@@ -97,7 +97,7 @@ const TechniquePage = ({ params: { key } }: PageProps<'key'>) => {
             <tr>
               {/* 6 col */}
               <Th>タイプ</Th>
-              <Th>クラス</Th>
+              <Th>分類</Th>
               <Th>ダメージ</Th>
               <Th>スタミナコスト</Th>
               <Th>ホールド</Th>

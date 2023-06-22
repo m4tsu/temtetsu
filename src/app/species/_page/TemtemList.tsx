@@ -10,13 +10,7 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 import { type FC } from 'react'
-import {
-  Button,
-  Dialog,
-  DialogTrigger,
-  OverlayArrow,
-  Popover,
-} from 'react-aria-components'
+import { Button, Dialog, DialogTrigger, Popover } from 'react-aria-components'
 import { twMerge } from 'tailwind-merge'
 
 import { iconImage, STATS_NAMES } from '@/models/Temtem/Species'
@@ -117,7 +111,7 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
             <Th rowSpan={2}>テムテム</Th>
             <Th colSpan={2}>
               <div className="flex items-center justify-center gap-1">
-                系統
+                タイプ
                 <DialogTrigger>
                   <Button aria-label="タイプを選択">
                     {filterCondition === null ? (
@@ -137,11 +131,6 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
                     isNonModal
                     offset={12}
                   >
-                    <OverlayArrow>
-                      <svg width={16} height={16} className="fill-white">
-                        <path d="M0 0,L8 8,L16 0" />
-                      </svg>
-                    </OverlayArrow>
                     <Dialog className="flex flex-col gap-2 p-2">
                       {({ close }) => (
                         <>
