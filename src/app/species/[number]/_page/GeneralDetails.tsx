@@ -51,6 +51,7 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                 src={iconImage(species)}
                 width={30}
                 height={30}
+                className="rounded-sm bg-zinc-700"
               />
               <div>
                 <Link
@@ -76,6 +77,7 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                           src={iconImage(tem)}
                           width={30}
                           height={30}
+                          className="rounded-sm bg-zinc-700"
                         />
                         <div>
                           <Link
@@ -107,6 +109,7 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                         src={iconImage(tem)}
                         width={30}
                         height={30}
+                        className="rounded-sm bg-zinc-700"
                       />
                     </div>
                     <div>
@@ -143,13 +146,14 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
       <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
         {species.nameJa}
       </h3>
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-1 py-1">
         <div className="flex justify-center">
           <Image
             alt={species.nameJa}
             src={iconImage(species)}
-            width={60}
-            height={60}
+            width={72}
+            height={72}
+            className="rounded-sm bg-zinc-700"
           />
         </div>
         <table className="w-full border-collapse border-y border-primary">

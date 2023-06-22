@@ -214,6 +214,7 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
                     alt={species.nameJa}
                     width={36}
                     height={36}
+                    className="rounded-sm bg-zinc-700"
                   />
                   <span className="hidden md:inline">{species.nameJa}</span>
                 </Link>

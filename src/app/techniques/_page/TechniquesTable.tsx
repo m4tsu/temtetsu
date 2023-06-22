@@ -32,7 +32,7 @@ const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
 const Td: FC<ComponentProps<'td'>> = ({ className, ...props }) => (
   <td
     className={twMerge(
-      '0 relative border border-primary p-1 text-center',
+      'relative border border-primary p-1 text-center',
       className
     )}
     {...props}
@@ -48,8 +48,6 @@ type Props = {
 type FilterCondition = TemType | null
 
 export const TechniquesTable: FC<Props> = ({ techniques }) => {
-  // const [filterCondition, setFilterCondition] = useState<FilterCondition>(null)
-
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()

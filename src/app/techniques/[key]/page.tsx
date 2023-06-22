@@ -178,7 +178,7 @@ const TechniquePage = ({ params: { key } }: PageProps<'key'>) => {
                   width={48}
                   height={48}
                   alt={species.nameJa}
-                  className="bg-zinc-500"
+                  className="rounded-sm bg-zinc-700"
                 />
                 <Link href={`/species/${species.number}`} className="link">
                   {species.nameJa}
