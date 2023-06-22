@@ -6,7 +6,7 @@ import type { TemType } from '@/models/Temtem/Type'
 import { katakanaToHiragana } from '@/utils/kana'
 
 type FilterCondition = TemType | null
-type SortBy = StatsName | 'number'
+export type SortBy = StatsName | 'number'
 type SortOrder = 'asc' | 'desc'
 type SortCondition = {
   sortBy: SortBy
@@ -76,11 +76,20 @@ export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
     [searchParams, router, pathname]
   )
 
-  const sortCondition = useMemo(
-    () => ({
-      sortBy: (searchParams.get('sortBy') as SortBy) || 'number',
-      order: (searchParams.get('order') as SortOrder) || 'asc',
-    }),
+  const sortCondition: SortCondition = useMemo(
+    () => {
+      const paramsSortBy = searchParams.get('sortBy')
+      if(paramsSortBy === null) {
+        return {
+          sortBy: 'number',
+          order: 'asc',
+        }
+      }
+      return  ({
+        sortBy: paramsSortBy as SortBy,
+        order: (searchParams.get('order') as SortOrder) || 'desc',
+      })
+    },
     [searchParams]
   )
 

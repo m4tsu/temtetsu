@@ -19,13 +19,12 @@ import {
 } from 'react-aria-components'
 import { twMerge } from 'tailwind-merge'
 
-import type { StatsName } from '@/models/Temtem/Species'
 import { iconImage, STATS_NAMES } from '@/models/Temtem/Species'
 import { TemTypes, temTypeImage } from '@/models/Temtem/Type'
 
 import { useTemtemList } from './useTemtemList'
 
-import type { SpeciesListItem } from './useTemtemList'
+import type { SortBy, SpeciesListItem } from './useTemtemList'
 import type { ComponentProps } from 'react'
 
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
@@ -65,11 +64,11 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
     filterCondition,
   } = useTemtemList(allSpeciesList)
 
-  const handleClickStatsButton = (statsName: StatsName) => {
-    if (sortCondition.sortBy === statsName) {
+  const handleClickStatsButton = (sortBy: SortBy) => {
+    if (sortCondition.sortBy === sortBy) {
       toggleSortOrder()
     } else {
-      sort({ sortBy: statsName, order: 'desc' })
+      sort({ sortBy, order: 'desc' })
     }
   }
 
@@ -97,7 +96,24 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
       <table className="w-full border-collapse border border-primary">
         <thead>
           <tr>
-            <Th rowSpan={2}>No.</Th>
+            <Th rowSpan={2}>
+            <button
+                  className="flex h-full items-center gap-1"
+                  aria-label="並び替え"
+                  onClick={() => handleClickStatsButton('number')}
+                >
+                  {sortCondition.sortBy === 'number' ? (
+                    sortCondition.order === 'desc' ? (
+                      <ArrowDownIcon className="h-4 w-4" />
+                    ) : (
+                      <ArrowUpIcon className="h-4 w-4" />
+                    )
+                  ) : (
+                    <ArrowsUpDownIcon className="h-4 w-4" />
+                  )}
+                  No.
+                </button>
+            </Th>
             <Th rowSpan={2}>テムテム</Th>
             <Th colSpan={2}>
               <div className="flex items-center justify-center gap-1">
