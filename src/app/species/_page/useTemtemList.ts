@@ -109,7 +109,7 @@ export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
     )
     params.set('fullyEvolvedOnly', String(!isFullyEvolvedOnly))
     router.push(`${pathname}?${params.toString()}`)
-  }, [searchParams, isFullyEvolvedOnly])
+  }, [searchParams, isFullyEvolvedOnly, router, pathname])
 
   const [searchText, setSearchText] = useState('')
 

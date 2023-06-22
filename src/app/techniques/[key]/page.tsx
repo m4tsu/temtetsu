@@ -48,9 +48,6 @@ const Td: FC<ComponentProps<'td'>> = ({ className, ...props }) => (
 )
 
 const TechniquePage = ({ params: { key } }: PageProps<'key'>) => {
-  console.log(techniquesByKey)
-  console.log(key)
-
   const technique = findItem(techniquesByKey, key)
   const {
     name,
