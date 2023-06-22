@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Fragment } from 'react'
 import { twMerge } from 'tailwind-merge'
 
@@ -46,9 +47,6 @@ const TechniqueSource: FC<{ technique: TechniqueItem }> = ({ technique }) => {
     case 'TechniqueCourses': {
       return 'コース'
     }
-    // default: {
-    //   return <div></div>
-    // }
   }
 }
 
@@ -81,7 +79,6 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
               name,
               nameJa,
               class: category,
-              description,
               descriptionJa,
               type,
               damage,
@@ -91,7 +88,7 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
               targets,
               synergy,
               synergyEffects,
-              wikiUrl,
+              key,
             } = technique
             return (
               <Fragment key={name}>
@@ -100,14 +97,9 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
                     <TechniqueSource technique={technique} />
                   </Td>
                   <Td rowSpan={2} className="w-[1px] whitespace-nowrap">
-                    <a
-                      href={wikiUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="link"
-                    >
-                      {nameJa ?? name}
-                    </a>
+                    <Link href={`/techniques/${key}`} className="link">
+                      {nameJa}
+                    </Link>
                   </Td>
                   <Td>
                     <Image
@@ -142,7 +134,7 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
                 </tr>
                 <tr>
                   <Td colSpan={6} className="text-left">
-                    {descriptionJa ?? description}。{' '}
+                    {descriptionJa}。{' '}
                     {synergy !== 'None' ? (
                       <span className="inline-flex">
                         シナジー:{' '}

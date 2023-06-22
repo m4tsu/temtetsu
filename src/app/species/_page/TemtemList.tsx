@@ -97,22 +97,22 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
         <thead>
           <tr>
             <Th rowSpan={2}>
-            <button
-                  className="flex h-full items-center gap-1"
-                  aria-label="並び替え"
-                  onClick={() => handleClickStatsButton('number')}
-                >
-                  {sortCondition.sortBy === 'number' ? (
-                    sortCondition.order === 'desc' ? (
-                      <ArrowDownIcon className="h-4 w-4" />
-                    ) : (
-                      <ArrowUpIcon className="h-4 w-4" />
-                    )
+              <button
+                className="flex h-full items-center gap-1"
+                aria-label="並び替え"
+                onClick={() => handleClickStatsButton('number')}
+              >
+                {sortCondition.sortBy === 'number' ? (
+                  sortCondition.order === 'desc' ? (
+                    <ArrowDownIcon className="h-4 w-4" />
                   ) : (
-                    <ArrowsUpDownIcon className="h-4 w-4" />
-                  )}
-                  No.
-                </button>
+                    <ArrowUpIcon className="h-4 w-4" />
+                  )
+                ) : (
+                  <ArrowsUpDownIcon className="h-4 w-4" />
+                )}
+                No.
+              </button>
             </Th>
             <Th rowSpan={2}>テムテム</Th>
             <Th colSpan={2}>

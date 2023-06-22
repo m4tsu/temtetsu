@@ -76,22 +76,19 @@ export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
     [searchParams, router, pathname]
   )
 
-  const sortCondition: SortCondition = useMemo(
-    () => {
-      const paramsSortBy = searchParams.get('sortBy')
-      if(paramsSortBy === null) {
-        return {
-          sortBy: 'number',
-          order: 'asc',
-        }
+  const sortCondition: SortCondition = useMemo(() => {
+    const paramsSortBy = searchParams.get('sortBy')
+    if (paramsSortBy === null) {
+      return {
+        sortBy: 'number',
+        order: 'asc',
       }
-      return  ({
-        sortBy: paramsSortBy as SortBy,
-        order: (searchParams.get('order') as SortOrder) || 'desc',
-      })
-    },
-    [searchParams]
-  )
+    }
+    return {
+      sortBy: paramsSortBy as SortBy,
+      order: (searchParams.get('order') as SortOrder) || 'desc',
+    }
+  }, [searchParams])
 
   const setSortCondition = useCallback(
     (sortCondition: SortCondition) => {
@@ -112,14 +109,9 @@ export const useTemtemList = (allSpeciesList: SpeciesListItem[]) => {
     )
     params.set('fullyEvolvedOnly', String(!isFullyEvolvedOnly))
     router.push(`${pathname}?${params.toString()}`)
-  }, [searchParams])
+  }, [searchParams, isFullyEvolvedOnly])
 
   const [searchText, setSearchText] = useState('')
-  // const [filterCondition, setFilterCondition] = useState<FilterCondition>(null)
-  // const [sortCondition, setSortCondition] = useState<SortCondition>({
-  //   sortBy: 'number',
-  //   order: 'asc',
-  // })
 
   const filter = useCallback(
     (filterCondition: FilterCondition) => {

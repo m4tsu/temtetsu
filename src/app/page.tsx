@@ -15,6 +15,11 @@ export default function Home() {
           </Link>
         </li>
         <li>
+          <Link href="/techniques" className="link-hover text-xl font-bold">
+            技一覧
+          </Link>
+        </li>
+        <li>
           <Link href="/gears" className="link-hover text-xl font-bold">
             ギア一覧
           </Link>

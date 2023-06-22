@@ -8,7 +8,6 @@ export function generateStaticParams() {
 }
 
 const TraitPage = ({ params: { key } }: PageProps<'key'>) => {
-  // generateStaticParams で Mom%27s_Lunch => Mom%2527s_Lunch に encode されてしまうので、 decode して Mom%27s_Lunch に戻す
   const trait = findItem(traitsByKey, key)
   const { nameJa, descriptionJa, wikiUrl } = trait
   return (
