@@ -10,9 +10,9 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 import { type FC } from 'react'
-import { Button, Dialog, DialogTrigger, Popover } from 'react-aria-components'
 import { twMerge } from 'tailwind-merge'
 
+import { Popover, TriggerButton } from '@/components/Popover'
 import { iconImage, STATS_NAMES } from '@/models/Temtem/Species'
 import { TemTypes, temTypeImage } from '@/models/Temtem/Type'
 
@@ -67,14 +67,14 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
   }
 
   return (
-    <div className="flex flex-col gap-2 ">
+    <div className="flex flex-col gap-2">
       <input
         className="bg-base input-bordered input-primary input w-full"
         placeholder="検索"
         onChange={(e) => searchByName(e.target.value)}
         value={searchText}
       />
-      <div className="flex flex-col gap-2">
+      <div className="flex items-center gap-2">
         <label className="flex gap-2">
           <input
             className="checkbox-primary checkbox"
@@ -82,7 +82,6 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
             checked={isFullyEvolvedOnly}
             onChange={toggleIsFullyEvolvedOnly}
           />
-
           <span>進化後のみ</span>
         </label>
       </div>
@@ -112,65 +111,60 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
             <Th colSpan={2}>
               <div className="flex items-center justify-center gap-1">
                 タイプ
-                <DialogTrigger>
-                  <Button aria-label="タイプを選択">
-                    {filterCondition === null ? (
-                      <FunnelIcon className="h-4 w-4" />
-                    ) : (
-                      <Image
-                        src={temTypeImage(filterCondition)}
-                        width={24}
-                        height={24}
-                        alt={filterCondition}
-                      />
-                    )}
-                  </Button>
-                  <Popover
-                    placement="top"
-                    className="rounded-md border border-zinc-500 bg-white shadow-lg"
-                    isNonModal
-                    offset={12}
-                  >
-                    <Dialog className="flex flex-col gap-2 p-2">
-                      {({ close }) => (
-                        <>
-                          <div className="grid grid-cols-4 justify-center gap-2">
-                            {TemTypes.map((type) => (
-                              <button
-                                key={type}
-                                className="rounded-md hover:bg-zinc-300"
-                                onClick={() => {
-                                  filter(type)
-                                  close()
-                                }}
-                                aria-label={`${type}で絞り込む`}
-                              >
-                                <Image
-                                  src={temTypeImage(type)}
-                                  width={32}
-                                  height={32}
-                                  alt={type}
-                                />
-                              </button>
-                            ))}
-                          </div>
+                <Popover
+                  placement="top"
+                  trigger={
+                    <TriggerButton aria-label="タイプを選択">
+                      {filterCondition === null ? (
+                        <FunnelIcon className="h-4 w-4" />
+                      ) : (
+                        <Image
+                          src={temTypeImage(filterCondition)}
+                          width={24}
+                          height={24}
+                          alt={filterCondition}
+                        />
+                      )}
+                    </TriggerButton>
+                  }
+                >
+                  {({ close }) => (
+                    <>
+                      <div className="grid grid-cols-4 justify-center gap-2 p-2">
+                        {TemTypes.map((type) => (
                           <button
-                            className="flex w-full cursor-pointer justify-center rounded-md text-center hover:bg-zinc-300"
+                            key={type}
+                            className="rounded-md hover:bg-zinc-300"
                             onClick={() => {
-                              filter(null)
+                              filter(type)
                               close()
                             }}
+                            aria-label={`${type}で絞り込む`}
                           >
-                            <XMarkIcon
-                              className="h-6 w-6"
-                              aria-label="絞り込みを解除"
+                            <Image
+                              src={temTypeImage(type)}
+                              width={32}
+                              height={32}
+                              alt={type}
                             />
                           </button>
-                        </>
-                      )}
-                    </Dialog>
-                  </Popover>
-                </DialogTrigger>
+                        ))}
+                      </div>
+                      <button
+                        className="flex w-full cursor-pointer justify-center rounded-md text-center hover:bg-zinc-300"
+                        onClick={() => {
+                          filter(null)
+                          close()
+                        }}
+                      >
+                        <XMarkIcon
+                          className="h-6 w-6"
+                          aria-label="絞り込みを解除"
+                        />
+                      </button>
+                    </>
+                  )}
+                </Popover>
               </div>
             </Th>
             <Th colSpan={8}>BaseStats</Th>

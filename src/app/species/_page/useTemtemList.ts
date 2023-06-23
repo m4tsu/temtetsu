@@ -17,9 +17,6 @@ const sortSpeciesList = (
   speciesList: SpeciesListItem[],
   sortCondition: SortCondition
 ) => {
-  if (sortCondition === null) {
-    return speciesList
-  }
   const { sortBy, order } = sortCondition
   if (sortBy === 'number') {
     return speciesList.sort((a, b) => {

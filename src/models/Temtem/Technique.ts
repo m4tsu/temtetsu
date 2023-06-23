@@ -23,7 +23,8 @@ export type SynergyEffect = {
   damage: number
 }
 
-export type Category = 'Special' | 'Physical' | 'Status'
+export const CATEGORIES = ['Special', 'Physical', 'Status'] as const
+export type Category = (typeof CATEGORIES)[number]
 export const categoryIcon = (category: Category) =>
   `/images/temtem/techniques/Techniques_Categories_${category}.png`
 
