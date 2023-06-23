@@ -24,7 +24,7 @@ import type { ComponentProps } from 'react'
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
     className={twMerge(
-      'text-bold text-md border border-primary bg-sky-300 p-1 text-center',
+      'text-bold text-md whitespace-nowrap border border-primary bg-sky-300 p-1 text-center',
       className
     )}
     {...props}
@@ -34,7 +34,7 @@ const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
 const Td: FC<ComponentProps<'td'>> = ({ className, ...props }) => (
   <td
     className={twMerge(
-      '0 relative border border-primary p-1 text-center',
+      'relative border border-primary p-1 text-center',
       className
     )}
     {...props}
@@ -67,7 +67,7 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
   }
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 ">
       <input
         className="bg-base input-bordered input-primary input w-full"
         placeholder="検索"
@@ -87,8 +87,8 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
         </label>
       </div>
 
-      <table className="w-full border-collapse border border-primary">
-        <thead>
+      <table className="w-full border-collapse overflow-x-scroll border border-primary">
+        <thead className="sticky top-0 z-10">
           <tr>
             <Th rowSpan={2}>
               <button

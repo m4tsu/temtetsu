@@ -58,7 +58,7 @@ type Props = {
 export const TechniqueList: FC<Props> = ({ techniques }) => {
   return (
     <div className="relative h-full ">
-      <table className="relative h-full w-full border-collapse  border border-primary">
+      <table className="relative h-full w-full border-collapse border border-primary">
         <thead className="sticky top-0 z-10">
           <tr>
             {/* 8 col */}
