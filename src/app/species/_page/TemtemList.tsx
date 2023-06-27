@@ -69,10 +69,11 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
   return (
     <div className="flex flex-col gap-2">
       <input
-        className="bg-base input-bordered input-primary input w-full"
+       className="input-bordered input input-primary input-sm max-w-sm"
         placeholder="検索"
         onChange={(e) => searchByName(e.target.value)}
         value={searchText}
+        name="search"
       />
       <div className="flex items-center gap-2">
         <label className="flex gap-2">
@@ -81,6 +82,7 @@ export const TemtemList: FC<Props> = ({ speciesList: allSpeciesList }) => {
             type="checkbox"
             checked={isFullyEvolvedOnly}
             onChange={toggleIsFullyEvolvedOnly}
+            name="search"
           />
           <span>進化後のみ</span>
         </label>

@@ -43,10 +43,11 @@ export const GearsTable: FC<Props> = ({ gears }) => {
   return (
     <div className="flex flex-col gap-2">
       <input
-        className="bg-base input-bordered input-primary input w-full"
+        className="input-bordered input input-primary input-sm max-w-sm"
         placeholder="検索"
         onChange={(e) => setSearchText(e.target.value)}
         value={searchText}
+        name="search"
       />
 
       <table className="w-full border-collapse overflow-x-scroll border border-primary">
