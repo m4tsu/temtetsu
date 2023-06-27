@@ -3,6 +3,7 @@ import fs from 'fs'
 
 import { parse } from '@fast-csv/parse'
 
+import { convertToUrlableString } from '../src/utils/convertToUrlableString'
 import { makeDictFromArray } from '../src/utils/dict'
 
 import { authorize } from './g-sheet/authorize'
@@ -13,7 +14,6 @@ import type { Gear } from '../src/models/Temtem/Gear'
 import type { Species } from '../src/models/Temtem/Species'
 import type { Technique } from '../src/models/Temtem/Technique'
 import type { Trait } from '../src/models/Temtem/Trait'
-import { convertToUrlableString } from '../src/utils/convertToUrlableString'
 
 const dataDirPath = 'src/data/ja-dict'
 
@@ -85,26 +85,34 @@ const getTechniquesFromCsv = async () => {
 
 const getGears = async (auth: Auth) => {
   const rows = await fetchTemtemDictionarySheet(auth, 'gears')
-  const gears: { key: string, name: string; nameJa: string; descriptionJa: string }[] =
-    rows.map((row) => ({
-      key: row[0],
-      name: row[1],
-      nameJa: row[2],
-      descriptionJa: row[3],
-    }))
+  const gears: {
+    key: string
+    name: string
+    nameJa: string
+    descriptionJa: string
+  }[] = rows.map((row) => ({
+    key: row[0],
+    name: row[1],
+    nameJa: row[2],
+    descriptionJa: row[3],
+  }))
   const dict = makeDictFromArray(gears, 'name')
   fs.writeFileSync(`${dataDirPath}/gears.json`, JSON.stringify(dict))
 }
 
 const getTraits = async (auth: Auth) => {
   const rows = await fetchTemtemDictionarySheet(auth, 'traits')
-  const traits: {key: string, name: string; nameJa: string; descriptionJa: string }[] =
-    rows.map((row) => ({
-      key: row[0],
-      name: row[1],
-      nameJa: row[2],
-      descriptionJa: row[3],
-    }))
+  const traits: {
+    key: string
+    name: string
+    nameJa: string
+    descriptionJa: string
+  }[] = rows.map((row) => ({
+    key: row[0],
+    name: row[1],
+    nameJa: row[2],
+    descriptionJa: row[3],
+  }))
   const dict = makeDictFromArray(traits, 'name')
   fs.writeFileSync(`${dataDirPath}/traits.json`, JSON.stringify(dict))
 }

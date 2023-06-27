@@ -4,6 +4,11 @@ import { HeaderNav } from './__components/HeaderNav'
 import { RootProviders } from './_providers'
 import './globals.css'
 
+export const metadata = {
+  title: 'テムテム日本語辞典',
+  description: 'テムテムの対戦に役立つ情報を日本語で提供します。',
+}
+
 export default function RootLayout({
   children,
 }: {

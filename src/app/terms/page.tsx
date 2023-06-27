@@ -14,7 +14,7 @@ const TermsPage = () => {
           >
             Temtem
           </a>
-          のファンサイトであり、 開発元であるCrema社等とは一切関係ありません。
+          のファンサイトであり、 開発元であるCREMA社等とは一切関係ありません。
         </p>
         <p>
           本サイトの情報は基本的に
@@ -22,8 +22,9 @@ const TermsPage = () => {
             href="https://temtem.wiki.gg/wiki/Temtem_Wiki"
             target="_blank"
             rel="noreferrer"
+            className="link"
           >
-            公式Wiki
+            Official Temtem Wiki
           </a>
           から収集した情報を掲載していますが、必ずしもその正確性を保証するものではありません。
         </p>
