@@ -29,7 +29,7 @@ const GearPage = ({ params: { key } }: PageProps<'key'>) => {
         </>
       }
       breadcrumbItems={[
-        { path: '/traits', label: 'ギア一覧' },
+        { path: '/traits', label: 'ギア' },
         {
           label: nameJa,
         },

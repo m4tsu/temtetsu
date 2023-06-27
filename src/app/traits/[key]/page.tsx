@@ -26,7 +26,7 @@ const TraitPage = ({ params: { key } }: PageProps<'key'>) => {
         </>
       }
       breadcrumbItems={[
-        { path: '/traits', label: '個性一覧' },
+        { path: '/traits', label: '個性' },
         {
           label: trait.nameJa,
         },

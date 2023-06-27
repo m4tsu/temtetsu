@@ -6,7 +6,7 @@ import { PageLayout } from '../__components/PageLayout'
 
 const TraitsPage = () => {
   return (
-    <PageLayout header={'個性一覧'}>
+    <PageLayout header={'個性'}>
       <ul className="flex flex-wrap gap-4">
         {traits.map((trait) => (
           <li key={trait.key}>

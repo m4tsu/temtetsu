@@ -6,7 +6,7 @@ import { TechniquesTable } from './_page/TechniquesTable'
 
 const TechniquesPage = () => {
   return (
-    <PageLayout header={'技一覧'}>
+    <PageLayout header={'技'}>
       <TechniquesTable techniques={techniques} />
       {/* <ul className="flex flex-wrap gap-4">
         {techniques.map((technique) => (

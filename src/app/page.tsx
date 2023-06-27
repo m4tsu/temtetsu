@@ -6,22 +6,22 @@ export default function Home() {
       <ul className="flex flex-col gap-4">
         <li>
           <Link href="/species" className="link-hover text-xl font-bold">
-            テムテム一覧
+            テムテム
           </Link>
         </li>
         <li>
           <Link href="/traits" className="link-hover text-xl font-bold">
-            個性一覧
+            個性
           </Link>
         </li>
         <li>
           <Link href="/techniques" className="link-hover text-xl font-bold">
-            技一覧
+            技
           </Link>
         </li>
         <li>
           <Link href="/gears" className="link-hover text-xl font-bold">
-            ギア一覧
+            ギア
           </Link>
         </li>
       </ul>

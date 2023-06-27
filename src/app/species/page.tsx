@@ -11,7 +11,7 @@ const speciesList = species.map((s) =>
 
 const TempediaPage = () => {
   return (
-    <PageLayout header="テムテム一覧">
+    <PageLayout header="テムテム">
       <TemtemList speciesList={speciesList} />
     </PageLayout>
   )

@@ -41,7 +41,7 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
         </>
       }
       breadcrumbItems={[
-        { path: '/species', label: 'テムテム一覧' },
+        { path: '/species', label: 'テムテム' },
         { label: <>{species.nameJa} </> },
       ]}
     >
@@ -67,7 +67,7 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
         </section>
         <section className="h-full">
           <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
-            技一覧
+            技
           </h3>
           <TechniqueList techniques={techniques} />
         </section>

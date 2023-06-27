@@ -6,7 +6,7 @@ import { PageLayout } from '../__components/PageLayout'
 
 const GearsPage = () => {
   return (
-    <PageLayout header={'ギア一覧'}>
+    <PageLayout header={'ギア'}>
       <ul className="flex flex-wrap gap-4">
         {gears.map((gear) => (
           <li key={gear.key}>
