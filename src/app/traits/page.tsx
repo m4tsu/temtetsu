@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import { traits } from '@/data/temtem/traits'
 
 import { PageLayout } from '../__components/PageLayout'

@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import { gears } from '@/data/temtem/gears'
 
 import { PageLayout } from '../__components/PageLayout'

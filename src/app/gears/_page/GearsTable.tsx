@@ -67,10 +67,20 @@ export const GearsTable: FC<Props> = ({ gears }) => {
                     width={50}
                     height={38}
                     // style で指定しないとレンダリング後にサイズが変更され表示が崩れる
-                    style={{ width: 50, height: 38 }}
-                    className="sepia"
+                    style={{ minWidth: 50 }}
+                    className="bg-temBg"
                   />
-                  {gear.nameJa}
+                  <div className="flex items-center gap-1">
+                    <p>{gear.nameJa}</p>
+                    <a
+                      href={gear.wikiUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="link text-sm"
+                    >
+                      (公式wiki)
+                    </a>
+                  </div>
                 </div>
               </Td>
               <Td>{gear.descriptionJa}</Td>

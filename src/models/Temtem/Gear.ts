@@ -17,4 +17,4 @@ export type Gear = {
 }
 
 export const gearIconImage = (gear: Gear) =>
-  `https://temtem.wiki.gg/${gear.wikiIconUrl}`
+  `https://temtem.wiki.gg${gear.wikiIconUrl}`

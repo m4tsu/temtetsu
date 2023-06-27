@@ -3,6 +3,8 @@ import { gearsByKey, gears } from '@/data/temtem/gears'
 import type { PageProps } from '@/libs/nextjs/util-types'
 import { findItem } from '@/utils/dict'
 
+// NOTE: 表示したい情報が特にないので一旦詳細ページ表示しない
+
 export function generateStaticParams() {
   const params = gears.map((gear) => ({ key: decodeURIComponent(gear.key) }))
   return params

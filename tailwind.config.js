@@ -11,6 +11,9 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        temBg: '#f5deb3'
+      }
       // colors: {
       //   border: 'hsl(var(--border))',
       //   input: 'hsl(var(--input))',
