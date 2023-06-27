@@ -4,18 +4,12 @@ import { traits } from '@/data/temtem/traits'
 
 import { PageLayout } from '../__components/PageLayout'
 
+import { TraitsTable } from './_page/TraitsTable'
+
 const TraitsPage = () => {
   return (
     <PageLayout header={'個性'}>
-      <ul className="flex flex-wrap gap-4">
-        {traits.map((trait) => (
-          <li key={trait.key}>
-            <Link href={`/traits/${trait.key}`} className="link">
-              {trait.nameJa}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <TraitsTable traits={traits} />
     </PageLayout>
   )
 }

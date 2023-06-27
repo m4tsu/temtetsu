@@ -1,6 +1,7 @@
 import { ArrowSmallDownIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Fragment, type ComponentProps, type FC } from 'react'
 import { twMerge } from 'tailwind-merge'
 
 import { normalizedSpecies } from '@/data/temtem/species'
@@ -9,8 +10,6 @@ import type { Species } from '@/models/Temtem/Species'
 import { formatEvolutionTree, iconImage } from '@/models/Temtem/Species'
 import { temTypeImage } from '@/models/Temtem/Type'
 import { findItem } from '@/utils/dict'
-
-import type { ComponentProps, FC } from 'react'
 
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
@@ -101,8 +100,8 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
             {formatted.tree.map((item, i) => {
               const tem = findItem(normalizedSpecies, String(item.number))
               return (
-                <>
-                  <div key={tem.number} className="flex items-center gap-2">
+                <Fragment key={tem.number}>
+                  <div className="flex items-center gap-2">
                     <div>
                       <Image
                         alt={tem.nameJa}
@@ -122,14 +121,11 @@ export const GeneralDetails: FC<Props> = ({ species }) => {
                     </div>
                   </div>
                   {i !== formatted.tree.length - 1 && (
-                    <div
-                      key={tem.number}
-                      className="flex justify-center font-bold text-primary"
-                    >
+                    <div className="flex justify-center font-bold text-primary">
                       <ArrowSmallDownIcon className="h-5 w-5" />
                     </div>
                   )}
-                </>
+                </Fragment>
               )
             })}
           </div>

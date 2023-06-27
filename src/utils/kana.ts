@@ -11,3 +11,7 @@ export const hiraganaToKatakana = (hiragana: string) => {
     return String.fromCharCode(chr)
   })
 }
+
+export const jaStrMatch = (target: string, searchText: string) => {
+  return hiraganaToKatakana(target).includes(hiraganaToKatakana(searchText))
+}

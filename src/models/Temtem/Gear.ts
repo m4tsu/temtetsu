@@ -15,3 +15,6 @@ export type Gear = {
   nameJa: string // これが無いやつは対戦で使えないやつらしいから無視する
   descriptionJa: string
 }
+
+export const gearIconImage = (gear: Gear) =>
+  `https://temtem.wiki.gg/${gear.wikiIconUrl}`

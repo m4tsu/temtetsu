@@ -19,7 +19,7 @@ const imageFitClassName = 'object-contain !relative !w-auto mx-auto max-h-8'
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
     className={twMerge(
-      'text-bold whitespace-nowrap bg-primary px-2 py-1 text-center text-white',
+      'font-bold whitespace-nowrap bg-primary px-2 py-1 text-center text-white',
       className
     )}
     {...props}

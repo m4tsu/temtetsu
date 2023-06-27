@@ -30,7 +30,7 @@ const imageFitClassName = 'object-contain !relative !w-auto mx-auto max-h-8'
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
     className={twMerge(
-      'text-bold bg-primary p-2 text-center text-white',
+      'font-bold bg-primary p-2 text-center text-white',
       className
     )}
     {...props}
@@ -92,7 +92,7 @@ const TechniquePage = ({ params: { key } }: PageProps<'key'>) => {
       ]}
     >
       <div className="flex flex-col gap-4">
-        <table className="relative h-full w-full border-collapse  border border-primary">
+        <table className="relative h-full w-full border-collapse border border-primary">
           <thead>
             <tr>
               {/* 6 col */}

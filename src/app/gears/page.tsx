@@ -4,18 +4,12 @@ import { gears } from '@/data/temtem/gears'
 
 import { PageLayout } from '../__components/PageLayout'
 
+import { GearsTable } from './_page/GearsTable'
+
 const GearsPage = () => {
   return (
     <PageLayout header={'ギア'}>
-      <ul className="flex flex-wrap gap-4">
-        {gears.map((gear) => (
-          <li key={gear.key}>
-            <Link href={`/gears/${gear.key}`} className="link">
-              {gear.nameJa}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <GearsTable gears={gears} />
     </PageLayout>
   )
 }

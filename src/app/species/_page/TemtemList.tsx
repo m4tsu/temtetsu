@@ -24,7 +24,7 @@ import type { ComponentProps } from 'react'
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
     className={twMerge(
-      'text-bold text-md whitespace-nowrap border border-primary bg-sky-300 p-1 text-center',
+      'font-bold text-md whitespace-nowrap border border-primary bg-sky-300 p-1 text-center',
       className
     )}
     {...props}
