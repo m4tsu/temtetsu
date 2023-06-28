@@ -10,7 +10,7 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname, useSearchParams, useRouter } from 'next/navigation'
-import { type ComponentProps, type FC, useCallback, useMemo } from 'react'
+import { type ComponentProps, type FC, useCallback, useMemo, useState } from 'react'
 import { Button } from 'react-aria-components'
 import { twMerge } from 'tailwind-merge'
 
@@ -24,6 +24,7 @@ import {
 import type { Category, Technique } from '@/models/Temtem/Technique'
 import type { TemType } from '@/models/Temtem/Type'
 import { TemTypes, temTypeImage } from '@/models/Temtem/Type'
+import { jaStrMatch } from '@/utils/kana'
 
 const imageFitClassName = 'object-contain !relative !w-auto mx-auto max-h-8'
 
@@ -120,12 +121,22 @@ export const TechniquesTable: FC<Props> = ({ techniques }) => {
     return techniques.filter((technique) => technique.type === typeFilter)
   }, [typeFilter, techniques])
 
-  const filteredTechniques = useMemo(() => {
+  const [searchText, setSearchText] = useState('')
+
+
+  const filteredTechniquesByCategory = useMemo(() => {
     if (categoryFilter === null) return filteredTechniquesByType
     return filteredTechniquesByType.filter(
       (technique) => technique.class === categoryFilter
     )
   }, [categoryFilter, filteredTechniquesByType])
+
+  const filteredTechniques = useMemo(() => {
+    if (searchText === '') return filteredTechniquesByCategory
+    return filteredTechniquesByCategory.filter((technique) => {
+      return jaStrMatch(technique.nameJa, searchText)
+    })
+  }, [filteredTechniquesByCategory, searchText])
 
   const sortCondition: SortCondition = useMemo(() => {
     const paramsSortBy = searchParams.get('sortBy')
@@ -180,11 +191,19 @@ export const TechniquesTable: FC<Props> = ({ techniques }) => {
     params.delete('categoryFilter')
     params.delete('sortBy')
     params.delete('order')
+    setSearchText('')
     router.push(`${pathname}?${params.toString()}`)
   }, [pathname, router, searchParams])
 
   return (
     <div className="flex flex-col gap-2">
+      <input
+        className="input-bordered input input-primary input-sm max-w-sm"
+        placeholder="検索"
+        onChange={(e) => setSearchText(e.target.value)}
+        value={searchText}
+        name="search"
+      />
       <div className="flex gap-2">
         <Button className="btn-primary btn-sm btn" onPress={resetFilterAndSort}>
           絞り込みと並び替えをリセット

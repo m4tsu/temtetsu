@@ -30,7 +30,7 @@ const imageFitClassName = 'object-contain !relative !w-auto mx-auto max-h-8'
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
     className={twMerge(
-      'bg-primary p-2 text-center font-bold text-white',
+      'bg-primary p-2 text-center font-bold text-white whitespace-nowrap',
       className
     )}
     {...props}
@@ -168,7 +168,7 @@ const TechniquePage = ({ params: { key } }: PageProps<'key'>) => {
         </div>
         <div className="flex flex-col gap-4">
           <h3 className="border-b border-primary text-2xl font-bold">
-            この技を使えるテムテム
+            このワザを使えるテムテム
           </h3>
           <ul className={styles.speciesList}>
             {speciesList.map((species) => (
