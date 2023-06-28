@@ -10,7 +10,13 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname, useSearchParams, useRouter } from 'next/navigation'
-import { type ComponentProps, type FC, useCallback, useMemo, useState } from 'react'
+import {
+  type ComponentProps,
+  type FC,
+  useCallback,
+  useMemo,
+  useState,
+} from 'react'
 import { Button } from 'react-aria-components'
 import { twMerge } from 'tailwind-merge'
 
@@ -123,7 +129,6 @@ export const TechniquesTable: FC<Props> = ({ techniques }) => {
 
   const [searchText, setSearchText] = useState('')
 
-
   const filteredTechniquesByCategory = useMemo(() => {
     if (categoryFilter === null) return filteredTechniquesByType
     return filteredTechniquesByType.filter(
@@ -198,7 +203,7 @@ export const TechniquesTable: FC<Props> = ({ techniques }) => {
   return (
     <div className="flex flex-col gap-2">
       <input
-        className="input-bordered input input-primary input-sm max-w-sm"
+        className="input-bordered input-primary input input-sm max-w-sm"
         placeholder="検索"
         onChange={(e) => setSearchText(e.target.value)}
         value={searchText}

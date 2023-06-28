@@ -48,7 +48,7 @@ export const TraitsTable: FC<Props> = ({ traits }) => {
   return (
     <div className="flex flex-col gap-2">
       <input
-        className="input-bordered input input-primary input-sm max-w-sm"
+        className="input-bordered input-primary input input-sm max-w-sm"
         placeholder="検索"
         onChange={(e) => setSearchText(e.target.value)}
         value={searchText}

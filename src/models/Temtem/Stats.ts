@@ -1,4 +1,4 @@
-import { Species, Stats } from "./Species";
+import type { Stats } from './Species'
 
 const LEVEL = 100
 export const calculateHP = (
@@ -66,9 +66,7 @@ const getHpInterceptPointTv = (baseHp: number) => {
 }
 
 /** TVが0の時のstatsよりstatsが大きくなる最小のTVの値(ATK, DEF, SPATK, SPDEF) */
-const getOthersInterceptPointTv = (
-  baseStats: number,
-) => {
+const getOthersInterceptPointTv = (baseStats: number) => {
   const initial = calculateOthers(baseStats, { tv: 0 })
   for (let tv = 1; tv <= MAX_TV; tv++) {
     const stats = calculateOthers(baseStats, { tv })
@@ -112,8 +110,8 @@ export const calculateMostDurableTv = (stats: Stats, tvSum: number) => {
     },
     durabilityIndex: calculateTotalDurabilityIndex({
       hp: calculateHP(stats.hp, { tv: 0 }),
-      def: calculateOthers(stats.def,  { tv: 0 }),
-      spdef: calculateOthers(stats.spdef,  { tv: 0 }),
+      def: calculateOthers(stats.def, { tv: 0 }),
+      spdef: calculateOthers(stats.spdef, { tv: 0 }),
     }),
   }
 

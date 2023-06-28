@@ -8,6 +8,8 @@ import { gearIconImage } from '@/models/Temtem/Gear'
 import type { Gear } from '@/models/Temtem/Gear'
 import { jaStrMatch } from '@/utils/kana'
 
+import styles from './styles.module.css'
+
 import type { ComponentProps, FC } from 'react'
 
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
@@ -43,7 +45,7 @@ export const GearsTable: FC<Props> = ({ gears }) => {
   return (
     <div className="flex flex-col gap-2">
       <input
-        className="input-bordered input input-primary input-sm max-w-sm"
+        className="input-bordered input-primary input input-sm max-w-sm"
         placeholder="検索"
         onChange={(e) => setSearchText(e.target.value)}
         value={searchText}
@@ -62,15 +64,18 @@ export const GearsTable: FC<Props> = ({ gears }) => {
             <tr key={gear.key}>
               <Td className="whitespace-nowrap">
                 <div className="flex items-center gap-2">
-                  <Image
-                    src={gearIconImage(gear)}
-                    alt={gear.nameJa}
-                    width={50}
-                    height={38}
-                    // style で指定しないとレンダリング後にサイズが変更され表示が崩れる
-                    style={{ minWidth: 50 }}
-                    className="bg-temBg"
-                  />
+                  <div className="rounded-md bg-zinc-700">
+                    <Image
+                      src={gearIconImage(gear)}
+                      alt={gear.nameJa}
+                      width={50}
+                      height={38}
+                      // style で指定しないとレンダリング後にサイズが変更され表示が崩れる
+                      style={{ minWidth: 50 }}
+                      className={styles.gearImg}
+                    />
+                  </div>
+
                   <div className="flex items-center gap-1">
                     <p>{gear.nameJa}</p>
                     <a

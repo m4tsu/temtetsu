@@ -12,7 +12,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        temBg: '#f5deb3'
+        temBlue: '#83defd'
       }
       // colors: {
       //   border: 'hsl(var(--border))',
