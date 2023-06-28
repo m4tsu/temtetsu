@@ -1,7 +1,10 @@
 import Link from 'next/link'
 
+import { GaScript } from '@/libs/ga/Script'
+
 import { HeaderNav } from './__components/HeaderNav'
 import { RootProviders } from './_providers'
+
 import './globals.css'
 
 export const metadata = {
@@ -20,7 +23,9 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
+      <head>
+        <GaScript />
+      </head>
       <RootProviders>
         <body className="relative bg-base-100">
           <div className="flex min-h-screen flex-col">
