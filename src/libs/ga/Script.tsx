@@ -3,8 +3,7 @@
 import Script from 'next/script'
 
 export const GaScript = () => {
-  const gaId = process.env.NODE_ENV
-
+  const gaId = process.env.NEXT_PUBLIC_GA_ID
   return (
     // <!-- Google tag (gtag.js) -->
     <>
