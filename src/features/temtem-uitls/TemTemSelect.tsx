@@ -37,7 +37,7 @@ export const TemTemSelect: FC<Props> = ({
     } else {
       onSelectTem(selectedTem)
     }
-  }, [])
+  }, [onSelectTem])
 
   const filter = useCallback((textValue: string, inputValue: string) => {
     return jaStrMatch(textValue, inputValue)
