@@ -85,7 +85,7 @@ const TechniquePage = ({ params: { key } }: PageProps<'key'>) => {
         </>
       }
       breadcrumbItems={[
-        { path: '/techniques', label: '技' },
+        { path: '/techniques', label: 'ワザ' },
         {
           label: technique.nameJa,
         },

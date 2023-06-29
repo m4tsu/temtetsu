@@ -67,7 +67,7 @@ const TemtemPage = ({ params: { number } }: PageProps<'number'>) => {
         </section>
         <section className="h-full">
           <h3 className="bg-primary p-2 text-center text-xl font-bold text-white">
-            技
+            ワザ
           </h3>
           <TechniqueList techniques={techniques} />
         </section>
