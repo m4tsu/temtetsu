@@ -10,7 +10,7 @@ export const HeaderNav: FC = () => {
           href="/"
           className="btn-ghost btn-primary btn text-3xl text-primary"
         >
-          テムテム日本語辞典
+          テムテム対戦データベース
         </Link>
         <a
           href="https://crema.gg/temtem/patch-1-3/"

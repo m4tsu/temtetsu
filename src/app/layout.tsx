@@ -8,7 +8,7 @@ import { RootProviders } from './_providers'
 import './globals.css'
 
 export const metadata = {
-  title: 'テムテム日本語辞典',
+  title: 'テムテム対戦データベース',
   description: 'テムテムの対戦に役立つ情報を日本語で提供します。',
 }
 

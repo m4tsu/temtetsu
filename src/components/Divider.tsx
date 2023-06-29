@@ -6,7 +6,7 @@ export const Divider: FC<ComponentProps<'hr'>> = ({ className, ...props }) => {
   return (
     <hr
       className={twMerge(
-        'h-[1px] w-full border border-[thin] border-b',
+        'h-[0px] w-full border-[thin]',
         className
       )}
       {...props}
