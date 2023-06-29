@@ -30,14 +30,17 @@ export const TemTemSelect: FC<Props> = ({
   selectedTem,
   ...props
 }) => {
-  const handleSelectionChange = useCallback((value: string | number) => {
-    const selectedTem = normalizedSpecies[String(value)]
-    if (selectedTem === undefined) {
-      onSelectTem(null)
-    } else {
-      onSelectTem(selectedTem)
-    }
-  }, [onSelectTem])
+  const handleSelectionChange = useCallback(
+    (value: string | number) => {
+      const selectedTem = normalizedSpecies[String(value)]
+      if (selectedTem === undefined) {
+        onSelectTem(null)
+      } else {
+        onSelectTem(selectedTem)
+      }
+    },
+    [onSelectTem]
+  )
 
   const filter = useCallback((textValue: string, inputValue: string) => {
     return jaStrMatch(textValue, inputValue)
