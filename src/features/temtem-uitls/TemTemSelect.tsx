@@ -1,5 +1,3 @@
-'use client'
-
 import { useCallback } from 'react'
 
 import { ComboBox, Item } from '@/components/ComboBox'

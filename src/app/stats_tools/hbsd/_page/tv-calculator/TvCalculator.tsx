@@ -14,8 +14,10 @@ export const TvCalculator: FC = () => {
   return (
     <div className="flex flex-col gap-4 ">
       <p>
-        耐久に割り振るTVの合計値から、{' '}
-        <span className="mx-1 font-bold italic">(H * B * D) / (B + D)</span>
+        耐久に割り振るTVの合計値から
+        <span className="mx-1 font-bold italic">
+          (HP * DEF * SPDEF) / (DEF + SPDEF)
+        </span>
         が最大になる配分を算出します
       </p>
       <div className="flex">

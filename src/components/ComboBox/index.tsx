@@ -1,7 +1,7 @@
 'use client'
 
 import { ChevronUpDownIcon } from '@heroicons/react/24/solid'
-import { FC, useCallback, useRef, useState } from 'react'
+import { useCallback,  useState } from 'react'
 import {
   Input,
   Item as RAItem,
@@ -12,8 +12,6 @@ import {
   Button,
   Text,
 } from 'react-aria-components'
-
-import styles from './styles.module.css'
 
 import type { ReactElement, ReactNode } from 'react'
 import type {

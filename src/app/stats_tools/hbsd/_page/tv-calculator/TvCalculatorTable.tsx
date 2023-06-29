@@ -91,8 +91,8 @@ export const TvCalculatorTable: FC<Props> = ({ species }) => {
         </tr>
         <tr>
           <Cell>
-            <span className="italic tracking-widest">
-              (H * B * D) / (B + D)
+            <span className="italic tracking-widest ">
+              (HP * DEF * SPDEF) / (DEF + SPDEF)
             </span>
           </Cell>
           <Cell>-</Cell>
