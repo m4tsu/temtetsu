@@ -22,6 +22,7 @@
     "@googleapis/sheets": "^4.0.2",
     "@heroicons/react": "^2.0.18",
     "@maael/temtem-types": "^1.0.2",
+    "@mantine/core": "^6.0.15",
     "@next/font": "13.4.5",
     "@types/node": "20.3.1",
     "@types/react": "18.2.12",

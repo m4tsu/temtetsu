@@ -37,7 +37,7 @@ export default function Home() {
         <ul className="flex flex-col">
           <li className="p-1">
             <Link href="/stats_tools/hbsd" className="link text-xl font-bold">
-              総合耐久計算機
+              耐久TV配分計算機
             </Link>
           </li>
         </ul>

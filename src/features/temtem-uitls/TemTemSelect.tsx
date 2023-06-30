@@ -1,65 +1,77 @@
-import { useCallback } from 'react'
-
-import { ComboBox, Item } from '@/components/ComboBox'
-import {
-  normalizedSpecies,
-  species as speciesList,
-} from '@/data/temtem/species'
+import type { SelectProps } from '@/components/ui'
+import { Select } from '@/components/ui'
+import { normalizedSpecies, species } from '@/data/temtem/species'
 import type { Species } from '@/models/Temtem/Species'
 import { jaStrMatch } from '@/utils/kana'
 
 import type { FC } from 'react'
-import type { ComboBoxProps } from 'react-aria-components'
 
 type Option = {
   value: string
   label: string
 }
-
-const options: Option[] = speciesList.map((species) => ({
-  value: species.number,
-  label: species.nameJa,
+const options: Option[] = species.map((s) => ({
+  value: s.number,
+  label: s.nameJa,
 }))
 
-type Props = ComboBoxProps<Option> & {
+type Props = Omit<
+  SelectProps,
+  | 'data'
+  | 'value'
+  | 'onChange'
+  | 'placeholder'
+  | 'searchable'
+  | 'nothingFound'
+  | 'maxDropdownHeight'
+  | 'filter'
+> & {
   selectedTem: Species | null
-  onSelectTem: (species: Species | null) => void
+  onSelectTem: (species: Species) => void
 }
 export const TemTemSelect: FC<Props> = ({
   onSelectTem,
   selectedTem,
   ...props
 }) => {
-  const handleSelectionChange = useCallback(
-    (value: string | number) => {
-      const selectedTem = normalizedSpecies[String(value)]
-      if (selectedTem === undefined) {
-        onSelectTem(null)
-      } else {
-        onSelectTem(selectedTem)
-      }
-    },
-    [onSelectTem]
-  )
-
-  const filter = useCallback((textValue: string, inputValue: string) => {
-    return jaStrMatch(textValue, inputValue)
-  }, [])
-
   return (
-    <ComboBox
-      aria-label="テムテムを選択"
+    <Select
       {...props}
-      onSelectionChange={handleSelectionChange}
-      selectedKey={selectedTem?.number || null}
-      defaultFilter={filter}
-      placeholder="テムテムを選択"
-    >
-      {options.map((option) => (
-        <Item key={option.value} id={option.value}>
-          {option.label}
-        </Item>
-      ))}
-    </ComboBox>
+      aria-label="テムテムを選ぶ"
+      data={options}
+      value={String(selectedTem?.number)}
+      onChange={(value) => {
+        if (value == null) return
+        const species = normalizedSpecies[value]
+        if (species == undefined) return
+        onSelectTem(species)
+      }}
+      placeholder="テムテムを選ぶ"
+      searchable
+      nothingFound="見つかりません。"
+      maxDropdownHeight={300}
+      filter={(value, item: Option) => {
+        return jaStrMatch(item.label, value)
+      }}
+      styles={(theme) => ({
+        item: {
+          // applies styles to selected item
+          '&[data-selected]': {
+            '&, &:hover': {
+              backgroundColor: theme.colors.indigo[7],
+              color: 'white',
+            },
+          },
+
+          // applies styles to hovered item (with mouse or keyboard)
+          '&[data-hovered]': {
+            '&, &:hover': {
+              backgroundColor: theme.colors.indigo[7],
+              color: 'white',
+            },
+          },
+        },
+      })}
+    />
   )
 }

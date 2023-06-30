@@ -47,7 +47,7 @@ export const TvCalculatorTable: FC<Props> = ({ species }) => {
         <thead>
           <tr>
             <Th>
-              <div className="flex flex-col items-center gap-1 text-xl font-bold">
+              <div className="flex flex-col items-center gap-1 text-lg font-bold">
                 <Image
                   height={48}
                   width={48}
