@@ -12,7 +12,7 @@ import type { ComponentProps, FC } from 'react'
 const Th: FC<ComponentProps<'th'>> = ({ className, ...props }) => (
   <th
     className={twMerge(
-      'text-md whitespace-nowrap border border-primary bg-sky-300 p-1 text-center font-bold',
+      'border border-primary bg-sky-300 p-1 text-center font-bold',
       className
     )}
     {...props}
@@ -59,16 +59,18 @@ export const TraitsTable: FC<Props> = ({ traits }) => {
         <thead className="sticky top-0 z-10">
           <tr>
             <Th>名前</Th>
+            <Th>説明</Th>
           </tr>
         </thead>
         <tbody>
           {filteredTraits.map((trait) => (
             <tr key={trait.key}>
-              <Td>
+              <Td className='whitespace-nowrap'>
                 <Link href={`/traits/${trait.key}`} className="link">
                   {trait.nameJa}
                 </Link>
               </Td>
+              <Td >{trait.descriptionJa}</Td>
             </tr>
           ))}
         </tbody>
