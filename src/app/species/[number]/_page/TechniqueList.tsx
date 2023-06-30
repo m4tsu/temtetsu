@@ -148,7 +148,7 @@ export const TechniqueList: FC<Props> = ({ techniques }) => {
                         }
                         。
                         {synergyEffects
-                          .filter((effect) => effect.type === 'damage')
+                          ?.filter((effect) => effect.type === 'damage')
                           .map((effect, i) => (
                             <span key={i}>+{effect.damage}。</span>
                           ))}

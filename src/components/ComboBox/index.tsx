@@ -38,7 +38,6 @@ export const ComboBox = <T extends Option>({
   errorMessage,
   children,
   placeholder,
-  shouldFocusWrap = true,
   ...props
 }: ComboBoxProps<T>) => {
   const [containerElement, setContainerElement] = useState<HTMLElement | null>(

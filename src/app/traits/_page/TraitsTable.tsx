@@ -65,12 +65,12 @@ export const TraitsTable: FC<Props> = ({ traits }) => {
         <tbody>
           {filteredTraits.map((trait) => (
             <tr key={trait.key}>
-              <Td className='whitespace-nowrap'>
+              <Td className="whitespace-nowrap">
                 <Link href={`/traits/${trait.key}`} className="link">
                   {trait.nameJa}
                 </Link>
               </Td>
-              <Td >{trait.descriptionJa}</Td>
+              <Td>{trait.descriptionJa}</Td>
             </tr>
           ))}
         </tbody>
